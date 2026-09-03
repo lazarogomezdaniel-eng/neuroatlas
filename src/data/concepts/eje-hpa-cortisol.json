@@ -1,0 +1,24 @@
+{
+  "slug": "eje-hpa-cortisol",
+  "titulo": "El eje HPA y el cortisol: el sistema del estrés",
+  "modulo": "Modulo I",
+  "seccion": "1.5",
+  "tipo": "mecanismo",
+  "definicion": "El eje Hipotálamo-Pituitario-Adrenal es el sistema maestro de respuesta al estrés. Produce cortisol, la hormona que puede potenciar o destruir la cognición según su nivel y duración.",
+  "explicacion": "Cascada endocrina del eje Hipotálamo-Hipófisis-Adrenal (HPA):\n1. Señal de estrés en la amígdala e hipotálamo → Secreción de CRH (Hormona Liberadora de Corticotropina).\n2. Adenohipófisis → Liberación de ACTH a la circulación general.\n3. Corteza adrenal (zona fasciculada) → Síntesis y secreción de cortisol.\n4. Retroalimentación negativa: El cortisol se une a receptores de glucocorticoides (GR) y mineralocorticoides (MR) en el hipocampo y la hipófisis para frenar el eje.\n\nDualidad biológica del Cortisol:\n- Cortisol Agudo (Eustrés): Movilización de glucosa plasmática, facilitación de la memoria y alerta prefrontal.\n- Cortisol Crónico (Distrés / Carga Alostérica): Atrofia dendrítica y apoptosis en el hipocampo (pérdida de memoria y freno a la neurogénesis), hipertrofia amigdalina (hipervigilancia) y desconexión de la corteza prefrontal.\n\nContrapesos hormonales:\n- DHEA / DHEA-S: Antagonista neuroprotector endógeno del cortisol. La ratio DHEA:Cortisol cuantifica el envejecimiento neuroendocrino.\n- Pregnenolona y 'Robo de Pregnenolona' (Pregnenolone Steal): Ante estrés crónico, el flujo esteroidogénico se desvía masivamente a cortisol, desabasteciendo la síntesis de hormonas sexuales y neuroesteroides.",
+  "relevancia_nootropica": "Es la diana principal de la medicina adaptogénica para restaurar la sensibilidad del eje HPA:\n- Ashwagandha (KSM-66 / Sensoril): Reduce el cortisol sérico en un 20-30% en ensayos clínicos aleatorizados y normaliza la ratio DHEA/Cortisol.\n- Rhodiola Rosea (Salidrósido/Rosavinas): Atenúa la fatiga inducida por estrés y modula la liberación simpatoadrenal.\n- Fosfatidilserina (PS): Atenúa el pico de cortisol inducido por ejercicio intenso o estrés agudo.\n- Micronutrientes adrenales: Magnesio (bisglicinato/treonato) y Vitamina C de alta concentración en corteza adrenal.\n- Omega-3 (EPA): Modulación de la reactividad del eje HPA y neuroinflamación asociada.",
+  "neurotransmisores_asociados": [
+    "noradrenalina",
+    "adrenalina",
+    "GABA",
+    "serotonina"
+  ],
+  "regiones_asociadas": [
+    "hipotálamo",
+    "glándula pituitaria",
+    "glándulas adrenales",
+    "hipocampo",
+    "amígdala",
+    "corteza prefrontal"
+  ]
+}
