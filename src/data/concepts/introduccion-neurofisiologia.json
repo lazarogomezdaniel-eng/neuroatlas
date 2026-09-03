@@ -1,0 +1,21 @@
+{
+  "slug": "introduccion-neurofisiologia",
+  "titulo": "Neurofisiología: cómo se comunica y se adapta el cerebro",
+  "modulo": "Modulo I",
+  "seccion": "1.3",
+  "tipo": "concepto",
+  "definicion": "El cerebro no es un circuito fijo: es un órgano vivo que se comunica mediante señales electroquímicas y se remodela constantemente según la experiencia.",
+  "explicacion": "Para entender cómo un nootrópico puede mejorar la memoria o proteger las neuronas, hay que comprender tres procesos biológicos fundamentales:\n1. Cómo se comunican las neuronas (señalización sináptica y potenciales de acción).\n2. Cómo se adapta el cerebro (neuroplasticidad, sinaptogénesis y neurogénesis en el giro dentado).\n3. Cómo se daña el cerebro (neuroinflamación microglial y estrés oxidativo mitocondrial).\n\nLos nootrópicos actúan potenciando la señalización y plasticidad estructural, al tiempo que mitigan las cascadas proinflamatorias y oxidativas.",
+  "relevancia_nootropica": "El cerebro es un sistema bioplástico dinámico. Los nootrópicos con mayor evidencia a largo plazo no son estimulantes directos que 'fuerzan' la neurotransmisión, sino compuestos que facilitan el remodelado sináptico, optimizan el suministro energético neuronal y protegen contra la apoptosis.",
+  "neurotransmisores_asociados": [
+    "Glutamato",
+    "GABA",
+    "Acetilcolina"
+  ],
+  "regiones_asociadas": [
+    "Hendidura sináptica",
+    "Giro dentado",
+    "Corteza cerebral",
+    "Mitocondrias neuronales"
+  ]
+}
