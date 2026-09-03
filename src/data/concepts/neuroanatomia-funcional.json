@@ -1,0 +1,12 @@
+{
+  "slug": "neuroanatomia-funcional",
+  "titulo": "Neuroanatomía Funcional",
+  "modulo": "Modulo I",
+  "seccion": "1.1",
+  "tipo": "anatomia",
+  "definicion": "Mapa de las estructuras del cerebro relevantes para la cognición y sobre las que actúan los nootrópicos.",
+  "explicacion": "Antes de entender cómo una sustancia mejora la memoria, el foco o la calma, hay que saber dónde actúa. El cerebro no es una masa uniforme: está dividido en regiones especializadas que se comunican mediante neurotransmisores. Los nootrópicos funcionan porque modulan esas regiones o esos mensajeros químicos. Esta sección te da el mapa para que, cuando leas la ficha de una sustancia, entiendas exactamente qué está tocando.",
+  "relevancia_nootropica": "Permite localizar el impacto anatómico y sináptico de los nootrópicos, comprendiendo si una sustancia incide sobre la corteza prefrontal (funciones ejecutivas), el hipocampo (consolidación de memoria) o los ganglios basales (motivación y dopamina).",
+  "neurotransmisores_asociados": ["dopamina", "acetilcolina", "glutamato", "gaba", "serotonina"],
+  "regiones_asociadas": ["corteza prefrontal", "hipocampo", "amigdala", "ganglios basales", "cerebelo"]
+}
