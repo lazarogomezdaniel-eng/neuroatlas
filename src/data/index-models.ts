@@ -1,13 +1,25 @@
 import { Sustancia, Concepto, Categoria } from '@/types/neuroatlas-models';
 import categoriesJson from './categories/categories.json';
 import bacopaJson from './substances/bacopa-monnieri.json';
-import ltpJson from './concepts/plasticidad-sinaptica.json';
+
+// Conceptos de Neuroanatomía y Mecanismos
 import neuroanatomiaJson from './concepts/neuroanatomia-funcional.json';
+import cortezaPrefrontalJson from './concepts/corteza-prefrontal.json';
+import hipocampoJson from './concepts/hipocampo.json';
+import amigdalaJson from './concepts/amigdala.json';
+import gangliosBasalesJson from './concepts/ganglios-basales.json';
+import locusCoeruleusJson from './concepts/locus-coeruleus.json';
+import ltpJson from './concepts/plasticidad-sinaptica.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
 export const conceptos: Concepto[] = [
   neuroanatomiaJson as Concepto,
+  cortezaPrefrontalJson as Concepto,
+  hipocampoJson as Concepto,
+  amigdalaJson as Concepto,
+  gangliosBasalesJson as Concepto,
+  locusCoeruleusJson as Concepto,
   ltpJson as Concepto,
 ];
 

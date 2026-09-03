@@ -1,0 +1,12 @@
+{
+  "slug": "ganglios-basales",
+  "titulo": "Ganglios Basales y Núcleo Accumbens",
+  "modulo": "Modulo I",
+  "seccion": "1.1",
+  "tipo": "anatomia",
+  "definicion": "Conjunto de estructuras profundas implicadas en el movimiento, los hábitos y el circuito de recompensa.",
+  "explicacion": "Los ganglios basales automatizan conductas: son los que convierten una acción repetida en un hábito. Dentro de este sistema, el núcleo accumbens es el centro de la recompensa y la motivación: se activa con la dopamina cuando anticipas algo placentero o alcanzable. Es la base de la motivación, pero también de las adicciones.",
+  "relevancia_nootropica": "Es donde actúan las sustancias que aumentan la motivación y el 'drive'. La dopamina es el mensajero clave aquí. Sustancias como la tirosina, la Mucuna pruriens (L-DOPA) o estimulantes como el metilfenidato aumentan la señal dopaminérgica en esta vía. Entender esta región es crucial para comprender tanto la motivación como el riesgo de dependencia.",
+  "neurotransmisores_asociados": ["dopamina", "GABA", "acetilcolina"],
+  "regiones_asociadas": ["estriado", "núcleo accumbens", "globo pálido", "sustancia negra"]
+}

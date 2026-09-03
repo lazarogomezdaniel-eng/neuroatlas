@@ -1,0 +1,12 @@
+{
+  "slug": "corteza-prefrontal",
+  "titulo": "Corteza Prefrontal",
+  "modulo": "Modulo I",
+  "seccion": "1.1",
+  "tipo": "anatomia",
+  "definicion": "La región más evolucionada del cerebro, situada justo detrás de la frente. Es la sede de las funciones ejecutivas.",
+  "explicacion": "La corteza prefrontal es tu 'director de orquesta'. Se encarga de planificar, tomar decisiones, mantener la atención, controlar impulsos y manejar la memoria de trabajo. Es la región que más tarda en madurar (hasta los 25 años) y la primera en resentirse con el estrés, la falta de sueño o la fatiga. Se subdivide en varias zonas con roles distintos: la dorsolateral gestiona la memoria de trabajo y el razonamiento; la ventromedial integra emoción y decisión; la orbitofrontal evalúa recompensas y la impulsividad; y la cingulada anterior detecta conflictos y errores.",
+  "relevancia_nootropica": "Es el objetivo principal de los estimulantes y nootrópicos de 'foco'. Sustancias como el modafinilo, las anfetaminas o la tirosina actúan aquí aumentando dopamina y noradrenalina, lo que mejora la atención sostenida y el control ejecutivo. Los racetams también modulan esta área a través del glutamato.",
+  "neurotransmisores_asociados": ["dopamina", "noradrenalina", "glutamato", "acetilcolina"],
+  "regiones_asociadas": ["corteza prefrontal dorsolateral", "corteza cingulada anterior", "corteza orbitofrontal"]
+}

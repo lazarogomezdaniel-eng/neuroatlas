@@ -1,0 +1,12 @@
+{
+  "slug": "amigdala",
+  "titulo": "Amígdala",
+  "modulo": "Modulo I",
+  "seccion": "1.1",
+  "tipo": "anatomia",
+  "definicion": "Centro de procesamiento emocional, especialmente del miedo, la ansiedad y la memoria emocional.",
+  "explicacion": "La amígdala es tu sistema de alarma. Detecta amenazas y activa la respuesta de lucha o huida. También 'tiñe' emocionalmente los recuerdos: por eso recuerdas mejor lo que te impactó. Cuando está hiperactiva aparecen la ansiedad y el estrés crónico. Regularla es clave para la calma y el rendimiento bajo presión.",
+  "relevancia_nootropica": "Es el objetivo de los nootrópicos 'ansiolíticos' y adaptógenos. La Ashwagandha, la L-teanina, la Bacopa y el magnesio ayudan a calmar la hiperactividad amigdalar. Los adaptógenos actúan reduciendo la reactividad del eje del estrés que pasa por aquí.",
+  "neurotransmisores_asociados": ["GABA", "serotonina", "noradrenalina", "cortisol"],
+  "regiones_asociadas": ["núcleo central de la amígdala", "núcleo basolateral"]
+}

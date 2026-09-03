@@ -1,0 +1,12 @@
+{
+  "slug": "hipocampo",
+  "titulo": "Hipocampo",
+  "modulo": "Modulo I",
+  "seccion": "1.1",
+  "tipo": "anatomia",
+  "definicion": "Estructura con forma de caballito de mar, esencial para formar nuevos recuerdos y para el aprendizaje.",
+  "explicacion": "El hipocampo convierte las experiencias del presente en memorias de largo plazo. Sin él, no podrías aprender nada nuevo. Es además una de las dos únicas regiones del cerebro adulto donde nacen neuronas nuevas (neurogénesis). Es extremadamente sensible al estrés crónico: el cortisol elevado lo atrofia, lo que explica por qué el estrés prolongado perjudica la memoria. También es una de las primeras áreas dañadas en el Alzheimer.",
+  "relevancia_nootropica": "Es el blanco de los nootrópicos de 'memoria y neuroplasticidad'. La Bacopa monnieri, la Melena de León y algunos psicodélicos promueven aquí el BDNF y la neurogénesis. El ejercicio físico y el aprendizaje son los estímulos naturales más potentes para esta región.",
+  "neurotransmisores_asociados": ["glutamato", "acetilcolina", "BDNF"],
+  "regiones_asociadas": ["giro dentado", "formación hipocampal"]
+}
