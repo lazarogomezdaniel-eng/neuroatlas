@@ -1,0 +1,19 @@
+{
+  "slug": "otros-neuromoduladores",
+  "titulo": "Otros neuromoduladores clave",
+  "modulo": "Modulo I",
+  "seccion": "1.2",
+  "tipo": "neurotransmisor",
+  "definicion": "Histamina, orexina, adenosina, endocannabinoides y neurotrofinas (BDNF, NGF): moduladores de la vigilia, presión homeostática de sueño y plasticidad estructural.",
+  "explicacion": "Moduladores biológicos no convencionales:\n- Histamina: Neurotransmisor central de la vigilia cortical generado en el núcleo tuberomamilar del hipotálamo. Los autorreceptores H3 regulan la liberación de ACh y dopamina.\n- Orexina / Hipocretina: Neuropéptidos hipotalámicos que estabilizan los estados de vigilia y el balance metabólico; diana clave de eugeroicos (modafinilo).\n- Adenosina: Subproducto del metabolismo del ATP intracelular que cuantifica la presión homeostática de sueño uniendo receptores A1 y A2A.\n- Sistema Endocannabinoide (Anandamida y 2-AG): Señalización retrógrada en receptores CB1 y CB2 que modula la plasticidad sináptica y la extinción del estrés.\n- Neurotrofinas (BDNF y NGF): Factores de crecimiento que señalizan a través de receptores TrkB y TrkA para impulsar la neurogénesis en el giro dentado y la ramificación dendrítica.",
+  "relevancia_nootropica": "Interacciones farmacológicas clave:\n- Cafeína: Antagonista competitivo de los receptores A1/A2A de adenosina (enmascara la somnolencia).\n- Modafinilo y Pitolisant: Potencian la señal de orexina e histamina (agonistas indirectos H3).\n- Melena de León (Hericium erinaceus): Inductor de NGF y BDNF mediante hericenonas y erinacinas.\n- CBD / Cannabinoides: Modulación alostérica y tono endocannabinoide ansiolítico.",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "GABA"
+  ],
+  "regiones_asociadas": [
+    "hipotálamo",
+    "núcleo supraquiasmático",
+    "tronco encefálico"
+  ]
+}
