@@ -1,0 +1,18 @@
+{
+  "slug": "glutamato",
+  "titulo": "Glutamato",
+  "modulo": "Modulo I",
+  "seccion": "1.2",
+  "tipo": "neurotransmisor",
+  "definicion": "El principal neurotransmisor excitatorio del cerebro. Esencial para el aprendizaje, la memoria y la plasticidad, pero tóxico en exceso.",
+  "explicacion": "El glutamato es el aminoácido neurotransmisor excitatorio más ubicuo del sistema nervioso central. Constituye el sustrato bioquímico primario de la Potenciación a Largo Plazo (LTP), el proceso electrofisiológico que consolida el aprendizaje y la memoria declarativa en el hipocampo.\n\nReceptores:\n- Ionotrópicos: AMPA (despolarización inicial rápida), NMDA (detector de coincidencia y canal permeable a Ca²⁺ esencial para la plasticidad) y Kainato.\n- Metabotrópicos (mGluR1 a mGluR8): Regulan la excitabilidad neuronal y la retroalimentación presináptica.\n\nExcitotoxicidad (Peligro crítico): La sobreactivación descontrolada de los receptores NMDA desencadena un influjo masivo y citotóxico de iones Calcio (Ca²⁺), activando caspasas, calpaínas y produciendo estrés oxidativo con necrosis/apoptosis neuronal.",
+  "relevancia_nootropica": "Modulación de la plasticidad sináptica y neuroprotección:\n- Ampakinas (Sunifiram, Unifiram, IDRA-21): Moduladores alostéricos positivos de receptores AMPA de alta potencia; incrementan drásticamente la tasa de LTP pero requieren prudencia para evitar estrés excitotóxico.\n- Racetams: Modulan la cinética de apertura de los canales AMPA/NMDA.\n- N-Acetilcisteína (NAC): Modula el intercambiador cistina-glutamato (sistema xc⁻), normalizando niveles extracelulares de glutamato.\n- Magnesio: Actúa como bloqueador fisiológico del poro del canal NMDA dependiente de voltaje, previniendo la excitotoxicidad basal.\n- Memantina: Antagonista NMDA de afinidad moderada y cinética rápida que preserva la señalización fisiológica bloqueando la toxicidad crónica.",
+  "neurotransmisores_asociados": [
+    "GABA"
+  ],
+  "regiones_asociadas": [
+    "hipocampo",
+    "corteza cerebral",
+    "corteza prefrontal"
+  ]
+}

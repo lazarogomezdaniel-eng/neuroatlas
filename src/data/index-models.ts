@@ -17,6 +17,7 @@ import acetilcolinaJson from './concepts/acetilcolina.json';
 import noradrenalinaJson from './concepts/noradrenalina.json';
 import serotoninaJson from './concepts/serotonina.json';
 import gabaJson from './concepts/gaba.json';
+import glutamatoJson from './concepts/glutamato.json';
 import ltpJson from './concepts/plasticidad-sinaptica.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
@@ -36,6 +37,7 @@ export const conceptos: Concepto[] = [
   noradrenalinaJson as Concepto,
   serotoninaJson as Concepto,
   gabaJson as Concepto,
+  glutamatoJson as Concepto,
   ltpJson as Concepto,
 ];
 
