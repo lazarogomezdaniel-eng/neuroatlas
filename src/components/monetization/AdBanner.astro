@@ -1,0 +1,23 @@
+---
+interface Props {
+  slotId?: string;
+  format?: 'horizontal' | 'rectangle' | 'vertical';
+  className?: string;
+}
+
+const { slotId = 'default-slot', format = 'horizontal', className = '' } = Astro.props;
+
+const formatClasses = {
+  horizontal: 'w-full h-24 max-w-4xl mx-auto',
+  rectangle: 'w-[300px] h-[250px] mx-auto',
+  vertical: 'w-[160px] h-[600px] mx-auto',
+};
+---
+
+<!-- Slot de Monetización / Anuncio (Preparado para Google AdSense / Mediavine / Afiliados) -->
+<div class={`ad-container my-6 rounded-biotech border border-surface-bright/40 bg-surface-lowest/60 flex flex-col items-center justify-center p-2 text-center overflow-hidden ${formatClasses[format]} ${className}`}>
+  <span class="text-[9px] font-mono text-text-muted/60 uppercase tracking-widest block mb-1">Publicidad / Patrocinio Científico</span>
+  <div class="w-full h-full flex items-center justify-center border border-dashed border-surface-bright/30 rounded text-xs font-mono text-text-muted/40">
+    <span>Espacio Publicitario [{slotId}]</span>
+  </div>
+</div>

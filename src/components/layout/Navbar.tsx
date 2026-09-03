@@ -1,8 +1,4 @@
-'use client';
-
-import React, { useState } from 'react';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import React, { useState, useEffect } from 'react';
 import {
   Compass,
   FolderTree,
@@ -18,8 +14,14 @@ import {
 } from 'lucide-react';
 
 export const Navbar: React.FC = () => {
-  const pathname = usePathname();
+  const [currentPath, setCurrentPath] = useState('');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setCurrentPath(window.location.pathname);
+    }
+  }, []);
 
   const navLinks = [
     { href: '/enciclopedia', label: 'Enciclopedia', icon: Compass },
@@ -36,7 +38,7 @@ export const Navbar: React.FC = () => {
     <header className="sticky top-0 z-50 w-full border-b border-surface-bright bg-surface/90 backdrop-blur-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
         {/* Logo canónico */}
-        <Link href="/" className="flex items-center gap-3 group">
+        <a href="/" className="flex items-center gap-3 group">
           <div className="w-8 h-8 rounded-biotech bg-primary/10 border border-primary/40 flex items-center justify-center text-primary font-mono font-bold text-lg group-hover:shadow-cyan-glow group-hover:border-primary transition-all">
             Ψ
           </div>
@@ -48,15 +50,15 @@ export const Navbar: React.FC = () => {
               Scientific Bio-Index
             </span>
           </div>
-        </Link>
+        </a>
 
         {/* Enlaces Desktop */}
         <nav className="hidden xl:flex items-center gap-1" aria-label="Navegación Principal">
           {navLinks.map((link) => {
             const Icon = link.icon;
-            const isActive = pathname === link.href || (link.href !== '/' && pathname.startsWith(link.href));
+            const isActive = currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href));
             return (
-              <Link
+              <a
                 key={link.href}
                 href={link.href}
                 className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-biotech text-xs font-medium transition-all ${
@@ -67,20 +69,20 @@ export const Navbar: React.FC = () => {
               >
                 <Icon className={`w-3.5 h-3.5 ${isActive ? 'text-primary' : 'text-text-muted'}`} />
                 <span>{link.label}</span>
-              </Link>
+              </a>
             );
           })}
         </nav>
 
         {/* Acciones derecha */}
         <div className="flex items-center gap-3">
-          <Link
+          <a
             href="/enciclopedia"
             className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-biotech bg-primary text-surface-lowest hover:bg-primary-hover shadow-cyan-glow transition-all"
           >
             <Search className="w-3.5 h-3.5" />
             <span>Explorar Índice</span>
-          </Link>
+          </a>
 
           {/* Botón móvil */}
           <button
@@ -98,9 +100,9 @@ export const Navbar: React.FC = () => {
         <div className="xl:hidden border-b border-surface-bright bg-surface-lowest px-4 py-3 space-y-1">
           {navLinks.map((link) => {
             const Icon = link.icon;
-            const isActive = pathname === link.href || (link.href !== '/' && pathname.startsWith(link.href));
+            const isActive = currentPath === link.href || (link.href !== '/' && currentPath.startsWith(link.href));
             return (
-              <Link
+              <a
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
@@ -112,7 +114,7 @@ export const Navbar: React.FC = () => {
               >
                 <Icon className="w-4 h-4 text-primary" />
                 <span>{link.label}</span>
-              </Link>
+              </a>
             );
           })}
         </div>

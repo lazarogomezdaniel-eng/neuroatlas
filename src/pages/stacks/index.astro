@@ -1,0 +1,34 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { allSubstances } from '../../data';
+import { StackBuilder } from '../../components/features/StackBuilder';
+import { Layers } from 'lucide-react';
+---
+
+<BaseLayout
+  title="Constructor de Stacks de Nootrópicos & Sinergias | NeuroAtlas"
+  description="Diseñador bio-farmacológico de protocolos. Detección automática de sinergias, antagonismos y alertas de desensibilización."
+>
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
+    <div class="rounded-biotech border border-surface-bright bg-surface-low p-6 md:p-8 space-y-3">
+      <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-primary/10 border border-primary/30 text-xs font-mono text-primary font-semibold">
+        <Layers className="w-3.5 h-3.5" />
+        <span>HERRAMIENTA BIOQUÍMICA INTERACTIVA</span>
+      </div>
+      <h1 class="text-2xl md:text-4xl font-extrabold text-text-primary tracking-tight">
+        Constructor de Stacks & Detección de Sinergias
+      </h1>
+      <p class="text-xs md:text-sm text-text-secondary max-w-3xl leading-relaxed">
+        Diseña combinaciones nootrópicas personalizadas. El motor analiza solapamientos de neurotransmisores, sinergias colinérgicas y alertas de desensibilización en tiempo real.
+      </p>
+    </div>
+
+    <!-- Isla React hidratada para interactividad pura -->
+    <StackBuilder
+      client:load
+      stack={allSubstances.slice(0, 2)}
+      onRemoveFromStack={() => {}}
+      onClearStack={() => {}}
+    />
+  </main>
+</BaseLayout>

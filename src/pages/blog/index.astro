@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { BookOpen, Calendar, Clock, User } from 'lucide-react';
+
+const articulos = [
+  {
+    slug: 'guia-definitiva-colina-racetams',
+    titulo: 'La Guía Definitiva de Colina: Alpha-GPC vs CDP-Colina en Stacks de Racetams',
+    extracto: 'Por qué los moduladores AMPA agotan las reservas intracelulares de acetilcolina y cómo balancear la relación de donantes para evitar las cefaleas colinérgicas.',
+    fecha: '03 Sep 2026',
+    tiempoLectura: '8 min',
+    autor: 'Equipo Científico NeuroAtlas',
+    categoria: 'Farmacología Práctica',
+  },
+  {
+    slug: 'mecanismo-potenciacion-largo-plazo',
+    titulo: 'Desentrañando el LTP: Cómo se consolida un recuerdo a nivel molecular',
+    extracto: 'Del receptor NMDA a la expresión de BDNF: el mapa intracelular de la memoria y la neuroplasticidad acelerada.',
+    fecha: '28 Ago 2026',
+    tiempoLectura: '11 min',
+    autor: 'Dr. Alejandro Rivas (Neurobiología)',
+    categoria: 'Neurociencia Teórica',
+  },
+];
+---
+
+<BaseLayout
+  title="Artículos & Divulgación Neurocientífica | NeuroAtlas"
+  description="Análisis monográficos, guías de bio-optimización, neurofarmacología aplicada y novedades de ensayos clínicos."
+>
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-10">
+    <div class="rounded-biotech border border-surface-bright bg-surface-low p-6 md:p-8 space-y-3">
+      <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-primary/10 border border-primary/30 text-xs font-mono text-primary font-semibold">
+        <BookOpen className="w-3.5 h-3.5" />
+        <span>DIVULGACIÓN & ANÁLISIS CIENTÍFICO</span>
+      </div>
+      <h1 class="text-2xl md:text-4xl font-extrabold text-text-primary tracking-tight">
+        Artículos, Guías & Ensayos de Neurofarmacología
+      </h1>
+      <p class="text-xs md:text-sm text-text-secondary max-w-3xl leading-relaxed">
+        Publicaciones exhaustivas sobre bio-optimización sináptica, resolución de problemas prácticos en stacks y desgloses de los últimos ensayos clínicos en humanos.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      {articulos.map((art) => (
+        <article class="rounded-biotech border border-surface-bright bg-surface p-6 flex flex-col justify-between space-y-4 hover:border-primary/50 hover:shadow-cyan-glow transition-all">
+          <div class="space-y-3">
+            <span class="text-[11px] font-mono text-primary font-bold uppercase tracking-wider block">{art.categoria}</span>
+            <h2 class="text-base font-bold text-text-primary leading-tight hover:text-primary transition-colors">{art.titulo}</h2>
+            <p class="text-xs text-text-secondary leading-relaxed line-clamp-3">{art.extracto}</p>
+          </div>
+          <div class="pt-4 border-t border-surface-bright/50 flex items-center justify-between text-xs font-mono text-text-muted">
+            <span>{art.fecha} · {art.tiempoLectura}</span>
+            <span class="text-text-secondary font-medium">{art.autor}</span>
+          </div>
+        </article>
+      ))}
+    </div>
+  </main>
+</BaseLayout>

@@ -1,0 +1,96 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { conceptos, getConceptoBySlug } from '../../data/index-models';
+import AdBanner from '../../components/monetization/AdBanner.astro';
+import { ArrowLeft, Brain, Activity, Zap } from 'lucide-react';
+
+export function getStaticPaths() {
+  return conceptos.map((c) => ({
+    params: { slug: c.slug },
+    props: { concepto: c },
+  }));
+}
+
+const { concepto: c } = Astro.props;
+---
+
+<BaseLayout
+  title={`${c.titulo} | NeuroAtlas Neurociencia`}
+  description={c.definicion}
+>
+  <main class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
+    <a
+      href="/conceptos"
+      class="inline-flex items-center gap-1.5 text-xs font-mono text-text-muted hover:text-secondary transition-colors"
+    >
+      <ArrowLeft className="w-4 h-4" />
+      <span>Todos los conceptos de neurociencia</span>
+    </a>
+
+    <div class="rounded-biotech border border-surface-bright bg-surface-low p-6 md:p-8 space-y-4">
+      <div class="flex justify-between items-center text-xs font-mono">
+        <span class="text-secondary font-bold uppercase">{c.modulo} · Sección {c.seccion}</span>
+        <span class="px-2.5 py-1 rounded bg-surface-container text-text-muted capitalize border border-surface-bright">
+          Tipo: {c.tipo}
+        </span>
+      </div>
+
+      <h1 class="text-2xl md:text-4xl font-extrabold text-text-primary tracking-tight">
+        {c.titulo}
+      </h1>
+
+      <div class="p-4 rounded bg-surface-lowest border border-secondary/20 text-xs md:text-sm text-secondary font-medium leading-relaxed">
+        {c.definicion}
+      </div>
+    </div>
+
+    <!-- Anuncio In-Article -->
+    <AdBanner slotId="concept-body" format="horizontal" />
+
+    <section class="rounded-biotech border border-surface-bright bg-surface p-6 space-y-3">
+      <div class="flex items-center gap-2 text-xs font-mono font-bold text-text-muted uppercase tracking-wider">
+        <Activity className="w-4 h-4 text-primary" />
+        <h2>Explicación Biológica y Cascada Molecular</h2>
+      </div>
+      <p class="text-xs md:text-sm text-text-secondary leading-relaxed whitespace-pre-line">
+        {c.explicacion}
+      </p>
+    </section>
+
+    {c.relevancia_nootropica && (
+      <section class="rounded-biotech border border-primary/30 bg-primary/5 p-6 space-y-3">
+        <div class="flex items-center gap-2 text-xs font-mono font-bold text-primary uppercase tracking-wider">
+          <Zap className="w-4 h-4" />
+          <h2>Relevancia para el Diseño de Nootrópicos y Stacks</h2>
+        </div>
+        <p class="text-xs md:text-sm text-text-primary leading-relaxed">
+          {c.relevancia_nootropica}
+        </p>
+      </section>
+    )}
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs font-mono">
+      <div class="p-4 rounded bg-surface-low border border-surface-bright space-y-2">
+        <span class="text-text-muted uppercase text-[10px] block">Neurotransmisores Involucrados</span>
+        <div class="flex flex-wrap gap-1.5">
+          {c.neurotransmisores_asociados.map((nt) => (
+            <span class="px-2 py-0.5 rounded bg-surface-container text-secondary border border-secondary/20">
+              {nt}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <div class="p-4 rounded bg-surface-low border border-surface-bright space-y-2">
+        <span class="text-text-muted uppercase text-[10px] block">Regiones Anatómicas Asociadas</span>
+        <div class="flex flex-wrap gap-1.5">
+          {c.regiones_asociadas.map((reg) => (
+            <span class="px-2 py-0.5 rounded bg-surface-container text-primary border border-primary/20">
+              {reg}
+            </span>
+          ))}
+        </div>
+      </div>
+    </div>
+  </main>
+</BaseLayout>

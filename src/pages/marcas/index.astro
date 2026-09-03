@@ -1,0 +1,49 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Award, ShieldCheck, AlertTriangle, FileCheck2 } from 'lucide-react';
+
+const patentes = [
+  { nombre: 'Cognizin® (Kyowa Hakko)', principio: 'Citicolina (CDP-Colina)', pureza: '99.5%+', ventaja: 'Método de fermentación bio-idéntico patentado con más de 10 ensayos clínicos específicos.' },
+  { nombre: 'AlphaSize® (Chemi Nutra)', principio: 'L-Alfa GPC', pureza: '50% - 99%', ventaja: 'Especialmente estabilizado contra la higroscopicidad para evitar la degradación del principio activo.' },
+  { nombre: 'Synapsa® & Bacognize®', principio: 'Bacopa Monnieri', pureza: '55% bacósidos', ventaja: 'Estandarización de fracciones activas específicas con estudios en retención de memoria y enfoque.' },
+  { nombre: 'KSM-66® & Sensoril®', principio: 'Withania somnifera (Ashwagandha)', pureza: '5% - 10% withanólidos', ventaja: 'Extracción de espectro completo basada en raíz pura sin solventes químicos nocivos.' },
+];
+---
+
+<BaseLayout
+  title="Guía de Marcas, Calidad y Pureza | NeuroAtlas"
+  description="Estándares analíticos (CoA, HPLC), patentes estandarizadas (Synapsa, Cognizin, AlphaSize) y detección de adulterantes."
+>
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-10">
+    <div class="rounded-biotech border border-surface-bright bg-surface-low p-6 md:p-8 space-y-3">
+      <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-amber-500/10 border border-amber-500/30 text-xs font-mono text-amber-400 font-semibold">
+        <Award className="w-3.5 h-3.5" />
+        <span>ESTÁNDARES DE CALIDAD & CONTROL ANALÍTICO</span>
+      </div>
+      <h1 class="text-2xl md:text-4xl font-extrabold text-text-primary tracking-tight">
+        Marcas, Patentes & Pureza Farmacéutica
+      </h1>
+      <p class="text-xs md:text-sm text-text-secondary max-w-3xl leading-relaxed">
+        Cómo auditar la calidad de un nootrópico: certificados de análisis de terceros (CoA), técnicas HPLC y patentes de laboratorio estandarizadas.
+      </p>
+    </div>
+
+    <section class="space-y-4">
+      <h2 class="text-xs font-mono font-bold text-text-muted uppercase tracking-wider">
+        Extractos Estandarizados & Patentes Globales
+      </h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {patentes.map((pat) => (
+          <div class="rounded-biotech border border-surface-bright bg-surface p-6 space-y-2">
+            <div class="flex justify-between items-start">
+              <h3 class="text-base font-bold text-text-primary">{pat.nombre}</h3>
+              <span class="text-xs font-mono px-2 py-0.5 rounded bg-surface-lowest text-primary border border-primary/20">{pat.pureza}</span>
+            </div>
+            <div class="text-xs font-mono text-secondary">{pat.principio}</div>
+            <p class="text-xs text-text-secondary leading-relaxed pt-1">{pat.ventaja}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  </main>
+</BaseLayout>

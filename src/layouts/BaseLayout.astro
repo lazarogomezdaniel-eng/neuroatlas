@@ -1,0 +1,66 @@
+---
+import '../styles/global.css';
+import { Navbar } from '../components/layout/Navbar';
+import { Footer } from '../components/layout/Footer';
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  canonicalUrl?: string;
+  type?: string;
+}
+
+const {
+  title = 'NeuroAtlas — Enciclopedia Científica de Nootrópicos & Bio-Index',
+  description = 'Enciclopedia bio-médica de alta densidad sobre nootrópicos, farmacología cerebral, niveles de evidencia clínica y diseño de protocolos sinápticos.',
+  image = 'https://neuroatlas.org/og-image.jpg',
+  canonicalUrl = Astro.url.href,
+  type = 'website',
+} = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="es" class="dark scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalUrl} />
+
+  <!-- Open Graph / Redes Sociales -->
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={image} />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:type" content={type} />
+  <meta property="og:site_name" content="NeuroAtlas" />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={image} />
+
+  <!-- Favicon e iconos -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Fuentes científicas (Space Grotesk, Inter, JetBrains Mono) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Sitemap discovery -->
+  <link rel="sitemap" href="/sitemap-index.xml" />
+</head>
+<body class="bg-surface-lowest text-text-primary antialiased selection:bg-primary/20 selection:text-primary font-sans flex flex-col min-h-screen">
+  <Navbar client:load />
+  
+  <div class="flex-1">
+    <slot />
+  </div>
+
+  <Footer client:idle />
+</body>
+</html>
