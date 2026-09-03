@@ -1,0 +1,19 @@
+{
+  "slug": "sinaptogenesis-y-mielinizacion",
+  "titulo": "Sinaptogénesis y mielinización",
+  "modulo": "Modulo I",
+  "seccion": "1.3",
+  "tipo": "mecanismo",
+  "definicion": "La creación de nuevas sinapsis y la formación de mielina, dos procesos que mejoran la conectividad y la velocidad de transmisión del cerebro.",
+  "explicacion": "Procesos de optimización de la conectividad neural:\n1. Sinaptogénesis: Formación de contactos sinápticos de novo mediada por moléculas de adhesión celular (neuroliguinas, neurexinas) y factores tróficos. Es la base física de la consolidación de nuevas habilidades.\n2. Mielinización: Aislamiento concéntrico lipoproteico de los axones sintetizado por los oligodendrocitos en el SNC. Permite la conducción saltatoria del potencial de acción a través de los nódulos de Ranvier, multiplicando la velocidad de propagación hasta 100 veces y optimizando la eficiencia energética axonal.",
+  "relevancia_nootropica": "Aporte de sustratos estructurales de membrana y cofactores de síntesis:\n- Triada de Kennedy / Stack de Mr. Happy: Combinación sinérgica de Uridina monofosfato (UMP), Ácido Docosahexaenoico (DHA) y donantes de Colina (Alpha-GPC / Citicolina) para acelerar la síntesis de fosfatidilcolina y la densidad dendrítica.\n- Fosfolípidos de membrana: Fosfatidilserina (PS) y Fosfatidilcolina (PC).\n- Cinética de acción: Son procesos biomoleculares lentos que requieren semanas de uso continuado (fase de saturación de membranas) para manifestar mejoras cognitivas objetivas.",
+  "neurotransmisores_asociados": [
+    "acetilcolina",
+    "dopamina"
+  ],
+  "regiones_asociadas": [
+    "corteza cerebral",
+    "axones",
+    "oligodendrocitos"
+  ]
+}
