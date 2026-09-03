@@ -1,0 +1,21 @@
+{
+  "slug": "introduccion-genetica",
+  "titulo": "Introducción a la neurogenética y farmacogenómica",
+  "modulo": "Modulo I",
+  "seccion": "1.4",
+  "tipo": "concepto",
+  "definicion": "El estudio de cómo nuestras variaciones genéticas individuales (polimorfismos) afectan la forma en que producimos neurotransmisores, metabolizamos sustancias y respondemos a los nootrópicos.",
+  "explicacion": "La farmacogenómica y la neurogenética superan el modelo tradicional de 'talla única' en la optimización biológica. El genoma humano alberga variaciones de una sola base denominadas Polimorfismos de Nucleótido Único (SNPs, Single Nucleotide Polymorphisms) que modifican la velocidad catalítica, estabilidad conformacional y afinidad de enzimas metabólicas, transportadores y receptores neuronales.\n\nHerramientas analíticas: Tests de genotipado/secuenciación (RAW data) procesados mediante motores bioinformáticos para mapear cuellos de botella en vías de metilación, detoxificación hepática de fase I/II (citocromos CYP450) y aclaramiento de catecolaminas.\n\nPrincipio Epigenético: La dotación genética define la susceptibilidad basal, mientras que la epigenética (metilación del ADN, modificaciones de histonas y microARNs) modula la expresión génica real en respuesta a la nutrición, nootrópicos y estilo de vida.",
+  "relevancia_nootropica": "Permite la medicina nootrópica de precisión:\n1. Prevención de efectos adversos y toxicidad metabólica por aclaramiento lento.\n2. Corrección dirigida de cuellos de botella bioquímicos (ej. necesidad de formas metiladas de vitaminas B ante variantes MTHFR).\n3. Dosificación y selección individualizada de stacks adaptada a la velocidad enzimática de cada persona (ej. metabolizadores rápidos vs lentos de catecolaminas).",
+  "neurotransmisores_asociados": [
+    "Dopamina",
+    "Noradrenalina",
+    "Serotonina",
+    "Acetilcolina"
+  ],
+  "regiones_asociadas": [
+    "Corteza prefrontal",
+    "Hígado (sistema citocromo P450)",
+    "Hendidura sináptica"
+  ]
+}

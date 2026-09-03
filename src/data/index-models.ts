@@ -26,6 +26,7 @@ import neurogenesisJson from './concepts/neurogenesis-adulta.json';
 import sinaptogenesisJson from './concepts/sinaptogenesis-y-mielinizacion.json';
 import neuroinflamacionJson from './concepts/neuroinflamacion.json';
 import estresOxidativoJson from './concepts/estres-oxidativo.json';
+import introGeneticaJson from './concepts/introduccion-genetica.json';
 import ltpJson from './concepts/plasticidad-sinaptica.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
@@ -54,6 +55,7 @@ export const conceptos: Concepto[] = [
   sinaptogenesisJson as Concepto,
   neuroinflamacionJson as Concepto,
   estresOxidativoJson as Concepto,
+  introGeneticaJson as Concepto,
   ltpJson as Concepto,
 ];
 
