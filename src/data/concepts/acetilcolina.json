@@ -1,0 +1,16 @@
+{
+  "slug": "acetilcolina",
+  "titulo": "Acetilcolina",
+  "modulo": "Modulo I",
+  "seccion": "1.2",
+  "tipo": "neurotransmisor",
+  "definicion": "El neurotransmisor del aprendizaje, la memoria y la atención. Es el principal objetivo de los nootrópicos clásicos.",
+  "explicacion": "La acetilcolina (ACh) se sintetiza a partir de colina y acetil-CoA mediante la enzima colina acetiltransferasa (ChAT). Su señal termina mediante la degradación enzimática rápida por la acetilcolinesterasa (AChE) en la hendidura sináptica.\n\nReceptores:\n- Nicotínicos (nAChR): Ionotrópicos de respuesta ultrarrápida. El subtipo α7 (alpha-7) es fundamental para la potenciación a largo plazo (LTP), la atención y la neuroprotección.\n- Muscarínicos (mAChR): Metabotrópicos (M1 a M5), regulan el tono cognitivo sostenido y la consolidación mnésica en el hipocampo y la corteza.\n\nFunciones: Consolidación de memorias, control atencional, plasticidad sináptica y contracción en la unión neuromuscular.",
+  "relevancia_nootropica": "Es el neurotransmisor central de la nootropía clásica con 3 estrategias de modulación:\n1. Aporte de precursores biodisponibles: Alpha-GPC, CDP-Colina (Citicolina).\n2. Inhibidores reversibles de la AChE: Huperzina A, Galantamina.\n3. Modulación alostérica positiva: Racetams (Piracetam, Aniracetam).\n\nRegla de oro del stacking: El uso de racetams incrementa la tasa de consumo de ACh; si no se combina con un donante de colina, puede desencadenar cefaleas colinérgicas por agotamiento del neurotransmisor.",
+  "neurotransmisores_asociados": [],
+  "regiones_asociadas": [
+    "hipocampo",
+    "corteza cerebral",
+    "núcleo basal de Meynert"
+  ]
+}
