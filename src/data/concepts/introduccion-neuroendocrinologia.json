@@ -1,0 +1,22 @@
+{
+  "slug": "introduccion-neuroendocrinologia",
+  "titulo": "Neuroendocrinología: las hormonas como reguladoras del cerebro",
+  "modulo": "Modulo I",
+  "seccion": "1.5",
+  "tipo": "concepto",
+  "definicion": "El estudio de cómo las hormonas producidas por las glándulas endocrinas regulan el funcionamiento cerebral, el estado de ánimo, la energía, la memoria y el sueño.",
+  "explicacion": "La neuroendocrinología analiza la interacción bidireccional entre el sistema nervioso central y el sistema endocrino:\n- Neurotransmisores vs Hormonas: Los neurotransmisores ejercen una señalización parácrina/autócrina ultrarrápida (milisegundos) en la hendidura sináptica. Las hormonas circulan sistémicamente a través del torrente sanguíneo, cruzan la BHE e interactúan con receptores nucleares y de membrana para modular la transcripción génica y el 'tono basal' neural durante horas, días o semanas.\n\nEjes neuroendocrinos cardinales:\n1. Eje HPA (Hipotálamo-Hipófisis-Adrenal): CRH → ACTH → Cortisol/DHEA (regulación del estrés y respuesta alostérica).\n2. Eje HPT (Hipotálamo-Hipófisis-Tiroideo): TRH → TSH → T4/T3 (tasa metabólica basal cerebral y velocidad de procesamiento).\n3. Eje HPG (Hipotálamo-Hipófisis-Gonadal): GnRH → LH/FSH → Testosterona, Estradiol, Progesterona (neuroprotección, plasticidad sináptica y mielinización).\n4. Eje Pineal Circadiano: Núcleo supraquiasmático (NSQ) → Glándula pineal → Melatonina (sincronización circadiana y gating del sistema glinfático).",
+  "relevancia_nootropica": "Constituye la 'capa base' fisiológica previa a la suplementación nootrópica. La alteración subclínica de un eje endocrino (hipotiroidismo, hipogonadismo, hiperactivación del eje HPA) anula el efecto de moduladores sinápticos directos (racetams, colinérgicos, estimulantes). Antes de forzar la neurotransmisión, es imperativo restaurar la homeostasis neuroendocrina.",
+  "neurotransmisores_asociados": [
+    "Dopamina",
+    "GABA",
+    "Serotonina"
+  ],
+  "regiones_asociadas": [
+    "Hipotálamo",
+    "Glándula pituitaria (hipófisis)",
+    "Glándulas adrenales",
+    "Glándula tiroides",
+    "Glándula pineal"
+  ]
+}
