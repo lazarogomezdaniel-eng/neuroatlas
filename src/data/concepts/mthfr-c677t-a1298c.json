@@ -1,0 +1,20 @@
+{
+  "slug": "mthfr-c677t-a1298c",
+  "titulo": "Gen MTHFR: El ciclo de metilación y las vitaminas B",
+  "modulo": "Modulo I",
+  "seccion": "1.4",
+  "tipo": "concepto",
+  "definicion": "El gen que produce la enzima MTHFR, crucial para convertir el ácido fólico en metilfolato. Sus mutaciones afectan la producción de neurotransmisores y la desintoxicación.",
+  "explicacion": "La enzima Metilentetrahidrofolato Reductasa (MTHFR) cataliza la conversión limitante de 5,10-metilentetrahidrofolato en L-5-metiltetrahidrofolato (5-MTHF), el cofactor activo que dona grupos metilo para remetilar la homocisteína a L-metionina en el ciclo de un carbono (1C).\n\nVariantes genéticas clave:\n- C677T (rs1801133): La variante homocigota (T/T) reduce la actividad enzimática hasta un 70%, causando acumulación de homocisteína plasmática (marcador proinflamatorio y neurovascular de riesgo) y caída en la síntesis de BH4 (tetrahidrobiopterina).\n- A1298C (rs1801131): Impacta predominantemente en el pool de BH4, cofactor obligatorio de las hidroxilasas para la síntesis de dopamina, serotonina y óxido nítrico.\n\nPeligro del Ácido Fólico Sintético (UMFA): En portadores de variantes MTHFR lentas, el ácido fólico no metabolizado puede bloquear competitivamente los receptores de folato cerebrales (FRα/RFC) en el plexo coroideo.",
+  "relevancia_nootropica": "Es el pilar genético de la bioenergética y síntesis de neurotransmisores:\n- Protocolo de metilación: Sustituir ácido fólico por L-5-Metiltetrahidrofolato (L-Metilfolato / Quatrefolic) y Metilcobalamina / Hidroxocobalamina (Vitamina B12).\n- Donantes universales de metilos: S-Adenosilmetionina (SAMe) y Trimetilglicina (TMG/Betaína).\n- Titulación gradual (Prevención de Sobre-metilación): Iniciar con microdosis para evitar tormentas adrenérgicas, insomnio y disforia por saturación de receptores.",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "serotonina",
+    "noradrenalina"
+  ],
+  "regiones_asociadas": [
+    "sistémico",
+    "hígado",
+    "cerebro"
+  ]
+}
