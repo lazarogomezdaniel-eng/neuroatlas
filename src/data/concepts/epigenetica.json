@@ -1,0 +1,19 @@
+{
+  "slug": "epigenetica",
+  "titulo": "Epigenética: El interruptor de tus genes",
+  "modulo": "Modulo I",
+  "seccion": "1.4",
+  "tipo": "concepto",
+  "definicion": "El estudio de los cambios en la expresión génica que no alteran la secuencia de ADN. El ambiente, la dieta y los nootrópicos pueden 'encender' o 'apagar' tus genes.",
+  "explicacion": "La epigenética representa el nivel de control supragenético que modula la accesibilidad transcripcional de la cromatina sin modificar la secuencia primaria de nucleótidos:\n\n1. Metilación del ADN: Adición de grupos metilo (-CH₃) en islas CpG por ADN metiltransferasas (DNMTs), generalmente asociada al silenciamiento génico y dependiente del donante universal SAMe (ciclo de 1C/MTHFR).\n2. Modificaciones postraduccionales de histonas: Acetilación por HATs (apertura de eucromatina y activación génica) y desacetilación por HDACs (condensación de heterocromatina y represión génica).\n3. ARN no codificante (microARNs / lncRNAs): Silenciamiento postranscripcional por degradación de ARNm o bloqueo de la traducción ribosomal.",
+  "relevancia_nootropica": "Es la base biofísica por la cual los adaptógenos, metabolitos y hábitos remodelan el epigenoma cerebral de forma duradera:\n- Inhibidores naturales de HDAC: Butirato (postbiótico colónico), Sulforafano (activador de Nrf2 e inhibidor de HDAC), y Curcumina (desrepresión de promotores de BDNF y enzimas antioxidantes SOD/Catalasa).\n- Beta-hidroxibutirato (BHB) en Ayuno / Cetosis: El cuerpo cetónico actúa como potente inhibidor endógeno de HDAC de clase I, induciendo la expresión de genes de autofagia (FoxO3a) y neuroplasticidad.\n- Reversibilidad del estrés: Atenuación de la hipermetilación del promotor del receptor de glucocorticoides (NR3C1) en el hipocampo mediante intervenciones antiestrés y donantes controlados de metilos.",
+  "neurotransmisores_asociados": [
+    "BDNF",
+    "GABA"
+  ],
+  "regiones_asociadas": [
+    "núcleo celular",
+    "cromatina neuronal",
+    "hipocampo"
+  ]
+}
