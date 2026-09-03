@@ -1,0 +1,21 @@
+{
+  "slug": "otros-genes-clave",
+  "titulo": "Otros genes clave: DRD2, SLC6A4, MAO y CHRNA7",
+  "modulo": "Modulo I",
+  "seccion": "1.4",
+  "tipo": "concepto",
+  "definicion": "Variaciones genéticas secundarias pero altamente relevantes que afectan la recompensa, la resiliencia al estrés, la degradación de monoaminas y la atención.",
+  "explicacion": "Polimorfismos genéticos de alta penetrancia en psiquiatría biológica y bio-optimización:\n\n1. DRD2 / ANKK1 Taq1A (rs1800497): El alelo A1 reduce en un 30-40% la densidad de receptores dopaminérgicos D2 estriatales, predisponiendo al 'Síndrome de Deficiencia de Recompensa' (RDS), conductas impulsivas y anhedonia basal.\n2. SLC6A4 / 5-HTTLPR: Polimorfismo en la región promotora del transportador de serotonina (SERT). El alelo corto (S) confiere menor transcripción de SERT, mayor reactividad amigdalina ante estrés psicosocial y plasticidad contextual (hipótesis de susceptibilidad diferencial).\n3. MAO-A / MAO-B: Enzimas mitocondriales que degradan monoaminas (serotonina, noradrenalina, dopamina). La variante MAO-A uVNTR de baja actividad ('Low-MAOA') incrementa el tono monoaminérgico basal y la susceptibilidad al estrés oxidativo catecolamínico.\n4. CHRNA7 (Subunidad α7 del receptor nicotínico de acetilcolina): Regula la permeabilidad al Ca²⁺, el filtrado sensorial auditivo (gating P50) y la señalización colinérgica antiinflamatoria en la microglía.",
+  "relevancia_nootropica": "Estrategias de intervención específica por variante:\n- Para DRD2 Taq1A (Alelo A1): Uridina monofosfato (UMP), Sulbutiamina y Acetil-L-Carnitina (ALCAR) para inducir la 'up-regulation' y densidad de receptores D2/D3.\n- Para 5-HTTLPR (Alelo Corto S): Mio-Inositol, Extracto de Azafrán (Affron) y adaptógenos reguladores del eje HPA (Ashwagandha).\n- Para MAO lenta: Evitar tiramina exógena e inhibidores enzimáticos irreversibles; precaución extrema con la coadministración de precursores serotoninérgicos (5-HTP/L-Triptófano).\n- Para CHRNA7: Agonistas colinérgicos selectivos como Nicotina farmacológica aislada (microdosis transdérmica/oral) y moduladores colinérgicos como Huperzina A y Alpha-GPC para optimizar el filtrado de ruido atencional.",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "serotonina",
+    "acetilcolina"
+  ],
+  "regiones_asociadas": [
+    "cuerpo estriado",
+    "amígdala",
+    "corteza prefrontal",
+    "mitocondrias"
+  ]
+}
