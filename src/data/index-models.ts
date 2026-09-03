@@ -12,6 +12,7 @@ import locusCoeruleusJson from './concepts/locus-coeruleus.json';
 import bheJson from './concepts/barrera-hematoencefalica.json';
 import glinfaticoJson from './concepts/sistema-glinfatico.json';
 import introNeuroquimicaJson from './concepts/introduccion-neuroquimica.json';
+import dopaminaJson from './concepts/dopamina.json';
 import ltpJson from './concepts/plasticidad-sinaptica.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
@@ -26,6 +27,7 @@ export const conceptos: Concepto[] = [
   bheJson as Concepto,
   glinfaticoJson as Concepto,
   introNeuroquimicaJson as Concepto,
+  dopaminaJson as Concepto,
   ltpJson as Concepto,
 ];
 

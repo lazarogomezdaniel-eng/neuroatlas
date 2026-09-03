@@ -1,0 +1,21 @@
+{
+  "slug": "dopamina",
+  "titulo": "Dopamina",
+  "modulo": "Modulo I",
+  "seccion": "1.2",
+  "tipo": "neurotransmisor",
+  "definicion": "El neurotransmisor de la motivación, la recompensa, el movimiento y la atención. Es el motor del 'querer' y del impulso por alcanzar objetivos.",
+  "explicacion": "La dopamina es una catecolamina sintetizada a partir del aminoácido tirosina siguiendo la ruta: Tirosina → L-DOPA → Dopamina → Noradrenalina → Adrenalina. Si los niveles de tirosina o cofactores caen, toda la cadena simpaticomimética se resiente.\n\nSe distribuye en 4 vías principales:\n1. Mesolímbica (recompensa y motivación): del área tegmental ventral al núcleo accumbens.\n2. Mesocortical (cognición ejecutiva): hacia la corteza prefrontal, esencial para memoria de trabajo y foco.\n3. Nigroestriatal (control motor fino): de la sustancia negra al estriado.\n4. Tuberoinfundibular (regulación hormonal): controla la secreción de prolactina.\n\nReceptores: Familias D1-like (D1, D5, excitatorios) y D2-like (D2, D3, D4, inhibitorios/moduladores).",
+  "relevancia_nootropica": "Es la diana principal para motivación, foco y energía mental. Precursores: L-Tirosina, NALT, Mucuna pruriens (L-DOPA). Estimulantes: Metilfenidato y anfetaminas (bloqueo de recaptación DAT / liberación vesicular). Sigue la curva en U invertida de Yerkes-Dodson: el déficit produce apatía y niebla mental, mientras que el exceso desencadena sobreestimulación, ansiedad y conductas impulsivas.",
+  "neurotransmisores_asociados": [
+    "noradrenalina",
+    "adrenalina"
+  ],
+  "regiones_asociadas": [
+    "área tegmental ventral",
+    "sustancia negra",
+    "corteza prefrontal",
+    "núcleo accumbens",
+    "estriado"
+  ]
+}
