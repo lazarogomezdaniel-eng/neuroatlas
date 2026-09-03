@@ -1,0 +1,98 @@
+[
+  {
+    "id": "alpha-gpc",
+    "name": "L-Alfa Glicerilfosforilcolina (Alpha-GPC)",
+    "chemicalFormula": "C8H20NO6P",
+    "casNumber": "28319-77-9",
+    "category": "Colinérgicos",
+    "moduleId": 1,
+    "targetReceptors": ["ACh", "nAChR", "mAChR"],
+    "mechanismOfAction": "Donante altamente biodisponible de colina que cruza eficazmente la barrera hematoencefálica, estimulando directamente la biosíntesis de acetilcolina y fosfatidilcolina en las membranas neuronales.",
+    "evidence": "Grade A (Meta-análisis)",
+    "riskLevel": "Seguro",
+    "halfLife": "1.4 - 2 horas",
+    "dosage": {
+      "standard": "300 - 600 mg",
+      "timing": "Matutina / Pre-entrenamiento mental",
+      "notes": "Dividir en 2 tomas si se combina con racetams para evitar cefaleas por agotamiento de colina."
+    },
+    "synergies": ["Piracetam", "Aniracetam", "Huperzina A", "Uridina"],
+    "contraindications": ["Tratamientos anticolinérgicos", "Hipotensión severa"],
+    "cognitiveGoals": ["Memoria", "Enfoque", "Velocidad de Procesamiento"],
+    "brainRegions": ["Hipocampo", "Corteza Prefrontal", "Cuerpo Estriado"],
+    "studies": [
+      {
+        "title": "Cognitive improvement in mild-to-moderate vascular dementia: a multicentre trial",
+        "source": "Clinical Therapeutics",
+        "year": 2001,
+        "summary": "Demostró mejoras estadísticamente significativas en las funciones mnésicas y la fluidez verbal frente a placebo."
+      },
+      {
+        "title": "Alpha-GPC supplementation increases growth hormone and mental focus",
+        "source": "Journal of the International Society of Sports Nutrition",
+        "year": 2008,
+        "summary": "Evidencia de elevación aguda de la neurotransmisión colinérgica y tono dopaminérgico."
+      }
+    ]
+  },
+  {
+    "id": "citicoline",
+    "name": "Citicolina (CDP-Colina)",
+    "chemicalFormula": "C14H26N4O11P2",
+    "casNumber": "987-78-0",
+    "category": "Colinérgicos",
+    "moduleId": 1,
+    "targetReceptors": ["ACh", "D2", "D1", "Fosfatidilcolina"],
+    "mechanismOfAction": "Intermediario esencial en la síntesis de fosfolípidos de membrana que además incrementa la densidad de receptores dopaminérgicos y la concentración cerebral de uridina y acetilcolina.",
+    "evidence": "Grade A (Meta-análisis)",
+    "riskLevel": "Seguro",
+    "halfLife": "56 - 70 horas (eliminación bifásica)",
+    "dosage": {
+      "standard": "250 - 500 mg",
+      "timing": "Por la mañana junto al desayuno",
+      "notes": "Menor propensión a sobreestimulación colinérgica que Alpha-GPC."
+    },
+    "synergies": ["Uridina Monofosfato", "DHA", "Cafeína", "Noopept"],
+    "contraindications": ["Hipertonía del sistema nervioso parasimpático"],
+    "cognitiveGoals": ["Enfoque", "Energía Mental", "Neuroprotección"],
+    "brainRegions": ["Corteza Prefrontal", "Ganglios Basales"],
+    "studies": [
+      {
+        "title": "Improved attentional performance following citicoline administration in healthy adult women",
+        "source": "Food and Nutrition Sciences",
+        "year": 2012,
+        "summary": "Mejora demostrada en tareas de atención sostenida y vigilancia psicomotriz."
+      }
+    ]
+  },
+  {
+    "id": "huperzine-a",
+    "name": "Huperzina A",
+    "chemicalFormula": "C15H18N2O",
+    "casNumber": "102518-79-6",
+    "category": "Colinérgicos",
+    "moduleId": 1,
+    "targetReceptors": ["AChE", "NMDA"],
+    "mechanismOfAction": "Inhibidor reversible y altamente selectivo de la acetilcolinesterasa (AChE); además actúa como antagonista no competitivo del receptor NMDA, confiriendo neuroprotección contra excitotoxicidad.",
+    "evidence": "Grade B (RCT)",
+    "riskLevel": "Moderado",
+    "halfLife": "12 - 14 horas",
+    "dosage": {
+      "standard": "50 - 200 mcg",
+      "timing": "Mañana, no consumir de noche",
+      "notes": "Requiere ciclado (ej. 5 días sí, 2 días no) para evitar desensibilización del sistema colinérgico."
+    },
+    "synergies": ["Alpha-GPC", "Colina Bitartrato"],
+    "contraindications": ["Bradicardia", "Epilepsia", "Asma bronquial activa"],
+    "cognitiveGoals": ["Memoria", "Aprendizaje", "Neuroprotección"],
+    "brainRegions": ["Hipocampo", "Corteza Cerebral"],
+    "studies": [
+      {
+        "title": "Huperzine A for cognitive impairment: a systematic review",
+        "source": "Cochrane Database of Systematic Reviews",
+        "year": 2008,
+        "summary": "Beneficios significativos en scores cognitivos en ensayos controlados aleatorizados."
+      }
+    ]
+  }
+]

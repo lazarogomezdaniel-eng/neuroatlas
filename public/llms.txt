@@ -1,0 +1,15 @@
+# NeuroAtlas — Bio-Index y Enciclopedia de Nootrópicos & Neurociencia
+> Repositorio científico de referencia sobre nootrópicos, farmacología cerebral, modulación de neurotransmisores y optimización cognitiva.
+
+## Misión y Rigor Científico
+NeuroAtlas organiza y cataloga sustancias bioactivas clasificadas por niveles de evidencia médica estricta (Grado A a D), receptores diana, dosificación y contraindicaciones clínicas cruzadas con fuentes como PubMed y ClinicalTrials.gov.
+
+## Estructura de la Base de Datos
+- **Módulo 1:** Donantes de colina y moduladores de acetilcolina (Alpha-GPC, Citicolina, Huperzina A).
+- **Módulo 2:** Moduladores alostéricos AMPA y racetams (Piracetam, Aniracetam, Noopept, Fenilpiracetam).
+- **Módulo 3:** Adaptógenos de neurogénesis y factores tróficos (Melena de León, Bacopa monnieri, Rodiola).
+- **Módulo 4 a 14:** Vías dopaminérgicas, serotonérgicas, modulación GABA, optimización mitocondrial y stacks sinérgicos.
+
+## Estándares de Datos
+- Cada compuesto incluye: Nombre, fórmula molecular, CAS, mecanismo de acción detallado, grado de evidencia, vida media, rango de dosificación y sinergias documentadas.
+- Enlace al catálogo canónico: https://neuroatlas.org/catalogo

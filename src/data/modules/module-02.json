@@ -1,0 +1,120 @@
+[
+  {
+    "id": "piracetam",
+    "name": "Piracetam",
+    "chemicalFormula": "C6H10N2O2",
+    "casNumber": "7491-74-9",
+    "category": "Racetams",
+    "moduleId": 2,
+    "targetReceptors": ["AMPA", "NMDA", "Fluidez de Membrana"],
+    "mechanismOfAction": "Modulador alostérico positivo de los receptores AMPA. Incrementa la microfluidez de la membrana fosfolipídica neuronal, optimiza el consumo de oxígeno y glucosa en el cerebro y favorece la comunicación interhemisférica.",
+    "evidence": "Grade A (Meta-análisis)",
+    "riskLevel": "Seguro",
+    "halfLife": "5 horas",
+    "dosage": {
+      "standard": "1600 - 4800 mg",
+      "timing": "2 a 3 tomas repartidas en el día",
+      "notes": "Esencial coadministrar con un donante de colina (Alpha-GPC o Citicolina) para prevenir dolores de cabeza."
+    },
+    "synergies": ["Alpha-GPC", "Aniracetam", "Fosfatidilserina"],
+    "contraindications": ["Insuficiencia renal grave", "Hemorragia cerebral activa"],
+    "cognitiveGoals": ["Memoria", "Claridad Mental", "Neuroplasticidad"],
+    "brainRegions": ["Cuerpo Calloso", "Hipocampo", "Corteza Cerebral"],
+    "studies": [
+      {
+        "title": "Piracetam and piracetam-like drugs: from basic science to novel clinical applications to CNS disorders",
+        "source": "Drugs",
+        "year": 2010,
+        "summary": "Monografía exhaustiva documentando perfil de seguridad y eficacia en modulación sináptica."
+      }
+    ]
+  },
+  {
+    "id": "aniracetam",
+    "name": "Aniracetam",
+    "chemicalFormula": "C12H13NO3",
+    "casNumber": "72432-10-1",
+    "category": "Racetams",
+    "moduleId": 2,
+    "targetReceptors": ["AMPA", "5-HT2A", "D2", "mGluR"],
+    "mechanismOfAction": "Modulador alostérico de AMPA lipofílico. Desensibiliza la inactivación de receptores glutamatérgicos e incrementa la liberación cortical de serotonina y dopamina, confiriendo propiedades pro-cognitivas y ansiolíticas.",
+    "evidence": "Grade B (RCT)",
+    "riskLevel": "Seguro",
+    "halfLife": "1 - 2 horas",
+    "dosage": {
+      "standard": "750 - 1500 mg",
+      "timing": "Junto con una fuente de grasa dietética",
+      "notes": "Efecto de corta duración y marcado perfil sobre la fluidez verbal y pensamiento asociativo."
+    },
+    "synergies": ["CDP-Colina", "L-Teanina", "Sulbutiamina"],
+    "contraindications": ["Hipersensibilidad a derivados pirrolidónicos"],
+    "cognitiveGoals": ["Fluidez Verbal", "Ansiolítico", "Creatividad"],
+    "brainRegions": ["Amígdala", "Corteza Prefrontal", "Área de Broca"],
+    "studies": [
+      {
+        "title": "Aniracetam: An overview of its pharmacological profile and clinical efficacy",
+        "source": "CNS Drug Reviews",
+        "year": 2002,
+        "summary": "Confirmación de acciones ansiolíticas dependientes de dopamina y modulación glutamatérgica."
+      }
+    ]
+  },
+  {
+    "id": "noopept",
+    "name": "Noopept (Omberacetam)",
+    "chemicalFormula": "C17H22N2O4",
+    "casNumber": "157115-85-0",
+    "category": "Péptidos Nootrópicos",
+    "moduleId": 2,
+    "targetReceptors": ["BDNF", "NGF", "HIF-1", "ACh"],
+    "mechanismOfAction": "Dipéptido bioactivo que incrementa marcadamente la expresión de factores neurotróficos BDNF y NGF en el hipocampo, protege frente al estrés oxidativo y estimula la transmisión colinérgica.",
+    "evidence": "Grade B (RCT)",
+    "riskLevel": "Seguro",
+    "halfLife": "30 - 60 minutos (efecto neurotrófico prolongado)",
+    "dosage": {
+      "standard": "10 - 30 mg",
+      "timing": "Sublingual o vía oral, por la mañana y mediodía",
+      "notes": "1000x más potente que el Piracetam en peso molecular. No exceder 30 mg al día para evitar irritabilidad."
+    },
+    "synergies": ["Alpha-GPC", "Citicolina", "Melena de León"],
+    "contraindications": ["Hipertensión severa descontrolada", "Embarazo"],
+    "cognitiveGoals": ["Neuroplasticidad", "Memoria", "Enfoque"],
+    "brainRegions": ["Hipocampo", "Corteza Entorrinal"],
+    "studies": [
+      {
+        "title": "The original novel nootropic and neuroprotective agent noopept",
+        "source": "Experimental and Clinical Pharmacology",
+        "year": 2009,
+        "summary": "Estudio multicéntrico que demuestra restauración de funciones mnésicas y elevación sostenida de BDNF/NGF."
+      }
+    ]
+  },
+  {
+    "id": "lions-mane",
+    "name": "Melena de León (Hericium erinaceus)",
+    "category": "Adaptógenos & Hongos",
+    "moduleId": 3,
+    "targetReceptors": ["NGF", "TrkA", "BDNF"],
+    "mechanismOfAction": "Hericenonas y erinacinas inducen la síntesis del factor de crecimiento nervioso (NGF), estimulando la neurogénesis, remielinización y sinaptogénesis.",
+    "evidence": "Grade A (Meta-análisis)",
+    "riskLevel": "Seguro",
+    "halfLife": "Metabolismo fitoterápico continuado",
+    "dosage": {
+      "standard": "500 - 1000 mg (extracto estandarizado)",
+      "timing": "Diariamente con comidas",
+      "notes": "Uso crónico requerido (mínimo 4 a 8 semanas para efectos estructurales)."
+    },
+    "synergies": ["Niacina (B3)", "Psilocibina (Microdosis)", "Noopept"],
+    "contraindications": ["Alergias a hongos", "Trastornos autoinmunes severos"],
+    "cognitiveGoals": ["Neuroplasticidad", "Memoria", "Neuroprotección"],
+    "brainRegions": ["Hipocampo", "Corteza Cerebral"],
+    "studies": [
+      {
+        "title": "Improving effects of the mushroom Yamabushitake on mild cognitive impairment",
+        "source": "Phytotherapy Research",
+        "year": 2009,
+        "summary": "Aumento significativo en las puntuaciones de la escala de función cognitiva en humanos."
+      }
+    ]
+  }
+]

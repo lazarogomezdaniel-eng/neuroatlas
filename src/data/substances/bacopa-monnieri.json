@@ -1,0 +1,71 @@
+{
+  "slug": "bacopa-monnieri",
+  "nombre": "Bacopa Monnieri",
+  "nombre_cientifico": "Bacopa monnieri (L.) Wettst.",
+  "categoria": "adaptogenos",
+  "mecanismo": "Los bacósidos A y B facilitan la transmisión sináptica potenciando la actividad colinérgica a través de la inducción de colina acetiltransferasa y modulación de receptores 5-HT2A. Confiere además potente protección antioxidante en el hipocampo frente al daño por radicales libres.",
+  "neurotransmisores": ["acetilcolina", "serotonina", "gaba"],
+  "regiones_cerebrales": ["hipocampo", "corteza cerebral", "amigdala"],
+  "beneficios": [
+    { "nombre": "Consolidación de memoria y retención de información", "evidencia": "fuerte" },
+    { "nombre": "Reducción de ansiedad y modulación de cortisol", "evidencia": "fuerte" },
+    { "nombre": "Velocidad de procesamiento de información visual", "evidencia": "mixta" },
+    { "nombre": "Neuroprotección frente a neurotoxinas", "evidencia": "mixta" }
+  ],
+  "dosis": {
+    "tipica": "300 - 450 mg (extracto estandarizado al 55% de bacósidos)",
+    "formas": ["Extracto estandarizado (Synapsa, Bacognize)", "Polvo de planta entera"],
+    "timing": "Junto con una comida con lípidos (lipofílico), preferentemente mañana o tarde"
+  },
+  "farmacocinetica": {
+    "biodisponibilidad": "Moderada; incrementa significativamente coadministrada con lípidos",
+    "vida_media": "Metabolitos bioactivos (bacósidos) con semivida plasmática prolongada",
+    "tmax": "2 - 4 horas",
+    "cruza_bhe": true
+  },
+  "sinergias": ["alpha-gpc", "piracetam", "melena-de-leon", "fosfatidilserina"],
+  "interacciones": [
+    {
+      "sustancia": "Fármacos colinérgicos o inhibidores de acetilcolinesterasa (Donepezilo)",
+      "gravedad": "media",
+      "descripcion": "Efecto aditivo de aumento colinérgico; monitorizar bradicardia o molestias digestivas."
+    },
+    {
+      "sustancia": "Medicamentos tiroideos",
+      "gravedad": "media",
+      "descripcion": "Puede incrementar ligeramente los niveles de hormonas tiroideas (T4)."
+    }
+  ],
+  "efectos_secundarios": [
+    "Molestias gastrointestinales leves o náuseas si se consume en ayunas",
+    "Fatiga o letargia leve en ciertas personas (habitualmente mitigable tomándolo por la tarde/noche)"
+  ],
+  "contraindicaciones": [
+    "Bradicardia sinusal",
+    "Úlceras gastrointestinales activas",
+    "Obstrucción del tracto urinario o respiratorio"
+  ],
+  "estado_legal": {
+    "europa": "De libre comercialización como complemento alimenticio",
+    "espana": "Autorizado como complemento alimenticio en el marco de la AESAN",
+    "eeuu": "DSHEA Dietary Supplement (Legal, venta libre sin receta)"
+  },
+  "nivel_evidencia": "fuerte",
+  "nivel_riesgo": "bajo",
+  "uso_tradicional": "Pilar de la medicina Ayurveda tradicional (denominado 'Brahmi') utilizado durante milenios para agudizar el intelecto, mejorar la memoria y calmar estados de agitación.",
+  "estudios": [
+    {
+      "titulo": "Meta-analysis of randomized controlled trials on cognitive effects of Bacopa monnieri extract",
+      "anio": 2014,
+      "tipo": "Meta-análisis de 9 Ensayos Clínicos Aleatorizados (RCT)",
+      "resultado": "Mejora consistente y estadísticamente significativa en la velocidad de atención y memoria tras 8-12 semanas de consumo continuo."
+    },
+    {
+      "titulo": "Chronic effects of Brahmi (Bacopa monnieri) on human memory",
+      "anio": 2002,
+      "tipo": "Doble ciego controlado con placebo (RCT)",
+      "resultado": "Disminución muy significativa en la tasa de olvido de nueva información recién aprendida."
+    }
+  ],
+  "sustancias_relacionadas": ["gotu-kola", "ashwagandha", "melena-de-leon"]
+}

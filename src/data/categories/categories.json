@@ -1,0 +1,37 @@
+[
+  {
+    "slug": "colinergicos",
+    "nombre": "Colinérgicos y Donantes de Colina",
+    "color": "#22d3ee",
+    "descripcion": "Compuestos que incrementan la disponibilidad de acetilcolina, facilitando la transmisión sináptica, memoria de trabajo y foco.",
+    "icono": "Brain"
+  },
+  {
+    "slug": "racetams",
+    "nombre": "Racetams y Moduladores AMPA",
+    "color": "#8b5cf6",
+    "descripcion": "Moduladores alostéricos positivos de receptores glutamatérgicos que optimizan la microfluidez de membrana y plasticidad.",
+    "icono": "Activity"
+  },
+  {
+    "slug": "adaptogenos",
+    "nombre": "Adaptógenos y Fitoterapia",
+    "color": "#10b981",
+    "descripcion": "Extractos botánicos y fúngicos que modulan el eje HPA, reducen el estrés oxidativo y estimulan factores neurotróficos (BDNF/NGF).",
+    "icono": "Leaf"
+  },
+  {
+    "slug": "aminas-dopaminergicos",
+    "nombre": "Dopaminérgicos y Estimulantes",
+    "color": "#f59e0b",
+    "descripcion": "Sustancias que modulan la síntesis, recaptación o afinidad de los receptores de dopamina y noradrenalina para vigilia y motivación.",
+    "icono": "Zap"
+  },
+  {
+    "slug": "neuroprotectores",
+    "nombre": "Neuroprotectores y Mitocondriales",
+    "color": "#38bdf8",
+    "descripcion": "Antioxidantes neuronales y sustratos bioenergéticos celulares que preservan la integridad axonal.",
+    "icono": "ShieldCheck"
+  }
+]
