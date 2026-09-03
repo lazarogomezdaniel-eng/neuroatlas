@@ -1,0 +1,15 @@
+{
+  "slug": "estres-oxidativo",
+  "titulo": "Estrés oxidativo y mitocondrias",
+  "modulo": "Modulo I",
+  "seccion": "1.3",
+  "tipo": "mecanismo",
+  "definicion": "El desequilibrio entre radicales libres y antioxidantes. El cerebro es especialmente vulnerable por su alto consumo de oxígeno y su riqueza en grasas.",
+  "explicacion": "El estrés oxidativo se produce cuando la generación de especies reactivas de oxígeno (ROS) y nitrógeno (RNS) sobrepasa la capacidad amortiguadora del sistema antioxidante celular endógeno.\n\nVulnerabilidad cerebral extrema:\n- El encéfalo consume el ~20% del oxígeno total del organismo.\n- Gran abundancia de ácidos grasos poliinsaturados (DHA/ácido araquidónico) susceptibles a peroxidación lipídica.\n- Menor concentración basal de enzimas catalasa y superóxido dismutasa.\n- Las neuronas son post-mitóticas de larga vida.\n\nDisfunción mitocondrial: La cadena de transporte de electrones mitocondrial (complejos I y III) es el principal foco emisor de ROS y a su vez su blanco más susceptible, dañando el ADN mitocondrial (ADNmt) y colapsando el gradiente electroquímico de protones (Ψm).\n\nEl Glutatión (GSH): Tripéptido antioxidante maestro sintetizado a partir de cisteína, glicina y glutamato.",
+  "relevancia_nootropica": "Es la base biofísica de la neuroprotección, bioenergética y protocolos de longevidad cerebral:\n- N-Acetilcisteína (NAC): Aporte limitante de L-cisteína para la síntesis intracelular de glutatión (GSH).\n- Ácido Alfa Lipoico (ALA / R-ALA): Antioxidante anfipático que regenera las vitaminas C, E y el propio glutatión oxidado (GSSG).\n- Astaxantina: Carotenoide liposoluble con alta afinidad transmembrana que cruza eficazmente la BHE.\n- Coenzima Q10 (Ubiquinol) y PQQ (Pirroloquinolina quinona): Soporte a la cadena respiratoria y estimulación de la biogénesis mitocondrial vía PGC-1α.\n- Acetil-L-Carnitina (ALCAR): Transporte de ácidos grasos de cadena larga a la matriz mitocondrial para β-oxidación y aporte de grupos acetilo para acetilcolina.",
+  "neurotransmisores_asociados": [],
+  "regiones_asociadas": [
+    "mitocondrias",
+    "membranas neuronales"
+  ]
+}
