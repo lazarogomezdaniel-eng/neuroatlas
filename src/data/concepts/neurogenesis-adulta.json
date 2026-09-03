@@ -1,0 +1,19 @@
+{
+  "slug": "neurogenesis-adulta",
+  "titulo": "Neurogénesis adulta",
+  "modulo": "Modulo I",
+  "seccion": "1.3",
+  "tipo": "mecanismo",
+  "definicion": "El nacimiento de nuevas neuronas en el cerebro adulto, un proceso que ocurre principalmente en el hipocampo y es clave para la memoria y el ánimo.",
+  "explicacion": "La neurogénesis adulta ocurre primariamente en dos nichos neurogénicos especializados del sistema nervioso central:\n1. Giro dentado del hipocampo (zona subgranular): Células madre neurales dan origen a neuronas granulares que maduran, emiten axones (fibras musgosas hacia CA3) y se integran funcionalmente en la separación de patrones y la consolidación mnésica.\n2. Zona subventricular de los ventrículos laterales: Genera neuroblastos que migran por la corriente migratoria rostral hacia el bulbo olfatorio.\n\nFactores moduladores:\n- Estimuladores: Ejercicio aeróbico (activación de FNDC5/Irisina → BDNF), aprendizaje activo, ayuno y neurotrofinas.\n- Supresores: Estrés crónico (eje HPA hiperactivo y cortisol elevado), disrupción circadiana/falta de sueño, citoquinas proinflamatorias y envejecimiento.",
+  "relevancia_nootropica": "Es la estrategia fundamental para frenar el envejecimiento cerebral y modular trastornos anímicos refractarios:\n- Melena de León (Hericium erinaceus): Inducción de neurotrofinas vía erinacinas (cruzan BHE) y hericenonas.\n- Péptidos nootrópicos: Semax y Selank (sobreexpresión de BDNF/NGF).\n- Psicodélicos (Psilocibina): Estimulación de la neurogénesis hipocampal y sinaptogénesis.\n- Principio de consolidación funcional: Las neuronas recién nacidas requieren desafío cognitivo (aprendizaje) en sus primeras 2 a 4 semanas para evitar la apoptosis y asegurar su integración en los circuitos.",
+  "neurotransmisores_asociados": [
+    "BDNF",
+    "serotonina",
+    "glutamato"
+  ],
+  "regiones_asociadas": [
+    "giro dentado del hipocampo",
+    "zona subventricular"
+  ]
+}

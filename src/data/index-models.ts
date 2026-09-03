@@ -22,6 +22,7 @@ import otrosNeuromoduladoresJson from './concepts/otros-neuromoduladores.json';
 import introNeurofisiologiaJson from './concepts/introduccion-neurofisiologia.json';
 import sinapsisJson from './concepts/sinapsis-y-senalizacion.json';
 import neuroplasticidadJson from './concepts/neuroplasticidad.json';
+import neurogenesisJson from './concepts/neurogenesis-adulta.json';
 import ltpJson from './concepts/plasticidad-sinaptica.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
@@ -46,6 +47,7 @@ export const conceptos: Concepto[] = [
   introNeurofisiologiaJson as Concepto,
   sinapsisJson as Concepto,
   neuroplasticidadJson as Concepto,
+  neurogenesisJson as Concepto,
   ltpJson as Concepto,
 ];
 
