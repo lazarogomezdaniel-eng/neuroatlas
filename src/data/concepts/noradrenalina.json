@@ -1,0 +1,19 @@
+{
+  "slug": "noradrenalina",
+  "titulo": "Noradrenalina",
+  "modulo": "Modulo I",
+  "seccion": "1.2",
+  "tipo": "neurotransmisor",
+  "definicion": "El neurotransmisor del estado de alerta, la vigilia y la respuesta al estrés. Es el 'interruptor de encendido' del cerebro.",
+  "explicacion": "La noradrenalina (o norepinefrina) se sintetiza a partir de la dopamina mediante la enzima dopamina beta-hidroxilasa. Su núcleo de producción principal es el locus coeruleus en el tronco encefálico, el cual proyecta axones difusos hacia la corteza prefrontal, el sistema límbico y la médula espinal.\n\nReceptores:\n- Adrenérgicos Alfa (α1, α2): α2 presináptico actúa como autorreceptor inhibidor de retroalimentación; α2A postsináptico en la corteza prefrontal afina la relación señal/ruido atencional.\n- Adrenérgicos Beta (β1, β2, β3): median la activación adrenérgica, el gasto metabólico y la consolidación de memorias de alto impacto emocional.",
+  "relevancia_nootropica": "Es la diana de los eugeroicos y compuestos de vigilia:\n- Cafeína: amplifica indirectamente la transmisión noradrenérgica mediante el bloqueo de receptores de adenosina.\n- Modafinilo y Armodafinilo: incrementan la actividad tónica en el locus coeruleus.\n- Rhodiola Rosea y adaptógenos: modulan la respuesta al estrés evitando el agotamiento catecolaminérgico.\n\nCurva en U invertida: Niveles bajos causan letargo y dispersión; niveles excesivos inducen ansiedad, taquicardia e hipervigilancia destructiva del foco.",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "adrenalina"
+  ],
+  "regiones_asociadas": [
+    "locus coeruleus",
+    "corteza prefrontal",
+    "amígdala"
+  ]
+}
