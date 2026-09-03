@@ -1,0 +1,18 @@
+{
+  "slug": "comt-val158met",
+  "titulo": "Gen COMT (Val158Met): El gen del Guerrero y el Preocupado",
+  "modulo": "Modulo I",
+  "seccion": "1.4",
+  "tipo": "concepto",
+  "definicion": "El gen que codifica la enzima COMT, responsable de degradar la dopamina y la noradrenalina en la corteza prefrontal. Determina tu respuesta al estrés y a los estimulantes.",
+  "explicacion": "La enzima Catecol-O-Metiltransferasa (COMT) es el principal mecanismo de inactivación de dopamina y noradrenalina en la corteza prefrontal (donde la densidad del transportador DAT es notablemente baja). El polimorfismo funcional Val158Met (rs4680, sustitución de G por A) define 3 genotipos con actividad enzimática diametralmente opuesta:\n\n1. Met/Met (COMT lenta / 'Worriers' o Preocupados):\n- Disminución de hasta 3 a 4 veces en la actividad catalítica a 37°C.\n- Alta dopamina basal prefrontal: superior memoria de trabajo y razonamiento abstracto en reposo.\n- Vulnerabilidad: Bajo estrés agudo acumulan exceso de catecolaminas, superando el pico de la curva en U y provocando sobreactivación amigdalina, parálisis ejecutiva y ansiedad.\n\n2. Val/Val (COMT rápida / 'Warriors' o Guerreros):\n- Alta velocidad de degradación catecolaminérgica.\n- Baja dopamina basal: propensión al aburrimiento, menor memoria de trabajo en calma.\n- Ventaja: Rendimiento cognitivo óptimo bajo estrés extremo o crisis (el aumento de catecolaminas los posiciona en el pico de rendimiento).\n\n3. Val/Met (Heterocigotos): Fenotipo intermedio con balance de resistencia y foco.",
+  "relevancia_nootropica": "Es el marcador genético cardinal para el diseño de stacks de estimulación:\n- Perfil Met/Met: Hipersensibilidad a la cafeína y dopaminérgicos directos (riesgo de taquicardia, rumiación mental y cefaleas). Priorizar moduladores GABAérgicos (L-Teanina), adaptógenos ansiolíticos (Ashwagandha KSM-66) y Magnesio (cofactor obligatorio de la enzima COMT acoplada a SAMe).\n- Perfil Val/Val: Alta tolerancia a estimulantes y eugeroicos. Excelente respuesta a precursores catecolaminérgicos (L-Tirosina, NALT), Rhodiola Rosea y cafeína de liberación sostenida para elevar el tono dopaminérgico basal.",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "noradrenalina",
+    "adrenalina"
+  ],
+  "regiones_asociadas": [
+    "corteza prefrontal"
+  ]
+}
