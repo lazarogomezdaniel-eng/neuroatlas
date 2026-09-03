@@ -1,0 +1,20 @@
+{
+  "slug": "neuroplasticidad",
+  "titulo": "Neuroplasticidad",
+  "modulo": "Modulo I",
+  "seccion": "1.3",
+  "tipo": "mecanismo",
+  "definicion": "La capacidad del cerebro para reorganizar sus conexiones, fortalecerlas o debilitarlas, en respuesta a la experiencia, el aprendizaje y las sustancias.",
+  "explicacion": "La neuroplasticidad describe la capacidad morfofuncional del sistema nervioso para remodelar su arquitectura a lo largo de toda la vida.\n\nPrincipio de Hebb: 'Las neuronas que disparan juntas, se conectan juntas' (spike-timing-dependent plasticity).\n\nTipos:\n1. Plasticidad Estructural: Sinaptogénesis, crecimiento dendrítico, proliferación y maduración de espinas dendríticas.\n2. Plasticidad Funcional: Reorganización y reasignación de mapas corticales.\n\nMecanismos electrofisiológicos:\n- Potenciación a Largo Plazo (LTP): Fortalecimiento sináptico sostenido dependiente de receptores NMDA/AMPA, influjo de Ca²⁺, fosforilación de CaMKII y síntesis de novo de proteínas estructurales.\n- Depresión a Largo Plazo (LTD): Debilitamiento sináptico programado para depurar ruido neuronal y optimizar la capacidad de almacenamiento.",
+  "relevancia_nootropica": "Es la diana principal para mejoras cognitivas estables y no transitorias:\n- Vía BDNF/TrkB: Elevación del factor neurotrófico mediante Melena de León (Hericium erinaceus), ejercicio aeróbico y ayuno intermitente.\n- Moduladores glutamatérgicos: Racetams (Piracetam, Aniracetam, Phenylpiracetam) y Ampakinas que facilitan la inducción de LTP.\n- Psicodélicos clásicos (Psilocibina, LSD): Agonismo 5-HT2A inductor de sinaptogénesis acelerada y reapertura de ventanas de plasticidad crítica adulta.",
+  "neurotransmisores_asociados": [
+    "glutamato",
+    "BDNF",
+    "acetilcolina"
+  ],
+  "regiones_asociadas": [
+    "hipocampo",
+    "corteza cerebral",
+    "corteza prefrontal"
+  ]
+}
