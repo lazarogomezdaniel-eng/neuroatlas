@@ -34,6 +34,7 @@ import apoeJson from './concepts/apolipoproteina-e-apoe.json';
 import cyp1a2Json from './concepts/cyp1a2-y-metabolismo-cafeina.json';
 import otrosGenesJson from './concepts/otros-genes-clave.json';
 import epigeneticaJson from './concepts/epigenetica.json';
+import farmacogenomicaPersonalizacionJson from './concepts/farmacogenomica-personalizacion.json';
 import ltpJson from './concepts/plasticidad-sinaptica.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
@@ -70,6 +71,7 @@ export const conceptos: Concepto[] = [
   cyp1a2Json as Concepto,
   otrosGenesJson as Concepto,
   epigeneticaJson as Concepto,
+  farmacogenomicaPersonalizacionJson as Concepto,
   ltpJson as Concepto,
 ];
 

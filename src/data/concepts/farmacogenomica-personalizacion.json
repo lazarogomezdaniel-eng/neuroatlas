@@ -1,0 +1,23 @@
+{
+  "slug": "farmacogenomica-personalizacion",
+  "titulo": "Farmacogenómica aplicada: Cómo diseñar tu stack personal",
+  "modulo": "Modulo I",
+  "seccion": "1.4",
+  "tipo": "concepto",
+  "definicion": "La metodología para utilizar los datos genéticos personales con el fin de seleccionar, dosificar y evitar sustancias nootrópicas de forma segura y eficaz.",
+  "explicacion": "Protocolo sistemático de medicina de precisión para la arquitectura de stacks nootrópicos basado en el perfil farmacogenómico individual:\n\n1. Resolución de cuellos de botella basales (MTHFR / COMT):\n- Variante MTHFR lenta (C677T/A1298C): Sustitución mandatoria de ácido fólico por L-5-Metilfolato (5-MTHF), Metilcobalamina (B12) y cofactores de remetilación (SAMe / TMG / Magnesio).\n- COMT Met/Met (Lenta / 'Worrier'): Evitar estimulantes adrenérgicos y precursores dopaminérgicos directos que saturen la corteza prefrontal; priorizar moduladores GABAérgicos (L-Teanina) y adaptógenos (Ashwagandha KSM-66).\n- COMT Val/Val (Rápida / 'Warrior'): Excelente tolerancia a precursores catecolaminérgicos (L-Tirosina), Rhodiola Rosea y cafeína dosificada.\n\n2. Blindaje de vulnerabilidades estructurales (APOE / BDNF):\n- Portador APOE ε4: Restricción estricta de grasas saturadas de cadena larga, optimización del sistema glinfático, abstinencia etílica y suplementación con DHA de alta pureza.\n- BDNF alelo Met: Compensación trófica mediante ejercicio aeróbico estructurado, Melena de León (Hericium erinaceus) y péptidos neurotróficos (Semax).\n\n3. Ajuste de vida media y aclaramiento (CYP1A2 / CYP450):\n- Metabolizador lento de cafeína: Ventana de corte de 10-12 h antes del descanso nocturno o reemplazo por Panax Ginseng / Rhodiola; metabolizador rápido: protocolos de ciclaje 4 días on / 3 días off.\n- Interacciones en Fase I: Auditoría de fitofármacos inductores/inhibidores de CYP3A4 y CYP2D6 (Hierba de San Juan, CBD) ante medicación psicotrópica.",
+  "relevancia_nootropica": "Es la guía metodológica integradora del Módulo I que conecta los datos genómicos brutos (RAW data) con la selección racional de sustancias en el Stack Builder de NeuroAtlas, eliminando el enfoque empírico de ensayo y error.",
+  "neurotransmisores_asociados": [
+    "Dopamina",
+    "Noradrenalina",
+    "Serotonina",
+    "Acetilcolina",
+    "BDNF"
+  ],
+  "regiones_asociadas": [
+    "Corteza prefrontal",
+    "Hipocampo",
+    "Hígado (sistema CYP450)",
+    "Hendidura sináptica"
+  ]
+}
