@@ -1,0 +1,21 @@
+{
+  "slug": "sinapsis-y-senalizacion",
+  "titulo": "Sinapsis y señalización neuronal",
+  "modulo": "Modulo I",
+  "seccion": "1.3",
+  "tipo": "mecanismo",
+  "definicion": "El proceso por el que una neurona transmite información a otra mediante impulsos eléctricos y mensajeros químicos.",
+  "explicacion": "La transmisión sináptica integra fases electroquímicas precisas:\n1. Potencial de acción: propagación eléctrica axonal dependiente de canales de Na⁺/K⁺ regulados por voltaje.\n2. Exocitosis vesicular: apertura de canales de Ca²⁺ dependientes de voltaje en el terminal presináptico y fusión del complejo SNARE.\n3. Difusión en la hendidura sináptica (20-40 nm de distancia).\n4. Acoplamiento postsináptico a receptores ionotrópicos (despolarización/hiperpolarización) o metabotrópicos (segundos mensajeros cAMP, IP3/DAG).\n5. Finalización de la señal: Recaptación presináptica/astrocítica (DAT, NET, SERT, EAAT), degradación enzimática (AChE, MAO, COMT) o difusión pasiva.",
+  "relevancia_nootropica": "Las 5 dianas farmacológicas principales de la nootropía:\n- Bloqueo de recaptación: Metilfenidato, Modafinilo (inhibición de transportadores DAT/NET).\n- Inhibición enzimática: Huperzina A, Galantamina (bloqueo reversible de AChE).\n- Agonismo de receptores: Nicotina (nAChR α7/α4β2).\n- Modulación alostérica positiva: Racetams y Ampakinas (cinética del receptor AMPA).\n- Aporte de precursores: L-Tirosina, CDP-Colina, 5-HTP (aumento de pool intracelular de síntesis).",
+  "neurotransmisores_asociados": [
+    "glutamato",
+    "GABA",
+    "dopamina",
+    "acetilcolina"
+  ],
+  "regiones_asociadas": [
+    "sinapsis",
+    "terminal presináptico",
+    "hendidura sináptica"
+  ]
+}

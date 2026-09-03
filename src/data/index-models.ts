@@ -20,6 +20,7 @@ import gabaJson from './concepts/gaba.json';
 import glutamatoJson from './concepts/glutamato.json';
 import otrosNeuromoduladoresJson from './concepts/otros-neuromoduladores.json';
 import introNeurofisiologiaJson from './concepts/introduccion-neurofisiologia.json';
+import sinapsisJson from './concepts/sinapsis-y-senalizacion.json';
 import ltpJson from './concepts/plasticidad-sinaptica.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
@@ -42,6 +43,7 @@ export const conceptos: Concepto[] = [
   glutamatoJson as Concepto,
   otrosNeuromoduladoresJson as Concepto,
   introNeurofisiologiaJson as Concepto,
+  sinapsisJson as Concepto,
   ltpJson as Concepto,
 ];
 
