@@ -8,6 +8,7 @@ export default defineConfig({
   integrations: [
     react(),
     tailwind({
+      configFile: './tailwind.config.mjs',
       applyBaseStyles: false,
     }),
     sitemap({

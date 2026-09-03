@@ -9,35 +9,35 @@ import { Compass, Brain, Layers, ArrowRight, Activity, ShieldCheck, Cpu } from '
   title="NeuroAtlas — Enciclopedia Científica de Nootrópicos & Bio-Index"
   description="Compendio biomédico indexado por receptores sinápticos, niveles de evidencia clínica y análisis de sinergias moleculares."
 >
-  <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
     <!-- Hero Banner Científico -->
-    <div className="relative rounded-biotech border border-surface-bright bg-surface-low p-6 md:p-12 overflow-hidden shadow-2xl">
-      <div className="absolute -right-10 -top-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
-      <div className="absolute -left-10 -bottom-10 w-96 h-96 bg-secondary/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="relative rounded-biotech border border-surface-bright bg-surface-low p-6 md:p-12 overflow-hidden shadow-2xl">
+      <div class="absolute -right-10 -top-10 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div class="absolute -left-10 -bottom-10 w-96 h-96 bg-secondary/10 rounded-full blur-3xl pointer-events-none"></div>
       
-      <div className="relative z-10 max-w-3xl space-y-4">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/30 text-xs font-mono text-primary font-semibold">
+      <div class="relative z-10 max-w-3xl space-y-4">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/30 text-xs font-mono text-primary font-semibold">
           <Cpu className="w-3.5 h-3.5" />
           <span>MOTOR ASTRO SSG ACTIVO — ULTRA RÁPIDO & 100% INDEXABLE</span>
         </div>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
           Enciclopedia Científica de Nootrópicos & Optimización Cerebral
         </h1>
-        <p className="text-xs md:text-sm text-text-secondary leading-relaxed max-w-2xl">
+        <p class="text-xs md:text-sm text-text-secondary leading-relaxed max-w-2xl">
           El compendio biomédico canónico. Cada sustancia y concepto está indexado con farmacocinética, niveles de evidencia GRADE (A-D) y detección de sinergias moleculares.
         </p>
 
-        <div className="pt-2 flex flex-wrap gap-3">
+        <div class="pt-2 flex flex-wrap gap-3">
           <a
             href="/enciclopedia"
-            className="px-4 py-2.5 rounded-biotech text-xs font-semibold bg-primary text-surface-lowest hover:bg-primary-hover shadow-cyan-glow transition-all flex items-center gap-2"
+            class="px-4 py-2.5 rounded-biotech text-xs font-semibold bg-primary text-surface-lowest hover:bg-primary-hover shadow-cyan-glow transition-all flex items-center gap-2"
           >
             <Compass className="w-4 h-4" />
             <span>Explorar Enciclopedia</span>
           </a>
           <a
             href="/stacks"
-            className="px-4 py-2.5 rounded-biotech text-xs font-semibold bg-surface-container hover:bg-surface-high border border-surface-bright text-text-primary transition-all flex items-center gap-2"
+            class="px-4 py-2.5 rounded-biotech text-xs font-semibold bg-surface-container hover:bg-surface-high border border-surface-bright text-text-primary transition-all flex items-center gap-2"
           >
             <Layers className="w-4 h-4" />
             <span>Constructor de Stacks</span>
@@ -50,56 +50,55 @@ import { Compass, Brain, Layers, ArrowRight, Activity, ShieldCheck, Cpu } from '
     <AdBanner slotId="home-top" format="horizontal" />
 
     <!-- Estadísticas & Métricas del Catálogo -->
-    <section className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-      <div className="p-5 rounded-biotech border border-surface-bright bg-surface text-center space-y-1">
-        <span className="text-2xl sm:text-3xl font-extrabold text-primary font-mono">{sustancias.length}</span>
-        <span className="text-xs font-mono text-text-muted block">Compuestos Clínicos</span>
+    <section class="grid grid-cols-2 sm:grid-cols-4 gap-4">
+      <div class="p-5 rounded-biotech border border-surface-bright bg-surface text-center space-y-1">
+        <span class="text-2xl sm:text-3xl font-extrabold text-primary font-mono">{sustancias.length}</span>
+        <span class="text-xs font-mono text-text-muted block">Compuestos Clínicos</span>
       </div>
-      <div className="p-5 rounded-biotech border border-surface-bright bg-surface text-center space-y-1">
-        <span className="text-2xl sm:text-3xl font-extrabold text-secondary font-mono">{categorias.length}</span>
-        <span className="text-xs font-mono text-text-muted block">Familias Farmacológicas</span>
+      <div class="p-5 rounded-biotech border border-surface-bright bg-surface text-center space-y-1">
+        <span class="text-2xl sm:text-3xl font-extrabold text-secondary font-mono">{categorias.length}</span>
+        <span class="text-xs font-mono text-text-muted block">Familias Farmacológicas</span>
       </div>
-      <div className="p-5 rounded-biotech border border-surface-bright bg-surface text-center space-y-1">
-        <span className="text-2xl sm:text-3xl font-extrabold text-emerald-400 font-mono">{conceptos.length}</span>
-        <span className="text-xs font-mono text-text-muted block">Conceptos & Vías</span>
+      <div class="p-5 rounded-biotech border border-surface-bright bg-surface text-center space-y-1">
+        <span class="text-2xl sm:text-3xl font-extrabold text-emerald-400 font-mono">{conceptos.length}</span>
+        <span class="text-xs font-mono text-text-muted block">Conceptos & Vías</span>
       </div>
-      <div className="p-5 rounded-biotech border border-surface-bright bg-surface text-center space-y-1">
-        <span className="text-2xl sm:text-3xl font-extrabold text-amber-400 font-mono">100%</span>
-        <span className="text-xs font-mono text-text-muted block">Validación Bibliográfica</span>
+      <div class="p-5 rounded-biotech border border-surface-bright bg-surface text-center space-y-1">
+        <span class="text-2xl sm:text-3xl font-extrabold text-amber-400 font-mono">100%</span>
+        <span class="text-xs font-mono text-text-muted block">Validación Bibliográfica</span>
       </div>
     </section>
 
     <!-- Secciones Destacadas -->
-    <section className="space-y-6">
-      <div className="flex justify-between items-center border-b border-surface-bright pb-3">
+    <section class="space-y-6">
+      <div class="flex justify-between items-center border-b border-surface-bright pb-3">
         <div>
-          <h2 className="text-lg font-bold text-text-primary">Estructuras y Neurociencia Destacada</h2>
-          <p className="text-xs text-text-muted">Módulo 1: Neuroanatomía Funcional y Mecanismos de Acción</p>
+          <h2 class="text-lg font-bold text-text-primary">Estructuras y Neurociencia Destacada</h2>
+          <p class="text-xs text-text-muted">Módulo 1: Neuroanatomía Funcional y Mecanismos de Acción</p>
         </div>
-        <a href="/conceptos" className="text-xs font-mono text-primary hover:underline flex items-center gap-1">
+        <a href="/conceptos" class="text-xs font-mono text-primary hover:underline flex items-center gap-1">
           Ver todos ({conceptos.length}) <ArrowRight className="w-3.5 h-3.5" />
         </a>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
         {conceptos.slice(0, 3).map((c) => (
           <a
-            key={c.slug}
             href={`/conceptos/${c.slug}`}
-            className="group rounded-biotech border border-surface-bright bg-surface p-6 hover:border-secondary/50 hover:shadow-violet-glow transition-all flex flex-col justify-between space-y-3"
+            class="group rounded-biotech border border-surface-bright bg-surface p-6 hover:border-secondary/50 hover:shadow-violet-glow transition-all flex flex-col justify-between space-y-3"
           >
-            <div className="space-y-2">
-              <span className="text-[10px] font-mono text-secondary font-bold uppercase">{c.modulo} · {c.seccion}</span>
-              <h3 className="text-base font-bold text-text-primary group-hover:text-secondary transition-colors">
+            <div class="space-y-2">
+              <span class="text-[10px] font-mono text-secondary font-bold uppercase">{c.modulo} · {c.seccion}</span>
+              <h3 class="text-base font-bold text-text-primary group-hover:text-secondary transition-colors">
                 {c.titulo}
               </h3>
-              <p className="text-xs text-text-secondary leading-relaxed line-clamp-2">
+              <p class="text-xs text-text-secondary leading-relaxed line-clamp-2">
                 {c.definicion}
               </p>
             </div>
-            <div className="pt-3 border-t border-surface-bright/50 text-xs font-mono text-text-muted flex justify-between">
+            <div class="pt-3 border-t border-surface-bright/50 text-xs font-mono text-text-muted flex justify-between">
               <span>{c.tipo}</span>
-              <span className="text-secondary group-hover:translate-x-1 transition-transform">Leer →</span>
+              <span class="text-secondary group-hover:translate-x-1 transition-transform">Leer →</span>
             </div>
           </a>
         ))}
