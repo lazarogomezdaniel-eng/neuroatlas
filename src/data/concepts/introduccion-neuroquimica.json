@@ -1,0 +1,23 @@
+{
+  "slug": "introduccion-neuroquimica",
+  "titulo": "Neuroquímica: los mensajeros del cerebro",
+  "modulo": "Modulo I",
+  "seccion": "1.2",
+  "tipo": "concepto",
+  "definicion": "Los neurotransmisores y neuromoduladores son las moléculas con las que las neuronas se comunican. Son el verdadero objetivo de casi todos los nootrópicos.",
+  "explicacion": "El cerebro funciona mediante señales electroquímicas. Cuando una neurona quiere 'hablar' con otra, libera unas moléculas llamadas neurotransmisores en el espacio que las separa (la sinapsis). Estas moléculas se unen a receptores de la neurona receptora y activan o frenan su actividad.\n\nCada neurotransmisor tiene un 'tono' funcional distinto:\n- Dopamina: Motivación y recompensa ('Quiero, busco, me impulso').\n- Noradrenalina: Alerta y atención ('Estoy despierto y enfocado').\n- Acetilcolina: Aprendizaje y memoria ('Aprendo y recuerdo').\n- Serotonina: Ánimo y estabilidad ('Estoy en calma y bien').\n- GABA: Inhibición y calma ('Me relajo, freno').\n- Glutamato: Excitación y aprendizaje ('Proceso, conecto').",
+  "relevancia_nootropica": "Casi todas las sustancias funcionan mediante 4 vías: 1. Aumentan la producción (precursores), 2. Imitan al neurotransmisor (agonistas), 3. Bloquean su degradación o recaptación (inhibidores enzimáticos / transportadores), o 4. Modulan sus receptores (alostéricos positivos/negativos).",
+  "neurotransmisores_asociados": [
+    "Dopamina",
+    "Noradrenalina",
+    "Acetilcolina",
+    "Serotonina",
+    "GABA",
+    "Glutamato"
+  ],
+  "regiones_asociadas": [
+    "Espacio sináptico",
+    "Receptores postsinápticos",
+    "Neuronas presinápticas"
+  ]
+}
