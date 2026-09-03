@@ -1,0 +1,18 @@
+{
+  "slug": "bdnf-val66met",
+  "titulo": "Gen BDNF (Val66Met): La genética de la neuroplasticidad",
+  "modulo": "Modulo I",
+  "seccion": "1.4",
+  "tipo": "concepto",
+  "definicion": "Una variación en el gen que codifica el Factor Neurotrófico Derivado del Cerebro (BDNF), que afecta a la capacidad del hipocampo para crear nuevas conexiones y responder al aprendizaje.",
+  "explicacion": "El polimorfismo Val66Met (rs6265, sustitución de G por A en el codón 66 de la región pro-BDNF) altera el tráfico intracelular y la secreción regulada dependiente de actividad del factor neurotrófico derivado del cerebro (BDNF) en los terminales sinápticos.\n\nFenotipos genéticos:\n1. Val/Val (Típico): Secreción óptima de BDNF ante el estímulo electrofisiológico. Alta tasa basal de neurogénesis en el giro dentado y facilitación de la LTP.\n2. Portadores de alelo Met (Val/Met y Met/Met):\n- Reducción de hasta un 25-30% en la secreción actividad-dependiente de BDNF.\n- Menor volumen hipocampal relativo y menor retención en tareas de memoria episódica.\n- Mayor susceptibilidad a la rigidez cognitiva, rumiación y trastornos afectivos ante estrés crónico.\n- Ventaja adaptativa: Mayor resistencia a la extinción desadaptativa y menor labilidad en memorias fuertemente consolidadas.",
+  "relevancia_nootropica": "Es el marcador directo para prescribir protocolos de rescate neurotrófico:\n- Ejercicio aeróbico (Zona 2 / HIIT): Desencadena la cascada mioquina FNDC5 → Irisina → BDNF cerebral, compensando la deficiencia basal de secreción.\n- Melena de León (Hericium erinaceus) y Péptido Semax: Estimulación directa de la síntesis de neurotrofinas (BDNF/NGF) mediante señalización en receptores TrkB/TrkA.\n- Psicodélicos clásicos (Psilocibina/LSD): Agonismo 5-HT2A y activación de la vía mTOR/TrkB, reabriendo ventanas críticas de neuroplasticidad independientemente de la tasa de secreción basal de BDNF.\n- Sinergistas lipídicos: DHA (ácido docosahexaenoico) y Curcumina biodisponible (Longvida).",
+  "neurotransmisores_asociados": [
+    "BDNF",
+    "glutamato"
+  ],
+  "regiones_asociadas": [
+    "hipocampo",
+    "corteza cerebral"
+  ]
+}
