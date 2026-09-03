@@ -1,0 +1,19 @@
+{
+  "slug": "gaba",
+  "titulo": "GABA",
+  "modulo": "Modulo I",
+  "seccion": "1.2",
+  "tipo": "neurotransmisor",
+  "definicion": "El principal neurotransmisor inhibitorio del cerebro. Es el freno natural que produce calma, reduce la ansiedad y permite el sueño.",
+  "explicacion": "El ácido gamma-aminobutírico (GABA) se sintetiza a partir del glutamato mediante la enzima glutamato descarboxilasa (GAD) con piridoxal fosfato (vitamina B6) como cofactor. Representa el contrapeso biológico del glutamato, estableciendo el cociente excitación/inhibición (E/I ratio) del sistema nervioso.\n\nReceptores:\n- GABA-A: Canal ionotrópico de cloro (Cl⁻) de activación ultrarrápida que hiperpolariza la membrana. Diana de moduladores alostéricos (L-Teanina, apigenina, valeriana, benzodiacepinas).\n- GABA-B: Receptor metabotrópico acoplado a proteínas G de acción sostenida. Diana farmacológica del fenibut y baclofeno.\n- GABA-C (GABA-A-rho): Receptores ionotrópicos especializados, con alta concentración retiniana.\n\nFunciones: Reducción de la hiperexcitabilidad neuronal, atenuación del tono simpático en la amígdala, facilitación de la arquitectura del sueño no-REM y relajación miomuscular.",
+  "relevancia_nootropica": "Es la diana principal para protocolos ansiolíticos sin merma cognitiva y optimización del descanso nocturno:\n- L-Teanina: Potencia el tono GABAérgico y la generación de ondas cerebrales Alfa (8-12 Hz), contrarrestando la sobreestimulación simpática de la cafeína sin inducir letargo.\n- Magnesio (Bisglicinato / L-Treonato): Modulador alostérico positivo de receptores GABAérgicos y antagonista NMDA.\n- Fitocomplejos: Melisa, Pasiflora, Valeriana, Kava.\n- Moléculas sintéticas / híbridas: Picamilón (GABA ligado a niacina para atravesar activamente la BHE) y Fenibut (⚠️ alto potencial de tolerancia y dependencia farmacológica).\n\nBiodisponibilidad del GABA oral: El GABA libre presenta baja permeabilidad a través de la BHE en condiciones fisiológicas basales, siendo más eficaz modular sus receptores y síntesis endógena.",
+  "neurotransmisores_asociados": [
+    "glutamato",
+    "glicina"
+  ],
+  "regiones_asociadas": [
+    "amígdala",
+    "corteza cerebral",
+    "hipocampo"
+  ]
+}
