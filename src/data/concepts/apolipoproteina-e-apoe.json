@@ -1,0 +1,16 @@
+{
+  "slug": "apolipoproteina-e-apoe",
+  "titulo": "Gen APOE (ε2, ε3, ε4): Longevidad y metabolismo lipídico",
+  "modulo": "Modulo I",
+  "seccion": "1.4",
+  "tipo": "concepto",
+  "definicion": "El gen que regula el transporte de colesterol en el cerebro. Sus variantes determinan el riesgo de Alzheimer y la respuesta del cerebro a las dietas altas en grasas.",
+  "explicacion": "La Apolipoproteína E (ApoE) es la principal lipoproteína transportadora de colesterol y fosfolípidos en el sistema nervioso central, secretada predominantemente por los astrocitos para suministrar lípidos a las membranas neuronales y reparar sinapsis. Los dos polimorfismos rs429358 y rs7412 definen 3 alelos principales:\n\n1. APOE ε2 (rs7412-T / rs429358-T): Mayor afinidad por receptores de LDL, efecto neuroprotector y menor riesgo basal de Alzheimer de inicio tardío.\n2. APOE ε3 (rs7412-C / rs429358-T): Alelo ancestral neutro y más prevalente en la población mundial.\n3. APOE ε4 (rs7412-C / rs429358-C): Cambio conformacional con puente salino aberrante;\n- Reduce el aclaramiento de péptidos beta-amiloide (Aβ42) a través de la BHE y el sistema glinfático.\n- Promueve mayor neuroinflamación microglial y fuga endotelial en la BHE.\n- Incrementa el riesgo relativo de Alzheimer (x3 en heterocigotos ε3/ε4; x12 en homocigotos ε4/ε4).",
+  "relevancia_nootropica": "Es el biomarcador genético cardinal para la personalización lipídica y metabólica:\n- Portadores APOE ε4:\n  * Restricción de grasas saturadas de cadena larga (evitar dietas cetogénicas extremas ricas en mantequilla/aceite de coco que eleven ApoB/LDL-C oxidados).\n  * Dieta Mediterránea / MIND con alto aporte de Omega-3 (DHA en forma fosfolipídica / Krill o éster etílico de alta pureza).\n  * Abstinencia o reducción estricta de alcohol (vulnerabilidad acelerada al daño mitocondrial).\n  * Innegociable higiene del sueño para maximizar el flujo del sistema glinfático.\n- Portadores APOE ε2/ε3: Mayor tolerancia metabólica a triglicéridos de cadena media (MCT C8/C10) y dietas cetogénicas como sustrato energético neuronal alternativo.",
+  "neurotransmisores_asociados": [],
+  "regiones_asociadas": [
+    "sistémico",
+    "cerebro",
+    "hígado"
+  ]
+}
