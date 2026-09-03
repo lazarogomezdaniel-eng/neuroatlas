@@ -15,6 +15,7 @@ import introNeuroquimicaJson from './concepts/introduccion-neuroquimica.json';
 import dopaminaJson from './concepts/dopamina.json';
 import acetilcolinaJson from './concepts/acetilcolina.json';
 import noradrenalinaJson from './concepts/noradrenalina.json';
+import serotoninaJson from './concepts/serotonina.json';
 import ltpJson from './concepts/plasticidad-sinaptica.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
@@ -32,6 +33,7 @@ export const conceptos: Concepto[] = [
   dopaminaJson as Concepto,
   acetilcolinaJson as Concepto,
   noradrenalinaJson as Concepto,
+  serotoninaJson as Concepto,
   ltpJson as Concepto,
 ];
 

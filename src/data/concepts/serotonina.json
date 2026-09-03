@@ -1,0 +1,20 @@
+{
+  "slug": "serotonina",
+  "titulo": "Serotonina",
+  "modulo": "Modulo I",
+  "seccion": "1.2",
+  "tipo": "neurotransmisor",
+  "definicion": "El neurotransmisor del estado de ánimo, la estabilidad emocional, el sueño y el apetito. Es la base del bienestar y la calma.",
+  "explicacion": "La serotonina (5-hidroxitriptamina o 5-HT) se sintetiza a partir del aminoácido L-triptófano siguiendo la ruta: Triptófano → 5-HTP → Serotonina → Melatonina. Cerca del 90% se produce en el tracto gastrointestinal por las células enterocromafines, conectando con el eje intestino-cerebro.\n\nReceptores clave:\n- 5-HT1A: Ansiolisis, autorregulación y estabilidad anímica.\n- 5-HT2A: Diana central de los psicodélicos clásicos (psilocibina, LSD) para la neuroplasticidad y apertura de ventanas críticas.\n- 5-HT3: Regulación gastrointestinal y náuseas.\n\nLa encrucijada de la Quinurenina: En estados proinflamatorios (citoquinas IL-6, TNF-α), la enzima IDO desvía el triptófano hacia la vía de la quinurenina y el metabolito neurotóxico ácido quinolínico (agonista NMDA excitotóxico), disminuyendo la síntesis de serotonina.",
+  "relevancia_nootropica": "Moduladores del estado anímico y neuroplasticidad:\n- Precursores: L-Triptófano, 5-HTP (Griffonia simplicifolia).\n- Fitoterapéuticos y donantes de metilos: Extracto de Azafrán (Safranal/Crocin), SAMe, Hierba de San Juan (Hipérico).\n\n⚠️ ALERTA DE SEGURIDAD (Síndrome Serotoninérgico): La coadministración de precursores (5-HTP) con fármacos ISRS, IMAO o múltiples agentes serotoninérgicos puede desencadenar toxicidad serotoninérgica potencialmente mortal.",
+  "neurotransmisores_asociados": [
+    "melatonina",
+    "dopamina"
+  ],
+  "regiones_asociadas": [
+    "núcleos del rafe",
+    "corteza prefrontal",
+    "amígdala",
+    "intestino"
+  ]
+}
