@@ -1,0 +1,20 @@
+{
+  "slug": "neuroinflamacion",
+  "titulo": "Neuroinflamación",
+  "modulo": "Modulo I",
+  "seccion": "1.3",
+  "tipo": "mecanismo",
+  "definicion": "La respuesta inflamatoria del cerebro, mediada por la microglía y los astrocitos. Protectora si es aguda, destructiva si se vuelve crónica.",
+  "explicacion": "La neuroinflamación está orquestada por la inmunidad innata del sistema nervioso central:\n1. Microglía: Células fagocíticas residentes que cambian de estado de vigilancia (M2/ramificado) a estado proinflamatorio activado (M1/ameboide), liberando citoquinas como TNF-α, IL-1β e IL-6.\n2. Astrocitos reactivos (astrogliosis):\n- Inflamación Aguda: Fisiológica y resolutiva, promueve la fagocitosis de detritos celulares.\n- Inflamación Crónica de Bajo Grado: Induce estrés oxidativo, disfunción de la barrera hematoencefálica (BHE), sobreactivación de la enzima IDO (vía de la quinurenina y síntesis de ácido quinolínico neurotóxico) y pérdida sináptica.\n\nEtiología principal: Estrés crónico (eje HPA), privación de sueño, disbiosis intestinal y dietas proinflamatorias.",
+  "relevancia_nootropica": "Es la causa biológica oculta detrás de la mayoría de cuadros de niebla mental (brain fog) y fatiga cognitiva:\n- Curcumina optimizada (Longvida / BCM-95): Atraviesa la BHE e inhibe la vía del factor nuclear kappa B (NF-κB), elevando a su vez el BDNF.\n- Ácidos grasos Omega-3 (fracción EPA): Precursores de mediadores especializados de resolución (resolvinas y protectinas) con acción antiinflamatoria sistémica y cerebral.\n- Boswellia Serrata (ácidos boswélicos / AKBA): Inhibición de la 5-lipoxigenasa (5-LOX).\n- Enfoque etiológico: Antes de recurrir a estimulantes sinápticos que incrementan el estrés celular, resulta prioritario resolver la inflamación microglial de base.",
+  "neurotransmisores_asociados": [
+    "glutamato",
+    "serotonina"
+  ],
+  "regiones_asociadas": [
+    "microglía",
+    "astrocitos",
+    "corteza",
+    "hipocampo"
+  ]
+}
