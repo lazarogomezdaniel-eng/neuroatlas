@@ -1,0 +1,16 @@
+{
+  "slug": "cyp1a2-y-metabolismo-cafeina",
+  "titulo": "Gen CYP1A2: ¿Metabolizador rápido o lento de cafeína?",
+  "modulo": "Modulo I",
+  "seccion": "1.4",
+  "tipo": "concepto",
+  "definicion": "El gen que codifica la enzima hepática CYP1A2, responsable de degradar la cafeína. Determina si el café te da energía o te causa insomnio y taquicardia.",
+  "explicacion": "El citocromo P450 1A2 (CYP1A2) es la principal enzima microsomal hepática de fase I encargada de la desmetilación del ~95% de la cafeína (1,3,7-trimetilxantina) en paraxantina (84%), teobromina (12%) y teofilina (4%). El polimorfismo funcional rs762551 (-163A>C) estratifica a la población en dos fenotipos metabólicos claros:\n\n1. Metabolizadores Ultrarrápidos / Rápidos (Genotipo A/A):\n- Alta inducibilidad enzimática hepática.\n- Vida media de eliminación reducida (2.5 a 4.5 horas).\n- Máxima respuesta ergogénica y de foco sin merma en la arquitectura del sueño profundo (fase de ondas lentas N3).\n\n2. Metabolizadores Lentos (Portadores de alelo C: A/C y C/C):\n- Baja velocidad de aclaramiento plasmático.\n- Vida media prolongada de hasta 10 a 14 horas.\n- Mayor riesgo de disrupción circadiana, taquicardia, elevación de presión arterial sistémica y vasoconstricción cerebral prolongada.",
+  "relevancia_nootropica": "Es el marcador genético de base para la optimización de protocolos con cafeína:\n- Estrategia para Metabolizadores Lentos: Limitar ingesta estricta con ventana de corte de 10-12 horas antes de dormir; coadministración obligatoria de L-Teanina (ratio 1:2 cafeína:teanina) o sustitución por Matcha/Teacrina; precaución con inhibidores de CYP1A2 (fluvoxamina, naringenina en pomelo).\n- Estrategia para Metabolizadores Rápidos: Uso focalizado en picos cognitivos y pre-entrenamiento, aplicando protocolos de ciclaje periódico para evitar la desensibilización y 'up-regulation' de receptores de adenosina A1 y A2A.",
+  "neurotransmisores_asociados": [
+    "adenosina"
+  ],
+  "regiones_asociadas": [
+    "hígado"
+  ]
+}

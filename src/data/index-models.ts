@@ -31,6 +31,7 @@ import comtJson from './concepts/comt-val158met.json';
 import mthfrJson from './concepts/mthfr-c677t-a1298c.json';
 import bdnfJson from './concepts/bdnf-val66met.json';
 import apoeJson from './concepts/apolipoproteina-e-apoe.json';
+import cyp1a2Json from './concepts/cyp1a2-y-metabolismo-cafeina.json';
 import ltpJson from './concepts/plasticidad-sinaptica.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
@@ -64,6 +65,7 @@ export const conceptos: Concepto[] = [
   mthfrJson as Concepto,
   bdnfJson as Concepto,
   apoeJson as Concepto,
+  cyp1a2Json as Concepto,
   ltpJson as Concepto,
 ];
 
