@@ -9,6 +9,8 @@ import hipocampoJson from './concepts/hipocampo.json';
 import amigdalaJson from './concepts/amigdala.json';
 import gangliosBasalesJson from './concepts/ganglios-basales.json';
 import locusCoeruleusJson from './concepts/locus-coeruleus.json';
+import bheJson from './concepts/barrera-hematoencefalica.json';
+import glinfaticoJson from './concepts/sistema-glinfatico.json';
 import ltpJson from './concepts/plasticidad-sinaptica.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
@@ -20,6 +22,8 @@ export const conceptos: Concepto[] = [
   amigdalaJson as Concepto,
   gangliosBasalesJson as Concepto,
   locusCoeruleusJson as Concepto,
+  bheJson as Concepto,
+  glinfaticoJson as Concepto,
   ltpJson as Concepto,
 ];
 

@@ -1,0 +1,12 @@
+{
+  "slug": "barrera-hematoencefalica",
+  "titulo": "Barrera Hematoencefálica (BHE)",
+  "modulo": "Modulo I",
+  "seccion": "1.1",
+  "tipo": "anatomia",
+  "definicion": "Filtro selectivo entre la sangre y el cerebro que decide qué sustancias pueden entrar.",
+  "explicacion": "La BHE es una red de células que recubre los capilares cerebrales y protege al cerebro de toxinas y patógenos. Pero también es el motivo por el que muchos suplementos 'no llegan' al cerebro. Para que un nootrópico funcione, debe ser capaz de cruzar esta barrera (o actuar indirectamente). Algunas sustancias la cruzan bien (L-teanina, cafeína, algunos racetams); otras apenas la atraviesan (el GABA puro, por ejemplo, tiene un cruce muy limitado).",
+  "relevancia_nootropica": "Entender la BHE te evita comprar productos que prometen mucho pero no llegan al cerebro. Es uno de los criterios más importantes al evaluar si una sustancia funcionará realmente. En la ficha de cada sustancia indicamos explícitamente si cruza la BHE.",
+  "neurotransmisores_asociados": [],
+  "regiones_asociadas": ["capilares cerebrales", "células endoteliales", "astrocitos"]
+}
