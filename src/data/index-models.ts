@@ -82,6 +82,9 @@ import magnesioTauratoJson from './concepts/magnesio-taurato.json';
 import magnesioMalatoJson from './concepts/magnesio-malato.json';
 import otrosTiposMagnesioJson from './concepts/otros-tipos-magnesio.json';
 
+// 2.4 Minerales Traza & Electrolitos
+import zincJson from './concepts/zinc.json';
+
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
 export const conceptos: Concepto[] = [
@@ -159,6 +162,9 @@ export const conceptos: Concepto[] = [
   magnesioTauratoJson as Concepto,
   magnesioMalatoJson as Concepto,
   otrosTiposMagnesioJson as Concepto,
+
+  // 2.4 Minerales Traza & Electrolitos
+  zincJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {

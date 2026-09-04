@@ -1,0 +1,21 @@
+{
+  "slug": "zinc",
+  "titulo": "Zinc: El modulador de la sinapsis glutamatérgica",
+  "modulo": "Modulo II",
+  "seccion": "2.4",
+  "tipo": "concepto",
+  "definicion": "El zinc no es solo un mineral para la inmunidad; se almacena en las vesículas sinápticas de las neuronas glutamatérgicas y se libera durante la transmisión sináptica para modular la plasticidad y la memoria.",
+  "explicacion": "El catión divalente Zinc (Zn²⁺) es el segundo oligoelemento más abundante en el sistema nervioso central, desempeñando un doble papel insustituible como modulador alostérico sináptico directo y cofactor enzimático en más de 300 metaloenzimas cerebrales:\n\n1. Neuromodulación Sináptica y ZnT3 en el Hipocampo:\n- El Zn²⁺ libre/lábil se concentra de forma masiva en las vesículas sinápticas de las neuronas glutamatérgicas (especialmente en las fibras musgosas del hipocampo CA3 y la corteza cerebral) mediante el transportador específico de zinc ZnT3 (SLC30A3).\n- Co-liberación con Glutamato: Tras la despolarización presináptica, el Zn²⁺ se co-libera al espacio sináptico alcanzando concentraciones micromolares transitorias.\n- Inhibición Alostérica de Receptores NMDA y GABA-A: Ejerce una modulación alostérica negativa dependiente de concentración sobre la subunidad GluN2A del receptor NMDA, amortiguando la entrada excesiva de calcio y previniendo la excitotoxicidad, al tiempo que regula finamente la inducción de la Potenciación a Largo Plazo (LTP).\n\n2. Metalobiología: El Balance Crítico Zinc:Cobre (Zn:Cu):\n- El zinc y el cobre compiten por la unión a la metalotioneína entérica para su absorción.\n- Fisiopatología del Ratio Invertido: Una dieta hipercuprosa o deficiente en zinc desplaza el balance sérico (óptimo Zn:Cu 1:1 o 1.2:1 en suero, o 10:1 - 15:1 en ingesta total). El exceso de cobre libre estimula la síntesis de catecolaminas vía Dopamina Beta-Hidroxilasa y genera radicales hidroxilo mediante química de Fenton, provocando hiperactividad, ansiedad, insomnio de conciliación y pensamientos acelerados.\n\n3. Síntesis de BDNF y Reparación del ADN:\n- Es cofactor estructural de los dedos de zinc (zinc fingers) en factores de transcripción neuronal que regulan la transcripción de BDNF y enzimas de reparación del ADN como la PARP-1.",
+  "relevancia_nootropica": "Protocolos de dosificación, quelatos y consideraciones farmacocinéticas:\n- Formas Químicas de Alta Biodisponibilidad:\n  * Picolinato de Zinc: Máxima absorción celular y transporte tisular.\n  * Bisglicinato de Zinc (TRAACS®): Excelente tolerancia gastrointestinal sin náuseas matutinas.\n  * Zinc-L-Carnosina (Polaprezinc): Regeneración de la mucosa gástrica y modulación del eje intestino-cerebro.\n  * Evitar: Óxido de zinc y sulfato de zinc por baja biodisponibilidad y alta emetogenicidad gástrica.\n- Posología y Co-suplementación Obligatoria:\n  * Dosis Diaria: 15 a 30 mg de zinc elemental.\n  * Regla del Cobre: Si se administran >30 mg/día de zinc elemental durante más de 6-8 semanas, es imperativo balancear con 1 a 2 mg de bisglicinato de cobre para evitar anemia microcítica y neuropatía periférica por depleción de ceruloplasmina.",
+  "neurotransmisores_asociados": [
+    "glutamato",
+    "GABA",
+    "dopamina"
+  ],
+  "regiones_asociadas": [
+    "hipocampo",
+    "corteza cerebral",
+    "fibras musgosas",
+    "amígdala"
+  ]
+}
