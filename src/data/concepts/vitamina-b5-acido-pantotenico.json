@@ -1,0 +1,19 @@
+{
+  "slug": "vitamina-b5-acido-pantotenico",
+  "titulo": "Vitamina B5 (Ácido Pantoténico): La Coenzima A y la acetilcolina",
+  "modulo": "Modulo II",
+  "seccion": "2.1",
+  "tipo": "concepto",
+  "definicion": "La vitamina B5 es el precursor de la Coenzima A (CoA), esencial para el metabolismo de grasas y la síntesis de acetilcolina, el neurotransmisor del aprendizaje y la memoria.",
+  "explicacion": "El Ácido Pantoténico (derivado del griego 'pantothen' o presente en todas partes) se fosforila secuencialmente mediante la pantotenato quinasa (PANK) para dar lugar a la 4'-fosfopanteteína y, finalmente, a la Coenzima A (CoA) y la Proteína Transportadora de Acilos (ACP):\n\n1. Rutas Bioquímicas Dependientes de CoA:\n- Biosíntesis Colinérgica: La enzima Colina Acetiltransferasa (ChAT) condensa la colina libre con el grupo acetilo del Acetil-CoA (donado por la B5) para sintetizar el neurotransmisor Acetilcolina en los terminales presinápticos.\n- Bioenergética y Ciclo de Krebs: El Acetil-CoA alimenta la condensación con oxalacetato para generar citrato en la matriz mitocondrial.\n- Beta-oxidación y Síntesis de Mielina: Transporte y activación de ácidos grasos de cadena larga hacia la mitocondria y síntesis de esfingolípidos de la vaina de mielina.\n- Esteroidogénesis Adrenal: El Acetil-CoA es el bloque monomérico inicial para la biosíntesis de colesterol y hormonas esteroideas (cortisol, DHEA, pregnenolona).\n\n2. Formas Farmacológicas:\n- D-Pantotenato Cálcico: Sal hidrosoluble estable empleada en multivitamínicos y complejos B.\n- Pantetina (Bis-cisteamina de ácido pantoténico): Forma activa dímera con potente acción hipolipemiante (regulación de la HMG-CoA reductasa).",
+  "relevancia_nootropica": "Sinergias en Stacks Colinérgicos y Resiliencia Neuroendocrina:\n- Stack Colinérgico Fundamental: La suplementación con donantes de colina (Alpha-GPC, Citicolina) optimiza su rendimiento sinérgico al garantizar niveles adecuados de B5 para la provisión continua de Acetil-CoA.\n- Soporte Adrenal: Esencial para mantener la función esteroidogénica de las glándulas suprarrenales bajo sobrecarga por estrés crónico.\n- Manifestaciones de Déficit Clínico: Aunque infrecuente por su amplia distribución dietética, su depleción causa astenia, irritabilidad, insomnio y disestesias periféricas ('síndrome de los pies ardientes' o parestesias).",
+  "neurotransmisores_asociados": [
+    "acetilcolina"
+  ],
+  "regiones_asociadas": [
+    "hipocampo",
+    "corteza cerebral",
+    "glándulas adrenales",
+    "terminal presináptico"
+  ]
+}
