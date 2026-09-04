@@ -1,0 +1,17 @@
+{
+  "slug": "vitamina-b7-biotina",
+  "titulo": "Vitamina B7 (Biotina): Mielina y metabolismo de ácidos grasos",
+  "modulo": "Modulo II",
+  "seccion": "2.1",
+  "tipo": "concepto",
+  "definicion": "La biotina es un cofactor para las enzimas carboxilasas que metabolizan ácidos grasos, aminoácidos y glucosa. Es esencial para la formación de mielina y la salud de las membranas neuronales.",
+  "explicacion": "La Biotina (Vitamina B7 o Vitamina H) actúa como grupo prostético transportador de dióxido de carbono activado (carboxiltransferasa) unido covalentemente mediante la holocarboxilasa sintetasa a cuatro carboxilasas mitocondriales y citosólicas esenciales:\n\n1. Enzimas Carboxilasas y Bioquímica Neural:\n- Acetil-CoA Carboxilasa (ACC1 y ACC2): Paso limitante en la síntesis de novo de ácidos grasos de cadena muy larga (VLCFA), sustratos lipídicos estructurales de la vaina de mielina y de los fosfolípidos de membrana axonal.\n- Piruvato Carboxilasa (PC): Anaplerosis del ciclo de Krebs en astrocitos para regenerar oxalacetato a partir de piruvato.\n- Propionil-CoA Carboxilasa (PCC) y 3-Metilcrotonil-CoA Carboxilasa (MCC): Catabolismo de aminoácidos ramificados (BCAA / leucina, isoleucina, valina) y ácidos grasos de cadena impar.\n\n2. Oligodendrocitos y Remielinización:\nLa alta tasa metabólica de los oligodendrocitos para sintetizar esfingomielina y cerebrósidos requiere una actividad óptima de las carboxilasas biotina-dependientes.",
+  "relevancia_nootropica": "Investigación clínica en neuroprotección, desmielinización e interferencias analíticas:\n- Dosis Altas en Esclerosis Múltiple (MD1003): Ensayos clínicos con megadosis de Biotina (100 a 300 mg/día) evaluaron su capacidad para superar la hipoxia tisular axonal e inducir remielinización (con resultados heterogéneos en fases progresivas).\n- Mecanismo Antinutricional de la Avidina: El consumo crónico de claras de huevo crudas bloquea irreversiblemente la absorción intestinal de biotina debido a la alta afinidad de la glicoproteína avidina (se inactiva con la cocción térmica).\n- Alerta Analítica en Laboratorio: Dosis suplementarias elevadas de biotina interfieren con inmunoensayos basados en estreptavidina-biotina (causando falsos positivos o falsos negativos en paneles tiroideos como TSH/fT4 y troponinas cardíacas). Suspender suplementos con biotina 48-72 h antes de análisis de sangre.",
+  "neurotransmisores_asociados": [],
+  "regiones_asociadas": [
+    "vaina de mielina",
+    "membranas neuronales",
+    "oligodendrocitos",
+    "axones"
+  ]
+}
