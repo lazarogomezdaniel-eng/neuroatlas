@@ -1,0 +1,22 @@
+{
+  "slug": "litio-orotato",
+  "titulo": "Litio Orotato (Microdosis): El neuroprotector olvidado",
+  "modulo": "Modulo II",
+  "seccion": "2.4",
+  "tipo": "concepto",
+  "definicion": "El litio en dosis traza o microdosis (1-5 mg) es un mineral esencial que promueve la neurogénesis, previene la demencia y estabiliza el estado de ánimo, sin los efectos secundarios de las dosis psiquiátricas.",
+  "explicacion": "El catión monovalente Litio (Li⁺) en concentraciones traza u oligoelementales (1 a 5 mg de litio elemental) actúa como un regulador maestro de vías de señalización intracelular, neurogénesis adulta y neuroplasticidad sin inducir la toxicidad renal ni tiroidea de las dosis psiquiátricas farmacológicas (300-1200 mg de carbonato de litio):\n\n1. Inhibición Específica de la GSK-3beta (Glucógeno Sintasa Kinasa-3 Beta):\n- El Li⁺ compite directamente con el catión magnesio (Mg²⁺) en el sitio catalítico de la quinasa GSK-3beta, inhibiendo su hiperactividad constitutiva.\n- Bloqueo de la Hiperfosforilación de Tau: La inhibición de GSK-3beta previene la fosforilación patológica de la proteína tau y la formación de ovillos neurofibrilares en la enfermedad de Alzheimer.\n- Estabilización de beta-Catenina: Facilita la translocación nuclear de beta-catenina, activando programas transcripcionales de supervivencia neuronal y sinaptogénesis.\n\n2. Inducción de BDNF, Bcl-2 y Neurogénesis Hipocampal:\n- Aumenta de forma robusta los niveles de BDNF (Factor Neurotrófico Derivado del Cerebro) y su receptor TrkB en el hipocampo y la corteza prefrontal.\n- Sobreexpresión de Bcl-2 (proteína anti-apoptótica mitocondrial) mientras reprime proteínas pro-apoptóticas como Bax y Caspasa-3, salvaguardando a las neuronas recién nacidas en el giro dentado.\n\n3. Modulación Glutamatérgica y Desensibilización NMDA:\n- Regula el aclaramiento de glutamato extracelular y atenúa la afluencia patológica de Ca²⁺ a través de receptores NMDA hiperactivados, previniendo la muerte neuronal por excitotoxicidad.\n\n4. Evidencia Epidemiológica y Salud Poblacional:\n- Estudios a gran escala en Japón, EE. UU. y Europa demuestran una correlación inversa estadísticamente significativa entre los niveles de litio traza en el agua potable municipal y las tasas de suicidio, agresividad impulsiva y diagnóstico de demencias.",
+  "relevancia_nootropica": "Aplicaciones en resiliencia emocional, longevidad cerebral y posología:\n- Farmacocinética Superior del Orotato: El ácido orótico actúa como transportador lipofílico que facilita el paso del catión Li⁺ a través de la barrera hematoencefálica y la membrana plasmática neuronal con una fracción mínima de la dosis de sales inorgánicas convencionales.\n- Protocolos Nootrópicos y Longevidad:\n  * Estabilidad Emocional y Resiliencia al Estrés: Atenúa la impulsividad, la rumiación obsesiva y los picos de reactividad en la amígdala.\n  * Neuroprotección Anti-Aging: Considerado uno de los miméticos de restricción calórica y protectores de telómeros más prometedores.\n- Posología Diaria Segura:\n  * Dosis Estándar: 1 a 5 mg de litio elemental (equivalente a ~20 - 100 mg de orotato de litio quelado).\n  * No requiere monitorización litemia estricta a estas concentraciones fisiológicas traza.",
+  "neurotransmisores_asociados": [
+    "glutamato",
+    "GABA",
+    "serotonina",
+    "dopamina"
+  ],
+  "regiones_asociadas": [
+    "hipocampo",
+    "giro dentado",
+    "corteza prefrontal",
+    "amígdala"
+  ]
+}
