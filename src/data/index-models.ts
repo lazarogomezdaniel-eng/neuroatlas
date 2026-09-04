@@ -67,6 +67,7 @@ import vitaminaB5Json from './concepts/vitamina-b5-acido-pantotenico.json';
 import vitaminaB6Json from './concepts/vitamina-b6-piridoxina.json';
 import vitaminaB7Json from './concepts/vitamina-b7-biotina.json';
 import vitaminaB9Json from './concepts/vitamina-b9-folato.json';
+import vitaminaB12Json from './concepts/vitamina-b12.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -122,7 +123,7 @@ export const conceptos: Concepto[] = [
   ejeIntestinoJson as Concepto,
 
   // MÓDULO II
-  // 2.1
+  // 2.1 Complejo B y Metilación (9 monografías completas)
   introVitaminasBJson as Concepto,
   vitaminaB1Json as Concepto,
   vitaminaB2Json as Concepto,
@@ -131,6 +132,7 @@ export const conceptos: Concepto[] = [
   vitaminaB6Json as Concepto,
   vitaminaB7Json as Concepto,
   vitaminaB9Json as Concepto,
+  vitaminaB12Json as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {

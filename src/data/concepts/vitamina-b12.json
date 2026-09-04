@@ -1,0 +1,20 @@
+{
+  "slug": "vitamina-b12",
+  "titulo": "Vitamina B12: Mielinización, energía y las 4 formas químicas",
+  "modulo": "Modulo II",
+  "seccion": "2.1",
+  "tipo": "concepto",
+  "definicion": "La vitamina B12 es esencial para la formación de mielina, la producción de energía mitocondrial y la metilación. Su deficiencia causa fatiga, neuropatía y deterioro cognitivo, y es común en veganos, personas mayores y quienes toman omeprazol.",
+  "explicacion": "La Cobalamina es una macromolécula organometálica que contiene un átomo central de cobalto coordinado por un anillo de corrina, actuando como cofactor obligado para dos enzimas celulares críticas:\n\n1. Metionina Sintasa (Citosólica / Dependiente de Metilcobalamina):\n- Acopla el ciclo del folato con el ciclo de metilación al transferir el grupo metilo del 5-MTHF a la Homocisteína para regenerar L-Metionina y SAMe.\n- Su bloqueo produce el fenómeno de 'trampa de folatos' (folate trap) y eleva la homocisteína neurotóxica.\n\n2. Metilmalonil-CoA Mutasa (Mitocondrial / Dependiente de Adenosilcobalamina):\n- Cataliza la isomerización de L-Metilmalonil-CoA a Succinil-CoA, intermediario del ciclo de Krebs para la oxidación de ácidos grasos de cadena impar y aminoácidos cetogénicos.\n- El déficit provoca acumulación de ácido metilmalónico (MMA), el cual se incorpora de forma anómala en los lípidos neuronales provocando desmielinización y degeneración combinada subaguda de la médula espinal.\n\n3. Las 4 Formas Químicas de Cobalamina:\n- Cianocobalamina: Forma sintética barata con enlace ciano; requiere desintoxicación hepática mediada por glutatión.\n- Hidroxocobalamina: Forma natural producida por fermentación bacteriana; excelente vida media plasmática y antídoto de intoxicación por cianuro.\n- Metilcobalamina: Forma coenzimática citosólica activa (soporte de metilación y neuroprotección).\n- 5'-Desoxiadenosilcobalamina: Forma coenzimática mitocondrial activa (soporte bioenergético y vaina de mielina).",
+  "relevancia_nootropica": "Protocolos de corrección neuro-cognitiva y biodisponibilidad:\n- Fármacos depletadores masivos: Los inhibidores de la bomba de protones (Omeprazol/Pantoprazol al suprimir el HCl gástrico para escindir la B12 de las proteínas) y la Metformina (al alterar el transporte de calcio en el íleon terminal) inducen déficits cognitivos subclínicos en hasta el 30-50% de los usuarios crónicos.\n- Vía de Administración Óptima: Formas sublinguales o intranasales (metilcobalamina + adenosilcobalamina en ratio sinérgica) que eluden el factor intrínseco gástrico mediante difusión pasiva mucosa (1-2% de absorción transmucosa a altas dosis de 1000-2000 mcg).\n- Biomarcadores Diagnósticos: Concentración sérica de Vitamina B12 (> 600-800 pg/mL como objetivo de neuro-optimización), Ácido Metilmalónico (MMA en suero u orina) y Holotranscobalamina (HoloTC / B12 activa).",
+  "neurotransmisores_asociados": [
+    "serotonina",
+    "dopamina"
+  ],
+  "regiones_asociadas": [
+    "vaina de mielina",
+    "mitocondrias",
+    "sistema nervioso central",
+    "médula espinal"
+  ]
+}
