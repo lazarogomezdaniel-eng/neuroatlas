@@ -1,0 +1,21 @@
+{
+  "slug": "tianeptina",
+  "titulo": "Tianeptina: El antidepresivo atípico con potencial de abuso",
+  "modulo": "Modulo III",
+  "seccion": "3.7",
+  "tipo": "sustancia",
+  "definicion": "Antidepresivo y modulador neuroplástico tricíclico atípico (Stablon / Coaxil) que regula la transmisión glutamatérgica (receptores AMPA/NMDA), revierte la atrofia dendrítica hipocampal inducida por estrés y modula la neuroplasticidad, pero que a dosis supraterapéuticas actúa como agonista selectivo de receptores μ-opioides (MOR) y δ-opioides (DOR), con elevado riesgo de adicción, tolerancia rápida y grave síndrome de abstinencia opioide.",
+  "explicacion": "Sintetizada en Francia por los Laboratorios Servier en la década de 1960, la tianeptina revolucionó la psiquiatría biológica al desafiar el dogma monoaminérgico tradicional:\n\n1. La 'Paradoja' Serotoninérgica y el Mecanismo Glutamatérgico Real:\n- Ensayos iniciales clasificaron a la tianeptina como un 'potenciador selectivo de la recaptación de serotonina' (SSRE, por sus siglas en inglés), acelerando la captura de 5-HT en lugar de inhibirla como los ISRS convencionales.\n- Sin embargo, estudios estructurales y electrofisiológicos modernos (2014) demostraron que su eficacia antidepresiva y ansiolítica se debe a la **normalización de la señalización glutamatérgica**:\n  * Modulación Alostérica Positiva de Receptores AMPA: Facilita la fosforilación de subunidades GluA1 en las sinapsis CA1/CA3 del hipocampo.\n  * Normalización NMDA: Estabiliza la transmisión de receptores NMDA y previene la excitotoxicidad por exceso de glutamato durante el estrés crónico.\n  * Rescate de la Neuroplasticidad y BDNF: Revierte la retracción dendrítica en neuronas piramidales del hipocampo y la hipertrofia patológica en la amígdala basolateral provocada por glucocorticoides elevados.\n\n2. Farmacodinamia Opioide (El Eje del Abuso):\n- A concentraciones micromolares y dosis supraterapéuticas (>50-100 mg), la tianeptina actúa como un **agonista completo y selectivo del receptor μ-opioide (MOR)** acoplado a proteína Gi (Ki ≈ 383 nM) y agonista débil DOR.\n- Esta activación opioide desencadena una liberación masiva de dopamina en el núcleo accumbens, generando euforia intensa, sedación cálida, refuerzo conductual compulsivo y rápida tolerancia celular.\n\n3. Farmacocinética:\n- Absorción rápida con biodisponibilidad oral de ~99%.\n- Semivida de eliminación plasmática marcadamente breve: **t½ ≈ 2.5 horas** (requiere administración 3 veces al día en pauta clínica).\n- Metabolismo por β-oxidación hepática (no depende críticamente del citocromo P450).",
+  "relevancia_nootropica": "Perfil toxicológico crítico, advertencia nootrópica y síndrome de abstinencia:\n\n1. Contraindicación Absoluta como Nootrópico de 'Mejora Cognitiva':\n- La tianeptina **NO debe ser utilizada como nootrópico o potenciador cognitivo en personas sanas**.\n- A dosis clínicas estándar (12.5 mg, 3 veces al día / 37.5 mg/día total), posee indicación médica estricta bajo prescripción para depresión mayor y distimia resistente, con bajo impacto en la esfera sexual y cognitiva.\n- Sin embargo, en la comunidad de biohacking y suplementación no regulada ('Gas Station Heroin' / 'Zaza'), su distribución descontrolada generó una epidemia de abuso.\n\n2. Síndrome de Abstinencia Opioide Agudo:\n- La suspensión brusca tras consumo escalado (>100 mg a varios gramos diarios) desencadena un cuadro idéntico al síndrome de abstinencia por opioides mayores (heroína/oxicodona):\n  * Disforia profunda, ataques de pánico, temblores e insomnio intratable.\n  * Hiperalgesia muscular, calambres abdominales intensos, diarrea, rinorrea y diaforesis profusa.\n  * Craving incontrolable y riesgo de recaída con sobredosis potencialmente mortal (depresión respiratoria tratable con naloxona).\n\n3. Estatus Regulatorio Global:\n- Unión Europea (Francia, España, Italia): Medicamento de prescripción médica controlada (Coaxil®, Stablon®).\n- Estados Unidos: Prohibida y clasificada como Sustancia Controlada de Lista I/II en múltiples estados (Alabama, Florida, Georgia, Michigan, Ohio, etc.) con alertas sanitarias de la FDA.",
+  "neurotransmisores_asociados": [
+    "glutamato",
+    "serotonina",
+    "dopamina"
+  ],
+  "regiones_asociadas": [
+    "hipocampo",
+    "amígdala",
+    "corteza prefrontal",
+    "núcleo accumbens"
+  ]
+}

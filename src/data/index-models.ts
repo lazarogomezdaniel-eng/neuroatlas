@@ -142,6 +142,28 @@ import dihexaP21Json from './concepts/dihexa-p21.json';
 import epitalonJson from './concepts/epitalon.json';
 import bpc157GhkCuJson from './concepts/bpc-157-ghk-cu.json';
 
+// 3.5 Fármacos para Alzheimer & Demencia
+import introduccionFarmacosAlzheimerJson from './concepts/introduccion-farmacos-alzheimer.json';
+import donepeziloRivastigminaJson from './concepts/donepezilo-rivastigmina.json';
+import galantaminaJson from './concepts/galantamina.json';
+import memantinaJson from './concepts/memantina.json';
+
+// 3.6 Estimulantes Dopaminérgicos & TDAH
+import anfetaminasMetilfenidatoJson from './concepts/anfetaminas-metilfenidato.json';
+import cafeinaNootropicaJson from './concepts/cafeina-nootropica.json';
+import nicotinaAisladaJson from './concepts/nicotina-aislada.json';
+
+// 3.7 Moduladores GABAérgicos & Ansiolíticos Sintéticos
+import fenibutJson from './concepts/fenibut.json';
+import picamilonAdaptolJson from './concepts/picamilon-adaptol.json';
+import tianeptinaJson from './concepts/tianeptina.json';
+
+// 3.8 Compuestos Neuroprotectores, Neurogénicos & Miscelánea
+import nsi189Json from './concepts/nsi-189.json';
+import isribJson from './concepts/isrib.json';
+import azulMetilenoJson from './concepts/azul-metileno.json';
+import rolipramVinpocetinaJson from './concepts/rolipram-vinpocetina.json';
+
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
 export const conceptos: Concepto[] = [
@@ -279,6 +301,28 @@ export const conceptos: Concepto[] = [
   dihexaP21Json as Concepto,
   epitalonJson as Concepto,
   bpc157GhkCuJson as Concepto,
+
+  // 3.5 Fármacos para Alzheimer & Demencia
+  introduccionFarmacosAlzheimerJson as Concepto,
+  donepeziloRivastigminaJson as Concepto,
+  galantaminaJson as Concepto,
+  memantinaJson as Concepto,
+
+  // 3.6 Estimulantes Dopaminérgicos & TDAH
+  anfetaminasMetilfenidatoJson as Concepto,
+  cafeinaNootropicaJson as Concepto,
+  nicotinaAisladaJson as Concepto,
+
+  // 3.7 Moduladores GABAérgicos & Ansiolíticos Sintéticos
+  fenibutJson as Concepto,
+  picamilonAdaptolJson as Concepto,
+  tianeptinaJson as Concepto,
+
+  // 3.8 Compuestos Neuroprotectores, Neurogénicos & Miscelánea
+  nsi189Json as Concepto,
+  isribJson as Concepto,
+  azulMetilenoJson as Concepto,
+  rolipramVinpocetinaJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
