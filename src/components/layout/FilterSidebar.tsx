@@ -1,6 +1,6 @@
 import React from 'react';
-import { EvidenceLevel } from '@/types/substance';
-import { Filter, Sparkles, Check, RotateCcw } from 'lucide-react';
+import type { EvidenceLevel } from '@/types/substance';
+import { Filter, Sparkles, RotateCcw } from 'lucide-react';
 
 interface Props {
   categories: string[];
@@ -24,6 +24,7 @@ export const FilterSidebar: React.FC<Props> = ({
   onToggleEvidence,
   cognitiveGoals,
   selectedGoals,
+  onToggleGoal,
   onResetFilters,
 }) => {
   const hasActiveFilters =
@@ -117,6 +118,7 @@ export const FilterSidebar: React.FC<Props> = ({
             return (
               <button
                 key={goal}
+                type="button"
                 onClick={() => onToggleGoal(goal)}
                 className={`px-2.5 py-1 text-[11px] rounded-biotech border transition-all ${
                   isSelected
