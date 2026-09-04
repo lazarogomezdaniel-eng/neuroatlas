@@ -1,0 +1,20 @@
+{
+  "slug": "vitamina-c",
+  "titulo": "Vitamina C (Ácido Ascórbico): Cofactor de catecolaminas y antioxidante",
+  "modulo": "Modulo II",
+  "seccion": "2.2",
+  "tipo": "concepto",
+  "definicion": "La vitamina C no es solo para el sistema inmune; es un cofactor esencial para la síntesis de dopamina y noradrenalina, y uno de los antioxidantes más abundantes en el líquido cefalorraquídeo.",
+  "explicacion": "El Ácido Ascórbico (Vitamina C) es un donador de electrones hidrosoluble fundamental que alcanza concentraciones de hasta 10 mM en las neuronas y 2-4 mM en el líquido cefalorraquídeo (LCR), superando en más de un orden de magnitud los niveles plasmáticos basales:\n\n1. Biosíntesis de Catecolaminas (Dopamina Beta-Hidroxilasa):\n- Actúa como cofactor reductor monovalente obligatorio para la enzima Dopamina Beta-Hidroxilasa (DBH), enzima dependiente de cobre alojada en las vesículas sinápticas que cataliza la conversión estérica de Dopamina en Noradrenalina.\n- La depleción de ascorbato vesicular bloquea la noradrenogénesis, precipitando astenia psicomotora, déficit de alerta tónica y desregulación hemodinámica.\n\n2. Sistema de Transporte Activo y Retención Neuronal (SVCT2):\n- El transportador dependiente de sodio SVCT2 (Sodium-Dependent Vitamin C Transporter 2) acumula ascorbato activamente en las neuronas corticales y del hipocampo en contra de gradiente, asegurando la homeostasis redox cerebral incluso durante estados de escorbuto sistémico subclínico.\n\n3. Red Antioxidante y Reciclaje de Alfa-Tocoferol:\n- Neutraliza radicales hidroxilo, superóxido y peroxilo en el espacio extracelular y citosol.\n- Regenera el radical alfa-tocoferoxilo (vitamina E oxidada) en las balsas lipídicas de las membranas neuronales, preservando los ácidos grasos poliinsaturados (DHA) frente a la peroxidación lipídica.\n\n4. Eje Adrenal y Regulación del Estrés:\n- La corteza adrenal almacena la mayor densidad de ascorbato del organismo, utilizándolo en la esteroidogénesis y amortiguando la hiperreactividad del eje HPA ante estresores psicógenos agudos.",
+  "relevancia_nootropica": "Aplicaciones en stacks catecolaminérgicos, neuroprotección y posología:\n- Sinergia con Precursores Dopaminérgicos: Imprescindible al formular stacks con L-Tirosina, N-Acetil L-Tirosina (NALT) o L-DOPA (Mucuna Pruriens) para evitar la acumulación no convertida de dopamina citosólica auto-oxidable y optimizar el pool de noradrenalina en el locus coeruleus.\n- Mitigación del Cortisol Post-Estrés Cognitivo: La suplementación con 500-1000 mg de vitamina C atenúa la elevación exagerada de cortisol y la presión arterial diastólica tras sobrecargas ejecutivas de alta intensidad.\n- Formas Químicas Recomendadas: Ácido L-Ascórbico estándar, Ascorbato de Sodio/Magnesio (tamponados, menor acidez gástrica) o Vitamina C Liposomal (máxima biodisponibilidad plasmática y celular).\n- Posología Base: 500 a 1000 mg/día.",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "noradrenalina"
+  ],
+  "regiones_asociadas": [
+    "glándulas adrenales",
+    "locus coeruleus",
+    "líquido cefalorraquídeo",
+    "corteza cerebral"
+  ]
+}
