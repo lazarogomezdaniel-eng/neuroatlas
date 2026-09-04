@@ -1,0 +1,21 @@
+{
+  "slug": "magnesio-l-treonato",
+  "titulo": "Magnesio L-Treonato (Magtein): El magnesio de la memoria",
+  "modulo": "Modulo II",
+  "seccion": "2.3",
+  "tipo": "concepto",
+  "definicion": "El magnesio L-treonato es la única forma de magnesio que cruza eficientemente la barrera hematoencefálica, aumentando directamente los niveles de magnesio en el cerebro. Mejora la memoria, el aprendizaje y la plasticidad sináptica.",
+  "explicacion": "El L-Treonato de Magnesio (sal quelada con ácido L-treónico, metabolito endógeno de la vitamina C, comercializada bajo la patente Magtein®) fue desarrollado específicamente en el MIT para solventar la baja permeabilidad del catión magnesio a través de la BHE:\n\n1. Farmacocinética de Penetración en BHE:\nA diferencia de las sales inorgánicas u otros quelatos convencionales, el L-treonato eleva de forma estadísticamente significativa la concentración de Mg²⁺ en el líquido cefalorraquídeo (LCR) y en el parénquima cerebral (+15% en LCR tras administración sostenida).\n\n2. Mecanismos de Plasticidad Sináptica y Neurogénesis:\n- Aumento de la Densidad Sináptica: Induce la expresión de proteínas estructurales sinápticas (Sinaptofisina y PSD-95) e incrementa el número de botones presinápticos funcionales en el hipocampo CA1 y la corteza prefrontal.\n- Facilitación de la LTP (Potenciación a Largo Plazo): Optimiza la ratio de subunidades del receptor NMDA (incrementando la expresión de GluN2B frente a GluN2A), lo cual prolonga la ventana de apertura del canal de calcio requerida para el aprendizaje asociativo sin generar excitotoxicidad basal.\n- Aclaramiento de Recuerdos de Miedo: Facilita la extinción de memorias traumáticas en la corteza prefrontal infralímbica.",
+  "relevancia_nootropica": "Aplicaciones clínicas en neuro-optimización, declive cognitivo y posología:\n- Evidencia en Ensayos Clínicos: Ensayos aleatorizados doble ciego controlados con placebo en adultos mayores con deterioro cognitivo leve demuestran mejoras significativas en memoria episódica, fluidez ejecutiva y una reducción estimada de hasta 9 años en la edad cognitiva funcional.\n- Protocolo y Posología Estándar: 1500 a 2000 mg de Magnesio L-Treonato al día (que aporta ~144 mg de magnesio elemental activo), fraccionado en 1 toma matutina (foco/memoria de trabajo) y 1 toma nocturna (plasticidad durante el sueño).\n- Sinergias de Stack: Combinación óptima con Fosfatidilserina, Melena de León (Hericium erinaceus) y colinérgicos (Alpha-GPC) para amplificar la densidad de espinas dendríticas.",
+  "neurotransmisores_asociados": [
+    "glutamato",
+    "acetilcolina",
+    "GABA"
+  ],
+  "regiones_asociadas": [
+    "hipocampo",
+    "corteza prefrontal",
+    "líquido cefalorraquídeo",
+    "barrera hematoencefálica"
+  ]
+}
