@@ -1,0 +1,21 @@
+{
+  "slug": "vitamina-b9-folato",
+  "titulo": "Vitamina B9 (Folato / Metilfolato): La metilación y el gen MTHFR",
+  "modulo": "Modulo II",
+  "seccion": "2.1",
+  "tipo": "concepto",
+  "definicion": "El folato es esencial para la metilación del ADN, la síntesis de neurotransmisores y la desintoxicación de la homocisteína. Las mutaciones en el gen MTHFR afectan al 40-60% de la población y requieren formas activas de folato.",
+  "explicacion": "El Folato (derivado del latín 'folium' u hoja) actúa como la unidad transportadora central de unidades monocarbonadas (-CH3, -CH2-, -CHO) en el ciclo de metilación y síntesis de purinas/pirimidinas:\n\n1. Cascada Bioquímica y Enzima MTHFR:\n- La forma activa L-5-Metiltetrahidrofolato (5-MTHF) dona su grupo metilo a la Cobalamina (B12) mediante la Metionina Sintasa (MTR) para remetilar la Homocisteína en L-Metionina, la cual se activa a SAMe (S-Adenosilmetionina).\n- La enzima Metilentetrahidrofolato Reductasa (MTHFR) cataliza la reducción irreversible de 5,10-metilen-THF a 5-MTHF.\n- Polimorfismos C677T y A1298C: Reducen la eficiencia enzimática entre un 30% y un 70%, causando acumulación de homocisteína y déficit de metilfolato cerebral.\n\n2. Síntesis de Tetrahidrobiopterina (BH4) y Neurotransmisores:\nEl 5-MTHF promueve el acoplamiento de la eNOS y la regeneración de BH4, cofactor indispensable de la Tirosina Hidroxilasa y Triptófano Hidroxilasa para la síntesis de Dopamina, Noradrenalina y Serotonina.\n\n3. Riesgo del Ácido Fólico No Metabolizado (UMFA):\nEn individuos con variante MTHFR lenta, el ácido fólico sintético no se reduce eficazmente por la DHFR y puede saturar competitivamente los receptores de folato en el plexo coroideo (FRα), impidiendo el transporte de folato bioactivo al líquido cefalorraquídeo.",
+  "relevancia_nootropica": "Aplicaciones clínicas en psiquiatría de precisión, longevidad y posología:\n- Depresión Mayor Resistente (TRD): Ensayos clínicos (PAMLAB / Deplin) avalan el uso de 7.5 a 15 mg/día de L-Metilfolato (como sal de glucosamina / Quatrefolic) como adyuvante para revertir la hipometilación cerebral y potenciar la respuesta a ISRS/IRSN.\n- Reducción de Homocisteína Neurotóxica: Dosis de 800 a 1000 mcg de 5-MTHF en sinergia con Metilcobalamina (B12) y P-5-P (B6) para mantener la homocisteína plasmática por debajo de 8-10 µmol/L (previniendo atrofia hipocampal y riesgo vascular).\n- Población General y Embarazo: 400 a 800 mcg/día de 5-MTHF para prevención de defectos del cierre del tubo neural y mantenimiento de la división celular.",
+  "neurotransmisores_asociados": [
+    "serotonina",
+    "dopamina",
+    "noradrenalina"
+  ],
+  "regiones_asociadas": [
+    "todo el cerebro",
+    "hígado",
+    "plexo coroideo",
+    "hipocampo"
+  ]
+}
