@@ -1,0 +1,19 @@
+{
+  "slug": "microglia-m1-m2",
+  "titulo": "La Microglía: El interruptor maestro de la salud cerebral",
+  "modulo": "Modulo I",
+  "seccion": "1.6",
+  "tipo": "mecanismo",
+  "definicion": "Las células inmunitarias residentes en el cerebro. Representan el 10-15% de las células cerebrales y pueden actuar como destructoras de neuronas o como reparadoras, dependiendo de su estado de activación.",
+  "explicacion": "La microglía representa la primera línea de defensa inmunitaria innata del parénquima cerebral (10-15% del total celular). En condiciones basales o 'vigilantes', extienden y retraen prolongaciones motiles de forma dinámica para monitorizar la integridad sináptica.\n\nPolarización Fenotípica Dual:\n\n1. Fenotipo M1 (Neurotóxico / Proinflamatorio clásico):\n- Inducción: Reconocimiento de PAMPs (ej. lipopolisacárido LPS) y DAMPs mediante receptores tipo Toll (TLR4) o activación del complejo inflamasoma NLRP3.\n- Mediadores liberados: Citocinas proinflamatorias (IL-1β, IL-6, TNF-α), especies reactivas de oxígeno (ROS), óxido nítrico sintasa inducible (iNOS) y quinolinato.\n- Consecuencia patológica: Poda sináptica aberrante de espinas dendríticas sanas, desmielinización, excitotoxicidad glutamatérgica y neurodegeneración acelerada (Alzheimer, Parkinson y depresión inflamatoria).\n\n2. Fenotipo M2 (Neuroprotector / Reparador / Pro-resolutivo):\n- Inducción: Señalización por citocinas antiinflamatorias (IL-4, IL-10, TGF-β) y mediadores lipídicos pro-resolutivos (SPMs).\n- Acción biológica: Fagocitosis eficiente de detritos celulares y agregados de beta-amiloide (Aβ42), secreción de factores tróficos (BDNF, IGF-1, NGF) y revascularización/reparación de la BHE.",
+  "relevancia_nootropica": "Estrategias de reprogramación fenotípica (transición M1 → M2) y desactivación del inflamasoma NLRP3:\n- Mediadores Pro-resolutivos Especializados (SPMs): Resolvinas (RvD/RvE), protectinas y maresinas sintetizadas a partir de EPA/DHA de alta concentración, que actúan como inductores químicos del fenotipo fagocítico M2.\n- Flavonoides inhibidores microgliales: Luteolina, Apigenina y Baicaleína, con capacidad comprobada para bloquear la señalización dependiente de NF-κB y MAPK en la microglía.\n- Beta-hidroxibutirato (BHB): Actúa como inhibidor directo del inflamasoma NLRP3, impidiendo el ensamblaje molecular que escinde la pro-IL-1β en su forma activa.\n- Sinergia del sueño profundo (N3): Coordinación temporal con el flujo glinfático para la depuración de amiloide sin desencadenar cascadas destructivas M1.",
+  "neurotransmisores_asociados": [
+    "glutamato",
+    "BDNF"
+  ],
+  "regiones_asociadas": [
+    "todo el sistema nervioso central",
+    "hipocampo",
+    "corteza cerebral"
+  ]
+}
