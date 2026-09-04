@@ -1,0 +1,21 @@
+{
+  "slug": "citocinas-y-neuroinflamacion",
+  "titulo": "Citocinas: Las hormonas del sistema inmune que cruzan al cerebro",
+  "modulo": "Modulo I",
+  "seccion": "1.6",
+  "tipo": "mecanismo",
+  "definicion": "Proteínas mensajeras liberadas por las células inmunes que viajan por la sangre, cruzan la barrera hematoencefálica y alteran directamente la producción de neurotransmisores.",
+  "explicacion": "Las citocinas proinflamatorias actúan como mediadores humorales que alteran la plasticidad sináptica y la neurotransmisión cerebral a través de tres efectores cardinales:\n\n1. Tríada de Citocinas Proinflamatorias:\n- IL-1β (Interleucina-1 beta): Induce fiebre central y somnolencia; en el hipocampo CA1 inhibe directamente la fosforilación de CaMKII y la inserción de receptores AMPA, aboliendo la Potenciación a Largo Plazo (LTP) e impidiendo la consolidación de nuevos recuerdos.\n- IL-6 (Interleucina-6): Modulador neuroendocrino liberado en respuesta a distrés crónico y lipotoxicidad; biomarcador periférico correlacionado con atrofia hipocampal, bradipsiquia y fatiga crónica.\n- TNF-α (Factor de Necrosis Tumoral alfa): Altera la expresión de receptores AMPA carentes de GluA2, incrementa la permeabilidad de la BHE e induce apoptosis celular mediante activación de caspasas en neuroinflamación no resuelta.\n\n2. Desvío Metabólico del Triptófano (Vía IDO / Quinurenina):\nLas citocinas (especialmente IFN-γ y TNF-α) inducen potentemente la enzima Indoleamina 2,3-dioxigenasa (IDO-1) en astrocitos y microglía. Esto desvía el pool disponible de L-Triptófano lejos de la síntesis de Serotonina y Melatonina, canalizándolo hacia la ruta de la Quinurenina para producir Ácido Quinolínico (QUIN), un potente agonista del receptor NMDA que genera excitotoxicidad, estrés oxidativo y anhedonia.\n\n3. Supresión de Dopamina:\nLa neuroinflamación oxida la Tetrahidrobiopterina (BH4), cofactor limitante de la tirosina hidroxilasa, reduciendo drásticamente la síntesis basal de dopamina en el estriado.",
+  "relevancia_nootropica": "Identificación analítica (PCR ultrasensible, IL-6 plasmática) y stacks moduladores de citocinas:\n- Curcumina biodisponible (Longvida / Meriva): Inhibe la traslocación nuclear de NF-κB, suprimiendo la transcripción de TNF-α e IL-6.\n- Mediadores Pro-Resolutivos Especializados (SPMs): Favorecen activamente la fase de resolución inflamatoria sin causar inmunosupresión.\n- N-Acetilcisteína (NAC): Modula el intercambiador cistina-glutamato (sistema xc-), normaliza el glutamato extrasináptico y repone el glutatión (GSH) frente al daño inducido por ácido quinolínico.\n- EGCG (Epigalocatequina galato): Polifenol del té verde que modula la actividad de la enzima IDO y atenúa la respuesta a TNF-α.",
+  "neurotransmisores_asociados": [
+    "serotonina",
+    "dopamina",
+    "glutamato"
+  ],
+  "regiones_asociadas": [
+    "hipotálamo",
+    "hipocampo",
+    "sistémico",
+    "cuerpo estriado"
+  ]
+}
