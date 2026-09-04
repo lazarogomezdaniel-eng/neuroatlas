@@ -64,6 +64,7 @@ import vitaminaB1Json from './concepts/vitamina-b1-tiamina.json';
 import vitaminaB2Json from './concepts/vitamina-b2-riboflavina.json';
 import vitaminaB3Json from './concepts/vitamina-b3-niacina.json';
 import vitaminaB5Json from './concepts/vitamina-b5-acido-pantotenico.json';
+import vitaminaB6Json from './concepts/vitamina-b6-piridoxina.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -125,6 +126,7 @@ export const conceptos: Concepto[] = [
   vitaminaB2Json as Concepto,
   vitaminaB3Json as Concepto,
   vitaminaB5Json as Concepto,
+  vitaminaB6Json as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {

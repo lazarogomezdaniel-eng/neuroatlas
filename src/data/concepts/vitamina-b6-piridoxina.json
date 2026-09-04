@@ -1,0 +1,23 @@
+{
+  "slug": "vitamina-b6-piridoxina",
+  "titulo": "Vitamina B6 (Piridoxina / P-5-P): El cofactor maestro de los neurotransmisores",
+  "modulo": "Modulo II",
+  "seccion": "2.1",
+  "tipo": "concepto",
+  "definicion": "La vitamina B6 es el cofactor necesario para sintetizar dopamina, serotonina, GABA, noradrenalina y melatonina. Sin B6, no puedes producir ninguno de estos neurotransmisores.",
+  "explicacion": "La Vitamina B6 en su forma coenzimática biológicamente activa, el Piridoxal-5-Fosfato (P-5-P), actúa como grupo prostético dependiente de base de Schiff en más de 150 reacciones enzimáticas del metabolismo de aminoácidos y la neurotransmisión:\n\n1. Descarboxilaciones de Neurotransmisores Cardinales:\n- Aromatic L-Amino Acid Decarboxylase (AADC / DOPA Descarboxilasa): Cataliza la conversión de L-DOPA en Dopamina y de 5-HTP en Serotonina.\n- Glutamato Descarboxilasa (GAD): Cataliza la conversión limitante del neurotransmisor excitotóxico Glutamato en el neurotransmisor inhibitorio GABA.\n- Síntesis de Noradrenalina y Melatonina: Facilita las cascadas intermedias de dopamina beta-hidroxilasa y la arilalquilamina N-acetiltransferasa (AANAT).\n\n2. Vía de Transulfuración y Metabolismo de la Homocisteína:\n- La Cistationina Beta-Sintasa (CBS) y la Cistationasa requieren P-5-P para desviar la Homocisteína hacia la síntesis de Cisteína y Glutatión reducido (GSH).\n\n3. Formas Farmacológicas:\n- Piridoxina Clorhidrato (HCl): Forma sintética inactiva que requiere fosforilación por la piridoxal quinasa y oxidación hepática dependiente de riboflavina (FMN / Vitamina B2).\n- Piridoxal-5-Fosfato (P-5-P): Forma bioactiva directamente asimilable, idónea para polimorfismos enzimáticos o disfunción hepática.",
+  "relevancia_nootropica": "Cofactor obligatorio en Stacks de Precursores y Ventana Terapéutica:\n- Sinergia con Precursores Monoaminérgicos: La coadministración de L-Tirosina, NALT, L-Triptófano o 5-HTP es ineficiente sin P-5-P (ratio recomendada: 25 a 50 mg de P-5-P por cada 500-1000 mg de aminoácido precursor).\n- Alerta de Toxicidad y Neuropatía Sensorial: El consumo crónico de dosis masivas (> 200 mg/día de Piridoxina HCl durante meses) puede saturar la piridoxal quinasa e inhibir competitivamente el P-5-P intracelular, provocando neuropatía axonal sensorial periférica (parestesias y ataxia). Dosis máxima de seguridad a largo plazo: 50 a 100 mg/día de P-5-P.\n- Interacciones Farmacológicas Clásicas: Isoniazida (antimicrobiano que inactiva covalentemente la B6), anticonceptivos orales y ciclosporina.",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "serotonina",
+    "GABA",
+    "noradrenalina",
+    "melatonina"
+  ],
+  "regiones_asociadas": [
+    "todo el cerebro",
+    "cuerpo estriado",
+    "núcleos del rafe",
+    "locus coeruleus"
+  ]
+}
