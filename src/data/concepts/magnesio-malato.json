@@ -1,0 +1,20 @@
+{
+  "slug": "magnesio-malato",
+  "titulo": "Magnesio Malato: Energía, fatiga crónica y fibromialgia",
+  "modulo": "Modulo II",
+  "seccion": "2.3",
+  "tipo": "concepto",
+  "definicion": "El magnesio malato está unido al ácido málico, un intermediario del ciclo de Krebs. Es la forma de magnesio ideal para personas con fatiga crónica, fibromialgia o baja energía mitocondrial.",
+  "explicacion": "El Dimalato de Magnesio es una sal quelada orgánica compuesta por un ion de magnesio (Mg²⁺) unido a dos moléculas de ácido L-málico (ácido hidroxibutanodioico), optimizada para la bioenergética celular y el metabolismo mitocondrial:\n\n1. Intermediario Central en el Ciclo de Krebs y Fosforilación Oxidativa:\n- El malato es el sustrato directo de la enzima Malato Deshidrogenasa, que cataliza la conversión reversible de malato a oxalacetato, produciendo NADH a partir de NAD⁺.\n- Este NADH es transportado directamente al Complejo I de la cadena de transporte de electrones mitocondrial para generar el gradiente electroquímico de protones requerido para la síntesis masiva de ATP por la ATP sintasa.\n\n2. Lanzadera Malato-Aspartato:\n- El anión malato es el componente limitante de la lanzadera malato-aspartato, el sistema translocador principal que introduce los equivalentes de reducción (electrones de NADH citosólico generados en la glucólisis) al interior de la matriz mitocondrial en neuronas y tejido muscular esquelético.\n\n3. Quelación de Metales Tóxicos y Mitigación del Ácido Láctico:\n- El ácido málico posee afinidad quelante por metales pesados pro-oxidantes como el aluminio libre (implicado en neurodegeneración y disfunción lisosomal).\n- Ayuda a tamponar la acidosis láctica intramuscular inducida por hipoxia tisular relativa o sobrecarga metabólica.",
+  "relevancia_nootropica": "Aplicaciones clínicas en fatiga central, fibromialgia y optimización bioenergética:\n- Evidencia Clínica en Fibromialgia y Síndrome de Fatiga Crónica (SFC):\n  * Ensayos clínicos doble ciego demuestran que la administración combinada de magnesio y ácido málico reduce significativamente los puntos dolorosos gatillo (tender points), el dolor muscular difuso y la astenia física y cognitiva matutina.\n  * Restablece los niveles de ATP intracelular y fosfocreatina en células musculares y parénquima cerebral.\n- Rendimiento Deportivo y Claridad Mental:\n  * Estimula la producción sostenida de energía sin agotar neurotransmisores adrenérgicos.\n  * Previene la fatiga central durante sesiones prolongadas de estudio o trabajo de alta demanda ejecutiva.\n- Protocolo de Posología y Timing:\n  * Dosis Estándar: 200 a 400 mg de magnesio elemental activo (~1000 - 2000 mg de magnesio dimalato).\n  * Timing Óptimo: Toma matutina o previa al esfuerzo físico/intelectual (su efecto ergogénico mitocondrial puede interferir con el sueño si se administra inmediatamente antes de dormir).",
+  "neurotransmisores_asociados": [
+    "acetilcolina",
+    "dopamina"
+  ],
+  "regiones_asociadas": [
+    "mitocondrias",
+    "músculos",
+    "corteza cerebral",
+    "sistema nervioso central"
+  ]
+}

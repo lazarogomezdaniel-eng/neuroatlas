@@ -74,6 +74,7 @@ import introMagnesioJson from './concepts/introduccion-magnesio.json';
 import magnesioTreonatoJson from './concepts/magnesio-l-treonato.json';
 import magnesioGlicinatoJson from './concepts/magnesio-glicinato.json';
 import magnesioTauratoJson from './concepts/magnesio-taurato.json';
+import magnesioMalatoJson from './concepts/magnesio-malato.json';
 import otrosTiposMagnesioJson from './concepts/otros-tipos-magnesio.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
@@ -146,6 +147,7 @@ export const conceptos: Concepto[] = [
   magnesioTreonatoJson as Concepto,
   magnesioGlicinatoJson as Concepto,
   magnesioTauratoJson as Concepto,
+  magnesioMalatoJson as Concepto,
   otrosTiposMagnesioJson as Concepto,
 ];
 
