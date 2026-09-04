@@ -1,0 +1,21 @@
+{
+  "slug": "uridina",
+  "titulo": "Uridina: El constructor de sinapsis y receptores de dopamina",
+  "modulo": "Modulo II",
+  "seccion": "2.6",
+  "tipo": "concepto",
+  "definicion": "La uridina es un nucleótido que, junto con el DHA y la colina, promueve la formación de nuevas membranas y sinapsis, y aumenta la densidad de receptores de dopamina. Es la base del 'Mr. Happy Stack'.",
+  "explicacion": "La Uridina (1-β-D-ribofuranosiluracilo) es un nucleósido pirimidínico esencial que actúa como el intermediario limitante en la fosfolipidogénesis sináptica y la modulación de la plasticidad dendrítica central:\n\n1. La Ruta de Kennedy y la Fosfatidilcolinogénesis Sináptica:\n- En el cerebro, la uridina cruza la barrera hematoencefálica mediante transportadores de nucleósidos equilibrativos (ENT1/ENT2) y concentrativos (CNT2).\n- Una vez en el citosol neuronal, la uridina se fosforila a Uridina Monofosfato (UMP), UTP y CTP por la enzima Uridina-Citidina Quinasa (UCK2). El CTP se acopla a la fosfocolina mediante la enzima CTP:fosfocolina citidiltransferasa (PCYT1A / CT), formando CDP-Colina (Citicolina), el paso cinéticamente limitante para la síntesis de novo de Fosfatidilcolina (PC) y Fosfatidiletanolamina (PE).\n\n2. Sinaptogénesis Cuantitativa y Crecimiento de Espinas Dendríticas (El 'Mr. Happy Stack'):\n- Los estudios seminales del laboratorio del Dr. Richard Wurtman en el MIT demostraron que la administración combinada de tres precursores sinápticos —Uridina + Ácido Docosahexaenoico (DHA) + Donante de Colina— multiplica exponencialmente la síntesis de proteínas sinápticas clave (sinapsina-1, PSD-95, sintaxina-3) y el número de espinas dendríticas funcionales por neurona en el hipocampo y la corteza.\n\n3. Upregulation y Resensibilización de Receptores Dopaminérgicos D1/D2:\n- La uridina ejerce un efecto trófico directo sobre las neuronas dopaminérgicas mesolímbicas y nigroestriatales.\n- Aumenta la densidad y el acoplamiento funcional a proteínas G de los receptores dopaminérgicos D2 en el cuerpo estriado y el núcleo accumbens, revirtiendo la desensibilización y 'downregulation' provocada por el estrés crónico o el uso abusivo de estimulantes dopaminérgicos (metilfenidato, anfetaminas, agonistas).\n\n4. Señalización Purinérgica P2Y2 y Factor de Crecimiento Nervioso (NGF):\n- La uridina extracelular (fosforilada a UTP) activa los receptores metabotrópicos purinérgicos P2Y2, promoviendo la fosforilación de ERK1/2 y sinergizando con el receptor TrkA del NGF para inducir la extensión y ramificación de neuritas.",
+  "relevancia_nootropica": "Protocolos de stacking, farmacocinética y dosificación:\n- Formas Químicas Comparadas:\n  * Uridina 5'-Monofosfato (UMP / Sal Disódica): Forma estándar hidrosoluble. Puede tomarse oralmente o vía sublingual para evitar degradación hepática de primer paso.\n  * Triacetiluridina (TAU): Profármaco lipófilo acetilado con biodisponibilidad oral significativamente mayor (hasta 4-7x superior a la uridina libre).\n- Protocolo Oficial del 'Mr. Happy Stack' (Rehabilitación Dopaminérgica & Sinaptogénesis):\n  * Uridina Monofosfato (UMP): 250 a 500 mg/día (mañanas en ayunas; 150-250 mg si es sublingual).\n  * Omega-3 DHA (Ácido Docosahexaenoico): 700 a 1.000 mg de DHA elemental diario.\n  * Alpha-GPC (150-300 mg) o CDP-Colina (250 mg).\n  * Complejo B con metilfolato y metil-B12 (coenzimas necesarias para la ruta de síntesis pirimidínica de novo).\n- Cronobiología:\n  * Administrar a primera hora del día; en algunos individuos puede generar ligero sueño transitorio durante los primeros días por modulación adenosinérgica/GABAérgica, que luego se transforma en enfoque sostenido.",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "acetilcolina"
+  ],
+  "regiones_asociadas": [
+    "ganglios basales",
+    "corteza prefrontal",
+    "membranas neuronales",
+    "cuerpo estriado",
+    "hipocampo"
+  ]
+}

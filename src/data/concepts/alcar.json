@@ -1,0 +1,21 @@
+{
+  "slug": "alcar",
+  "titulo": "ALCAR (Acetil-L-Carnitina): Energía mitocondrial y donador de acetilo",
+  "modulo": "Modulo II",
+  "seccion": "2.6",
+  "tipo": "concepto",
+  "definicion": "La ALCAR transporta ácidos grasos a las mitocondrias para producir energía y dona grupos acetilo para sintetizar acetilcolina, combinando neuroenergía y soporte colinérgico.",
+  "explicacion": "La Acetil-L-Carnitina (ALCAR / éster de 2-acetiloxi-3-carboxi-N,N,N-trimetilpropan-1-aminio) es el derivado acetilado bioactivo de la L-carnitina, dotado de permeabilidad superior a través de la BHE y una función pleiotrópica neuroenergética y epigenética:\n\n1. Transporte Mitocondrial de Ácidos Grasos y Lanzadera CPT-1 / OCTN2:\n- La ALCAR cruza activamente el endotelio capilar cerebral mediante el transportador catiónico orgánico/carnitina OCTN2 (SLC22A5).\n- En la membrana mitocondrial externa, facilita la lanzadera de carnitina palmitoiltransferasa (CPT-1 y CPT-2), transportando acil-CoA grasos de cadena larga al interior de la matriz mitocondrial para su β-oxidación, generando sustratos clave para el ciclo de Krebs y la cadena de transporte de electrones (resíntesis de ATP).\n\n2. Donación de Grupos Acetilo y Síntesis de Acetilcolina (ACh):\n- A diferencia de la L-carnitina libre, la ALCAR posee un enlace éster reactivo que dona directamente su grupo acetilo a la Coenzima A mitocondrial mediante la enzima carnitina acetiltransferasa (CrAT), regenerando Acetil-CoA.\n- Este pool de Acetil-CoA citosólico y mitocondrial alimenta directamente la síntesis de Acetilcolina (ACh) mediada por la Colina Acetiltransferasa (ChAT) en las terminales colinérgicas del hipocampo y la corteza, evitando el autocanibalismo de membrana en situaciones de alta demanda atencional.\n\n3. Regulación Epigenética y Expresión de Receptores Glutamatérgicos mGluR2:\n- La ALCAR actúa como donante de grupos acetilo para la acetilación de histonas (H3K9ac y H3K27ac) en neuronas del hipocampo y la corteza prefrontal.\n- Esta modificación epigenética sobreexpresa el receptor metabotrópico de glutamato mGluR2 (GRM2), induciendo una rápida respuesta antidepresiva y ansiolítica en modelos de estrés crónico y depresión resistente al envejecimiento.\n\n4. Neuroprotección y Prevención de la Disfunción Mitocondrial:\n- Ejerce una acción barredora de especies reactivas de oxígeno (ROS), preserva la cardiolipina en la membrana mitocondrial interna y estimula la síntesis del factor de crecimiento nervioso (NGF) y sus receptores TrkA en el cerebro senescente.",
+  "relevancia_nootropica": "Dosificación nootrópica, sinergias y precauciones farmacológicas:\n- Pauta de Administración Diaria:\n  * Dosis Estándar: 500 mg a 1.500 mg/día (máximo 2.000 mg/día).\n  * Cronofarmacología: Ingerir en la primera mitad del día (mañana o mediodía), preferiblemente 30 minutos antes de las comidas o junto a carbohidratos/proteínas ligeras; puede causar insomnio de conciliación si se toma por la noche.\n- Sinergias Neuroenergéticas de Vanguardia:\n  * El 'Stack Mitocondrial Antienvejecimiento': ALCAR (500-1.000 mg) + Ácido Alfa-Lipoico (R-ALA, 100-300 mg) + CoQ10/Ubiquinol (100 mg).\n  * Stack Colinérgico Completo: ALCAR (500 mg) + Alpha-GPC (300 mg) + Huperzina A (50 mcg).\n- Precauciones Clínicas:\n  * Contraindicada o con uso monitorizado en hipotiroidismo primario no tratado (la carnitina puede inhibir la captación celular de hormonas tiroideas periféricas en dosis muy altas).",
+  "neurotransmisores_asociados": [
+    "acetilcolina",
+    "dopamina",
+    "glutamato"
+  ],
+  "regiones_asociadas": [
+    "mitocondrias",
+    "hipocampo",
+    "corteza prefrontal",
+    "núcleo basal de Meynert"
+  ]
+}

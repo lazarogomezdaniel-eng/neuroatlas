@@ -1,0 +1,21 @@
+{
+  "slug": "mct-c8-c10",
+  "titulo": "MCT (C8 y C10): El combustible alternativo (Cetonas)",
+  "modulo": "Modulo II",
+  "seccion": "2.5",
+  "tipo": "concepto",
+  "definicion": "Los triglicéridos de cadena media (MCT) son grasas que el hígado convierte directamente en cetonas, proporcionando una fuente de energía inmediata y \"limpia\" para el cerebro, saltándose la digestión normal.",
+  "explicacion": "Los Triglicéridos de Cadena Media (MCT), en particular el Ácido Octanoico (C8 / Ácido Caprílico) y el Ácido Decanoico (C10 / Ácido Cáprico), poseen una ruta metabólica digestiva y bioenergética diferenciada de los triglicéridos de cadena larga (LCT):\n\n1. Farmacocinética de Absorción Portal y Cetogénesis Hepática Rápida:\n- A diferencia de los LCT que requieren emulsificación biliar, lipólisis pancreática micelar e incorporación en quilomicrones vía sistema linfático, los ácidos grasos de cadena media se absorben pasivamente a través de la mucosa entérica directamente hacia la vena porta.\n- En los hepatocitos, cruzan la membrana mitocondrial sin requerir la lanzadera de carnitina palmitoiltransferasa-1 (CPT-1), experimentando una beta-oxidación masiva que satura la capacidad del ciclo de Krebs y desvía el exceso de acetil-CoA hacia la síntesis rápida de cuerpos cetónicos: Acetoacetato y D-beta-Hidroxibutirato (beta-HB).\n\n2. Cuerpos Cetónicos como Sustrato Neuronal y Rescate en Hipometabolismo Glucídico:\n- El beta-HB cruza la barrera hematoencefálica mediante transportadores de monocarboxilato (MCT1 en células endoteliales y MCT2 en neuronas).\n- En estados de hipometabolismo glucídico cerebral (neurodegeneración precoz, resistencia a la insulina central o Alzheimer / \"Diabetes Tipo 3\"), los cuerpos cetónicos aportan hasta el 60-70% de los requerimientos de ATP neuronal, restaurando el potencial de membrana sin depender de la señalización insulínica.\n\n3. Bioenergética Mitocondrial Limpia y Modulación GABAérgica:\n- La combustión de beta-HB genera una mayor relación ATP/oxígeno consumido (cociente P/O) que la glucólisis, disminuyendo la fuga de electrones en el Complejo I y la producción de especies reactivas de oxígeno (ROS).\n- Modula el balance neuroquímico: desvía el metabolismo del glutamato hacia la síntesis de GABA mediante la activación de la glutamato descarboxilasa, atenuando la hiperexcitabilidad cortical.",
+  "relevancia_nootropica": "Criterios de selección de fracciones moleculares, protocolos de dosificación y stacks:\n- Jerarquía de Fracciones C8 vs C10 vs C12:\n  * C8 Puro (Ácido Caprílico): Máximo rendimiento cetogénico. Eleva las concentraciones plasmáticas de beta-HB en sangre periférica en menos de 15-30 minutos de forma dosis-dependiente (3 veces más cetogénico que C10).\n  * C10 (Ácido Cáprico): Cetogénesis moderada combinada con modulación del microbioma entérico.\n  * C12 (Ácido Láurico): Se metaboliza predominantemente como grasa de cadena larga periférica sin cetogénesis rápida.\n- Protocolos Nootrópicos de Administración:\n  * Stack Matutino de Energía y Foco: 10 a 15 ml (1 cucharada sopera) de aceite C8 puro emulsionado en café o té verde con polifenoles.\n  * Protocolo de Titulación Digestiva: Iniciar con 5 ml (1 cucharadita) durante 3-5 días para permitir la adaptación enzimática entérica y evitar cólicos o diarrea osmótica aguda.\n  * Formato en Polvo (C8 Microencapsulado en fibra soluble / acacia): Mayor tolerabilidad gástrica para usuarios con sensibilidad digestiva.",
+  "neurotransmisores_asociados": [
+    "GABA",
+    "glutamato",
+    "acetilcolina"
+  ],
+  "regiones_asociadas": [
+    "mitocondrias cerebrales",
+    "barrera hematoencefálica",
+    "corteza cerebral",
+    "hipocampo"
+  ]
+}

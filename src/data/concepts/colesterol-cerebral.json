@@ -1,0 +1,22 @@
+{
+  "slug": "colesterol-cerebral",
+  "titulo": "Colesterol Cerebral: El mito de que es \"malo\" para la mente",
+  "modulo": "Modulo II",
+  "seccion": "2.5",
+  "tipo": "concepto",
+  "definicion": "El cerebro contiene el 25% de todo el colesterol del cuerpo. Es absolutamente esencial para la formación de sinapsis, la vaina de mielina y la síntesis de neuroesteroides. Las estatinas pueden causar niebla mental.",
+  "explicacion": "El cerebro humano alberga aproximadamente el 25% del colesterol total del organismo a pesar de representar solo el 2% del peso corporal, operando en un compartimento metabólico completamente autónomo e impermeabilizado del colesterol sistémico:\n\n1. Autonomía Metabólica y Barrera Hematoencefálica (BHE):\n- El colesterol plasmático unido a lipoproteínas (LDL/HDL) no puede cruzar la BHE intacta. Prácticamente el 100% del colesterol cerebral se sintetiza de novo in situ.\n- Acoplamiento Metabólico Astrocito-Neurona: Los astrocitos son las fábricas metabólicas primarias de colesterol en el SNC. Sintetizan colesterol vía HMG-CoA reductasa y lo secretan acoplado a partículas lipoproteicas similares a HDL enriquecidas con Apolipoproteína E (APOE). Las neuronas captan este complejo lipídico mediante receptores LDLR y LRP1 para sinaptogénesis y plasticidad.\n\n2. Funciones Estructurales en Sinaptogénesis y Balsas Lipídicas:\n- Fusión Vesicular y Exocitosis: El colesterol interactúa directamente con el complejo proteico SNARE (Sintaxina-1, SNAP-25, Sinaptobrevina), aportando la curvatura y rigidez requeridas para la fusión rápida de las vesículas sinápticas y la liberación cuántica de neurotransmisores.\n- Mielinización Axonal: El colesterol representa más del 70-80% de los lípidos de la vaina de mielina madura producida por oligodendrocitos, actuando como aislante dieléctrico indispensable para la conducción saltatoria.\n\n3. Precursor de Neuroesteroides y Farmacología de Estatinas:\n- Es el sustrato esteroidogénico inicial para la síntesis intracerebral de neuroesteroides moduladores como Pregnenolona, DHEA y Alopregnanolona (potente modulador alostérico positivo de receptores GABA-A).\n- Impacto de Estatinas Lipofílicas: Fármacos inhibidores de HMG-CoA reductasa lipofílicos (ej. Atorvastatina, Simvastatina) cruzan la BHE e inhiben la síntesis de colesterol glial y la vía del mevalonato, provocando depleción de Coenzima Q10 (Ubiquinona) y dolicoles mitocondriales. Esto precipita efectos adversos cognitivos reconocidos (niebla mental, amnesia anterógrada transitoria y fatigabilidad ejecutiva).",
+  "relevancia_nootropica": "Consideraciones en bioenergética mitocondrial, estatinas y salud cognitiva:\n- Mitigación de la Disfunción Cognitiva Inducida por Estatinas: En pacientes bajo tratamiento con estatinas, es indispensable coadministrar Ubiquinol (CoQ10 reducida activa) a dosis de 100 a 200 mg/día para restaurar la fosforilación oxidativa en el Complejo I/II de la cadena de transporte de electrones y neutralizar la lipotoxicidad mitocondrial.\n- Riesgos de Dietas Ultra-Bajas en Grasas: La restricción lipídica extrema y el déficit de micronutrientes precursores (zinc, magnesio, B5) deprimen la síntesis de neuroesteroides, correlacionando con labilidad afectiva, anhedonia, pérdida de libido y resistencia al estrés.\n- Biomarcador APOE: Individuos portadores del alelo APOE epsilon4 presentan un transporte alterado de colesterol cerebral y mayor vulnerabilidad al estrés oxidativo, requiriendo un enfoque estricto en ácidos grasos omega-3 preformados (DHA) y antioxidantes lipofílicos.",
+  "neurotransmisores_asociados": [
+    "GABA",
+    "acetilcolina",
+    "glutamato"
+  ],
+  "regiones_asociadas": [
+    "sinapsis",
+    "vaina de mielina",
+    "astrocitos",
+    "oligodendrocitos",
+    "corteza cerebral"
+  ]
+}

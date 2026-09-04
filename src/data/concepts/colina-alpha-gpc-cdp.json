@@ -1,0 +1,20 @@
+{
+  "slug": "colina-alpha-gpc-cdp",
+  "titulo": "Colina, Alpha-GPC y CDP-Colina: El combustible de la acetilcolina",
+  "modulo": "Modulo II",
+  "seccion": "2.6",
+  "tipo": "concepto",
+  "definicion": "La colina es el precursor directo de la acetilcolina, el neurotransmisor del aprendizaje. Las fuentes concentradas (Alpha-GPC, CDP-Colina) son la base de casi todos los stacks nootrópicos.",
+  "explicacion": "La colina (2-hidroxietil-trimetilamonio) es un nutriente esencial y catión cuaternario indispensable para la integridad estructural de las membranas neuronales y la neurotransmisión colinérgica central:\n\n1. Biosíntesis Colinérgica y la Enzima ChAT:\n- La síntesis de Acetilcolina (ACh) en las terminales presinápticas depende de la enzima Colina Acetiltransferasa (ChAT), que transfiere un grupo acetilo del Acetil-CoA (de origen mitocondrial) a la colina libre captada por el transportador de colina de alta afinidad (CHT1 / SLC5A7).\n- Cuando la demanda colinérgica se dispara (mediante racetams, inhibidores de la acetilcolinesterasa o alta carga atencional) en ausencia de colina suficiente, la neurona experimenta 'autocanibalismo de membrana': hidroliza la fosfatidilcolina de su propia bicapa lipídica para extraer colina libre, precipitando cefaleas tensionales y fatiga sináptica.\n\n2. Farmacocinética Comparativa de Donantes de Colina:\n- Bitartrato / Citrato de Colina: Biodisponibilidad cerebral mínima (<10-15%). La mayor parte se metaboliza periféricamente en hígado o se transforma en trimetilamina (TMA) por la microbiota intestinal, con escaso impacto en el parénquima cerebral.\n- L-Alfa-Glicerilfosforilcolina (Alpha-GPC, ~40% colina elemental en peso): Cruza con alta afinidad la BHE. Se convierte de forma directa y rápida en ACh en hipocampo y corteza prefrontal, promoviendo además la secreción pulsátil de la hormona del crecimiento (GH) en respuesta al ejercicio.\n- Citicolina (CDP-Colina / Citidina 5'-difosfocolina, ~18.5% colina en peso): Intermediario fisiológico de la ruta de Kennedy para la síntesis de novo de fosfatidilcolina. Tras la absorción, se disocia en colina y citidina libre; la citidina cruza la BHE y se fosforila a Uridina trifosfato (UTP) y CDP, estimulando la densidad de receptores dopaminérgicos D2/D3 y la fosfolipidogénesis.\n\n3. Ruta de Kennedy y Densidad Sináptica (El 'Mr. Happy Stack'):\n- La administración coordinada de CDP-Colina + DHA (Omega-3) + Uridina potencia la síntesis de novo de fosfátidos de membrana y espinas dendríticas sinápticas, optimizando la plasticidad estructural y la LTP a largo plazo.",
+  "relevancia_nootropica": "Directrices de dosificación, stacking y consideraciones de seguridad:\n- Selección de Donante según Objetivo Neuroquímico:\n  * Para Potenciación Aguda / Memoria / Pre-Entrenamiento: Alpha-GPC en dosis de 300 a 600 mg (1-2 horas antes de la demanda atencional).\n  * Para Neuroprotección / Dopamina / Recuperación Vascular: CDP-Colina en dosis de 250 a 500 mg/día por la mañana.\n- Prevención de 'Racetam Headaches':\n  * Todo stack modulador de AMPA/ACh (Piracetam, Aniracetam, Phenylpiracetam, Noopept) debe respaldarse con 150-300 mg de Alpha-GPC o 250 mg de CDP-Colina para mantener saturado el transportador CHT1.\n- Regulación Colinérgica y Síntomas de Exceso:\n  * Dosis excesivas o predisposición genética pueden causar 'depresión colinérgica' (letargo, rigidez muscular en mandíbula/cuello, anhedonia e irritabilidad). Se revierte reduciendo la frecuencia o añadiendo moduladores dopaminérgicos.",
+  "neurotransmisores_asociados": [
+    "acetilcolina",
+    "dopamina"
+  ],
+  "regiones_asociadas": [
+    "hipocampo",
+    "corteza prefrontal",
+    "corteza cerebral",
+    "núcleo basal de Meynert"
+  ]
+}

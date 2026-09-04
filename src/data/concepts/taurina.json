@@ -1,0 +1,22 @@
+{
+  "slug": "taurina",
+  "titulo": "Taurina: El aminoácido calmante y cardioprotector",
+  "modulo": "Modulo II",
+  "seccion": "2.6",
+  "tipo": "concepto",
+  "definicion": "La taurina es el aminoácido más abundante en el cerebro y el corazón. Actúa como un neuromodulador inhibitorio (similar al GABA), protegiendo contra la excitotoxicidad y regulando el ritmo cardíaco.",
+  "explicacion": "La Taurina (ácido 2-aminoetanosulfónico) es un aminoácido sulfónico no proteaginoso derivado biosintéticamente de la L-cisteína y la L-metionina, concentrado en milimolares en tejidos excitables electrogénicos:\n\n1. Neurotransmisión Inhibitoria Dual (Receptores GABA-A y Glicina):\n- La taurina actúa como un agonista parcial o modulador alostérico positivo de los receptores ionotrópicos GABA-A y de los receptores de Glicina (GlyR) en el hipocampo, el tálamo y la corteza.\n- Al facilitar la entrada de cloruro (Cl⁻), hiperpolariza la membrana postsináptica, elevando el umbral de excitabilidad neuronal y ejerciendo efectos ansiolíticos, miorrelajantes y anticonvulsivantes intrínsecos sin provocar la pérdida de reflejos o la tolerancia rápida típica de los agonistas completos sintéticos.\n\n2. Freno Fisiológico de la Excitotoxicidad Glutamatérgica (Canales NMDA / Ca²⁺):\n- Durante periodos de hipoxia, isquemia o sobreestimulación sináptica, la taurina se libera masivamente al espacio extracelular como mecanismo neuroprotector endógeno.\n- Bloquea selectivamente la sobreactivación de los receptores NMDA y modula la bomba de calcio Ca²⁺-ATPasa del retículo sarcoplásmico y la mitocondria, impidiendo el colapso del potencial transmembrana mitocondrial y la cascada apoptótica dependiente de caspasas.\n\n3. Osmorregulación Cerebral y Estabilización de Membrana:\n- Como el osmolito orgánico citoprotector primario del sistema nervioso central, la taurina regula el volumen celular frente a fluctuaciones osmolares plasmáticas mediante el cotransportador activo de taurina acoplado a Na⁺/Cl⁻ (TauT / SLC6A6).\n- Estabiliza la bicapa lipídica frente a la peroxidación y neutraliza el ácido hipocloroso citotóxico (HOCl) generado por neutrófilos y microglía mediante la formación de Taurina-cloramina (TauCl), un potente modulador antiinflamatorio.\n\n4. Homeostasis Mitocondrial y Longevidad Celular:\n- La taurina se incorpora en el ARN de transferencia mitocondrial (tRNA-Leu-UUR) como 5-taurinometiluridina, indispensable para la traducción de proteínas que conforman el complejo I de la cadena de transporte de electrones. Su depleción con la edad acelera la senescencia mitocondrial y la atrofia del parénquima cerebral.",
+  "relevancia_nootropica": "Pautas posológicas, sinergias cardioneuronales y seguridad:\n- Modulación de la Excitabilidad y Estrés Vespertino:\n  * Dosis Estándar: 500 mg a 3.000 mg/día.\n  * Para Calma y Conciliación del Sueño: 1.000 a 2.000 mg 30-60 minutos antes de dormir, sinérgico con Magnesio Glicinato y L-Teanina.\n- Mitigación de Efectos Secundarios de Estimulantes:\n  * Coadministrada con cafeína o dopaminérgicos, la taurina previene la taquicardia refleja, las palpitaciones y la vasoconstricción periférica, estabilizando el gasto cardíaco y la perfusión cerebral.\n- Farmacocinética y Seguridad:\n  * Biodisponibilidad oral excelente (>90%); cruza la BHE a través de SLC6A6.\n  * Perfil de seguridad sobresaliente (ensayos clínicos reportan inocuidad en dosis de hasta 3-6 g/día de forma crónica).",
+  "neurotransmisores_asociados": [
+    "GABA",
+    "glutamato",
+    "glicina"
+  ],
+  "regiones_asociadas": [
+    "corteza cerebral",
+    "hipocampo",
+    "tálamo",
+    "retina",
+    "músculo cardíaco"
+  ]
+}

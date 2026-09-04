@@ -34,7 +34,7 @@ import {
         </span>
         <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
           <Layers className="w-3.5 h-3.5 text-emerald-400" />
-          15 CONCEPTOS
+          42 MONOGRAFÍAS
         </span>
         <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
           <Award className="w-3.5 h-3.5 text-secondary" />
@@ -190,7 +190,7 @@ import {
             <span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 font-mono text-xs font-bold">2.2</span>
             <h3 class="text-lg font-bold text-text-primary">Sección 2.2 — Antioxidantes & Cofactores Esenciales</h3>
           </div>
-          <span class="text-xs font-mono text-text-muted">EN PROCESO</span>
+          <span class="text-xs font-mono text-text-muted">3 MONOGRAFÍAS</span>
         </div>
         <p class="text-xs text-text-secondary italic">Protección redox neuronal y biosíntesis de catecolaminas.</p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
@@ -281,7 +281,7 @@ import {
             <span class="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-400 font-mono text-xs font-bold">2.4</span>
             <h3 class="text-lg font-bold text-text-primary">Sección 2.4 — Minerales Traza & Electrolitos</h3>
           </div>
-          <span class="text-xs font-mono text-text-muted">EN PROCESO</span>
+          <span class="text-xs font-mono text-text-muted">6 MONOGRAFÍAS</span>
         </div>
         <p class="text-xs text-text-secondary italic">Modulación alostérica sináptica y balance de metaloenzimas.</p>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
@@ -299,12 +299,201 @@ import {
             </div>
             <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-cyan-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
           </a>
-          <a href="/conceptos/hierro-ferritina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-cyan-500/50 hover:bg-surface-container transition-all group flex items-center justify-between md:col-span-2">
+          <a href="/conceptos/hierro-ferritina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-cyan-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
             <div>
               <div class="text-xs font-semibold text-text-primary group-hover:text-cyan-400 transition-colors">Hierro y Ferritina Sérica</div>
-              <div class="text-[11px] text-text-muted italic">Cofactor limitante de tirosina hidroxilasa (dopamina) y niebla mental</div>
+              <div class="text-[11px] text-text-muted italic">Cofactor de tirosina hidroxilasa y niebla mental</div>
             </div>
             <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-cyan-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/selenio" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-cyan-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-cyan-400 transition-colors">Selenio (Selenoproteínas)</div>
+              <div class="text-[11px] text-text-muted italic">Glutatión peroxidasa (GPx4 / anti-ferroptosis) y deiodinasas T4→T3</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-cyan-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/yodo" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-cyan-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-cyan-400 transition-colors">Yodo (Ioduro)</div>
+              <div class="text-[11px] text-text-muted italic">Sustrato tiroideo (T3/T4), neurodesarrollo y prevención de bocio</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-cyan-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/electrolitos-sodio-potasio" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-cyan-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-cyan-400 transition-colors">Electrolitos y Bomba Na⁺/K⁺</div>
+              <div class="text-[11px] text-text-muted italic">Potencial de acción, coste bioenergético (20-40% ATP) y osmolaridad</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-cyan-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Sección 2.5 -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-teal-500/20 text-teal-400 font-mono text-xs font-bold">2.5</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 2.5 — Lípidos Estructurales & Ácidos Grasos</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">4 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Arquitectura de membranas neuronales, fluidez sináptica y mediadores pro-resolutivos.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/omega-3-epa-dha" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-teal-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-teal-400 transition-colors">Omega-3 (EPA y DHA)</div>
+              <div class="text-[11px] text-text-muted italic">Arquitectos de la fluidez sináptica, balsas lipídicas y estado de ánimo</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-teal-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/fosfolipidos" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-teal-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-teal-400 transition-colors">Fosfolípidos (PS y PC)</div>
+              <div class="text-[11px] text-text-muted italic">Fluidez de membrana, modulación del cortisol y reserva colinérgica</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-teal-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/colesterol-cerebral" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-teal-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-teal-400 transition-colors">Colesterol Cerebral</div>
+              <div class="text-[11px] text-text-muted italic">25% del colesterol corporal: sinapsis, mielina y estatinas</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-teal-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/mct-c8-c10" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-teal-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-teal-400 transition-colors">MCT (C8 y C10)</div>
+              <div class="text-[11px] text-text-muted italic">Combustible alternativo de cetonas (β-HB) y rescate energético</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-teal-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Sección 2.6 -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-rose-500/20 text-rose-400 font-mono text-xs font-bold">2.6</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 2.6 — Aminoácidos & Precursores Bioenergéticos</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">10 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Reserva de fosfágenos, precursores catecolaminérgicos, donantes colinérgicos, sinaptogénesis y plasticidad dopaminérgica.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/creatina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-rose-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-rose-400 transition-colors">Creatina Monohidratada (Fosfocreatina)</div>
+              <div class="text-[11px] text-text-muted italic">Batería de ATP cerebral, privación de sueño, cognición y neuroprotección</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-rose-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/colina-alpha-gpc-cdp" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-rose-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-rose-400 transition-colors">Colina (Alpha-GPC & CDP-Colina)</div>
+              <div class="text-[11px] text-text-muted italic">Combustible de la acetilcolina, ruta de Kennedy y prevención de cefaleas</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-rose-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/l-tirosina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-rose-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-rose-400 transition-colors">L-Tirosina</div>
+              <div class="text-[11px] text-text-muted italic">Precursor de catecolaminas (dopamina/noradrenalina), resistencia al estrés agudo y frío</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-rose-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/l-triptofano-5-htp" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-rose-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-rose-400 transition-colors">L-Triptófano y 5-HTP</div>
+              <div class="text-[11px] text-text-muted italic">Precursores de serotonina y melatonina, vía quinurenina y seguridad</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-rose-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/l-teanina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-rose-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-rose-400 transition-colors">L-Teanina (Suntheanine®)</div>
+              <div class="text-[11px] text-text-muted italic">Inducción de ondas cerebrales alfa (8-13 Hz), calma alerta y stack sinérgico 1:2 con cafeína</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-rose-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/taurina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-rose-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-rose-400 transition-colors">Taurina</div>
+              <div class="text-[11px] text-text-muted italic">Neuromodulador GABAérgico/glicinérgico, freno a la excitotoxicidad y osmorregulación</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-rose-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/nac-n-acetil-cisteina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-rose-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-rose-400 transition-colors">NAC (N-Acetil-L-Cisteína)</div>
+              <div class="text-[11px] text-text-muted italic">Precursor de glutatión (GSH), sistema xc⁻ astrocitario, adicciones y TOC</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-rose-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/alcar" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-rose-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-rose-400 transition-colors">ALCAR (Acetil-L-Carnitina)</div>
+              <div class="text-[11px] text-text-muted italic">Energía mitocondrial, transporte de ácidos grasos, donador de acetilo para ACh y mGluR2</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-rose-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/agmatina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-rose-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-rose-400 transition-colors">Agmatina Sulfato</div>
+              <div class="text-[11px] text-text-muted italic">Antagonista NMDA, inhibición de nNOS/iNOS, receptores de imidazolina y prevención de tolerancia</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-rose-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/uridina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-rose-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-rose-400 transition-colors">Uridina (UMP / TAU)</div>
+              <div class="text-[11px] text-text-muted italic">Sinaptogénesis, densidad de receptores D1/D2 y pilar del "Mr. Happy Stack"</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-rose-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Sección 2.7 -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-orange-500/20 text-orange-400 font-mono text-xs font-bold">2.7</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 2.7 — Red Antioxidante & Neuroprotección Mitocondrial</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">4 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Defensa redox en cascada, reciclaje de electrones (Circuito de Packer) y activación Nrf2/ARE.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/introduccion-antioxidantes" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-orange-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-orange-400 transition-colors">Introducción a los Antioxidantes Cerebrales</div>
+              <div class="text-[11px] text-text-muted italic">Vulnerabilidad del SNC al estrés oxidativo, circuito de reciclaje redox y activación Nrf2</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-orange-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/glutation" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-orange-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-orange-400 transition-colors">Glutatión (GSH / Liposomal)</div>
+              <div class="text-[11px] text-text-muted italic">Antioxidante maestro intracelular, desintoxicación fase II y ratio GSH:GSSG</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-orange-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/astaxantina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-orange-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-orange-400 transition-colors">Astaxantina (Haematococcus pluvialis)</div>
+              <div class="text-[11px] text-text-muted italic">Carotenoide transmembrana bipolar, permeabilidad BHE/retiniana y protección mitocondrial</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-orange-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/curcumina-longvida" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-orange-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-orange-400 transition-colors">Curcumina (Longvida® SLCP)</div>
+              <div class="text-[11px] text-text-muted italic">Inducción de BDNF, modulación NF-κB, cruce de BHE y neuroprotección amiloide</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-orange-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
           </a>
         </div>
       </div>
@@ -375,7 +564,7 @@ import {
         </a>
         <div class="p-3.5 rounded-biotech border border-emerald-500/40 bg-emerald-500/10 flex items-center justify-between">
           <span class="text-text-primary font-bold">Módulo II: Nutrición Cerebral</span>
-          <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-[10px] font-bold uppercase">🟡 En desarrollo</span>
+          <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-[10px] font-bold uppercase">✅ Completo</span>
         </div>
         <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
           <span>Módulo III: Farmacología Sintética</span>

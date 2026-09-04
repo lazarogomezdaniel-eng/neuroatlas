@@ -86,6 +86,33 @@ import otrosTiposMagnesioJson from './concepts/otros-tipos-magnesio.json';
 import zincJson from './concepts/zinc.json';
 import litioOrotatoJson from './concepts/litio-orotato.json';
 import hierroFerritinaJson from './concepts/hierro-ferritina.json';
+import selenioJson from './concepts/selenio.json';
+import yodoJson from './concepts/yodo.json';
+import electrolitosSodioPotasioJson from './concepts/electrolitos-sodio-potasio.json';
+
+// 2.5 Lípidos Estructurales & Ácidos Grasos
+import omega3EpaDhaJson from './concepts/omega-3-epa-dha.json';
+import fosfolipidosJson from './concepts/fosfolipidos.json';
+import colesterolCerebralJson from './concepts/colesterol-cerebral.json';
+import mctC8C10Json from './concepts/mct-c8-c10.json';
+
+// 2.6 Aminoácidos y Péptidos Bioenergéticos
+import creatinaJson from './concepts/creatina.json';
+import colinaAlphaGpcCdpJson from './concepts/colina-alpha-gpc-cdp.json';
+import lTirosinaJson from './concepts/l-tirosina.json';
+import lTriptofano5HtpJson from './concepts/l-triptofano-5-htp.json';
+import lTeaninaJson from './concepts/l-teanina.json';
+import taurinaJson from './concepts/taurina.json';
+import nacNAcetilCisteinaJson from './concepts/nac-n-acetil-cisteina.json';
+import alcarJson from './concepts/alcar.json';
+import agmatinaJson from './concepts/agmatina.json';
+import uridinaJson from './concepts/uridina.json';
+
+// 2.7 Red Antioxidante & Neuroprotección Mitocondrial
+import introduccionAntioxidantesJson from './concepts/introduccion-antioxidantes.json';
+import glutationJson from './concepts/glutation.json';
+import astaxantinaJson from './concepts/astaxantina.json';
+import curcuminaLongvidaJson from './concepts/curcumina-longvida.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -169,6 +196,33 @@ export const conceptos: Concepto[] = [
   zincJson as Concepto,
   litioOrotatoJson as Concepto,
   hierroFerritinaJson as Concepto,
+  selenioJson as Concepto,
+  yodoJson as Concepto,
+  electrolitosSodioPotasioJson as Concepto,
+
+  // 2.5 Lípidos Estructurales & Ácidos Grasos
+  omega3EpaDhaJson as Concepto,
+  fosfolipidosJson as Concepto,
+  colesterolCerebralJson as Concepto,
+  mctC8C10Json as Concepto,
+
+  // 2.6 Aminoácidos y Péptidos Bioenergéticos
+  creatinaJson as Concepto,
+  colinaAlphaGpcCdpJson as Concepto,
+  lTirosinaJson as Concepto,
+  lTriptofano5HtpJson as Concepto,
+  lTeaninaJson as Concepto,
+  taurinaJson as Concepto,
+  nacNAcetilCisteinaJson as Concepto,
+  alcarJson as Concepto,
+  agmatinaJson as Concepto,
+  uridinaJson as Concepto,
+
+  // 2.7 Red Antioxidante & Neuroprotección Mitocondrial
+  introduccionAntioxidantesJson as Concepto,
+  glutationJson as Concepto,
+  astaxantinaJson as Concepto,
+  curcuminaLongvidaJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {

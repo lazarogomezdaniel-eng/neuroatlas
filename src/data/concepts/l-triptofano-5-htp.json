@@ -1,0 +1,21 @@
+{
+  "slug": "l-triptofano-5-htp",
+  "titulo": "L-Triptófano y 5-HTP: Los precursores de la serotonina",
+  "modulo": "Modulo II",
+  "seccion": "2.6",
+  "tipo": "concepto",
+  "definicion": "El triptófano y su metabolito 5-HTP son los precursores de la serotonina y la melatonina. Su uso requiere precaución por la vía de la quinurenina y el riesgo de síndrome serotoninérgico.",
+  "explicacion": "El L-Triptófano (aminoácido indol aromático esencial) es el sustrato inicial para la síntesis de 5-hidroxitriptamina (Serotonina / 5-HT) y N-acetil-5-metoxitriptamina (Melatonina), sujeto a una bifurcación metabólica crítica mediada por el estado inflamatorio sistémico:\n\n1. Cascada Enzimática Serotoninérgica Central:\n- L-Triptófano → (Triptófano Hidroxilasa 2 / TPH2 + Tetrahidrobiopterina BH4 + Hierro + Oxígeno) → 5-Hidroxitriptófano (5-HTP) → (Descarboxilasa de L-aminoácidos aromáticos / AADC + Vitamina B6 / P-5-P) → Serotonina (5-HT) → (AANAT + ASMT + SAMe) → Melatonina en la glándula pineal.\n- TPH2 en los Núcleos del Rafe: La enzima TPH2 es la etapa limitante de la síntesis cerebral. El triptófano compite con otros aminoácidos neutros grandes (tirosina, fenilalanina, leucina, isoleucina, valina) por el transportador LAT1 en la BHE, por lo que una comida rica en carbohidratos simples (vía pico de insulina y captación muscular de BCAA) eleva paradójicamente el ratio triptófano/LNAA facilitando su entrada al SNC.\n\n2. La Bifurcación Inflamatoria: Vía de la Indolamina 2,3-Dioxigenasa (IDO-1 / Quinurenina):\n- En condiciones basales, más del 95% del triptófano dietético se metaboliza en el hígado por la TDO y en células inmunes/microglía por la IDO-1 hacia la vía de la Quinurenina.\n- En estados de neuroinflamación (citocinas IFN-γ, TNF-α, IL-6 elevadas), la IDO-1 se hiperactiva, desviando el triptófano lejos de la síntesis de serotonina y dirigiéndolo hacia la producción de Ácido Quinolínico (QA), un potente agonista excitotóxico del receptor NMDA y generador de especies reactivas de oxígeno. Por tanto, suplementar triptófano libre en pacientes con inflamación sistémica crónica sin resolver puede amplificar la neurotoxicidad.\n\n3. Farmacocinética Comparada: L-Triptófano vs. 5-HTP:\n- 5-Hidroxitriptófano (5-HTP): Se extrae de las semillas de Griffonia simplicifolia. Cruza libremente la BHE sin competir por el transportador LAT1 y no se desvía por la enzima IDO hacia quinureninas, convirtiéndose directamente en serotonina mediante la AADC. Sin embargo, su conversión periférica rápida puede elevar la serotonina gastrointestinal y cardiovascular si no se acompaña de cofactores adecuados.",
+  "relevancia_nootropica": "Posología, cronobiología y alertas toxicológicas críticas:\n- Dosificación Terapéutica y Timing:\n  * L-Triptófano: 500 mg a 1.500 mg administrado 45-60 minutos antes de acostarse (óptimo con un carbohidrato de rápida absorción para optimizar el ratio LAT1).\n  * 5-HTP: 50 mg a 200 mg nocturnos (iniciar siempre en 50 mg para evaluar tolerancia gastrointestinal).\n- ⚠️ ALERTA CLÍNICA CRÍTICA — Síndrome Serotoninérgico:\n  * NUNCA coadministrar 5-HTP o L-Triptófano con Fármacos Inhibidores Selectivos de la Recaptación de Serotonina (ISRS: fluoxetina, sertralina, escitalopram), IRSN (venlafaxina, duloxetina), Tricíclicos, IMAOs o fitofármacos como Hypericum perforatum (Hierba de San Juan).\n  * La sobreestimulación masiva de receptores 5-HT1A y 5-HT2A puede desencadenar clonus, hipertermia maligna, rigidez neuromuscular y colapso cardiovascular potencialmente fatal.\n- Sinergia de Reparación del Ritmo Circadiano:\n  * 5-HTP (100 mg) + Magnesio Glicinato (200 mg de magnesio elemental) + Vitamina B6 en forma activa P-5-P (10 mg) + Apigenina (50 mg).",
+  "neurotransmisores_asociados": [
+    "serotonina",
+    "melatonina"
+  ],
+  "regiones_asociadas": [
+    "núcleos del rafe",
+    "glándula pineal",
+    "intestino",
+    "amígdala",
+    "corteza prefrontal"
+  ]
+}

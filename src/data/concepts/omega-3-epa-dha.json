@@ -1,0 +1,22 @@
+{
+  "slug": "omega-3-epa-dha",
+  "titulo": "Omega-3 (EPA y DHA): Los arquitectos del cerebro",
+  "modulo": "Modulo II",
+  "seccion": "2.5",
+  "tipo": "concepto",
+  "definicion": "El DHA es el bloque estructural de las membranas neuronales y la retina, mientras que el EPA es el principal antiinflamatorio sistémico. Su balance es crítico para la fluidez sináptica y el estado de ánimo.",
+  "explicacion": "Los ácidos grasos poliinsaturados de cadena muy larga (LC-PUFAs) Omega-3, principalmente el Ácido Docosahexaenoico (DHA, 22:6n-3) y el Ácido Eicosapentaenoico (EPA, 20:5n-3), cumplen funciones biológicas disociadas y complementarias en la neurobiología central:\n\n1. DHA: Arquitectura Biofísica y Fluidez de Membrana:\n- Representa >90% de los ácidos grasos omega-3 y entre el 10-20% de los lípidos totales en la materia gris y las sinapsis neuronales.\n- Confección de Balsas Lipídicas (Lipid Rafts): Sus 6 dobles enlaces en conformación cis le otorgan una altísima flexibilidad conformacional, modulando la curvatura de la bicapa lipídica, facilitando la exocitosis vesicular y optimizando la conformación tridimensional de receptores acoplados a proteínas G (GPCRs) como los receptores serotoninérgicos (5-HT1A) y dopaminérgicos (D2).\n- Síntesis de Neuroprotectina D1 (NPD1): En respuesta a daño oxidativo o isquémico, el DHA se convierte enzimáticamente en NPD1, un mediador pro-resolutivo que suprime la transcripción apoptótica inducida por caspasas y citocinas inflamatorias.\n\n2. EPA: Modulación Inmuno-Neuroendocrina y Estado de Ánimo:\n- Aunque sus concentraciones parénquimatosas basales son bajas debido a su rápida beta-oxidación e hidrólisis, el EPA compite activamente con el ácido araquidónico (ARA, 20:4n-6) por la enzima Fosfolipasa A2 (PLA2) y las vías de la Ciclooxigenasa (COX) y Lipoxigenasa (LOX).\n- Desplaza la síntesis de eicosanoides pro-inflamatorios (prostaglandinas serie 2 y leucotrienos serie 4) hacia resolvinas serie E (RvE1, RvE2), disminuyendo drásticamente la neuroinflamación sistémica y las concentraciones plasmáticas de IL-6, TNF-alfa e IFN-gamma.\n- Meta-análisis clínicos en depresión mayor demuestran que las formulaciones con ratio EPA:DHA ≥ 2:1 (con al menos 1000 mg/día de EPA puro) poseen eficacia terapéutica antidepresiva estadísticamente superior a formulaciones con predominio de DHA.\n\n3. Ineficiencia Biológica de la Conversión desde ALA Vegetal:\n- El Ácido Alfa-Linolénico (ALA, 18:3n-3) requiere las enzimas desaturasas Delta-6 y Delta-5 y elongasas para sintetizar EPA y DHA. En humanos adultos, la tasa de bioconversión a EPA es <5% y a DHA es <0.5%, viéndose aún más inhibida por el exceso de omega-6 dietético. Por tanto, el aporte preformado directo de fuentes marinas (pescado salvaje, krill) o algas (Schizochytrium) es esencial.",
+  "relevancia_nootropica": "Criterios de pureza, estándares de oxidación y posología:\n- Parámetros de Calidad y Prevención de Peroxidación: El aceite de pescado oxidado genera hidroperóxidos lipídicos proinflamatorios citotóxicos. Es imperativo exigir certificación IFOS™ 5 Estrellas (International Fish Oil Standards) que acredite un índice TOTOX < 19.5, peróxidos < 5 meq/kg y ausencia de metales pesados (mercurio, cadmio, plomo) y PCBs.\n- Posología Terapéutica y Ratios de Stack:\n  * Optimización Cognitiva / Estructural / Mantenimiento: 1000 a 2000 mg de Omega-3 totales (aprox. 500-1000 mg DHA y 500-1000 mg EPA) al día.\n  * Enfoque en Estado de Ánimo / Depresión / Antiinflamación: 1000 a 2000 mg de EPA + 500 mg de DHA (ratio EPA:DHA 2:1 o 3:1).\n  * Timing: Tomar con la comida más abundante que contenga grasas naturales para maximizar la absorción mediada por lipasa pancreática y sales biliares.",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "serotonina",
+    "acetilcolina"
+  ],
+  "regiones_asociadas": [
+    "membranas neuronales",
+    "corteza cerebral",
+    "hipocampo",
+    "balsas lipídicas",
+    "retina"
+  ]
+}

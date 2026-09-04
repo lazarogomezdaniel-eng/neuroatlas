@@ -1,0 +1,18 @@
+{
+  "slug": "yodo",
+  "titulo": "Yodo: El ladrillo de las hormonas tiroideas",
+  "modulo": "Modulo II",
+  "seccion": "2.4",
+  "tipo": "concepto",
+  "definicion": "El yodo es un componente estructural obligatorio de las hormonas tiroideas T3 y T4. Su deficiencia es la causa prevenible más común de discapacidad intelectual en el mundo.",
+  "explicacion": "El halógeno Yodo (I) es un oligoelemento indispensable para la biosíntesis de las hormonas tiroideas y el neurodesarrollo central, requiriendo un transporte activo contra gradiente electroquímico:\n\n1. Biosíntesis de Yodotironinas y Simportador NIS:\n- El yoduro inorgánico (I⁻) es captado activamente en la membrana basolateral de los tirocitos mediante el simportador sodio/yoduro (NIS / SLC5A5), impulsado por la gradiente de la Na⁺/K⁺-ATPasa.\n- En la luz folicular, la enzima Tiroperoxidasa (TPO) oxida el yoduro mediante peróxido de hidrógeno (H₂O₂) para yodar los residuos de tirosina de la tiroglobulina, formando monoyodotirosina (MIT) y diyodotirosina (DIT), cuyo acoplamiento genera Tetrayodotironina (T4 / Tiroxina) y Triyodotironina (T3).\n\n2. Neurodesarrollo y Regulación Transcripcional Cerebral:\n- La T3 cruza la BHE a través del transportador específico de monocarboxilato MCT8 (SLC16A2) y el transportador OATP1C1 en astrocitos.\n- En las neuronas, la T3 se une a los receptores nucleares de hormona tiroidea (TRalpha y TRbeta), regulando la transcripción de genes críticos para la proliferación neuronal, la migración celular en la corteza y el cerebelo, el crecimiento dendrítico y la expresión de la proteína básica de la mielina (MBP).\n\n3. Antagonismo Halógeno Competitivo y la Paradoja de la Sal Marina:\n- Los halógenos aniónicos como el Flúor (F⁻ en agua fluorada), Cloro (Cl⁻) y Bromo (Br⁻ en retardantes de llama y harinas procesadas) compiten alostéricamente por el simportador NIS, desplazando al yodo y precipitando hipotiroidismo primario subclínico.\n- La sustitución moderna de sal común yodada por sales no yodadas (sal marina gris, sal del Himalaya) ha reactivado la deficiencia endémica de yodo en poblaciones urbanas.\n\n4. El Fenómeno Wolff-Chaikoff y Sinergia con Selenio:\n- Sobredosis agudas de yodo inducen una parada temporal autoreguladora en la síntesis de hormonas tiroideas (efecto Wolff-Chaikoff).\n- En presencia de déficit de selenio, el exceso de yodo genera un estrés oxidativo masivo por acumulación de H₂O₂ en los tirocitos, acelerando la muerte celular apoptótica y desencadenando tiroiditis autoinmune (Hashimoto).",
+  "relevancia_nootropica": "Criterios diagnósticos, seguridad tiroidea y posología:\n- Evaluación Analítica Previa: Medir Yodo Urinario en orina de 24h o spot matutino, junto con TSH, T4 libre, T3 libre y anticuerpos tiroideos (anti-TPO y anti-TG).\n- Requerimientos Diarios (RDA):\n  * Adultos sanos: 150 mcg/día de yoduro elemental.\n  * Gestación y Lactancia: 220 a 250 mcg/día (crítico para prevenir cretinismo endémico y déficits del CI neonatal).\n- Formas de Suplementación y Precauciones:\n  * Yoduro de Potasio (KI) o extracto estandarizado de Kelp/Laminaria.\n  * Regla de Oro: NUNCA administrar mega-dosis de yodo (como la solución Lugol) sin supervisión médica especializada y sin corregir previamente los niveles de selenio (100-200 mcg/día).",
+  "neurotransmisores_asociados": [],
+  "regiones_asociadas": [
+    "tiroides",
+    "cerebro en desarrollo",
+    "corteza cerebral",
+    "cerebelo",
+    "vaina de mielina"
+  ]
+}

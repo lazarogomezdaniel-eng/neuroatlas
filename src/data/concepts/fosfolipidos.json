@@ -1,0 +1,21 @@
+{
+  "slug": "fosfolipidos",
+  "titulo": "Fosfolípidos (PS y PC): La fluidez de la membrana y el cortisol",
+  "modulo": "Modulo II",
+  "seccion": "2.5",
+  "tipo": "concepto",
+  "definicion": "Los fosfolípidos son los ladrillos de la bicapa lipídica celular. La Fosfatidilserina (PS) es famosa por aplanar los picos de cortisol, mientras que la Fosfatidilcolina (PC) es la reserva de acetilcolina y mielina.",
+  "explicacion": "Los glicerofosfolípidos anfipáticos, particularmente la Fosfatidilserina (PS) y la Fosfatidilcolina (PC), constituyen los componentes matriciales predominantes de las membranas neuronales, las vesículas sinápticas y las vainas de mielina:\n\n1. Fosfatidilserina (PS) y Dinámica de Membrana Interna:\n- Asimetría Transbicapa: La PS se localiza exclusivamente en la hemicapa interna (citoplásmica) de la membrana plasmática gracias a la enzima flipasa dependiente de ATP. Su exteriorización (flip-flop) actúa como señal molecular para fagocitosis microglial de neuronas senescentes (señal eat-me).\n- Anclaje de Proteínas Quinasas: Facilita el reclutamiento y activación de la Proteína Kinasa C (PKC) y la Na⁺/K⁺-ATPasa, enzimas indispensables para la excitabilidad neuronal, la liberación de neurotransmisores y la inducción de la Potenciación a Largo Plazo (LTP).\n- Modulación del Eje HPA y Amortiguación del Cortisol: Ensayos clínicos doble ciego confirman que dosis de 300 a 800 mg de PS atenúan significativamente la hipersecreción de ACTH y cortisol sérico tras estresores físicos (ejercicio extenuante) o cognitivos agudos (test de Trier), previniendo la atrofia hipocampal por hipercortisolemia.\n\n2. Fosfatidilcolina (PC) y Pool Colinérgico Central:\n- Es el fosfolípido más abundante (~45-50%) de la bicapa neuronal y de las membranas mitocondriales.\n- Vía de Kennedy y Reserva Colinérgica: La PC se sintetiza mediante la vía de CDP-colina (citidina difosfato-colina). Actúa como reservorio endógeno de colina libre; ante demandas colinérgicas extremas, la enzima fosfolipasa D hidroliza PC para suministrar colina para la síntesis de acetilcolina (ACh) en neuronas del prosencéfalo basal.\n- Mielinización y Reparación de Membrana: Indispensable para la biogénesis de esfingomielina y la restauración de la barrera hematoencefálica tras daño isquémico o traumatismo craneoencefálico (TCE).",
+  "relevancia_nootropica": "Aplicaciones clínicas en neuro-resiliencia, modulación del estrés y posología:\n- Protocolos Anti-Cortisol y Burnout (Fosfatidilserina):\n  * Dosis Estándar: 100 a 300 mg/día para mantenimiento de fluidez de membrana y memoria.\n  * Dosis Anti-Estrés / Atletas: 400 a 800 mg/día (fraccionado antes del estresor o por la tarde/noche para modular el ritmo circadiano de cortisol).\n  * Fuentes: Preferir fosfatidilserina derivada de lecitina de girasol (libre de alérgenos y transgénicos) estandarizada al 20-50% o complejos fosfolipídicos de matriz marina.\n- Soporte Colinérgico y Membrana (Fosfatidilcolina):\n  * Dosis Diaria: 1200 a 2400 mg de lecitina de girasol/huevo (que aporta ~180-360 mg de colina elemental).\n  * Sinergias de Stack: Combinación óptima de PS + DHA (los enlaces fosfolípido-DHA maximizan la penetración tisular cerebral) para revertir el declive cognitivo asociado a la edad.",
+  "neurotransmisores_asociados": [
+    "acetilcolina",
+    "dopamina"
+  ],
+  "regiones_asociadas": [
+    "membranas celulares",
+    "eje HPA",
+    "hipocampo",
+    "vaina de mielina",
+    "prosencéfalo basal"
+  ]
+}

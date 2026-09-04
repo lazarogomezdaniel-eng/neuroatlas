@@ -1,0 +1,21 @@
+{
+  "slug": "glutation",
+  "titulo": "Glutatión: El antioxidante maestro",
+  "modulo": "Modulo II",
+  "seccion": "2.7",
+  "tipo": "concepto",
+  "definicion": "El glutatión (GSH) es el antioxidante intracelular más importante del cuerpo. Se agota con el estrés, las toxinas y el envejecimiento, y su reposición es clave para la neuroprotección.",
+  "explicacion": "El Glutatión (γ-L-glutamil-L-cisteinilglicina / GSH) es un tripéptido no proteico de bajo peso molecular con un enlace peptídico no canónico gamma entre el glutamato y la cisteína, lo que le confiere resistencia intrínseca a la degradación por peptidasas intracelulares comunes:\n\n1. Biosíntesis Enzimática Citosólica en Dos Pasos ATP-Dependientes:\n- Paso 1 (Limitante de velocidad): L-Glutamato + L-Cisteína + ATP → γ-Glutamilcisteína + ADP + Pi, catalizado por la enzima Glutamato-Cisteína Ligasa (GCL / GCLC y GCLM), regulada negativamente por retroalimentación por el propio GSH e inducida transcripcionalmente por Nrf2.\n- Paso 2: γ-Glutamilcisteína + Glicina + ATP → GSH + ADP + Pi, catalizado por la Glutatión Sintetasa (GS).\n- En estados de envejecimiento, inflamación o sobrecarga tóxica, la actividad de GCL y los pools de cisteína libre caen drásticamente, comprometiendo la capacidad de síntesis.\n\n2. El Ciclo Redox del Glutatión (GSH vs. GSSG):\n- Reducción de Peróxidos: 2 GSH + H₂O₂ (o hidroperóxidos lipídicos) → GSSG (Glutatión disulfuro oxidado) + 2 H₂O, catalizado por la enzima selenodependiente Glutatión Peroxidasa (GPx1 y GPx4 / anti-ferroptosis).\n- Reciclaje Redox: GSSG + NADPH + H⁺ → 2 GSH + NADP⁺, catalizado por la Glutatión Reductasa (GR) con riboflavina (FAD / Vitamina B2) como cofactor prostético y NADPH generado por la ruta de las pentosas fosfato (glucosa-6-fosfato deshidrogenasa).\n- Ratio GSH:GSSG como Biomarcador: Un ratio GSH:GSSG elevado (>100:1) refleja salud bioenergética y longevidad celular; ratios inferiores a 10:1 señalan estrés oxidativo severo, permeabilización mitocondrial y compromiso apoptótico.\n\n3. Desintoxicación Fase II y Eliminación de Xenobióticos:\n- Las Glutatión S-Transferasas (GSTs) conjugan el grupo tiol nucleofílico (-SH) del GSH con electrófilos reactivos, metales pesados (mercurio, plomo, cadmio), dopamina oxidada (quinonas) y metabolitos tóxicos de fármacos (NAPQI de paracetamol), formando ácidos mercaptúricos que se excretan vía biliar y urinaria.\n\n4. Patología Neurodegenerativa y Depleción en Sustancia Negra:\n- En la enfermedad de Parkinson, la depleción de GSH en la sustancia negra pars compacta es el evento bioquímico patológico observable más temprano, precediendo a la pérdida de neuronas dopaminérgicas y a la acumulación de cuerpos de Lewy.",
+  "relevancia_nootropica": "Estrategias de repleción, biodisponibilidad y protocolos clínicos:\n- El Dilema de la Absorción Oral Directa:\n  * El GSH libre es hidrolizado rápidamente en el borde en cepillo intestinal por la enzima gamma-glutamil transferasa (GGT), reduciendo drásticamente su biodisponibilidad sistémica.\n- Estrategias Avanzadas de Reposición:\n  * Vía Precursores (Regla de Oro): NAC (600-1.200 mg) + Glicina (1.000-3.000 mg) + Selenio (100-200 mcg) + Vitamina B2 (25 mg).\n  * Glutatión Liposomal Oral: Encapsulación en liposomas de fosfatidilcolina que protege la molécula del jugo gástrico y facilita su absorción vía quilomicrones linfáticos (dosis: 250-500 mg/día).\n  * S-Acetil-L-Glutatión (SAG): Forma acetilada estable que atraviesa la membrana celular intacta y libera GSH intracelularmente por esterasas citosólicas.\n  * Glutatión Sublingual / Intravenoso (IV): En protocolos de desintoxicación o rescate neurológico supervisado.",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "glutamato"
+  ],
+  "regiones_asociadas": [
+    "mitocondrias",
+    "hígado",
+    "sustancia negra",
+    "corteza cerebral",
+    "hipocampo"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "slug": "l-teanina",
+  "titulo": "L-Teanina: La calma alerta del té verde",
+  "modulo": "Modulo II",
+  "seccion": "2.6",
+  "tipo": "concepto",
+  "definicion": "La L-Teanina es un aminoácido exclusivo del té que promueve las ondas cerebrales alfa, produciendo un estado de calma relajada pero alerta. Es el contrapeso perfecto de la cafeína.",
+  "explicacion": "La L-Teanina (γ-glutamiletilamida / N-etil-L-glutamina) es un análogo no proteico de los aminoácidos L-glutamato y L-glutamina presente casi con exclusividad en la planta Camellia sinensis y el hongo Xerocomus badius:\n\n1. Farmacocinética y Transporte a través de la BHE:\n- Tras su ingestión oral, la L-teanina se absorbe rápidamente en el intestino delgado mediante el sistema de transporte de aminoácidos acoplado a sodio y cruza la barrera hematoencefálica intacta a través del transportador de aminoácidos neutros grandes LAT1 (SLC7A5), alcanzando concentraciones cerebrales pico entre los 30 y 50 minutos.\n\n2. Modulación Alostérica Glutamatérgica y Neurotransmisión Inhibitoria:\n- Antagonismo Competitivo de Receptores AMPA y NMDA: Al compartir homología estructural con el ácido glutámico, la L-teanina se une con afinidad micromolar baja a los receptores ionotrópicos de glutamato (AMPA, Kainato y NMDA), compitiendo débilmente con el glutamato libre y bloqueando la excitotoxicidad mediada por sobreactivación de calcio citosólico.\n- Modulación de GABA, Dopamina y Serotonina: Estimula la síntesis y liberación tónica de GABA cortical y subcortical, al tiempo que eleva de forma coordinada la concentración extracelular de Dopamina en el cuerpo estriado y la corteza prefrontal, promoviendo claridad mental sin sedación motora.\n\n3. Inducción de Oscilaciones Electroencefalográficas Alfa (8-13 Hz):\n- En registros de EEG cuantitativo (qEEG), la L-teanina induce una amplificación selectiva y simétrica de las ondas Alfa en las regiones parietal y occipital.\n- Este patrón bioeléctrico refleja un estado de 'relajación vigilante' (calma alerta), disminuyendo el tono simpático, mitigando la hiperreactividad de la amígdala frente a estresores psicosociales y facilitando la entrada en estados de flujo de trabajo intelectual sostenido.\n\n4. Sinergia Farmacológica Dual con la Cafeína (Ratio Dorado 1:2):\n- La cafeína antagoniza los receptores de adenosina A1 y A2A, provocando vasoconstricción cerebral transitoria, elevación de la presión arterial sistólica y posibles picos de ansiedad/temblor motor mediado por catecolaminas.\n- La L-teanina atenúa la vasoconstricción cortical inducida por la cafeína, restaura la perfusión microvascular cerebral y amortigua el aumento excesivo de la presión arterial y el 'crash' vespertino, mientras que ambos compuestos actúan de forma supra-aditiva en tareas de atención sostenida, memoria de trabajo y conmutación de tareas.",
+  "relevancia_nootropica": "Protocolos de stacking, pautas cronofarmacológicas y pureza:\n- El Stack Clásico de Rendimiento Ejecutivo (Ratio 1:2):\n  * Cafeína (100 mg) + L-Teanina (200 mg): Ingesta matutina o pre-trabajo cognitivo intenso.\n- Optimización del Sueño No Rem:\n  * L-Teanina (200 a 400 mg) tomada 30-45 minutos antes de acostarse; favorece la arquitectura de ondas lentas sin generar tolerancia ni efecto de resaca matutina.\n- Pureza y Formas Comerciales:\n  * L-Teanina biosintética / isoméricamente pura (>98% Suntheanine® obtenida por fermentación enzimática) garantiza ausencia de D-teanina inactiva.\n- Perfil de Seguridad Excepcional:\n  * DL50 superior a 5.000 mg/kg en modelos preclínicos; no induce dependencia, tolerancia cruzada con benzodiacepinas ni disfunción psicomotora.",
+  "neurotransmisores_asociados": [
+    "GABA",
+    "glutamato",
+    "dopamina",
+    "serotonina"
+  ],
+  "regiones_asociadas": [
+    "corteza cerebral",
+    "amígdala",
+    "cuerpo estriado",
+    "lóbulo occipital"
+  ]
+}

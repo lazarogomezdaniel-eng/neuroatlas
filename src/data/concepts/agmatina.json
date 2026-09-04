@@ -1,0 +1,22 @@
+{
+  "slug": "agmatina",
+  "titulo": "Agmatina: El neuromodulador maestro y preventor de tolerancia",
+  "modulo": "Modulo II",
+  "seccion": "2.6",
+  "tipo": "concepto",
+  "definicion": "La agmatina es un metabolito de la arginina que actúa como neuromodulador, antagonista NMDA y regulador del óxido nítrico. Es famosa por prevenir la tolerancia a estimulantes y opioides.",
+  "explicacion": "El sulfato de agmatina (1-(4-aminobutil)guanidina) es una poliamina catiónica endógena biosintetizada por la descarboxilación de la L-arginina mediante la enzima Arginina Descarboxilasa (ADC) mitocondrial, actuando como un neurotransmisor y neuromodulador putativo no clásico:\n\n1. Antagonismo del Poro del Canal NMDA y Freno de la Excitotoxicidad:\n- La agmatina bloquea alostéricamente el poro del canal ionotrópico de glutamato NMDA en un sitio de unión diferente pero complementario al del magnesio y la memantina (sensible a voltaje).\n- Al impedir la afluencia patológica excesiva de calcio (Ca²⁺) citosólico sin interferir con la transmisión basal de baja frecuencia requerida para la plasticidad fisiológica, ejerce una potente acción neuroprotectora frente a la isquemia, la toxicidad amiloide y el daño excitotóxico inducido por sobreestimulación.\n\n2. Modulación Selectiva de las Isoformas de Óxido Nítrico Sintasa (NOS):\n- Inhibe competitivamente la Óxido Nítrico Sintasa Inducible (iNOS en microglía activada) y la Óxido Nítrico Sintasa Neuronal (nNOS), reduciendo la síntesis de peroxinitrito citotóxico (ONOO⁻) y el estrés nitrosativo.\n- Paradójicamente, preserva o activa levemente la Óxido Nítrico Sintasa Endotelial (eNOS), promoviendo vasodilatación microvascular cerebral selectiva y perfusión cortical.\n\n3. Agonismo de Receptores de Imidazolina (I1 e I2) y α2-Adrenérgicos:\n- Se une con alta afinidad a los receptores imidazolínicos I1 e I2 en el hipocampo y la corteza prefrontal, modulando la secreción de monoaminas y ejerciendo efectos ansiolíticos y antidepresivos rápidos mediados por la activación de la vía mTOR / BDNF.\n\n4. Reversión y Prevención de la Tolerancia a Fármacos Estimulantes y Opioides:\n- La tolerancia farmacodinámica a estimulantes dopaminérgicos (metilfenidato, anfetaminas, cafeína) y analgésicos opioides está estrechamente ligada a la sensibilización de receptores NMDA, la hiperactividad de nNOS y la internalización de receptores de membrana.\n- Al desacoplar la señalización nNOS/NMDA, la agmatina resensibiliza las vías dopaminérgicas y opioides, previniendo la neuroadaptación tolerante y suprimiendo las manifestaciones conductuales del síndrome de abstinencia.",
+  "relevancia_nootropica": "Posología, protocolos de desensibilización y combinaciones farmacológicas:\n- Dosificación Terapéutica y de Reset:\n  * Dosis Estándar Nootrópica / Ansiolítica: 500 mg a 1.000 mg/día (con el estómago vacío, separada de proteínas para evitar competencia con L-arginina).\n  * Protocolo de Prevención de Tolerancia a Estimulantes: 500-750 mg administrados antes del estimulante o por la noche para restablecer la sensibilidad matutina.\n  * En Dolor Neuropático / Depresión: 1.000 mg a 2.500 mg/día en dosis divididas.\n- Interacciones y Precauciones:\n  * Evitar la ingesta simultánea con L-Arginina o L-Citrulina, ya que compiten por los mismos transportadores de poliaminas (SLC22A1/2) y reducen su captación cerebral.\n  * Puede potenciar los efectos analgésicos y sedantes de opioides y anestésicos; suspender antes de intervenciones quirúrgicas.",
+  "neurotransmisores_asociados": [
+    "glutamato",
+    "dopamina",
+    "óxido nítrico",
+    "noradrenalina"
+  ],
+  "regiones_asociadas": [
+    "corteza prefrontal",
+    "hipocampo",
+    "locus coeruleus",
+    "médula espinal"
+  ]
+}

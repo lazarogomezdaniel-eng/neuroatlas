@@ -1,0 +1,21 @@
+{
+  "slug": "l-tirosina",
+  "titulo": "L-Tirosina: El precursor de la dopamina bajo estrés",
+  "modulo": "Modulo II",
+  "seccion": "2.6",
+  "tipo": "concepto",
+  "definicion": "La L-Tirosina es el aminoácido precursor de la dopamina, noradrenalina y adrenalina. Es especialmente efectiva para mantener la cognición bajo estrés agudo, frío y privación de sueño.",
+  "explicacion": "La L-Tirosina (ácido 2-amino-3-(4-hidroxifenil)propanoico) es el aminoácido aromático condicionalmente esencial sustrato de la cascada catecolaminérgica central y de la melanogénesis:\n\n1. Cascada Enzimática Catecolaminérgica y el Cuello de Botella de la TH:\n- Ruta metabólica: L-Tirosina → (Tirosina Hidroxilasa / TH + Fe²⁺ + BH4) → L-DOPA → (DOPA Descarboxilasa / AADC + Vitamina B6) → Dopamina → (Dopamina β-Hidroxilasa + Vitamina C + Cobre) → Noradrenalina → (PNMT + SAMe) → Adrenalina.\n- En condiciones basales de reposo, la enzima limitante Tirosina Hidroxilasa está saturada por sus productos finales mediante inhibición por retroalimentación negativa alostérica. Por ello, la tirosina no eleva dopamina por encima de los límites fisiológicos basales en sujetos descansados y sin estrés.\n\n2. Neurobiología del Estrés Agudo y Depleción Catecolaminérgica:\n- Bajo estrés físico extremo (inmersión en agua fría, altitud, hipoxia), privación prolongada de sueño, ruido ambiental intenso (>90 dB) o sobrecarga ejecutiva multitarea, las neuronas del locus coeruleus y del área tegmental ventral disparan a alta frecuencia, agotando rápidamente las reservas vesiculares de noradrenalina y dopamina.\n- En esta fase de depleción activa, la tirosina hidroxilasa se desfosforila y desensibiliza a la retroinhibición, permitiendo que la disponibilidad de L-tirosina exógena mantenga la síntesis sostenida de neurotransmisores, preservando la memoria de trabajo y la flexibilidad cognitiva.\n\n3. Farmacocinética Comparativa: L-Tirosina vs. N-Acetil-L-Tirosina (NALT):\n- L-Tirosina Estándar: Transportada a través de la BHE mediante el transportador de aminoácidos neutros grandes LAT1 (SLC7A5). Eleva los niveles plasmáticos y cerebrales de tirosina de forma lineal y predecible.\n- N-Acetil-L-Tirosina (NALT): Aunque posee mayor hidrosolubilidad, la enzima desacetilasa renal y hepática presenta una baja tasa de conversión; la mayor parte de la NALT se excreta inalterada en orina sin convertirse en tirosina libre ni cruzar eficientemente la BHE.\n\n4. Melanogénesis y Eje Neuroendocrino:\n- Además de catecolaminas, la tirosina es el sustrato de la enzima Tirosinasa para sintetizar neuromelanina cerebral y melanina periférica dérmica, así como el esqueleto básico para la yodación de las hormonas tiroideas (T3/T4) en la tiroglobulina.",
+  "relevancia_nootropica": "Protocolos de uso clínico, dosificación y alertas de seguridad:\n- Pauta y Dosificación Estratégica:\n  * Dosis Estándar bajo estrés: 500 mg a 2.000 mg (o 100-150 mg/kg en protocolos militares de estrés agudo).\n  * Administración: En ayunas, 30 a 60 minutos antes del evento estresante, separada de comidas proteicas para evitar la competencia con otros aminoácidos de cadena ramificada (BCAA) por el transportador LAT1.\n- Stacking Sinérgico de Enfoque Bajo Presión:\n  * L-Tirosina (1.000 mg) + Cafeína Anhidra (100-200 mg) + L-Teanina (200 mg) + Vitamina B6 (P-5-P, 10 mg).\n- Contraindicaciones y Precauciones:\n  * Contraindicada de forma absoluta con Fármacos Inhibidores de la Monoaminooxidasa (IMAO) por riesgo de crisis hipertensiva tiramínica / catecolaminérgica.\n  * Precaución en hipertiroidismo o enfermedad de Graves activa (puede acelerar la síntesis de hormonas tiroideas).",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "noradrenalina",
+    "adrenalina"
+  ],
+  "regiones_asociadas": [
+    "corteza prefrontal",
+    "locus coeruleus",
+    "área tegmental ventral",
+    "sustancia negra"
+  ]
+}

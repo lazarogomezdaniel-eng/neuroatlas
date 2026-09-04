@@ -1,0 +1,21 @@
+{
+  "slug": "nac-n-acetil-cisteina",
+  "titulo": "NAC (N-Acetil Cisteína): El precursor del glutatión y regulador del glutamato",
+  "modulo": "Modulo II",
+  "seccion": "2.6",
+  "tipo": "concepto",
+  "definicion": "La NAC es el precursor del glutatión (el antioxidante maestro) y un modulador del glutamato, con aplicaciones en adicciones, TOC, depresión y protección hepática.",
+  "explicacion": "La N-Acetil-L-Cisteína (NAC) es el derivado N-acetilado del aminoácido sulfurado L-cisteína, actuando como el donante limitante de grupos tiol (-SH) y modulador alostérico de la señalización glutamatérgica:\n\n1. Biosíntesis de Glutatión Reducido (GSH) y Defensa Redox Neuronal:\n- El tripéptido Glutatión (γ-L-glutamil-L-cisteinilglicina / GSH) es el antioxidante intracelular maestro y sustrato de la Glutatión Peroxidasa (GPx4).\n- La disponibilidad intracelular de L-cisteína es el factor limitante de la enzima glutamato-cisteína ligasa (GCL). La NAC cruza las membranas celulares, se desacetila a cisteína libre y repone las reservas citosólicas y mitocondriales de GSH, previniendo la peroxidación lipídica, la ferroptosis y la disfunción endotelial en la BHE.\n\n2. Activación del Intercambiador Cistina/Glutamato (Sistema xc⁻ / SLC7A11):\n- En los astrocitos, dos moléculas de cisteína se oxidan a dímero de cistina, el cual es transportado al interior celular a cambio de expulsar glutamato hacia el espacio extrasináptico mediante el antiporter xc⁻.\n- Este flujo de glutamato no sináptico estimula los autorreceptores metabotrópicos presinápticos mGluR2/3, que actúan como un freno inhibitorio retroalimentado, reduciendo la liberación vesicular excesiva de glutamato sináptico dependiente de potencial de acción.\n\n3. Psiquiatría Molecular: Circuitos Corticoestriatales, Adicciones y TOC:\n- Al regular el tono glutamatérgico extrasináptico en el núcleo accumbens y la corteza prefrontal, la NAC normaliza la neuroplasticidad patológica asociada a la sensibilización dopaminérgica en adicciones a sustancias (cocaína, cannabis, nicotina) y conductas compulsivas (tricotilomanía, excoriación cutánea, ludopatía y Trastorno Obsesivo-Compulsivo).\n- En modelos de depresión y esquizofrenia, la reducción de la neuroinflamación mediada por GSH y la modulación de mGluR2/3 mitiga la sintomatología negativa y la pérdida de conectividad dendrítica.\n\n4. Farmacología Médica y Toxicología Hepática:\n- La NAC es el antídoto estándar de referencia en la intoxicación por acetaminofén (paracetamol), al neutralizar directamente el metabolito electrofílico hepatotóxico N-acetil-p-benzoquinona imina (NAPQI) y regenerar los depósitos hepáticos de GSH.",
+  "relevancia_nootropica": "Posología, protocolos psiquiátricos y el fenómeno del aplanamiento afectivo:\n- Pauta Posológica Recomendada:\n  * Dosis Estándar Nootrópica / Antioxidante: 600 mg a 1.200 mg/día (en ayunas o 30 min antes de comidas).\n  * Dosis en Ensayos Clínicos para Adicciones, TOC y Depresión: 1.200 mg a 2.400 mg/día divididos en 2 tomas de 600-1.200 mg.\n- El Fenómeno del 'Aplanamiento Emocional' (Anhedonia Inducida):\n  * El exceso de regulación a la baja del glutamato y la consecuente disminución tónica de dopamina en el núcleo accumbens puede inducir una pérdida transitoria de motivación hedónica o aplanamiento emocional en ciertos individuos tras meses de uso continuo.\n  * Estrategia de manejo: Ciclar (ej. 5 días ON / 2 días OFF, o ciclos de 8-12 semanas con descansos) o ajustar la dosis a 600 mg/día.\n- Sinergia con Selenio y Molibdeno:\n  * Para optimizar la cascada enzimática de sulfuración y reciclaje de GSH, la NAC debe combinarse con Selenio (100 mcg) y Molibdeno (50-100 mcg de sulfito oxidasa).",
+  "neurotransmisores_asociados": [
+    "glutamato",
+    "dopamina"
+  ],
+  "regiones_asociadas": [
+    "corteza prefrontal",
+    "núcleo accumbens",
+    "hígado",
+    "pulmones",
+    "astrocitos"
+  ]
+}

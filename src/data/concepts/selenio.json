@@ -1,0 +1,18 @@
+{
+  "slug": "selenio",
+  "titulo": "Selenio: El guardián del glutatión y la tiroides",
+  "modulo": "Modulo II",
+  "seccion": "2.4",
+  "tipo": "concepto",
+  "definicion": "El selenio es un cofactor esencial de la glutatión peroxidasa (el principal sistema antioxidante del cerebro) y de las enzimas que convierten T4 en T3, la hormona tiroidea activa.",
+  "explicacion": "El oligoelemento Selenio (Se) se incorpora cotraduccionalmente en el aminoácido número 21, la Selenocisteína (Sec), conformando el centro catalítico de 25 selenoproteínas esenciales para el balance redox neuronal y el metabolismo neuroendocrino:\n\n1. Selenoproteínas Antioxidantes y Glutatión Peroxidasa (GPx1 / GPx4):\n- La Glutatión Peroxidasa 1 (citosólica) y la Glutatión Peroxidasa 4 (fosfolípido-hidroperóxido GPx4) contienen selenocisteína en su bolsillo catalítico.\n- Mitigación de la Ferroptosis: La GPx4 dependiente de selenio es la única enzima capaz de reducir hidroperóxidos lipídicos tóxicos dentro de las membranas celulares y mitocondriales directamente a alcoholes no reactivos, actuando como el freno fisiológico maestro contra la ferroptosis (muerte celular programada dependiente de hierro y peroxidación de PUFAs).\n\n2. Eje Tiroideo Cerebral y Yodotironina Desyodasas (DIO1 / DIO2):\n- Las enzimas Desyodasas (DIO1 y DIO2) son selenoproteínas integrales de membrana que catalizan la monodesyodación del anillo exterior de la Levotiroxina (T4) para convertirla en Triyodotironina libre (T3), la hormona tiroidea transcripcionalmente activa.\n- Hipotiroidismo Funcional Central: La ferropenia o déficit de selenio inhibe la DIO2 cerebral (altamente expresada en astrocitos y tanicitos del hipotálamo), reduciendo el pool local de T3 intracerebral incluso con TSH y T4 plasmáticas normales, provocando bradipsiquia, niebla mental, lentitud ejecutiva y depresión refractaria.\n\n3. Selenoproteína P (SELENOP) y Transporte a través de la BHE:\n- La SELENOP plasmática sintetizada en el hígado suministra selenio al SNC uniéndose al receptor apoER2 en el endotelio capilar de la barrera hematoencefálica, priorizando el aporte cerebral frente a tejidos periféricos durante periodos de depleción dietética.",
+  "relevancia_nootropica": "Aplicaciones clínicas en neuro-antioxidación, patología autoinmune y posología:\n- Optimización del Eje Tiroideo y Hashimoto: La suplementación con 100 a 200 mcg/día de selenometionina reduce significativamente los títulos de autoanticuerpos anti-peroxidasa tiroidea (anti-TPO) y atenúa el daño inflamatorio oxidativo glandular.\n- Formas Químicas Recomendadas:\n  * L-Selenometionina: Forma orgánica de máxima biodisponibilidad y retención tisular.\n  * Levadura enriquecida con Selenio (SelenoExcell® / Seleno-Yeast): Matriz de selenoproteínas naturales de liberación sostenida.\n  * Selenito de Sodio: Sal inorgánica útil para activación aguda de GPx sin acumulación tisular no específica.\n- Índice Terapéutico Estrecho y Riesgo de Selenosis:\n  * Dosis Diaria Óptima: 100 a 200 mcg/día.\n  * Límite Superior Seguro (UL): 400 mcg/día. Superar de forma crónica este umbral genera selenosis (alopecia difusa, fragilidad ungueal, aliento con olor a ajo por dimetilsulfuro y neuropatía periférica motora).\n  * Fuentes Dietéticas: 2 a 3 nueces de Brasil (Bertholletia excelsa) al día aportan ~100-150 mcg de selenio natural.",
+  "neurotransmisores_asociados": [],
+  "regiones_asociadas": [
+    "tiroides",
+    "mitocondrias",
+    "astrocitos",
+    "barrera hematoencefálica",
+    "corteza cerebral"
+  ]
+}

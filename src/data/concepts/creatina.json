@@ -1,0 +1,21 @@
+{
+  "slug": "creatina",
+  "titulo": "Creatina: El suplemento nootrópico más infravalorado",
+  "modulo": "Modulo II",
+  "seccion": "2.6",
+  "tipo": "concepto",
+  "definicion": "La creatina no es solo para el gimnasio; es un sistema de reserva de energía (ATP) crítico para el cerebro, con evidencia sólida para mejorar la cognición bajo estrés, privación de sueño y en depresión.",
+  "explicacion": "La creatina (ácido α-metilguanidinoacético) es un intermediario bioenergético clave sintetizado a partir de arginina, glicina y SAMe en hígado, riñones y de forma limitada en neuronas y astrocitos:\n\n1. El Sistema Lanzadera Creatina Quinasa / Fosfocreatina (CK/PCr):\n- En los microdominios neuronales con alta demanda metabólica (como las terminales presinápticas y las espinas dendríticas postsinápticas), la enzima Creatina Quinasa citosólica (BB-CK) y mitocondrial (uMtCK) fosforila la creatina libre utilizando ATP mitocondrial para formar Fosfocreatina (PCr).\n- Cuando la neurona experimenta una descarga repetitiva de alta frecuencia o estrés hipóxico/isquémico, la PCr dona casi instantáneamente su grupo fosfato de alta energía al ADP para resintetizar ATP local, amortiguando la caída bioenergética sin la lentitud de la fosforilación oxidativa mitocondrial o la glucólisis anaeróbica.\n\n2. Neurobiología de la Privación de Sueño y Estrés Cognitivo Agudo:\n- La falta de sueño agota las reservas de fosfocreatina en la corteza prefrontal y los ganglios basales, incrementando la acumulación de adenosina extracelular y el fallo en la recaptación de glutamato.\n- La administración de creatina mantiene la homeostasis de ATP cerebral, preservando la memoria de trabajo ejecutiva, la velocidad psicomotora y la atención sostenida en condiciones de privación total de sueño o hipoxia normobárica.\n\n3. Bioenergética Mitocondrial y Depresión Refractaria:\n- El trastorno depresivo mayor cursa con hipometabolismo frontal y disfunción mitocondrial. En ensayos clínicos controlados, la adición de 5 g/día de creatina monohidrato a la terapia con ISRS (como escitalopram) aceleró significativamente la respuesta clínica y la tasa de remisión, especialmente en mujeres debido a particularidades estrogénicas en la expresión de la BB-CK.\n\n4. Poblaciones Vegetarianas, Veganas y Transportador CRT1 (SLC6A8):\n- Dado que la creatina dietética proviene exclusivamente de tejido muscular animal, vegetarianos y veganos exhiben concentraciones cerebrales basales de creatina significativamente menores.\n- La suplementación oral en estas cohortes produce mejoras robustas y estadísticamente superiores en tests de memoria verbal y matrices progresivas de Raven frente a sujetos omnívoros.",
+  "relevancia_nootropica": "Posología científica, formas químicas y timing:\n- Dosis Diana:\n  * Dosis de mantenimiento estándar: 3 a 5 g/día continuos.\n  * En privación aguda de sueño o estrés extremo: Dosis puntuales de hasta 10 g/día han demostrado rescate cognitivo inmediato.\n- Forma Química Recomendada:\n  * Creatina Monohidratada micronizada (sello Creapure®), con pureza >99.9% demostrada por HPLC.\n  * Las formas comercializadas como 'superiores' (Creatina HCL, Creatina Etil Éster, Nitrato) carecen de evidencia de mayor captación cerebral a través del transportador SLC6A8 y resultan innecesariamente costosas.\n- Farmacocinética Cerebral:\n  * A diferencia del músculo esquelético, la captación a través de la barrera hematoencefálica mediada por SLC6A8 es lenta y saturable. La saturación del pool cerebral de creatina requiere varias semanas de ingesta diaria constante; no se requiere fase de carga agresiva.",
+  "neurotransmisores_asociados": [
+    "glutamato",
+    "GABA",
+    "dopamina"
+  ],
+  "regiones_asociadas": [
+    "mitocondrias cerebrales",
+    "corteza prefrontal",
+    "hipocampo",
+    "ganglios basales"
+  ]
+}
