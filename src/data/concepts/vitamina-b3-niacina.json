@@ -1,0 +1,20 @@
+{
+  "slug": "vitamina-b3-niacina",
+  "titulo": "Vitamina B3 (Niacina): El precursor del NAD+",
+  "modulo": "Modulo II",
+  "seccion": "2.1",
+  "tipo": "concepto",
+  "definicion": "La vitamina B3 es el precursor del NAD+ (Nicotinamida Adenina Dinucleótido), la molécula central del metabolismo energético celular. Su deficiencia causa pelagra, y su optimización es clave para el anti-aging cerebral.",
+  "explicacion": "La Vitamina B3 abarca un grupo de vitámeros que alimentan la síntesis de NAD+ (Nicotinamida Adenina Dinucleótido) y NADP+ a través de tres rutas biosintéticas (Preiss-Handler, de novo desde L-triptófano y ruta de rescate / salvage pathway via NAMPT):\n\n1. Funciones Moleculares Cardinales del NAD+:\n- Bioenergética Mitocondrial: Aceptor primario de equivalentes de reducción (electrones y H+) en la glucólisis, beta-oxidación y ciclo de Krebs (ratio NAD+/NADH como sensor redox).\n- Activación de Sirtuinas (SIRT1 a SIRT7): Desacetilasas dependientes de NAD+ que regulan la biogénesis mitocondrial (PGC-1α), autofagia y silenciamiento transcripcional de mediadores proinflamatorios.\n- Reparación del Genoma por PARPs: Las poli(ADP-ribosa) polimerasas consumen NAD+ para escindir y reparar roturas en la doble hebra de ADN neuronal.\n\n2. Formas Farmacológicas y Precursores Avanzados:\n- Ácido Nicotínico (Niacina): Agonista del receptor GPR109A / HCAR2 en queratinocitos epidérmicos; induce vasodilatación mediada por prostaglandinas (PGD2/PGE2) generando el característico 'Niacin Flush' transitorio.\n- Niacinamida (Nicotinamida): No induce flush pero en dosis suprafisiológicas puede inhibir sirtuinas y PARP-1 por retroalimentación.\n- Nicotinamida Ribósido (NR) y Nicotinamida Mononucleótido (NMN): Precursores de alta eficiencia de la ruta de rescate para el rescate mitocondrial del parénquima cerebral.",
+  "relevancia_nootropica": "Optimización de la reserva de NAD+ y neuroprotección contra el envejecimiento cerebral (Anti-aging):\n- El declive de NAD+ dependiente de la edad (hasta un 50% de pérdida a los 50 años) es acelerado por la sobreexpresión de CD38 y el consumo de alcohol, derivando en bioenergética defectuosa y senescencia celular.\n- Protocolos Terapéuticos:\n  * NMN (vía transportador Slc12a8 / NMNAT): 250 a 1000 mg/día sublingual o cápsulas entéricas.\n  * NR (Cloruro de nicotinamida ribósido): 300 a 1000 mg/día matutino.\n  * Niacina: 50 a 100 mg (titulación ascendente con alimentos para tolerancia cardiovascular).\n- Sinergia de Longevidad: Coadministración de precursores de NAD+ con inductores de sirtuinas (Resveratrol / Pterostilbeno) y donantes de metilos (TMG/Betaína) para evitar la depleción del pool de metilación durante la excreción de 1-metilnicotinamida.",
+  "neurotransmisores_asociados": [
+    "serotonina",
+    "GABA"
+  ],
+  "regiones_asociadas": [
+    "mitocondrias",
+    "todo el cerebro",
+    "corteza prefrontal",
+    "hipocampo"
+  ]
+}
