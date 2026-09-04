@@ -114,6 +114,34 @@ import glutationJson from './concepts/glutation.json';
 import astaxantinaJson from './concepts/astaxantina.json';
 import curcuminaLongvidaJson from './concepts/curcumina-longvida.json';
 
+// --- MÓDULO III: FARMACOLOGÍA SINTÉTICA Y FARMACÉUTICA ---
+// 3.1 Familia de los Racetams
+import introRacetamsJson from './concepts/introduccion-racetams.json';
+import piracetamJson from './concepts/piracetam.json';
+import aniracetamJson from './concepts/aniracetam.json';
+import oxiracetamJson from './concepts/oxiracetam.json';
+import pramiracetamJson from './concepts/pramiracetam.json';
+import phenylpiracetamJson from './concepts/phenylpiracetam.json';
+import coluracetamJson from './concepts/coluracetam.json';
+import fasoracetamJson from './concepts/fasoracetam.json';
+
+// 3.2 Eugeroicos (Promotores de la Vigilia)
+import modafiniloArmodafiniloJson from './concepts/modafinilo-armodafinilo.json';
+import adrafinilJson from './concepts/adrafinil.json';
+import pitolisantSolriamfetolJson from './concepts/pitolisant-solriamfetol.json';
+
+// 3.3 Ampakinas & Moduladores Glutamatérgicos
+import sunifiramUnifiramJson from './concepts/sunifiram-unifiram.json';
+import idra21Cx717Json from './concepts/idra-21-cx-717.json';
+
+// 3.4 Péptidos Nootrópicos & Factores Neurotróficos
+import semaxSelankJson from './concepts/semax-selank.json';
+import noopeptJson from './concepts/noopept.json';
+import cerebrolysinCortexinJson from './concepts/cerebrolysin-cortexin.json';
+import dihexaP21Json from './concepts/dihexa-p21.json';
+import epitalonJson from './concepts/epitalon.json';
+import bpc157GhkCuJson from './concepts/bpc-157-ghk-cu.json';
+
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
 export const conceptos: Concepto[] = [
@@ -223,6 +251,34 @@ export const conceptos: Concepto[] = [
   glutationJson as Concepto,
   astaxantinaJson as Concepto,
   curcuminaLongvidaJson as Concepto,
+
+  // MÓDULO III
+  // 3.1 Familia de los Racetams
+  introRacetamsJson as Concepto,
+  piracetamJson as Concepto,
+  aniracetamJson as Concepto,
+  oxiracetamJson as Concepto,
+  pramiracetamJson as Concepto,
+  phenylpiracetamJson as Concepto,
+  coluracetamJson as Concepto,
+  fasoracetamJson as Concepto,
+
+  // 3.2 Eugeroicos (Promotores de la Vigilia)
+  modafiniloArmodafiniloJson as Concepto,
+  adrafinilJson as Concepto,
+  pitolisantSolriamfetolJson as Concepto,
+
+  // 3.3 Ampakinas & Moduladores Glutamatérgicos
+  sunifiramUnifiramJson as Concepto,
+  idra21Cx717Json as Concepto,
+
+  // 3.4 Péptidos Nootrópicos & Factores Neurotróficos
+  semaxSelankJson as Concepto,
+  noopeptJson as Concepto,
+  cerebrolysinCortexinJson as Concepto,
+  dihexaP21Json as Concepto,
+  epitalonJson as Concepto,
+  bpc157GhkCuJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {

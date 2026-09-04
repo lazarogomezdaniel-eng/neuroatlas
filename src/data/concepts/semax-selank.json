@@ -1,0 +1,23 @@
+{
+  "slug": "semax-selank"
+  ,"titulo": "Semax y Selank: Los péptidos rusos en spray nasal",
+  "modulo": "Modulo III",
+  "seccion": "3.4",
+  "tipo": "sustancia",
+  "definicion": "Heptapéptidos reguladores sintéticos de origen ruso administrados por vía intranasal: Semax (análogo de ACTH(4-10) pro-neurogénico inductor de BDNF/NGF) y Selank (análogo de tuftsina ansiolítico no sedante modulador de GABA y encefalinas).",
+  "explicacion": "El Semax y el Selank fueron diseñados por el Instituto de Genética Molecular de la Academia de Ciencias de Rusia bajo la dirección de los académicos Nikolai Myasoedov e Igor Ashmarin como agentes reguladores de alta especificidad mediante la vía de transporte directo nariz-cerebro (*Nose-to-Brain pathway*):\n\n1. Vía de Administración Intranasal y Transporte Axonal Olfativo:\n- Al ser polipéptidos, su ingestión oral provocaría una degradación proteolítica completa en el tracto digestivo por acción de la pepsina y tripsina. La administración por spray nasal permite que las moléculas viajen directamente al líquido cefalorraquídeo (LCR) y parénquima cerebral a través de la lámina cribosa del etmoides, siguiendo las vainas de los nervios olfatorio (I) y trigémino (V), eludiendo la degradación sistémica y la impermeabilidad de la BHE.\n\n2. Semax (Met-Glu-His-Phe-Pro-Gly-Pro) — La Cascada de BDNF y Neuroprotección:\n- Es un análogo sintético del fragmento no hormonal de la corticotropina ACTH(4-10) extendido en su extremo C-terminal con el tripéptido Pro-Gly-Pro para protegerlo contra la degradación por aminopeptidasas plasmáticas.\n- Induce un incremento rápido y sostenido en los niveles de ARNm y proteína de **BDNF** (Factor Neurotrófico Derivado del Cerebro) y **NGF** (Factor de Crecimiento Nervioso), así como la fosforilación de receptores TrkB en el hipocampo.\n- Estimula la liberación fásica de dopamina y serotonina en el cuerpo estriado, acelera la consolidación de la memoria de trabajo y ejerce una potente acción anti-isquémica aprobada en Rusia para el tratamiento del ictus isquémico agudo, encefalopatías y glaucoma óptico.\n\n3. Selank (Thr-Lys-Pro-Arg-Pro-Gly-Pro / TP-7) — Ansiolisis Sin Sedación ni Dependencia:\n- Basado en el tetrapéptido inmunomodulador endógeno **tuftsina** estabilizado con la secuencia C-terminal Pro-Gly-Pro.\n- Modula la expresión de genes de subunidades del receptor GABA-A, restaurando el tono inhibitorio en la amígdala y el córtex prefrontal bajo estrés crónico sin generar la sedación, incoordinación motora, efecto miorrelajante ni adicción propios de las benzodiazepinas.\n- Inhibe la enzima encefalinasa hepática y cerebral, prolongando la semivida de las **encefalinas endógenas** (opioides péptidos naturales), lo que induce una notable elevación del estado de ánimo, estabilidad emocional y reducción de citocinas proinflamatorias (IL-6).",
+  "relevancia_nootropica": "Posología, cronofarmacología y cadena de frío:\n- Pauta de Dosificación Nootrópica Intranasal:\n  * Semax (Solución al 0.1%): 2 a 3 gotas (o pulverizaciones) por fosa nasal (200-600 mcg/día) por la mañana o antes de tareas de alta demanda cognitiva.\n  * Selank (Solución al 0.1%): 2 a 3 gotas por fosa nasal (200-400 mcg/día) administradas en momentos de estrés, ansiedad o sobrecarga emocional.\n  * Ensayos Clínicos de Neuro-Rehabilitación (Ictus / TBI): Se emplea Semax al 1.0% a dosis de varios miligramos bajo supervisión médica hospitalaria.\n- Requisito Crítico de Almacenamiento (Cadena de Frío):\n  * Las soluciones peptídicas son termolábiles: deben conservarse refrigeradas entre **2°C y 8°C**.\n  * Una vez reconstituidos o abiertos, los viales degradan su actividad biológica si se exponen a temperatura ambiente superior a 20-25°C durante períodos prolongados o a la luz solar directa.\n- Formas Sintéticas Avanzadas (Mercado de Investigación):\n  * N-Acetil Semax / N-Acetil Selank y sus formas amidatadas (NA-Semax Amidate): Modificaciones diseñadas para conferir una resistencia enzimática superior y cruzar con mayor afinidad las barreras lipídicas.\n- Estatus Legal:\n  * Rusia / CEI: Medicamentos de prescripción incluidos en el Formulario Nacional de Medicamentos Esenciales.\n  * Occidente (EE. UU., UE): Sustancias de investigación no autorizadas para comercialización como fármacos de venta libre.",
+  "neurotransmisores_asociados": [
+    "BDNF",
+    "dopamina",
+    "GABA",
+    "encefalinas",
+    "serotonina"
+  ],
+  "regiones_asociadas": [
+    "hipocampo",
+    "amígdala",
+    "corteza prefrontal",
+    "cuerpo estriado"
+  ]
+}

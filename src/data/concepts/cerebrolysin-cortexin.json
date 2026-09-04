@@ -1,0 +1,24 @@
+{
+  "slug": "cerebrolysin-cortexin",
+  "titulo": "Cerebrolysin y Cortexin: Neuro-reparación inyectable",
+  "modulo": "Modulo III",
+  "seccion": "3.4",
+  "tipo": "sustancia",
+  "definicion": "Complejos biológicos de neuropéptidos de bajo peso molecular purificados por hidrólisis enzimática de tejido cerebral porcino y bovino. Diseñados para administración parenteral (IM/IV) en protocolos de neurorreparación severa tras ictus isquémico, traumatismo craneoencefálico y neurodegeneración.",
+  "explicacion": "El Cerebrolysin y el Cortexin constituyen la cúspide de la bioterapia neurotrófica parenteral derivada de tejido neural animal, sometida a procesos rigurosos de desproteinización, ultrafiltración (<10 kDa) y esterilización:\n\n1. Cerebrolysin (EVER Neuro Pharma, Austria) — Mimetismo Neurotrófico Multimodal:\n- Es una solución acuosa de péptidos activos y aminoácidos libres de bajo peso molecular obtenidos por hidrólisis enzimática de proteínas cerebrales porcinas estandarizadas.\n- Mimetismo de Factores Neurotróficos Endógenos: Los oligopéptidos del Cerebrolysin cruzan la barrera hematoencefálica y actúan como agonistas biológicos directos de los receptores de **BDNF** (TrkB), **NGF** (TrkA), **GDNF** (Factor Neurotrófico Derivado de la Glía) y **CNTF** (Factor Neurotrófico Ciliar).\n- Cascada Anti-Apoptótica y Neuroprotectora: Inhibe la sobreactivación de caspasa-3 y calpaína, neutraliza la tormenta de radicales libres en la zona de penumbra isquémica y atenúa la hiperfosforilación de la proteína Tau y la neurotoxicidad inducida por oligómeros de β-amiloide (Aβ42).\n- Estimulación Neurogénica y Angiogénica: Ensayos preclínicos demuestran que promueve la proliferación y migración de células madre neurales en la zona subgranular (SGZ) del giro dentado y la zona subventricular (SVZ), induciendo la brotación axonal y la formación de nuevos capilares cerebrales.\n\n2. Cortexin (GEROPHARM, Rusia) — Biopéptidos Corticales Pediátricos y del Neurodesarrollo:\n- Complejo polipeptídico extraído de la corteza cerebral de terneros jóvenes formulado como polvo liofilizado estéril para reconstitución parenteral.\n- Regula el equilibrio entre aminoácidos excitatorios (glutamato/aspartato) e inhibitorios (GABA), mejorando la bioenergética neuronal y la estabilidad electroencefalográfica en cerebros inmaduros o lesionados.\n- Extensamente utilizado en neurología pediátrica para el tratamiento coadyuvante de la parálisis cerebral infantil (PCI), encefalopatía hipóxico-isquémica perinatal, retraso global del desarrollo cognitivo/lenguaje y como soporte en epilepsias refractarias.\n\n3. Evidencia Clínica en Ensayos Multicéntricos (Ictus y Demencia):\n- Ensayos clínicos aleatorizados a gran escala (como los estudios CARS y CASTA) han validado que la administración precoz de Cerebrolysin post-ictus isquémico agudo y en traumatismos craneoencefálicos (TBI) acelera significativamente la recuperación motora, la autonomía funcional (Escala de Rankin modificada) y la velocidad de procesamiento cognitivo.",
+  "relevancia_nootropica": "Posología clínica, administración parenteral y bioseguridad:\n- Vías de Administración y Pautas Posológicas Médicas:\n  * Cerebrolysin:\n    - Dosis Terapéutica en Ictus / TBI: 10 ml a 30 ml/día administrados mediante infusión intravenosa lenta (diluida en 100 ml de solución salina fisiológica al 0.9% durante 30-60 minutos) durante ciclos de 10 a 20 días consecutivos.\n    - Dosis de Mantenimiento / Neuro-Optimización: 5 ml/día vía intramuscular profunda (IM) o infusión IV en ciclos mensuales o trimestrales.\n  * Cortexin:\n    - Dosis Adultos: 10 mg/día vía intramuscular durante 10 días.\n    - Dosis Pediátrica: 0.5 mg/kg/día en ciclos de 10 días.\n- Bioseguridad, Inmunogenicidad y Filtro de Priones:\n  * La ultrafiltración industrial por debajo de 10 kilodaltons (10 kDa) elimina cualquier proteína de alto peso molecular, fragmentos celulares y priones, garantizando que el producto esté libre de agentes transmisibles de encefalopatía espongiforme y minimizando el riesgo de anafilaxia o formación de autoanticuerpos.\n- Consideraciones Éticas y Marco Legal:\n  * Aprobados formalmente como fármacos de prescripción en más de 50 países (Europa del Este, Rusia, Asia, partes de Latinoamérica).\n  * En EE. UU. y Europa Occidental permanecen como medicamentos no aprobados por la FDA/EMA para prescripción general, requiriendo importación bajo programas de uso compasivo hospitalario.\n  * Al ser extractos biológicos de tejido porcino/bovino, no son aptos para personas veganas o con restricciones dietético-religiosas estrictas.",
+  "neurotransmisores_asociados": [
+    "BDNF",
+    "NGF",
+    "GDNF",
+    "glutamato",
+    "GABA"
+  ],
+  "regiones_asociadas": [
+    "corteza cerebral",
+    "hipocampo",
+    "giro dentado",
+    "zona subventricular",
+    "todo el sistema nervioso central"
+  ]
+}

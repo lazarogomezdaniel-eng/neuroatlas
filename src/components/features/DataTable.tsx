@@ -7,6 +7,7 @@ interface Props {
   substances: Substance[];
   onSelectSubstance: (s: Substance) => void;
   onAddToStack: (s: Substance) => void;
+  onRemoveFromStack?: (id: string) => void;
   stackIds: string[];
 }
 
@@ -14,6 +15,7 @@ export const DataTable: React.FC<Props> = ({
   substances,
   onSelectSubstance,
   onAddToStack,
+  onRemoveFromStack,
   stackIds,
 }) => {
   const [sortField, setSortField] = useState<keyof Substance>('name');
@@ -126,15 +128,28 @@ export const DataTable: React.FC<Props> = ({
                   <td className="py-3 px-4 font-mono text-text-muted">{s.halfLife}</td>
                   <td className="py-3 px-4 text-right" onClick={(e) => e.stopPropagation()}>
                     <button
-                      onClick={() => onAddToStack(s)}
-                      disabled={inStack}
-                      className={`px-2.5 py-1 rounded text-[11px] font-mono transition-all ${
+                      onClick={() => {
+                        if (inStack) {
+                          onRemoveFromStack?.(s.id);
+                        } else {
+                          onAddToStack(s);
+                        }
+                      }}
+                      title={inStack ? 'Clic para quitar del Stack' : 'Añadir a Stack'}
+                      className={`group/btn px-2.5 py-1 rounded text-[11px] font-mono transition-all ${
                         inStack
-                          ? 'bg-primary/20 text-primary border border-primary/40'
+                          ? 'bg-primary/20 text-primary border border-primary/40 hover:bg-evidence-risk/20 hover:text-evidence-risk hover:border-evidence-risk/40'
                           : 'bg-surface-container hover:bg-primary hover:text-surface-lowest text-text-secondary border border-surface-bright'
                       }`}
                     >
-                      {inStack ? 'En Stack' : '+ Stack'}
+                      {inStack ? (
+                        <>
+                          <span className="group-hover/btn:hidden">✓ En Stack</span>
+                          <span className="hidden group-hover/btn:inline">✕ Quitar</span>
+                        </>
+                      ) : (
+                        '+ Stack'
+                      )}
                     </button>
                   </td>
                 </tr>

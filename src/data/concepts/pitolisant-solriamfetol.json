@@ -1,0 +1,22 @@
+{
+  "slug": "pitolisant-solriamfetol",
+  "titulo": "Pitolisant y Solriamfetol: La nueva generación de eugeroicos",
+  "modulo": "Modulo III",
+  "seccion": "3.2",
+  "tipo": "sustancia",
+  "definicion": "La vanguardia farmacológica en promotores de la vigilia: Pitolisant (el primer agonista inverso del receptor histaminérgico H3, no adictivo y anticatapléctico) y Solriamfetol (un potente inhibidor dual selectivo de la recaptación de dopamina y noradrenalina / DNRI).",
+  "explicacion": "El Pitolisant (Wakix®) y el Solriamfetol (Sunosi®) representan la segunda y tercera generación de fármacos eugeroicos diseñados para superar las limitaciones de eficacia, tolerancia enzimática e interacciones metabólicas del modafinilo:\n\n1. Pitolisant (BF2.649 / Wakix®) — El Eje Histaminérgico H3:\n- Mecanismo Farmacodinámico: Es un agonista inverso / antagonista selectivo y potente de los autorreceptores y heterorreceptores presinápticos de histamina H3 (Ki = 5.3 nM).\n- Los receptores H3 actúan fisiológicamente como 'frenos' que inhiben la liberación de neurotransmisores. Al unirse como agonista inverso, el pitolisant desinhibe la maquinaria exocítica presináptica, provocando un aumento masivo de histamina central en el hipotálamo posterior (núcleos tuberomamilares).\n- Heteromodulación Sináptica Multilateral: Además de la histamina, el bloqueo de los heterorreceptores H3 amplifica de forma coordinada la liberación de Acetilcolina (ACh), Noradrenalina (NA) y Dopamina (DA) en la corteza prefrontal y el hipocampo.\n- Ausencia de Potencial de Abuso y Eficacia en Cataplejía: Dado que no eleva la dopamina fásica en el núcleo accumbens (circuito de recompensa límbico), el pitolisant no genera dependencia ni refuerzo conductual y **no es una sustancia controlada**. Es el único eugeroico con indicación formal para la cataplejía narcoléptica.\n\n2. Solriamfetol (JZP-110 / Sunosi®) — La Inhibición Dual DNRI de Alta Afinidad:\n- Mecanismo Farmacodinámico: Derivado del aminoácido D-fenilalanina ((2R)-2-amino-3-fenilpropil carbamato), actúa como un inhibidor selectivo de la recaptación de dopamina y noradrenalina (DNRI / NDRI), uniéndose con alta afinidad a DAT (Ki = 14.2 µM) y NET (Ki = 3.7 µM) sin inducir liberación presináptica vesicular de monoaminas.\n- Potencia Eugeroica Superior: En ensayos clínicos comparativos de mantenimiento de la vigilia (MWT) y escala de somnolencia de Epworth (ESS), el solriamfetol demostró una reducción de la somnolencia diurna excesiva significativamente superior a la del modafinilo, con un inicio de acción rápido y sostenido.\n- A diferencia del pitolisant, el solriamfetol carece de actividad anticatapléctica y se enfoca puramente en la vigilia psicomotora y el tiempo de reacción ejecutiva.",
+  "relevancia_nootropica": "Posología, cronofarmacología y seguridad cardiovascular:\n- Pautas de Dosificación Clínica:\n  * Pitolisant (Wakix®): Requiere titulación gradual:\n    - Semana 1: 8.9 mg/día por la mañana.\n    - Semana 2: 17.8 mg/día por la mañana.\n    - Semana 3+: Hasta la dosis máxima de 35.6 mg/día en una sola toma con el desayuno.\n  * Solriamfetol (Sunosi®):\n    - Narcolepsia: 75 mg a 150 mg/día por la mañana.\n    - Apnea Obstructiva del Sueño (SAHOS): 37.5 mg iniciales hasta 150 mg/día.\n- Cronofarmacología:\n  * Ambos compuestos deben administrarse inmediatamente tras despertar por la mañana. Evitar cualquier dosificación después del mediodía por el riesgo elevado de insomnio de mantenimiento.\n- Monitorización y Seguridad Comparada:\n  * Solriamfetol: Monitorear periódicamente la presión arterial y la frecuencia cardíaca, ya que el bloqueo de NET puede inducir elevaciones dosis-dependientes de la tensión sistólica y diastólica.\n  * Pitolisant: Precaución en pacientes con insuficiencia hepática o prolongación congénita del intervalo QTc en el electrocardiograma.\n  * Ventaja sobre el Modafinilo: Ninguno de los dos presenta la problemática inducción de CYP3A4 que inactiva anticonceptivos orales en mujeres.\n- Estatus Regulatorio y Control Antidopaje:\n  * Aprobados formalmente por la FDA (2019) y la EMA (2016/2020) bajo prescripción médica.\n  * WADA / AMA: Prohibidos en el deporte competitivo bajo la categoría S6 (Estimulantes).",
+  "neurotransmisores_asociados": [
+    "histamina",
+    "dopamina",
+    "noradrenalina",
+    "acetilcolina"
+  ],
+  "regiones_asociadas": [
+    "hipotálamo",
+    "corteza prefrontal",
+    "locus coeruleus",
+    "núcleos tuberomamilares"
+  ]
+}

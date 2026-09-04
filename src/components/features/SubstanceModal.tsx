@@ -2,12 +2,13 @@ import React from 'react';
 import { Substance } from '@/types/substance';
 import { EvidenceBadge } from '../ui/EvidenceBadge';
 import { SubstanceSchema } from '../seo/SubstanceSchema';
-import { X, ExternalLink, ShieldCheck, AlertCircle, BookOpen, Layers, Activity } from 'lucide-react';
+import { X, ExternalLink, ShieldCheck, AlertCircle, BookOpen, Layers, Activity, Trash2 } from 'lucide-react';
 
 interface Props {
   substance: Substance | null;
   onClose: () => void;
   onAddToStack: (s: Substance) => void;
+  onRemoveFromStack?: (id: string) => void;
   isInStack: boolean;
 }
 
@@ -15,9 +16,18 @@ export const SubstanceModal: React.FC<Props> = ({
   substance,
   onClose,
   onAddToStack,
+  onRemoveFromStack,
   isInStack,
 }) => {
   if (!substance) return null;
+
+  const handleStackAction = () => {
+    if (isInStack) {
+      onRemoveFromStack?.(substance.id);
+    } else {
+      onAddToStack(substance);
+    }
+  };
 
   return (
     <>
@@ -156,16 +166,24 @@ export const SubstanceModal: React.FC<Props> = ({
               Cerrar Monografía
             </button>
             <button
-              onClick={() => onAddToStack(substance)}
-              disabled={isInStack}
+              onClick={handleStackAction}
               className={`px-4 py-2 rounded-biotech text-xs font-semibold flex items-center gap-1.5 transition-all ${
                 isInStack
-                  ? 'bg-primary/20 text-primary border border-primary/40'
+                  ? 'bg-evidence-risk/20 text-evidence-risk border border-evidence-risk/40 hover:bg-evidence-risk hover:text-surface-lowest'
                   : 'bg-primary text-surface-lowest hover:bg-primary-hover shadow-cyan-glow'
               }`}
             >
-              <Layers className="w-3.5 h-3.5" />
-              <span>{isInStack ? 'Compuesto en Stack' : '+ Añadir a Stack Builder'}</span>
+              {isInStack ? (
+                <>
+                  <Trash2 className="w-3.5 h-3.5" />
+                  <span>Quitar de Mi Stack</span>
+                </>
+              ) : (
+                <>
+                  <Layers className="w-3.5 h-3.5" />
+                  <span>+ Añadir a Stack Builder</span>
+                </>
+              )}
             </button>
           </div>
         </div>

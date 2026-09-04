@@ -1,0 +1,21 @@
+{
+  "slug": "fasoracetam",
+  "titulo": "Fasoracetam: Regulación GABA-B, TDAH y abstinencia",
+  "modulo": "Modulo III",
+  "seccion": "3.1",
+  "tipo": "sustancia",
+  "definicion": "Un racetam de tercera generación (NS-105 / AEVI-001) que regula al alza los receptores GABA-B y modula los receptores metabotrópicos de glutamato (mGluR). Destaca como intervención no estimulante en TDAH y como protocolo de rescate ante la desensibilización por Fenibut o Baclofeno.",
+  "explicacion": "El Fasoracetam ((5R)-5-(piperidina-1-carbonil)pirrolidin-2-ona / NS-105 / LAM-105 / NFC-1 / AEVI-001) fue sintetizado por Nippon Shinyaku y desarrollado clínicamente por Aevi Genomic Medicine para patologías del neurodesarrollo y desregulación glutamatérgica:\n\n1. Up-Regulation Selectiva de Receptores GABA-B:\n- A diferencia de los agonistas directos de GABA-B (como el baclofeno o el fenibut, que inducen tolerancia y una rápida internalización del receptor), el fasoracetam incrementa la densidad de unión y la expresión de receptores funcionales GABA-B en la corteza cerebral y el hipocampo.\n- Este efecto es especialmente crítico en estados de abstinencia o tolerancia inducida por fármacos: acelera la recuperación de la señalización inhibitoria fisiológica, mitigando la hiperexcitabilidad autonómica, los temblores, la ansiedad de rebote y el insomnio grave.\n\n2. Modulación de Receptores Metabotrópicos de Glutamato (mGluR Grupos II y III):\n- Actúa como modulador de los receptores metabotrópicos de glutamato acoplados a proteínas Gi/o (mGluR2/3 presinápticos) y mGluR1/5 postsinápticos.\n- Suprime la liberación excesiva e hiperpolarizante de glutamato en situaciones de estrés neuroquímico o sobrecarga sensorial, restaurando la relación señal-ruido en las redes corticoestriatales sin inducir sedación ni miorrelajación.\n\n3. Ensayos Clínicos en TDAH Estratificado por Genética mGluR (Fase II/III):\n- En ensayos clínicos liderados por el Children's Hospital of Philadelphia (CHOP) y Aevi Genomic Medicine, el fasoracetam (AEVI-001) demostró una reducción clínicamente significativa de la falta de atención e impulsividad en adolescentes con TDAH portadores de mutaciones en genes de la red mGluR (GRM1-GRM8).\n- Proporciona una estabilización atencional sostenida sin el riesgo de abuso, dependencia, anorexia, insomnio de rebote o elevación de la presión arterial característicos de los psicoestimulantes dopaminérgicos (metilfenidato, anfetaminas).\n\n4. Neurotransmisión Colinérgica y Memoria de Trabajo:\n- Estimula la liberación cortical y la síntesis de Acetilcolina (ACh) en el hipocampo a través de la captación de colina de alta afinidad, protegiendo contra la disfunción mnémica inducida por bloqueadores colinérgicos.",
+  "relevancia_nootropica": "Posología, cronofarmacología y protocolo de recuperación GABAérgica:\n- Pauta de Dosificación Nootrópica:\n  * Dosis Estándar: 10 mg a 30 mg/día divididos en 1 o 2 tomas (ej. 10-15 mg por la mañana y 10-15 mg por la tarde o noche).\n  * Dosis en Ensayos Clínicos de TDAH: 50 mg a 400 mg dos veces al día bajo supervisión médica estricta.\n- Vías de Administración:\n  * Oral o Sublingual (absorción rápida sublingual con efecto perceptible en 20-30 minutos).\n- Protocolo de Rescate / Tolerancia a Fenibut y Baclofeno:\n  * Fasoracetam (20-30 mg administrados 2 veces al día) durante el proceso de reducción gradual (*tapering*) del agonista GABA-B para restaurar la densidad del receptor y suprimir la ansiedad de rebote.\n- Stack para Enfoque Calmado y TDAH No Estimulante:\n  * Fasoracetam (20 mg) + Alpha-GPC (300 mg) + L-Teanina (200 mg) + Magnesio L-Treonato (144 mg Mg elemental).\n- Precauciones y Cronobiología:\n  * Por su acción GABA-B y reguladora del glutamato, una toma nocturna puede profundizar el sueño de ondas lentas y generar sueños vívidos sin somnolencia matutina residual.",
+  "neurotransmisores_asociados": [
+    "GABA",
+    "glutamato",
+    "acetilcolina"
+  ],
+  "regiones_asociadas": [
+    "corteza prefrontal",
+    "hipotálamo",
+    "hipocampo",
+    "ganglios basales"
+  ]
+}

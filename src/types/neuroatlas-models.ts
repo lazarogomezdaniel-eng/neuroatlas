@@ -6,7 +6,7 @@
 export type NivelEvidencia = 'fuerte' | 'mixta' | 'debil';
 export type NivelRiesgo = 'bajo' | 'medio' | 'alto';
 export type GravedadInteraccion = 'alta' | 'media' | 'baja';
-export type TipoConcepto = 'anatomia' | 'neurotransmisor' | 'concepto' | 'mecanismo';
+export type TipoConcepto = 'anatomia' | 'neurotransmisor' | 'concepto' | 'mecanismo' | 'sustancia';
 
 export interface Beneficio {
   nombre: string;

@@ -1,0 +1,22 @@
+{
+  "slug": "noopept",
+  "titulo": "Noopept (GVS-111): El dipéptido 1000 veces más potente",
+  "modulo": "Modulo III",
+  "seccion": "3.4",
+  "tipo": "sustancia",
+  "definicion": "Un dipéptido sintético ruso (N-fenilacetil-L-prolilglicina etil éster) que actúa como profármaco del neuropéptido endógeno cicloprolilglicina (CPG). Presenta una potencia hasta 1.000 veces superior al piracetam por peso, estimulando masivamente la síntesis hipocampal de BDNF y NGF.",
+  "explicacion": "El Noopept (GVS-111 / N-fenilacetil-L-prolilglicina etil éster / Ноопепт) fue sintetizado en 1996 en el Instituto de Farmacología Zakusov de la Academia de Ciencias Médicas de Rusia bajo la dirección de la Dra. Rita Ostrovskaya, diseñado como un análogo peptidomimético bioestable del piracetam:\n\n1. Biotransformación a Cicloprolilglicina (Cyclo-Pro-Gly / CPG):\n- Aunque posee cierta afinidad directa por membranas neuronales, el Noopept actúa predominantemente como profármaco. Tras su rápida absorción, se metaboliza a nivel cerebral y hepático liberando **cicloprolilglicina (CPG)**, un neuropéptido cíclico endógeno con potentes propiedades de regulación colinérgica, mnémica y ansiolítica.\n- La CPG modula los receptores de glutamato (AMPA y NMDA) aumentando la afinidad del canal por sus ligandos endógenos y estimulando la fosforilación de quinasas de supervivencia celular (ERK1/2 y Akt).\n\n2. Inducción Coordinada de Factores Neurotróficos (BDNF y NGF):\n- A diferencia de los racetams clásicos que solo modulan la conductancia iónica, el Noopept induce una elevación transcripcional sostenida del ARNm del **Factor Neurotrófico Derivado del Cerebro (BDNF)** y del **Factor de Crecimiento Nervioso (NGF)** en el hipocampo.\n- Este estímulo neurotrófico promueve la arborización de espinas dendríticas, la sinaptogénesis y la neurogénesis en la zona subgranular del giro dentado, manteniendo niveles elevados de neuroplasticidad incluso días después de haber suspendido el tratamiento.\n\n3. Sensibilización Colinérgica y Neuroprotección Anti-Apoptótica:\n- Aumenta la densidad y la sensibilidad de los receptores nicotínicos (nAChR) y muscarínicos (mAChR) en la corteza frontal.\n- Ejerce una potente acción anti-excitotóxica y antiinflamatoria: suprime la acumulación citotóxica de radicales libres (ROS), reduce la peroxidación lipídica y atenúa la hiperfosforilación de proteína Tau y el daño por oligómeros de β-amiloide.\n\n4. Evidencia Clínica y Farmacoterapéutica:\n- Aprobado formalmente en la Federación Rusa como medicamento de prescripción para el tratamiento del deterioro cognitivo leve (DCL) de origen vascular o post-traumático, astenia psicofísica y encefalopatías.\n- Los ensayos clínicos muestran mejoras estadísticamente significativas en la memoria episódica, la consolidación atencional y una leve reducción de la ansiedad psicosomática sin inducir sedación.",
+  "relevancia_nootropica": "Posología, cronofarmacología y protocolos de ciclado:\n- Pauta de Dosificación Nootrópica:\n  * Dosis Diaria: 10 mg a 30 mg/día divididos en 2 tomas (ej. 10 mg con el desayuno y 10 mg con el almuerzo).\n  * Vía de Administración: Oral (comprimidos) o Sublingual (la administración sublingual permite una absorción vascular directa que elude el aclaramiento hepático inicial, requiriendo dosis de 10-15 mg para un efecto rápido).\n- Protocolo de Ciclado Recomendado:\n  * Ciclos de 56 días de uso continuo (8 semanas) seguidos de 1 a 2 semanas de descanso total antes de reiniciar, para prevenir la desensibilización de receptores.\n- Cronofarmacología y Precauciones:\n  * Evitar tomas tardías (después de las 16:00 horas) por su efecto estimulante neurotrófico que puede incrementar la latencia del sueño.\n  * En dosis supraterapéuticas (>40 mg/día) puede generar irritabilidad o 'niebla mental paradójica'.\n  * Precaución en pacientes hipertensos no controlados (puede inducir un leve incremento en la presión arterial sistólica).\n- Stack Nootrópico Clásico:\n  * Noopept (10-20 mg) + Alpha-GPC (300 mg) + Fosfatidilserina (100 mg).\n- Estatus Legal:\n  * Rusia / CEI: Medicamento de prescripción en farmacias.\n  * EE. UU. / Unión Europea: Compuesto de investigación no programado (*Research Chemical*).",
+  "neurotransmisores_asociados": [
+    "BDNF",
+    "NGF",
+    "acetilcolina",
+    "glutamato"
+  ],
+  "regiones_asociadas": [
+    "hipocampo",
+    "corteza cerebral",
+    "giro dentado",
+    "corteza prefrontal"
+  ]
+}

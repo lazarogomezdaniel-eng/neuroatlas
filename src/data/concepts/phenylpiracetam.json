@@ -1,0 +1,22 @@
+{
+  "slug": "phenylpiracetam",
+  "titulo": "Phenylpiracetam (Fonturacetam): Estimulación física y resistencia al frío",
+  "modulo": "Modulo III",
+  "seccion": "3.1",
+  "tipo": "sustancia",
+  "definicion": "Un racetam derivado con un anillo fenilo en C4 que multiplica por 60 su permeabilidad a través de la BHE. Desarrollado en el programa espacial soviético, actúa como un potente estimulante psicomotor, modulador dopaminérgico y agente de resistencia física.",
+  "explicacion": "El Fenilpiracetam (2-(4-fenil-2-oxopirrolidin-1-il)acetamida / Fonturacetam / Phenotropil / Carphedon) fue sintetizado en 1983 en el Instituto de Problemas Biomédicos de la Academia de Ciencias de la URSS como fármaco neuroprotector y estimulante para los cosmonautas de la estación espacial Mir:\n\n1. El Anillo Fenilo y la Farmacología Monoaminérgica Única:\n- La adición de un grupo fenilo lipofílico en la posición 4 del anillo de 2-pirrolidona le confiere una afinidad de penetración a través de la barrera hematoencefálica entre 30 y 60 veces mayor que la del piracetam estándar.\n- A diferencia de los racetams convencionales (que actúan casi exclusivamente sobre membranas y vías colinérgico-glutamatérgicas), el fenilpiracetam se une al transportador de dopamina (DAT), ejerciendo una inhibición selectiva y dependiente del enantiómero (el enantiómero R-fenilpiracetam o Fonturacetam es el responsable de la mayor afinidad DAT y de la estimulación psicomotora).\n- Induce un incremento de la densidad de receptores dopaminérgicos D1, D2 y D3, así como de receptores nicotínicos de acetilcolina (nAChR) y receptores NMDA en la corteza y el cuerpo estriado.\n\n2. Termorregulación, Resistencia al Frío e Hipoxia:\n- Estimula la actividad del centro termorregulador hipotalámico y optimiza la perfusión periférica bajo exposición a temperaturas bajo cero, reduciendo la percepción del dolor por frío y el estrés térmico extremo.\n- Incrementa la tasa de supervivencia neuronal bajo hipoxia hipobárica y sobrecargas de aceleración gravitacional (fuerzas G), manteniendo la capacidad de juicio ejecutivo en situaciones límite.\n\n3. Psicoestimulación, Motivación y Ausencia de Vasoconstricción Periférica Severa:\n- Disuelve la apatía, la fatiga crónica (*astenia*) y la procrastinación al elevar el tono dopaminérgico fásico en el circuito mesocorticolímbico.\n- Aumenta la potencia y resistencia física neuromuscular sin inducir el colapso adrenérgico o la taquicardia descompensada propia de las anfetaminas o dosis masivas de cafeína.\n\n4. Farmacocinética y Dinámica Rápida de Tolerancia (Taquifilaxia):\n- Rápida absorción oral con pico sérico a los 60 minutos y semivida de 3 a 5 horas.\n- Provoca una desensibilización alostérica y *down-regulation* de receptores rápida: si se consume a diario, el efecto psicoestimulante desaparece en 3 a 5 días, conservándose únicamente la neuroprotección basal.",
+  "relevancia_nootropica": "Posología, cronofarmacología y manejo de tolerancia:\n- Pauta de Dosificación Nootrópica:\n  * Dosis Aguda: 100 mg a 200 mg administrados por la mañana.\n  * Dosis Máxima Diaria: 250 mg/día (evitar tomas vespertinas para impedir insomnio severo).\n- Protocolo Estricto de Ciclado (Evitación de Tolerancia):\n  * No usar de forma continua diaria.\n  * Pauta Recomendada: 1 a 2 veces por semana exclusivamente para días de demanda física o intelectual crítica (exámenes de alta intensidad, maratones de desarrollo, competiciones no sujetas a control antidopaje).\n  * O bien ciclos breves de choque: 3-5 días de uso seguidos de 10-14 días de descanso total.\n- Stack para Rendimiento y 'Drive' Dopaminérgico:\n  * Fenilpiracetam (100-150 mg) + Alpha-GPC (300 mg) + L-Tirosina (1.000 mg) + Vitamina B6 P-5-P (25 mg).\n- Estatus Antidopaje y Marco Legal:\n  * WADA / AMA (Agencia Mundial Antidopaje): ESTRICTAMENTE PROHIBIDO en competición bajo la sección S6 (Estimulantes). Detectable en orina mediante cromatografía de gases-espectrometría de masas (GC-MS).\n  * Rusia y países CEI: Medicamento de prescripción (Phenotropil® / Nanotropil Novo® / Aktitropil®) para astenia, traumatismos craneoencefálicos y depresión apática.\n  * EE. UU. / Europa: Compuesto de investigación no regulado.",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "noradrenalina",
+    "acetilcolina",
+    "glutamato"
+  ],
+  "regiones_asociadas": [
+    "corteza prefrontal",
+    "ganglios basales",
+    "cuerpo estriado",
+    "hipotálamo"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "oxiracetam",
+  "titulo": "Oxiracetam: Lógica, matemáticas y estímulo limpio",
+  "modulo": "Modulo III",
+  "seccion": "3.1",
+  "tipo": "sustancia",
+  "definicion": "Un racetam hidrosoluble considerado el 'nootrópico del lógico'. Proporciona un estímulo mental limpio, sin nerviosismo, ideal para tareas que requieren razonamiento deductivo, matemáticas y programación.",
+  "explicacion": "El Oxiracetam (2-(4-hidroxi-2-oxopirrolidin-1-il)acetamida / ISF 2522) es un derivado hidroxilado del piracetam diseñado para maximizar la potencia neuroquímica y el soporte bioenergético cortical:\n\n1. Estructura Química y Mecanismo Neuroquímico Central:\n- La incorporación de un grupo hidroxilo (-OH) en la posición C4 del anillo de 2-pirrolidona incrementa drásticamente su afinidad de modulación sobre las terminales sinápticas centrales en comparación con el piracetam estándar.\n- Estimula de forma selectiva la liberación fásica de Acetilcolina (ACh) y Glutamato en las vías perforante y colaterales de Schaffer del hipocampo, así como en los circuitos córtico-estriatales.\n- Actúa como modulador alostérico positivo de los receptores AMPA y NMDA, facilitando la fosforilación de CaMKII y la inserción de nuevos receptores en la membrana postsináptica para consolidar la Potenciación a Largo Plazo (LTP).\n\n2. Bioenergética Celular y Síntesis de ATP Neuronal:\n- A diferencia de otros racetams, el oxiracetam estimula la actividad de la enzima piruvato quinasa y la captación de glucosa por los astrocitos, elevando las reservas de trifosfato de adenosina (ATP) en el parénquima cerebral bajo alta demanda cognitiva.\n- Favorece el recambio metabólico de fosfolípidos de membrana (fosfatidilinositol y fosfatidilcolina), apoyando la plasticidad estructural durante el aprendizaje intensivo prolongado.\n\n3. Ausencia de Efecto Ansiolítico y Estimulación Limpia del SNC:\n- Carece de afinidad por receptores GABAérgicos, serotoninérgicos o adrenérgicos periféricos. Su perfil es puramente nootrópico-excitatorio fisiológico: no genera taquicardia, vasoconstricción, hipertensión ni temblores motores (ausencia de 'jitters' simpáticos).\n- Es la herramienta de elección para el procesamiento de información algorítmica, programación de software, análisis estadístico y retención de secuencias lógicas complejas.",
+  "relevancia_nootropica": "Posología, cronofarmacología y stacks analíticos:\n- Pauta de Dosificación Nootrópica:\n  * Dosis Diaria: 1.200 mg a 2.400 mg/día divididos en 2 tomas (ej. 800 mg con el desayuno y 800 mg con el almuerzo).\n  * Vía de Administración: Hidrosoluble (se disuelve en agua o zumo; absorción óptima tanto en ayunas como con alimentos).\n- Farmacocinética:\n  * Tiempo al Pico Plasmático (Tmax): 1 a 2 horas.\n  * Semivida Plasmática (t½): 7 a 9 horas (sustancialmente más larga que el aniracetam, permitiendo una cobertura cognitiva sostenida durante toda la jornada laboral).\n  * Excreción: >80% eliminado inalterado por vía renal.\n- Stack Analítico para Programación e Ingeniería:\n  * Oxiracetam (800 mg) + Alpha-GPC (300 mg) + Uridina Monofosfato (250 mg) + Cafeína/Teanina (50/100 mg).\n- Precauciones y Efectos Secundarios:\n  * Cefalea por depleción colinérgica si no se acompaña de donantes de colina.\n  * Debido a su semivida de ~8h y su efecto estimulante cortical, evitar tomas después de las 15:00-16:00 horas para prevenir insomnio o incremento en la latencia del sueño.",
+  "neurotransmisores_asociados": [
+    "acetilcolina",
+    "glutamato"
+  ],
+  "regiones_asociadas": [
+    "corteza prefrontal",
+    "hipocampo",
+    "corteza parietal"
+  ]
+}

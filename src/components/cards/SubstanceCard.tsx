@@ -1,12 +1,13 @@
 import React from 'react';
 import { Substance } from '@/types/substance';
 import { EvidenceBadge } from '../ui/EvidenceBadge';
-import { ShieldAlert, Zap, Plus, ArrowUpRight, Activity } from 'lucide-react';
+import { ShieldAlert, Zap, Plus, ArrowUpRight, Check, Trash2 } from 'lucide-react';
 
 interface Props {
   substance: Substance;
   onSelect?: (substance: Substance) => void;
   onAddToStack?: (substance: Substance) => void;
+  onRemoveFromStack?: (id: string) => void;
   isInStack?: boolean;
 }
 
@@ -14,8 +15,17 @@ export const SubstanceCard: React.FC<Props> = ({
   substance,
   onSelect,
   onAddToStack,
+  onRemoveFromStack,
   isInStack = false,
 }) => {
+  const handleStackToggle = () => {
+    if (isInStack) {
+      onRemoveFromStack?.(substance.id);
+    } else {
+      onAddToStack?.(substance);
+    }
+  };
+
   return (
     <article className="group relative rounded-biotech border border-surface-bright bg-surface-low p-5 hover:border-primary/50 hover:shadow-cyan-glow transition-all duration-300 flex flex-col justify-between">
       <div>
@@ -78,18 +88,20 @@ export const SubstanceCard: React.FC<Props> = ({
         </button>
 
         <button
-          onClick={() => onAddToStack?.(substance)}
-          disabled={isInStack}
-          className={`px-3 py-1.5 rounded-biotech text-xs font-medium flex items-center gap-1.5 transition-all duration-200 ${
+          onClick={handleStackToggle}
+          title={isInStack ? 'Clic para quitar del Stack' : 'Añadir al Stack'}
+          className={`group/btn px-3 py-1.5 rounded-biotech text-xs font-medium flex items-center gap-1.5 transition-all duration-200 ${
             isInStack
-              ? 'bg-primary/20 text-primary border border-primary/40 cursor-default'
+              ? 'bg-primary/20 text-primary border border-primary/40 hover:bg-evidence-risk/20 hover:text-evidence-risk hover:border-evidence-risk/40'
               : 'bg-surface-container hover:bg-primary hover:text-surface-lowest text-text-primary border border-surface-bright hover:border-primary'
           }`}
         >
           {isInStack ? (
             <>
-              <Activity className="w-3 h-3 text-primary" />
-              <span>En Stack</span>
+              <Check className="w-3 h-3 group-hover/btn:hidden" />
+              <Trash2 className="w-3 h-3 hidden group-hover/btn:inline" />
+              <span className="group-hover/btn:hidden">En Stack</span>
+              <span className="hidden group-hover/btn:inline">Quitar</span>
             </>
           ) : (
             <>

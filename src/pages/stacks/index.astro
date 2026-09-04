@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { allSubstances } from '../../data';
 import { StackBuilder } from '../../components/features/StackBuilder';
 import { Layers } from 'lucide-react';
 ---
@@ -24,11 +23,6 @@ import { Layers } from 'lucide-react';
     </div>
 
     <!-- Isla React hidratada para interactividad pura -->
-    <StackBuilder
-      client:load
-      stack={allSubstances.slice(0, 2)}
-      onRemoveFromStack={() => {}}
-      onClearStack={() => {}}
-    />
+    <StackBuilder client:load />
   </main>
 </BaseLayout>

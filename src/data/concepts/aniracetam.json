@@ -1,0 +1,22 @@
+{
+  "slug": "aniracetam",
+  "titulo": "Aniracetam: Creatividad, fluidez verbal y ansiedad",
+  "modulo": "Modulo III",
+  "seccion": "3.1",
+  "tipo": "sustancia",
+  "definicion": "Un racetam liposoluble conocido por promover el pensamiento holístico, la creatividad, la fluidez verbal y tener un efecto ansiolítico único dentro de su familia mediado por sus metabolitos activos.",
+  "explicacion": "El Aniracetam (1-(4-metoxibenzoil)pirrolidin-2-ona) es un análogo liposoluble del piracetam con un anillo anisoilo que le confiere una potencia molecular entre 5 y 10 veces superior por miligramo y un perfil neuroquímico diferenciado:\n\n1. Lipofilicidad y Modulación Alostérica Positiva de Receptores AMPA:\n- Gracias a su carácter marcadamente lipofílico, el aniracetam cruza la barrera hematoencefálica con alta velocidad tras su absorción entérica.\n- Se une selectivamente a un sitio alostérico específico en los receptores ionotrópicos de glutamato tipo AMPA, desacelerando tanto la tasa de desensibilización como la de desactivación del canal iónico. Esto amplifica la conductancia catiónica de sodio/calcio en respuesta a la liberación fásica de glutamato en la corteza prefrontal y el hipocampo, facilitando la inducción de plasticidad sináptica.\n\n2. Farmacodinámica de los Metabolitos Activos y Ansiolisis No Sedante:\n- A diferencia de los racetams hidrosolubles que se excretan inalterados por el riñón, el aniracetam experimenta un metabolismo hepático de primer paso masivo (>90%), generando tres metabolitos biológicamente activos principales:\n  * N-anisoil-GABA (ABA): Cruza eficientemente la BHE y modula la neurotransmisión monoaminérgica, interactuando con los sistemas serotoninérgico (receptores 5-HT2A) y dopaminérgico (receptores D2/D3), además de ejercer un tono regulador sobre las interneuronas GABAérgicas.\n  * Ácido p-anísico: Actúa como modulador alostérico complementario y cofactor antiinflamatorio neuronal.\n  * 2-Pirrolidinona: Molécula intermediaria que retiene propiedades procognitivas basales.\n- Este eje metabólico convierte al aniracetam en el único miembro de la familia de los racetams con una potente acción ansiolítica dual: reduce el estrés social y la ansiedad de rendimiento sin generar sedación, miorrelajación ni incoordinación motora.\n\n3. Redes Neuronales de la Creatividad y Fluidez Verbal:\n- Aumenta la liberación presináptica de acetilcolina y dopamina en la corteza prefrontal y el área asociativa temporoparietal.\n- Optimiza la integración de señales entre la Red de Modo por Defecto (DMN, vinculada al pensamiento divergente e imaginativo) y la Red de Control Ejecutivo (CEN), facilitando la asociación de conceptos distantes, la resolución creativa de problemas complejos y la velocidad de acceso al léxico mental (fluidez verbal).",
+  "relevancia_nootropica": "Directrices posológicas, cronofarmacología y stacks de flujo cognitivo:\n- Pauta de Dosificación Nootrópica:\n  * Dosis Diaria: 750 mg a 1.500 mg/día divididos en 2 tomas (ej. 750 mg por la mañana y 750 mg al mediodía).\n  * Requisito Lipídico Mandatorio: Ingerir obligatoriamente junto a una fuente de lípidos dietéticos (aceite MCT, aceite de oliva, huevos, frutos secos o suplementos de Omega-3) para asegurar su absorción micelar en el lumen intestinal.\n- Farmacocinética:\n  * Tiempo al Pico Plasmático (Tmax): 20 a 40 minutos.\n  * Semivida Plasmática (t½): Muy corta (1 a 2 horas para la molécula madre; sus metabolitos activos extienden la ventana terapéutica hasta 3-4 horas).\n- Stack Nootrópico para Creatividad y Oratoria:\n  * Aniracetam (750 mg) + Alpha-GPC (300 mg) + L-Teanina (150 mg) + Aceite MCT C8 (5-10 ml) 45 minutos antes de una presentación, sesión de escritura o negociación.\n- Estatus Legal y Seguridad:\n  * Europa: Fármaco comercializado bajo prescripción médica en países como Italia o Grecia (Ampamet®, Draganon®) para trastornos de la memoria y el estado de ánimo.\n  * EE. UU. / Internacional: Compuesto de investigación no programado.\n  * Perfil de Seguridad: Elevada tolerancia; no genera adicción ni síndrome de abstinencia.",
+  "neurotransmisores_asociados": [
+    "acetilcolina",
+    "glutamato",
+    "serotonina",
+    "dopamina"
+  ],
+  "regiones_asociadas": [
+    "corteza prefrontal",
+    "hipocampo",
+    "red de modo por defecto",
+    "corteza temporoparietal"
+  ]
+}

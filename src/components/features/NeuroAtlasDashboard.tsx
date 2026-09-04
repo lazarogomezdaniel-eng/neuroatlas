@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { allSubstances, getAllCategories, getAllCognitiveGoals } from '@/data';
 import { Substance, EvidenceLevel } from '@/types/substance';
 import { FilterSidebar } from '@/components/layout/FilterSidebar';
@@ -18,9 +18,29 @@ export const NeuroAtlasDashboard: React.FC = () => {
   const [selectedEvidence, setSelectedEvidence] = useState<EvidenceLevel[]>([]);
   const [selectedGoals, setSelectedGoals] = useState<string[]>([]);
   
-  // Estado del stack interactivo
+  // Estado del stack interactivo persistido
   const [stack, setStack] = useState<Substance[]>([]);
-  
+
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem('neuroatlas_user_stack');
+      if (saved) {
+        setStack(JSON.parse(saved));
+      }
+    } catch (e) {
+      console.error('Error loading stack from localStorage', e);
+    }
+  }, []);
+
+  const updateStackAndStorage = (newStack: Substance[]) => {
+    setStack(newStack);
+    try {
+      localStorage.setItem('neuroatlas_user_stack', JSON.stringify(newStack));
+    } catch (e) {
+      console.error('Error saving stack to localStorage', e);
+    }
+  };
+
   // Monografía activa en modal
   const [activeSubstance, setActiveSubstance] = useState<Substance | null>(null);
 
@@ -60,16 +80,16 @@ export const NeuroAtlasDashboard: React.FC = () => {
 
   const handleAddToStack = (substance: Substance) => {
     if (!stack.some((s) => s.id === substance.id)) {
-      setStack([...stack, substance]);
+      updateStackAndStorage([...stack, substance]);
     }
   };
 
   const handleRemoveFromStack = (id: string) => {
-    setStack(stack.filter((s) => s.id !== id));
+    updateStackAndStorage(stack.filter((s) => s.id !== id));
   };
 
   const handleClearStack = () => {
-    setStack([]);
+    updateStackAndStorage([]);
   };
 
   const filteredSubstances = useMemo(() => {
@@ -234,6 +254,7 @@ export const NeuroAtlasDashboard: React.FC = () => {
                       substance={substance}
                       onSelect={(s) => setActiveSubstance(s)}
                       onAddToStack={handleAddToStack}
+                      onRemoveFromStack={handleRemoveFromStack}
                       isInStack={stackIds.includes(substance.id)}
                     />
                   ))}
@@ -248,6 +269,7 @@ export const NeuroAtlasDashboard: React.FC = () => {
               substances={filteredSubstances}
               onSelectSubstance={(s) => setActiveSubstance(s)}
               onAddToStack={handleAddToStack}
+              onRemoveFromStack={handleRemoveFromStack}
               stackIds={stackIds}
             />
           )}
@@ -287,6 +309,7 @@ export const NeuroAtlasDashboard: React.FC = () => {
         substance={activeSubstance}
         onClose={() => setActiveSubstance(null)}
         onAddToStack={handleAddToStack}
+        onRemoveFromStack={handleRemoveFromStack}
         isInStack={activeSubstance ? stackIds.includes(activeSubstance.id) : false}
       />
     </div>

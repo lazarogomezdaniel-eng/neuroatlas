@@ -1,0 +1,442 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdBanner from '../../components/monetization/AdBanner.astro';
+import { 
+  Sparkles, 
+  Clock, 
+  Layers, 
+  Award, 
+  BookOpen, 
+  ArrowRight, 
+  Zap, 
+  ShieldAlert, 
+  FlaskConical, 
+  Dna, 
+  Activity,
+  AlertTriangle,
+  Scale,
+  Pill
+} from 'lucide-react';
+---
+
+<BaseLayout
+  title="Módulo III: Farmacología Sintética y Farmacéutica | NeuroAtlas"
+  description="Los 'Smart Drugs': Racetams, Eugeroicos, Péptidos y Estimulantes sintetizados en laboratorio. Mecanismos, dosis, evidencia clínica y riesgos legales."
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+    
+    <!-- 1. HERO -->
+    <header class="relative rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-10 overflow-hidden space-y-6">
+      <div class="absolute top-0 right-0 -mr-16 -mt-16 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      
+      <div class="flex flex-wrap items-center gap-2.5">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-500/15 border border-blue-500/40 text-xs font-mono font-bold text-blue-400 shadow-cyan-glow">
+          <Pill className="w-3.5 h-3.5" />
+          MÓDULO III · NIVEL AVANZADO
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Layers className="w-3.5 h-3.5 text-blue-400" />
+          28 MONOGRAFÍAS
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Award className="w-3.5 h-3.5 text-secondary" />
+          8 SECCIONES
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Clock className="w-3.5 h-3.5 text-primary" />
+          4-5 HORAS
+        </span>
+      </div>
+
+      <div class="space-y-3 max-w-3xl">
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
+          Módulo III: Farmacología Sintética y Farmacéutica
+        </h1>
+        <p class="text-base sm:text-xl text-blue-400 font-medium">
+          Los "Smart Drugs": Racetams, Eugeroicos, Péptidos y Estimulantes de Precisión
+        </p>
+        <p class="text-xs sm:text-sm text-text-secondary leading-relaxed pt-2">
+          Análisis exhaustivo de los compuestos sintetizados o aislados en laboratorio para la optimización cognitiva. Farmacodinámica, modulación alostérica, cronofarmacología, perfil toxicológico y marco regulatorio internacional.
+        </p>
+      </div>
+    </header>
+
+    <!-- AdBanner Superior -->
+    <AdBanner slotId="modulo-3-top" format="horizontal" />
+
+    <!-- 2. AVISO LEGAL Y MÉDICO CRÍTICO -->
+    <section class="rounded-biotech border border-amber-500/40 bg-amber-500/5 p-6 sm:p-8 space-y-4">
+      <div class="flex items-center gap-2 text-amber-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <ShieldAlert className="w-4 h-4 text-amber-400" />
+        <span>Marco Clínico, Regulatorio & Responsabilidad</span>
+      </div>
+      <h2 class="text-xl sm:text-2xl font-bold text-text-primary">¿Por qué este módulo es radicalmente diferente?</h2>
+      <p class="text-sm text-text-secondary leading-relaxed">
+        A diferencia de los micronutrientes esenciales o los adaptógenos botánicos, las sustancias de este módulo son <strong class="text-text-primary">moléculas sintéticas de alta afinidad farmacológica</strong> diseñadas para alterar de forma directa la permeabilidad de membrana, la cinemática de recaptación de monoaminas o la modulación alostérica de receptores iónicos.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2 text-xs font-mono text-text-secondary">
+        <div class="p-3.5 rounded bg-surface border border-surface-bright space-y-1.5">
+          <div class="text-amber-400 font-bold flex items-center gap-1.5">
+            <Scale className="w-3.5 h-3.5" /> Estatus de Prescripción
+          </div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Muchos compuestos (Modafinilo, derivados anfetamínicos, nootrópicos peptídicos) son fármacos controlados que requieren prescripción médica obligatoria.
+          </p>
+        </div>
+        <div class="p-3.5 rounded bg-surface border border-surface-bright space-y-1.5">
+          <div class="text-rose-400 font-bold flex items-center gap-1.5">
+            <AlertTriangle className="w-3.5 h-3.5" /> Restricciones WADA / Antidopaje
+          </div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Sustancias como el Fenilpiracetam o eugeroicos están explícitamente vetadas en el deporte competitivo bajo el código de la Agencia Mundial Antidopaje.
+          </p>
+        </div>
+        <div class="p-3.5 rounded bg-surface border border-surface-bright space-y-1.5">
+          <div class="text-blue-400 font-bold flex items-center gap-1.5">
+            <Activity className="w-3.5 h-3.5" /> Farmacovigilancia y CYP450
+          </div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Requieren un conocimiento estricto de interacciones hepáticas (isoenzimas CYP3A4, CYP2C19), semivida y riesgo de depleción de neurotransmisores.
+          </p>
+        </div>
+      </div>
+
+      <div class="p-3.5 rounded bg-surface border border-amber-500/30 text-xs font-mono text-amber-300 leading-relaxed">
+        <strong>Aviso Enciclopédico:</strong> La información contenida en NeuroAtlas tiene un fin estrictamente educativo, documental y científico. No constituye asesoramiento médico ni incentiva la adquisición o uso no supervisado de medicamentos.
+      </div>
+    </section>
+
+    <!-- 3. MAPA DE CONTENIDO DEL MÓDULO III -->
+    <section class="space-y-8">
+      <div class="border-b border-surface-bright pb-4 flex items-center justify-between">
+        <div>
+          <h2 class="text-2xl font-bold text-text-primary flex items-center gap-2">
+            <span>🗺️ Mapa de Contenido del Módulo III</span>
+          </h2>
+          <p class="text-xs sm:text-sm text-text-secondary mt-1">
+            Monografías de racetams, eugeroicos, ampakinas, péptidos y estimulantes de laboratorio.
+          </p>
+        </div>
+      </div>
+
+      <!-- Sección 3.1 -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-blue-500/20 text-blue-400 font-mono text-xs font-bold">3.1</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 3.1 — La Familia de los Racetams</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">8 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Pioneros de la nootropía: modulación de la fluidez de membrana lipídica y potenciación alostérica positiva de receptores AMPA.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/introduccion-racetams" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-blue-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-blue-400 transition-colors">Introducción a los Racetams</div>
+              <div class="text-[11px] text-text-muted italic">Estructura del núcleo pirrolidona 2-oxo y concepto fundacional de Giurgea</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-blue-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/piracetam" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-blue-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-blue-400 transition-colors">Piracetam (Nootropil)</div>
+              <div class="text-[11px] text-text-muted italic">El padre de los nootrópicos: microcirculación, fluidez de membrana y colinergia</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-blue-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/aniracetam" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-blue-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-blue-400 transition-colors">Aniracetam (Liposoluble)</div>
+              <div class="text-[11px] text-text-muted italic">Modulación AMPA/5-HT2A, creatividad, fluidez verbal y acción ansiolítica</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-blue-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/oxiracetam" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-blue-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-blue-400 transition-colors">Oxiracetam (Hidrosoluble)</div>
+              <div class="text-[11px] text-text-muted italic">Pensamiento lógico-matemático, memoria espacial y ligero estímulo del SNC</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-blue-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/pramiracetam" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-blue-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-blue-400 transition-colors">Pramiracetam (Alta Potencia)</div>
+              <div class="text-[11px] text-text-muted italic">Enfoque de túnel, captación colinérgica HACU de alta afinidad y tono neutro</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-blue-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/phenylpiracetam" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-blue-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-blue-400 transition-colors">Fenilpiracetam (Carphedon)</div>
+              <div class="text-[11px] text-text-muted italic">Estimulación psicomotora, resistencia al frío/estrés físico y restricción WADA</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-blue-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/coluracetam" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-blue-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-blue-400 transition-colors">Coluracetam (MKC-231)</div>
+              <div class="text-[11px] text-text-muted italic">Potenciación del transportador HACU, agudeza óptica/color y soporte anímico</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-blue-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/fasoracetam" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-blue-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-blue-400 transition-colors">Fasoracetam (NS-105)</div>
+              <div class="text-[11px] text-text-muted italic">Up-regulation de receptores GABA-B, modulación mGluR y enfoque atencional</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-blue-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Sección 3.2 -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-400 font-mono text-xs font-bold">3.2</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 3.2 — Eugeroicos (Promotores de la Vigilia)</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">3 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Activación del circuito de orexina/hipocretina, inhibición selectiva de DAT e histamina hipotalámica sin el choque simpático periférico.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/modafinilo-armodafinilo" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-cyan-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-cyan-400 transition-colors">Modafinilo y Armodafinilo (R-Modafinilo)</div>
+              <div class="text-[11px] text-text-muted italic">Bloqueo atípico de DAT, orexina/histamina, farmacocinética enantiomérica y vigilia</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-cyan-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/adrafinil" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-cyan-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-cyan-400 transition-colors">Adrafinil (Olmifon)</div>
+              <div class="text-[11px] text-text-muted italic">Profármaco hepático del modafinilo, carga enzimática y monitoreo transaminasas</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-cyan-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/pitolisant-solriamfetol" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-cyan-500/50 hover:bg-surface-container transition-all group flex items-center justify-between md:col-span-2">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-cyan-400 transition-colors">Pitolisant (Wakix) y Solriamfetol (Sunosi)</div>
+              <div class="text-[11px] text-text-muted italic">Antagonismo inverso H3 e inhibición dual DNRI de nueva generación</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-cyan-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Sección 3.3 -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-mono text-xs font-bold">3.3</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 3.3 — Ampakinas & Moduladores Glutamatérgicos</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">2 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Potenciadores de alta afinidad del canal AMPA: desensibilización retrasada, potenciación a largo plazo y riesgo de excitotoxicidad.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/sunifiram-unifiram" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Sunifiram (DM-235) y Unifiram (DM-232)</div>
+              <div class="text-[11px] text-text-muted italic">Potencia milimolar en receptores AMPA, liberación de ACh y ventana terapéutica estrecha</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/idra-21-cx-717" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">IDRA-21 y Moléculas CX (CX-717 / CX-516)</div>
+              <div class="text-[11px] text-text-muted italic">Benzotiadiazinas alostéricas de larga duración y preservación cognitiva bajo hipoxia</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Sección 3.4 -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-violet-500/20 text-violet-400 font-mono text-xs font-bold">3.4</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 3.4 — Péptidos Nootrópicos & Factores Neurotróficos</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">6 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Péptidos bioactivos sintéticos y formulaciones biorreguladoras: cascada TrkB/BDNF, NGF, neurogénesis masiva y vías de administración especializadas (intranasal, parenteral).</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/semax-selank" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-violet-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-violet-400 transition-colors">Semax y Selank (Péptidos Rusos Intranasales)</div>
+              <div class="text-[11px] text-text-muted italic">Análogos de ACTH(4-10) y Tuftsina: inducción de BDNF/TrkB, serotonina y ansiolisis</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-violet-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/noopept" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-violet-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-violet-400 transition-colors">Noopept (N-Fenilacetil-L-prolilglicina)</div>
+              <div class="text-[11px] text-text-muted italic">Dipéptido pro-colinérgico, estimulación NGF/BDNF hipocampal a dosis miligramo</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-violet-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/cerebrolysin-cortexin" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-violet-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-violet-400 transition-colors">Cerebrolysin y Cortexin (Neuropéptidos Inyectables)</div>
+              <div class="text-[11px] text-text-muted italic">Fracciones polipeptídicas porcinas/bovinas para neuro-reparación post-ictus y TBI</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-violet-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/dihexa-p21" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-violet-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-violet-400 transition-colors">Dihexa y P21 (Sinaptogénesis Extrema)</div>
+              <div class="text-[11px] text-text-muted italic">Potenciación del factor de crecimiento de hepatocitos (HGF/c-Met) y análogos CNTF</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-violet-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/epitalon" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-violet-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-violet-400 transition-colors">Epitalon (Tetrapéptido Epithalamin)</div>
+              <div class="text-[11px] text-text-muted italic">Activación de la telomerasa, regulación pineal/melatonina y longevidad celular</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-violet-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/bpc-157-ghk-cu" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-violet-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-violet-400 transition-colors">BPC-157 y GHK-Cu (Eje Reparador Sistémico)</div>
+              <div class="text-[11px] text-text-muted italic">Regeneración de la barrera intestinal/BHE, angiogénesis y remodelación tisular</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-violet-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Secciones 3.5 a 3.8 Roadmap -->
+      <div class="rounded-biotech border border-surface-bright bg-surface-lowest p-6 sm:p-8 space-y-4 opacity-75">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-surface-container text-text-muted font-mono text-xs font-bold">3.5–3.8</span>
+            <h3 class="text-lg font-bold text-text-primary">Secciones 3.5 a 3.8 — En Desarrollo</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">PRÓXIMA ENTREGA</span>
+        </div>
+        <p class="text-xs text-text-secondary">
+          Incluirá fármacos dopaminérgicos de prescripción (Metilfenidato, Dextroanfetamina, Atomoxetina), colinérgicos sintéticos avanzados (Centrophenoxina, Idebenona, PRL-8-53), moduladores GABAérgicos (Fenibut, Picamilon, Emoxipina) y agentes neuroprotectores de síntesis.
+        </p>
+      </div>
+    </section>
+
+    <!-- 4. GUÍA DE ESTUDIO Y PRECAUCIÓN -->
+    <section class="rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-blue-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <BookOpen className="w-4 h-4" />
+        <span>Ruta Pedagógica & Seguridad</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">📋 Guía de Estudio y Precaución</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-primary/10 border border-primary/30 text-primary font-mono text-[11px] font-bold uppercase">
+            Nivel 1
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Para el principiante:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li><strong class="text-text-primary">NO empieces por aquí:</strong> Domina y optimiza primero los Módulos I y II.</li>
+            <li>Si exploras racetams, empieza exclusivamente con <strong class="text-text-primary">Piracetam</strong> o <strong class="text-text-primary">Aniracetam</strong>.</li>
+            <li><strong class="text-rose-400">Regla inquebrantable:</strong> Nunca tomes un racetam sin una fuente de colina de alta biodisponibilidad (Alpha-GPC / CDP-Colina) para evitar cefaleas de depleción.</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-blue-500/40 bg-surface p-5 space-y-3.5 shadow-cyan-glow">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-blue-500/10 border border-blue-500/30 text-blue-400 font-mono text-[11px] font-bold uppercase">
+            Nivel 2
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Para el biohacker:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Distingue los perfiles <strong class="text-blue-400">hidrosolubles</strong> (Piracetam, Oxiracetam) de los <strong class="text-blue-400">liposolubles</strong> (Aniracetam, Pramiracetam, Fenilpiracetam).</li>
+            <li>Planifica ciclos estrictos (evita tolerancia en Fenilpiracetam y moduladores dopaminérgicos).</li>
+            <li>Comprende la farmacodinámica de los <strong class="text-blue-400">Péptidos intranasales</strong> (Semax/Selank) frente a péptidos orales.</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-secondary/30 bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-secondary/10 border border-secondary/30 text-secondary font-mono text-[11px] font-bold uppercase">
+            Nivel 3
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Para el profesional clínico:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Revisa la farmacocinética enantiomérica de los <strong class="text-secondary">Eugeroicos</strong> e interacciones enzimáticas del CYP450.</li>
+            <li>Analiza el potencial de <strong class="text-secondary">Cerebrolysin</strong> y <strong class="text-secondary">Noopept</strong> en protocolos de neurorrehabilitación post-TBI e isquemia.</li>
+            <li>Monitorea biomarcadores hepáticos y parámetros cardiovasculares en pacientes tratados.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. PRÓXIMOS MÓDULOS -->
+    <section class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-primary font-mono text-xs font-bold uppercase tracking-wider">
+        <Layers className="w-4 h-4" />
+        <span>Plan Curricular Global</span>
+      </div>
+      <div class="space-y-1">
+        <h2 class="text-2xl font-bold text-text-primary">🔗 Currículum de NeuroAtlas</h2>
+        <p class="text-xs text-text-secondary">Estado de publicación de los 14 módulos.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-xs font-mono">
+        <a href="/modulos/modulo-1" class="p-3.5 rounded-biotech border border-primary/40 bg-primary/10 flex items-center justify-between hover:bg-primary/20 transition-all">
+          <span class="text-text-primary font-bold">Módulo I: Fundamentos Biológicos</span>
+          <span class="px-2 py-0.5 rounded bg-primary/20 text-primary text-[10px] font-bold uppercase">✅ Completo</span>
+        </a>
+        <a href="/modulos/modulo-2" class="p-3.5 rounded-biotech border border-emerald-500/40 bg-emerald-500/10 flex items-center justify-between hover:bg-emerald-500/20 transition-all">
+          <span class="text-text-primary font-bold">Módulo II: Nutrición Cerebral</span>
+          <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-[10px] font-bold uppercase">✅ Completo</span>
+        </a>
+        <div class="p-3.5 rounded-biotech border border-blue-500/40 bg-blue-500/10 flex items-center justify-between">
+          <span class="text-text-primary font-bold">Módulo III: Farmacología Sintética</span>
+          <span class="px-2 py-0.5 rounded bg-blue-500/20 text-blue-400 text-[10px] font-bold uppercase">🟡 En desarrollo</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo IV: Farmacopea Natural & Hongos</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo V: Psicodelia & Plasticidad</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo VI: Bioenergética & Longevidad</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo VII: Eje Intestino-Cerebro</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo VIII: Hormesis Ambiental</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo IX: Cronobiología & Sueño</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo X: El Arte del Stacking</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo XI: Aplicaciones Específicas</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo XII: Marcas & Calidad</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>
