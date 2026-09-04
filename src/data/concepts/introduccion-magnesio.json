@@ -1,0 +1,22 @@
+{
+  "slug": "introduccion-magnesio",
+  "titulo": "Introducción al Magnesio: El mineral maestro del cerebro",
+  "modulo": "Modulo II",
+  "seccion": "2.3",
+  "tipo": "concepto",
+  "definicion": "El magnesio es un cofactor para más de 600 reacciones enzimáticas, incluida la producción de ATP, la regulación del glutamato y la síntesis de neurotransmisores. El 70% de la población no consume suficiente magnesio.",
+  "explicacion": "El catión divalente Magnesio (Mg²⁺) es el segundo electrolito intracelular más prevalente del organismo, actuando como cofactor regulador en más de 600 sistemas enzimáticos y en el balance neurofisiológico central:\n\n1. Complejo Mg-ATP y Bioenergética:\nEl ATP intracelular no existe de forma biológicamente activa como nucleótido libre, sino quelado como complejo Mg²⁺-ATP (fosforilación oxidativa, bombas Na⁺/K⁺-ATPasa y Ca²⁺-ATPasa).\n\n2. Bloqueo de Voltaje del Receptor NMDA:\nEn potencial de membrana en reposo (-70 mV), el ion Mg²⁺ se aloja en el poro del canal del receptor NMDA, actuando como un 'tapón electrofisiológico' que impide la entrada descontrolada de calcio (Ca²⁺) y previene la excitotoxicidad glutamatérgica.\n\n3. Regulación Neuroendocrina y GABAérgica:\n- Modula la sensibilidad de los receptores GABA-A facilitando la hiperpolarización neuronal y la calma cortical.\n- Atenúa la reactividad del eje HPA al reducir la liberación de ACTH adenohipofisaria y limitar la secreción adrenal de cortisol.\n\n4. Antagonismo Fisiológico con el Calcio:\nEl Ca²⁺ induce despolarización, contracción muscular y activación proinflamatoria; el Mg²⁺ restablece la repolarización, relajación y homeostasis.",
+  "relevancia_nootropica": "Abordaje de la deficiencia epidémica y criterios de selección quelada:\n- Fisiopatología de la Deficiencia: La depleción mineral de los suelos de cultivo, el consumo de ultraprocesados y la hipercalciuria inducida por estrés crónico y alcohol generan un ratio Ca:Mg desfavorable (3:1 o 4:1 frente al óptimo fisiológico 1:1 o 2:1).\n- Criterio de Selección de Quelatos vs Sales Inorgánicas:\n  * Sales inorgánicas de baja solubilidad (Óxido de magnesio ~4% de absorción) actúan como laxantes osmóticos sin biodisponibilidad neuronal.\n  * Formas queladas orgánicas dirigen el catión hacia dianas específicas: L-Treonato (BHE y plasticidad sináptica), Bisglicinato (ansiolítico y arquitectura del sueño), Taurato (gating NMDA y estabilidad cardíaca) y Malato (ciclo de Krebs mitocondrial).\n- Posología Base: 200 a 400 mg/día de magnesio elemental biodisponible.",
+  "neurotransmisores_asociados": [
+    "GABA",
+    "glutamato",
+    "serotonina",
+    "dopamina"
+  ],
+  "regiones_asociadas": [
+    "todo el cerebro",
+    "mitocondrias",
+    "músculos",
+    "sinapsis glutamatérgicas"
+  ]
+}

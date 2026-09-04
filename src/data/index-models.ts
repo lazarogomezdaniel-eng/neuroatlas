@@ -69,6 +69,9 @@ import vitaminaB7Json from './concepts/vitamina-b7-biotina.json';
 import vitaminaB9Json from './concepts/vitamina-b9-folato.json';
 import vitaminaB12Json from './concepts/vitamina-b12.json';
 
+// 2.3 Espectro del Magnesio
+import introMagnesioJson from './concepts/introduccion-magnesio.json';
+
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
 export const conceptos: Concepto[] = [
@@ -123,7 +126,7 @@ export const conceptos: Concepto[] = [
   ejeIntestinoJson as Concepto,
 
   // MÓDULO II
-  // 2.1 Complejo B y Metilación (9 monografías completas)
+  // 2.1 Complejo B y Metilación
   introVitaminasBJson as Concepto,
   vitaminaB1Json as Concepto,
   vitaminaB2Json as Concepto,
@@ -133,6 +136,9 @@ export const conceptos: Concepto[] = [
   vitaminaB7Json as Concepto,
   vitaminaB9Json as Concepto,
   vitaminaB12Json as Concepto,
+
+  // 2.3 Espectro del Magnesio
+  introMagnesioJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
