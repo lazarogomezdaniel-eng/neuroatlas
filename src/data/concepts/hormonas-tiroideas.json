@@ -1,0 +1,19 @@
+{
+  "slug": "hormonas-tiroideas",
+  "titulo": "Hormonas Tiroideas (T3 y T4): El acelerador metabólico del cerebro",
+  "modulo": "Modulo I",
+  "seccion": "1.5",
+  "tipo": "mecanismo",
+  "definicion": "Las hormonas producidas por la glándula tiroides que regulan la velocidad del metabolismo celular en todo el cuerpo, incluido el cerebro. Su déficit es una causa oculta y masiva de niebla mental y depresión.",
+  "explicacion": "El eje Hipotálamo-Hipófisis-Tiroideo (HPT) regula la tasa metabólica basal neuronal y la bioenergética mitocondrial:\n\n1. Cascada endocrina: TRH hipotalámica → TSH adenohipofisaria → Secreción tiroidea de Tiroxina (T4, ~80-90%, prohormona inactiva) y Triyodotironina (T3, ~10-20%, forma biológicamente activa).\n2. Conversión periférica (Deyodinasas D1 y D2): Enzimas selenodependientes en hígado, riñón, intestino y astrocitos eliminan un átomo de yodo del anillo exterior para transformar T4 en T3 libre (fT3), la cual se une a receptores nucleares TRα1 en el cerebro para regular la síntesis de ATP, la mielinización y la expresión de receptores de neurotransmisores.\n3. El bloqueo por T3 Reversa (rT3): En situaciones de inflamación, estrés crónico o déficit nutricional, la enzima D3 desvía la T4 hacia T3 Reversa inactiva, la cual bloquea competitivamente los receptores de T3 causando un estado de hipotiroidismo tisular cerebral a pesar de tener una TSH 'normal'.\n\nSintomatología cognitiva de tiroides subóptima: Niebla mental densa, anomia (dificultad para encontrar palabras), bradipsiquia (pensamiento enlentecido), depresión refractaria y fatiga que no responde a estimulantes dopaminérgicos.",
+  "relevancia_nootropica": "Cofactores de síntesis, conversión y alertas farmacológicas:\n- L-Tirosina: Aminoácido sustrato que se yoda en la tiroglobulina para sintetizar las tironinas.\n- Selenio (Selenometionina): Cofactor indispensable de las deyodinasas y de la glutatión peroxidasa tiroidea para evitar el daño oxidativo inducido por H2O2 durante la organificación.\n- Zinc y Hierro (Ferritina): Esenciales para la actividad de la peroxidasa tiroidea (TPO) y el receptor nuclear tiroideo.\n- Yodo: Sustrato mineral primario; su suplementación sin adecuado selenio puede desencadenar autoinmunidad tiroidea (Tiroiditis de Hashimoto).\n- Alerta clínica con Ashwagandha: La Withania somnifera estimula la secreción de T3/T4; beneficiosa en hipotiroidismo subclínico pero contraindicada en patología autoinmune hipertiroidea (Graves) por riesgo de tirotoxicosis inducida.",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "serotonina"
+  ],
+  "regiones_asociadas": [
+    "tiroides",
+    "hipotálamo",
+    "cerebro global"
+  ]
+}

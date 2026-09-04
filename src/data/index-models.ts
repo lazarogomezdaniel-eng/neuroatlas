@@ -37,6 +37,7 @@ import epigeneticaJson from './concepts/epigenetica.json';
 import farmacogenomicaPersonalizacionJson from './concepts/farmacogenomica-personalizacion.json';
 import introNeuroendocrinologiaJson from './concepts/introduccion-neuroendocrinologia.json';
 import ejeHpaJson from './concepts/eje-hpa-cortisol.json';
+import hormonasTiroideasJson from './concepts/hormonas-tiroideas.json';
 import ltpJson from './concepts/plasticidad-sinaptica.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
@@ -76,6 +77,7 @@ export const conceptos: Concepto[] = [
   farmacogenomicaPersonalizacionJson as Concepto,
   introNeuroendocrinologiaJson as Concepto,
   ejeHpaJson as Concepto,
+  hormonasTiroideasJson as Concepto,
   ltpJson as Concepto,
 ];
 
