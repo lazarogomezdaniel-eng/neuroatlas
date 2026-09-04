@@ -1,0 +1,21 @@
+{
+  "slug": "hierro-ferritina",
+  "titulo": "Hierro y Ferritina: El motor de la dopamina y la niebla mental",
+  "modulo": "Modulo II",
+  "seccion": "2.4",
+  "tipo": "concepto",
+  "definicion": "El hierro es el cofactor limitante de la Tirosina Hidroxilasa, la enzima que fabrica dopamina. La deficiencia de hierro (incluso sin anemia) es una de las causas más comunes e ignoradas de fatiga mental y TDAH.",
+  "explicacion": "El catión Hierro (Fe²⁺/Fe³⁺) es un oligoelemento redox-activo con el mayor tropismo metabólico en los ganglios basales y la sustancia negra, actuando como cofactor catalítico obligatorio en la neuroquímica dopaminérgica y la bioenergética de la mielina:\n\n1. Cuello de Botella en la Biosíntesis de Catecolaminas (Tirosina Hidroxilasa):\n- La enzima Tirosina Hidroxilasa (TH) cataliza el paso limitante de velocidad en la síntesis de catecolaminas (L-Tirosina -> L-DOPA). Cada monómero de TH contiene un ion de hierro ferroso no hemo (Fe²⁺) en su centro activo coordinado con tetrahidrobiopterina (BH4).\n- En estados de ferropenia tisular, la actividad de la TH colapsa, provocando un agotamiento selectivo del pool de Dopamina y Noradrenalina estriatal y prefrontal, lo que se manifiesta como déficit de atención, desmotivación ejecutiva y anhedonia.\n\n2. Síntesis de Mielina y Consumo de Oxígeno Mitocondrial:\n- Los oligodendrocitos son las células con mayor densidad de hierro de todo el SNC, requiriéndolo para enzimas como la Colesterol Deshidrogenasa y las desaturasas de ácidos grasos necesarias para la biogénesis y mantenimiento de las vainas de mielina.\n- Es componente del grupo hemo en citocromos de la cadena respiratoria mitocondrial (Complejos I, II, III y IV), indispensable para la fosforilación oxidativa.\n\n3. Ferritina Sérica vs Hemoglobina (Ferropenia Latente Cerebral):\n- La hemoglobina sistémica puede permanecer en rango normal mientras las reservas cerebrales de ferritina (<30 ng/mL) están críticamente deplecionadas.\n- Fisiopatología del Síndrome de Piernas Inquietas (SPI): La ferropenia estriatal altera la expresión de receptores D2 en los ganglios basales, desencadenando SPI y fragmentación del sueño profundo.\n\n4. Reacción de Fenton y Toxicidad por Sobrecarga:\n- El hierro libre no quelado (LPI / Fe²⁺) reacciona con el peróxido de hidrógeno celular mediante la reacción de Fenton (Fe²⁺ + H₂O₂ -> Fe³⁺ + OH• + OH⁻), generando el radical hidroxilo, el oxidante más destructivo de las membranas lipídicas neuronales. La sobrecarga férrica está implicada en la ferroptosis y la patogenia del Parkinson.",
+  "relevancia_nootropica": "Criterios analíticos de laboratorio, quelatos y posología segura:\n- Diagnóstico de Laboratorio Obligatorio: NUNCA suplementar hierro empíricamente. Evaluar panel férrico completo (Ferritina sérica, Hierro sérico, Transferrina, Saturación de Transferrina e Índice TIBC).\n- Rango Óptimo Nootrópico de Ferritina: 50 a 100 ng/mL en ausencia de inflamación sistémica (PCR < 0.5 mg/L).\n- Selección de la Forma Química:\n  * Bisglicinato Ferroso (Quelato Ferrochel®): Alta absorción intestinal mediante transportadores PEPT1, no dependiente del pH gástrico, con incidencia mínima de estreñimiento, náuseas o quelación competitiva.\n- Protocolo de Co-administración:\n  * Administrar junto a 500 mg de Vitamina C (facilita la reducción de Fe³⁺ a Fe²⁺ absorbible).\n  * Separar al menos 2-3 horas de café, té (taninos), lácteos (calcio) y magnesio, los cuales inhiben drásticamente su absorción.",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "noradrenalina"
+  ],
+  "regiones_asociadas": [
+    "sustancia negra",
+    "ganglios basales",
+    "estriado",
+    "vaina de mielina",
+    "corteza prefrontal"
+  ]
+}

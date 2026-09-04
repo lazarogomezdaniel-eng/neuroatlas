@@ -85,6 +85,7 @@ import otrosTiposMagnesioJson from './concepts/otros-tipos-magnesio.json';
 // 2.4 Minerales Traza & Electrolitos
 import zincJson from './concepts/zinc.json';
 import litioOrotatoJson from './concepts/litio-orotato.json';
+import hierroFerritinaJson from './concepts/hierro-ferritina.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -167,6 +168,7 @@ export const conceptos: Concepto[] = [
   // 2.4 Minerales Traza & Electrolitos
   zincJson as Concepto,
   litioOrotatoJson as Concepto,
+  hierroFerritinaJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
