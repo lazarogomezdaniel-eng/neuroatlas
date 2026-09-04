@@ -1,0 +1,22 @@
+{
+  "slug": "introduccion-vitaminas-b-metilacion",
+  "titulo": "Introducción a las Vitaminas B y la Metilación",
+  "modulo": "Modulo II",
+  "seccion": "2.1",
+  "tipo": "concepto",
+  "definicion": "Las vitaminas del complejo B son los cofactores maestros para la producción de neurotransmisores, la metilación del ADN, la energía mitocondrial y la reparación neuronal. Sin ellas, el cerebro no puede funcionar.",
+  "explicacion": "Las vitaminas del complejo B actúan como coenzimas hidrosolubles indispensables que posibilitan la catálisis enzimática en cuatro ejes cardinales de la neurobiología:\n\n1. Biosíntesis de Neurotransmisores:\n- Piridoxal-5-Fosfato (P-5-P / B6): Cofactor de la DOPA descarboxilasa (L-DOPA → Dopamina), de la 5-HTP descarboxilasa (5-HTP → Serotonina) y de la GAD (Glutamato → GABA).\n- Ácido Pantoténico (B5): Precursor de la Coenzima A (CoA), necesaria para que la colina acetiltransferasa sintetice Acetilcolina a partir de Acetil-CoA y colina.\n\n2. Ciclo de Metilación y Un Carbono (1C / B9 + B12):\n- Interconversión enzimática entre L-5-Metiltetrahidrofolato (5-MTHF / B9) y Metilcobalamina (B12) para remetilar la Homocisteína a L-Metionina.\n- Síntesis de SAMe (S-Adenosilmetionina), donante universal de grupos metilo para la metilación de ADN, fosfolípidos de membrana (fosfatidilcolina) y síntesis de creatina.\n\n3. Bioenergética Mitocondrial (B1, B2, B3, B5):\n- B1 (Tiamina Pirofosfato): Complejo piruvato deshidrogenasa.\n- B2 (FAD/FMN) y B3 (NAD+/NADH): Complejos I y II de la cadena de transporte de electrones.\n\n4. Mielinización y Estructura:\n- B12 y B7 (Biotina): Síntesis de esfingolípidos y ácidos grasos estructurales de la vaina de mielina.",
+  "relevancia_nootropica": "Abordaje de la deficiencia subclínica y reglas de suplementación clínica:\n- Sinergia Obligatoria: Evitar monoterapia con vitaminas B aisladas sin soporte del complejo completo (B9 requiere B12 para evitar el 'folate trap'; B6 requiere B2 para su fosforilación activa).\n- Formas Bioactivas vs Sintéticas: Priorizar L-Metilfolato (frente a Ácido Fólico sintético en mutaciones MTHFR), Metilcobalamina / Adenosilcobalamina (frente a Cianocobalamina) y Piridoxal-5-Fosfato (frente a Piridoxina HCl).\n- Panel de Control Nootrópico: Monitorización de Homocisteína plasmática (< 8 µmol/L como diana óptima), Vitamina B12 (> 600 pg/mL) y Ácido Metilmalónico (MMA) antes de escalar hacia psicofármacos o nootrópicos avanzados.",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "serotonina",
+    "GABA",
+    "acetilcolina"
+  ],
+  "regiones_asociadas": [
+    "todo el cerebro",
+    "hígado",
+    "intestino",
+    "mitocondrias"
+  ]
+}

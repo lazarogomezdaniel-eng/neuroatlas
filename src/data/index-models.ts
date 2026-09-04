@@ -2,7 +2,7 @@ import { Sustancia, Concepto, Categoria } from '@/types/neuroatlas-models';
 import categoriesJson from './categories/categories.json';
 import bacopaJson from './substances/bacopa-monnieri.json';
 
-// Conceptos de Neuroanatomía y Mecanismos (Módulo I)
+// --- MÓDULO I: FUNDAMENTOS BIOLÓGICOS ---
 // 1.1 Neuroanatomía
 import neuroanatomiaJson from './concepts/neuroanatomia-funcional.json';
 import cortezaPrefrontalJson from './concepts/corteza-prefrontal.json';
@@ -57,9 +57,14 @@ import microgliaJson from './concepts/microglia-m1-m2.json';
 import citocinasJson from './concepts/citocinas-y-neuroinflamacion.json';
 import ejeIntestinoJson from './concepts/eje-intestino-cerebro-inmune.json';
 
+// --- MÓDULO II: NUTRICIÓN CEREBRAL Y MICRONUTRIENTES ---
+// 2.1 Complejo B y Metilación
+import introVitaminasBJson from './concepts/introduccion-vitaminas-b-metilacion.json';
+
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
 export const conceptos: Concepto[] = [
+  // MÓDULO I
   // 1.1
   neuroanatomiaJson as Concepto,
   cortezaPrefrontalJson as Concepto,
@@ -108,6 +113,10 @@ export const conceptos: Concepto[] = [
   microgliaJson as Concepto,
   citocinasJson as Concepto,
   ejeIntestinoJson as Concepto,
+
+  // MÓDULO II
+  // 2.1
+  introVitaminasBJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
