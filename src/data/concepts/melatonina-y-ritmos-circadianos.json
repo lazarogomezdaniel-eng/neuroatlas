@@ -1,0 +1,18 @@
+{
+  "slug": "melatonina-y-ritmos-circadianos",
+  "titulo": "Melatonina y el Núcleo Supraquiasmático: Más allá del sueño",
+  "modulo": "Modulo I",
+  "seccion": "1.5",
+  "tipo": "mecanismo",
+  "definicion": "La melatonina es la hormona de la oscuridad, producida por la glándula pineal. Además de inducir el sueño, es uno de los antioxidantes cerebrales más potentes que existen.",
+  "explicacion": "El marcapasos circadiano central reside en el Núcleo Supraquiasmático (NSQ/SCN) del hipotálamo anterior, sincronizado por el tracto retinohipotalámico mediante células ganglionares intrínsecamente fotosensibles (ipRGCs que expresan melanopsina sensible a 460-480 nm / luz azul):\n\n1. Sincronización fotoperiódica:\n- Exposición a luz solar matutina: Suprime la actividad de la enzima AANAT (arilalquilamina N-acetiltransferasa) en la glándula pineal y desencadena la elevación fisiológica de cortisol.\n- Ausencia de luz espectral azul (crepúsculo/noche): El NSQ desinhibe la glándula pineal, la cual convierte la serotonina en N-acetilserotonina y finalmente en Melatonina (N-acetil-5-metoxitriptamina).\n\n2. Neurobiología Celular y Mitocondrial de la Melatonina:\n- Penetrabilidad superior: Al ser anfipática y carecer de barreras de difusión, atraviesa activamente la membrana celular y la membrana mitocondrial interna.\n- Antioxidante intracelular en cascada: Cada molécula de melatonina y sus metabolitos (AFMK y AMK) neutralizan hasta 10 radicales libres (ROS/RNS), protegiendo selectivamente el ADN mitocondrial (ADNmt) y preservando el complejo I de la cadena respiratoria.\n- No induce dependencia ni tolerancia farmacológica (a diferencia de los moduladores alostéricos positivos GABA-A sintéticos).",
+  "relevancia_nootropica": "Optimización de la arquitectura del sueño (fase de ondas lentas N3 y REM) y neuroprotección nocturna:\n- Calibración de dosificación clínica:\n  * Dosis fisiológica (Ritmo y sincronización circadiana): 0.3 mg a 0.5 mg (300-500 mcg) tomada 60-90 min antes de acostarse; reproduce el pico endógeno basal sin desensibilizar los receptores MT1 y MT2 ni provocar somnolencia residual matutina.\n  * Dosis neuroprotectora / anti-aging: 1 mg a 3 mg (preferiblemente formulaciones de liberación sostenida/microencapsulada).\n- Stack sinérgico de arquitectura del sueño: Melatonina microdosificada + Magnesio Bisglicinato (300-400 mg de magnesio elemental) + L-Teanina (200 mg) + Apigenina (50 mg).\n- Protocolo circadiano natural: Exposición ocular a radiación solar directa (10-15 min tras despertar) para calibrar el 'temporizador circadiano' de secreción 14 horas posteriores.",
+  "neurotransmisores_asociados": [
+    "serotonina",
+    "GABA"
+  ],
+  "regiones_asociadas": [
+    "glándula pineal",
+    "núcleo supraquiasmático (SCN)"
+  ]
+}
