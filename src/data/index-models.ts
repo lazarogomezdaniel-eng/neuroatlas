@@ -69,8 +69,9 @@ import vitaminaB7Json from './concepts/vitamina-b7-biotina.json';
 import vitaminaB9Json from './concepts/vitamina-b9-folato.json';
 import vitaminaB12Json from './concepts/vitamina-b12.json';
 
-// 2.2 Antioxidantes y Cofactores
+// 2.2 Vitaminas Liposolubles & Antioxidantes
 import vitaminaCJson from './concepts/vitamina-c.json';
+import vitaminaD3K2Json from './concepts/vitamina-d3-k2.json';
 
 // 2.3 Espectro del Magnesio
 import introMagnesioJson from './concepts/introduccion-magnesio.json';
@@ -145,8 +146,9 @@ export const conceptos: Concepto[] = [
   vitaminaB9Json as Concepto,
   vitaminaB12Json as Concepto,
 
-  // 2.2 Antioxidantes y Cofactores
+  // 2.2 Vitaminas Liposolubles & Antioxidantes
   vitaminaCJson as Concepto,
+  vitaminaD3K2Json as Concepto,
 
   // 2.3 Espectro del Magnesio
   introMagnesioJson as Concepto,

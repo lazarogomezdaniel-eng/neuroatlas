@@ -1,0 +1,21 @@
+{
+  "slug": "vitamina-d3-k2",
+  "titulo": "Vitamina D3 y K2: La neurohormona y el director de tráfico",
+  "modulo": "Modulo II",
+  "seccion": "2.2",
+  "tipo": "concepto",
+  "definicion": "La vitamina D3 actúa como una neurohormona esteroide con receptores en todo el cerebro, mientras que la K2 dirige el calcio a los huesos y evita que calcifique las arterias cerebrales.",
+  "explicacion": "El eje Vitamina D3 (Colecalciferol / 1,25-dihidroxicolecalciferol) y Vitamina K2 (Menaquinona-7 / MK-7) constituye una diana endocrina y vascular sinérgica fundamental para el trofismo y la hemodinámica cerebral:\n\n1. Vitamina D3 como Secoesteroide Neuroendocrino:\n- Activación de VDR y TPH2: El metabolito activo calcitriol cruza la barrera hematoencefálica y se une a los receptores nucleares de vitamina D (VDR) ampliamente distribuidos en el hipocampo, corteza prefrontal y sustancia negra. Induce la transcripción del gen TPH2 (Triptófano Hidroxilasa 2) en el rafe mesencefálico, paso limitante para la síntesis de serotonina central, mientras reprime la TPH1 periférica.\n- Neurotrofinas e Inmunomodulación: Estimula la expresión de NGF (Factor de Crecimiento Nervioso), GDNF (Factor Neurotrófico Derivado de la Glía) y BDNF. Inhibe citocinas proinflamatorias (IL-1beta, IL-6, TNF-alfa) y modula la polarización microglial hacia fenotipos reparadores M2.\n\n2. Vitamina K2 (MK-7) y la Homeostasis de Calcificación Vascular:\n- Activación de Proteínas Gla Dependientes de Vitamina K: La K2 actúa como cofactor de la gamma-glutamil carboxilasa, carboxilando residuos de ácido glutámico en proteínas diana:\n  * Matriz Gla Proteína (MGP): Potente inhibidor fisiológico de la calcificación de la túnica media y la íntima arterial. Previene la rigidez y microangiopatía aterosclerótica en el polígono de Willis y las arterias cerebrales de pequeño calibre.\n  * Osteocalcina: Fija el ion calcio absorbido en la hidroxiapatita de la matriz ósea, evitando su depósito ectópico en parénquima y endotelio.\n- Síntesis de Esfingolípidos y Mielina: La vitamina K regula enzimas cerebrales clave como la sulfotransferasa y la ceramidasa, esenciales para la biogénesis de esfingolípidos de las vainas de mielina.\n\n3. La Paradoja del Calcio y Sinergia Crítica D3 + K2:\nLa suplementación aislada de D3 en dosis elevadas incrementa masivamente la absorción intestinal de Ca²⁺; sin niveles óptimos de K2 para activar MGP, el exceso de calcio libre precipita en el lecho vascular cerebral promoviendo leucoaraiosis y declive cognitivo de origen vascular.",
+  "relevancia_nootropica": "Protocolos de neuro-optimización, neuroprotección vascular y posología:\n- Prevención del Trastorno Afectivo Estacional (TAE) y Depresión: La normalización de los niveles séricos de 25-hidroxivitamina D [25(OH)D] entre 50 y 80 ng/mL restaura el tono serotoninérgico y la plasticidad sináptica hipocampal.\n- Protección Microvascular Cerebral a Largo Plazo: La coadministración de MK-7 preserva la elasticidad arterial cerebral, reduciendo el riesgo de microinfartos silentes y demencia vascular.\n- Posología y Ratios Recomendados:\n  * Dosis Diaria de Vitamina D3: 2000 a 5000 UI (50-125 mcg) junto con una comida rica en grasas saludables.\n  * Dosis Diaria de Vitamina K2: 100 a 200 mcg de Menaquinona-7 (MK-7 microencapsulada de alta vida media plasmática).\n  * Ratio Óptimo: ~45-50 mcg de MK-7 por cada 2000-2500 UI de D3.",
+  "neurotransmisores_asociados": [
+    "serotonina",
+    "dopamina"
+  ],
+  "regiones_asociadas": [
+    "hipotálamo",
+    "corteza prefrontal",
+    "sustancia negra",
+    "hipocampo",
+    "polígono de Willis"
+  ]
+}
