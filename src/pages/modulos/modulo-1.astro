@@ -1,0 +1,475 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdBanner from '../../components/monetization/AdBanner.astro';
+import { 
+  Brain, 
+  Clock, 
+  Layers, 
+  Award, 
+  BookOpen, 
+  ArrowRight, 
+  Compass, 
+  Dna, 
+  Activity, 
+  ShieldAlert, 
+  Sparkles,
+  Zap,
+  Flame,
+  CheckCircle2
+} from 'lucide-react';
+---
+
+<BaseLayout
+  title="Módulo I: Fundamentos Biológicos de la Neuro-Optimización | NeuroAtlas"
+  description="La base científica obligatoria antes de tomar cualquier nootrópico. Comprende la anatomía, neuroquímica, genética, hormonas e inmunología del cerebro."
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+    
+    <!-- Hero / Header del Módulo -->
+    <header class="relative rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-10 overflow-hidden space-y-6">
+      <div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+      
+      <div class="flex flex-wrap items-center gap-3">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 border border-primary/30 text-xs font-mono font-bold text-primary">
+          <Brain className="w-3.5 h-3.5" />
+          MÓDULO I · FUNDACIONAL
+        </span>
+        <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-surface-container text-[11px] font-mono text-text-muted">
+          <Clock className="w-3 h-3" /> 4-6 HORAS DE ESTUDIO
+        </span>
+        <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded bg-surface-container text-[11px] font-mono text-text-muted">
+          <Layers className="w-3 h-3" /> 6 SECCIONES · 41 MONOGRAFÍAS
+        </span>
+      </div>
+
+      <div class="space-y-3 max-w-3xl">
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
+          Fundamentos Biológicos de la Neuro-Optimización
+        </h1>
+        <p class="text-base sm:text-lg text-primary font-medium">
+          La base científica obligatoria antes de tomar cualquier nootrópico
+        </p>
+        <p class="text-xs sm:text-sm text-text-secondary leading-relaxed pt-2">
+          Comprende la anatomía, neuroquímica, genética, hormonas e inmunología del cerebro. Explora exactamente dónde y cómo actúan las sustancias para optimizar tu rendimiento mental con rigor farmacológico.
+        </p>
+      </div>
+    </header>
+
+    <!-- AdBanner Superior -->
+    <AdBanner slotId="modulo-1-top" format="horizontal" />
+
+    <!-- ¿Por qué existe este módulo? -->
+    <section class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-primary font-mono text-xs font-bold uppercase tracking-wider">
+        <Sparkles className="w-4 h-4" />
+        <span>Propósito & Filosofía</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">¿Por qué este módulo existe?</h2>
+      <p class="text-sm text-text-secondary leading-relaxed">
+        El 90% de las personas que empiezan con nootrópicos cometen el mismo error: <strong class="text-text-primary">comprar sustancias sin entender el sistema que están intentando modificar.</strong> Es como intentar tunear un motor de competición sin saber qué es un pistón, una bujía o el flujo de aceite.
+      </p>
+
+      <div class="overflow-x-auto border border-surface-bright rounded-biotech">
+        <table class="w-full text-left text-xs sm:text-sm">
+          <thead class="bg-surface-lowest text-text-muted font-mono uppercase text-[11px] border-b border-surface-bright">
+            <tr>
+              <th class="p-3.5">Sección Temática</th>
+              <th class="p-3.5">Pregunta que responde</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-surface-bright font-sans text-text-secondary">
+            <tr class="hover:bg-surface-low/50 transition-colors">
+              <td class="p-3.5 font-bold text-text-primary flex items-center gap-2">
+                <Compass className="w-4 h-4 text-primary shrink-0" /> 1.1 Neuroanatomía
+              </td>
+              <td class="p-3.5"><strong class="text-text-primary">¿Dónde?</strong> Regiones cerebrales que controlan memoria, foco, miedo y motivación.</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50 transition-colors">
+              <td class="p-3.5 font-bold text-text-primary flex items-center gap-2">
+                <Zap className="w-4 h-4 text-secondary shrink-0" /> 1.2 Neuroquímica
+              </td>
+              <td class="p-3.5"><strong class="text-text-primary">¿Con qué?</strong> Mensajeros químicos que usan esas regiones para comunicarse.</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50 transition-colors">
+              <td class="p-3.5 font-bold text-text-primary flex items-center gap-2">
+                <Activity className="w-4 h-4 text-emerald-400 shrink-0" /> 1.3 Neurofisiología
+              </td>
+              <td class="p-3.5"><strong class="text-text-primary">¿Cómo?</strong> Cómo se comunican las neuronas y cómo cambia físicamente el cerebro al aprender.</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50 transition-colors">
+              <td class="p-3.5 font-bold text-text-primary flex items-center gap-2">
+                <Dna className="w-4 h-4 text-amber-400 shrink-0" /> 1.4 Neurogenética
+              </td>
+              <td class="p-3.5"><strong class="text-text-primary">¿Por qué tú?</strong> Por qué la misma sustancia funciona en una persona y en otra no.</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50 transition-colors">
+              <td class="p-3.5 font-bold text-text-primary flex items-center gap-2">
+                <Clock className="w-4 h-4 text-violet-400 shrink-0" /> 1.5 Neuroendocrinología
+              </td>
+              <td class="p-3.5"><strong class="text-text-primary">¿A qué velocidad?</strong> Cómo las hormonas configuran el estado base y el ritmo del cerebro.</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50 transition-colors">
+              <td class="p-3.5 font-bold text-text-primary flex items-center gap-2">
+                <Flame className="w-4 h-4 text-rose-400 shrink-0" /> 1.6 Neuroinmunología
+              </td>
+              <td class="p-3.5"><strong class="text-text-primary">¿Qué lo sabotea?</strong> Cómo la inflamación y el intestino destruyen tu cognición sin que lo sepas.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Mapa de Contenido Interactivo -->
+    <section class="space-y-8">
+      <div class="border-b border-surface-bright pb-4 flex items-center justify-between">
+        <div>
+          <h2 class="text-2xl font-bold text-text-primary flex items-center gap-2">
+            <span>🗺️ Mapa de Contenidos del Módulo I</span>
+          </h2>
+          <p class="text-xs sm:text-sm text-text-secondary mt-1">
+            Explora las 6 secciones estructuradas y sus monografías clínicas enlazadas.
+          </p>
+        </div>
+      </div>
+
+      <!-- 1.1 Neuroanatomía -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-mono text-xs font-bold">1.1</span>
+            <h3 class="text-lg font-bold text-text-primary">Neuroanatomía Funcional</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">8 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary">El mapa físico del cerebro. Entiende qué hace cada región antes de intentar modificarla.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/neuroanatomia-funcional" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-primary transition-colors">Introducción a la Neuroanatomía</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/corteza-prefrontal" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-primary transition-colors">Corteza Prefrontal (Foco y Control)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/hipocampo" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-primary transition-colors">Hipocampo (Memoria y Neurogénesis)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/amigdala" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-primary transition-colors">Amígdala (Alarma y Emociones)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/ganglios-basales" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-primary transition-colors">Ganglios Basales y Accumbens (Hábitos)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/locus-coeruleus" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-primary transition-colors">Locus Coeruleus (Alerta Noradrenérgica)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/barrera-hematoencefalica" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-primary transition-colors">Barrera Hematoencefálica (BHE)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/sistema-glinfatico" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-primary transition-colors">Sistema Glinfático (Limpieza Nocturna)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 1.2 Neuroquímica -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-secondary/20 text-secondary font-mono text-xs font-bold">1.2</span>
+            <h3 class="text-lg font-bold text-text-primary">Neuroquímica: Los Mensajeros del Cerebro</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">8 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary">Los neurotransmisores son el verdadero objetivo de casi todos los nootrópicos.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/introduccion-neuroquimica" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-secondary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-secondary transition-colors">Introducción a la Neuroquímica</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-secondary group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/dopamina" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-secondary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-secondary transition-colors">Dopamina (Motivación y Drive)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-secondary group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/acetilcolina" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-secondary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-secondary transition-colors">Acetilcolina (Memoria y Foco)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-secondary group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/noradrenalina" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-secondary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-secondary transition-colors">Noradrenalina (Alerta y Vigilia)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-secondary group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/serotonina" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-secondary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-secondary transition-colors">Serotonina (Ánimo y Estabilidad)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-secondary group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/gaba" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-secondary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-secondary transition-colors">GABA (El Freno: Calma y Sueño)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-secondary group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/glutamato" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-secondary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-secondary transition-colors">Glutamato (El Acelerador y Excitotoxicidad)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-secondary group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/otros-neuromoduladores" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-secondary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-secondary transition-colors">Otros Moduladores (Histamina, Orexina, BDNF)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-secondary group-hover:translate-x-1 transition-all" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 1.3 Neurofisiología -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-mono text-xs font-bold">1.3</span>
+            <h3 class="text-lg font-bold text-text-primary">Neurofisiología y Adaptación</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">7 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary">La sinapsis, la plasticidad, la neurogénesis y los mecanismos de daño.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/introduccion-neurofisiologia" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-emerald-400 transition-colors">Introducción a la Neurofisiología</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/sinapsis-y-senalizacion" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-emerald-400 transition-colors">Sinapsis y Señalización Neuronal</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/neuroplasticidad" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-emerald-400 transition-colors">Neuroplasticidad y Ley de Hebb</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/neurogenesis-adulta" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-emerald-400 transition-colors">Neurogénesis Adulta en el Hipocampo</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/sinaptogenesis-y-mielinizacion" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-emerald-400 transition-colors">Sinaptogénesis y Mielinización</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/neuroinflamacion" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-emerald-400 transition-colors">Neuroinflamación y Daño Glial</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/estres-oxidativo" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-emerald-400 transition-colors">Estrés Oxidativo y Mitocondrias</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 1.4 Neurogenética -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 font-mono text-xs font-bold">1.4</span>
+            <h3 class="text-lg font-bold text-text-primary">Neurogenética y Farmacogenómica</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">9 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary">Por qué una misma sustancia funciona en una persona y en otra no. La base de la personalización.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/introduccion-genetica" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-amber-400 transition-colors">Introducción a la Genética Nootrópica</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/comt-val158met" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-amber-400 transition-colors">Gen COMT (Guerrero vs Preocupado)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/mthfr-c677t-a1298c" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-amber-400 transition-colors">Gen MTHFR (Metilación y Folatos)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/bdnf-val66met" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-amber-400 transition-colors">Gen BDNF (Val66Met y Plasticidad)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/apolipoproteina-e-apoe" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-amber-400 transition-colors">Gen APOE (ε2, ε3, ε4 y Lípidos)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/cyp1a2-y-metabolismo-cafeina" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-amber-400 transition-colors">Gen CYP1A2 (Metabolismo de Cafeína)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/otros-genes-clave" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-amber-400 transition-colors">Otros Genes (DRD2, 5-HTTLPR, MAO, α7)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/epigenetica" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-amber-400 transition-colors">Epigenética e Inhibidores de HDAC</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/farmacogenomica-personalizacion" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between md:col-span-2">
+            <span class="text-xs font-medium text-text-primary group-hover:text-amber-400 transition-colors">Farmacogenómica Aplicada: Cómo Diseñar tu Stack Personal</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 1.5 Neuroendocrinología -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-violet-500/20 text-violet-400 font-mono text-xs font-bold">1.5</span>
+            <h3 class="text-lg font-bold text-text-primary">Neuroendocrinología</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">5 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary">Las hormonas como reguladoras del estado base del cerebro.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/introduccion-neuroendocrinologia" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-violet-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-violet-400 transition-colors">Introducción a la Neuroendocrinología</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-violet-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/eje-hpa-cortisol" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-violet-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-violet-400 transition-colors">Eje HPA y Cortisol (Sistema del Estrés)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-violet-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/hormonas-tiroideas" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-violet-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-violet-400 transition-colors">Hormonas Tiroideas (T3/T4 y Metabolismo)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-violet-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/hormonas-sexuales-y-cerebro" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-violet-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-violet-400 transition-colors">Hormonas Sexuales (Testosterona, Estrógenos, GABA)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-violet-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/melatonina-y-ritmos-circadianos" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-violet-500/50 hover:bg-surface-container transition-all group flex items-center justify-between md:col-span-2">
+            <span class="text-xs font-medium text-text-primary group-hover:text-violet-400 transition-colors">Melatonina y SCN (Antioxidante Mitocondrial y Sueño)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-violet-400 group-hover:translate-x-1 transition-all" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 1.6 Neuroinmunología -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-rose-500/20 text-rose-400 font-mono text-xs font-bold">1.6</span>
+            <h3 class="text-lg font-bold text-text-primary">Neuroinmunología y Eje Intestino</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">4 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary">La conexión intestino-cerebro-inmune y cómo la inflamación secuestra tu cognición.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/introduccion-neuroinmunologia" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-rose-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-rose-400 transition-colors">Introducción y Sickness Behavior</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-rose-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/microglia-m1-m2" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-rose-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-rose-400 transition-colors">Microglía (M1 Destructor vs M2 Reparador)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-rose-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/citocinas-y-neuroinflamacion" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-rose-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-rose-400 transition-colors">Citocinas (IL-1β, IL-6, TNF-α e IDO)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-rose-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/eje-intestino-cerebro-inmune" class="p-3 rounded-biotech border border-surface-bright bg-surface-low hover:border-rose-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-medium text-text-primary group-hover:text-rose-400 transition-colors">Eje Intestino-Cerebro (LPS y Leaky Gut)</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-rose-400 group-hover:translate-x-1 transition-all" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Guía de Estudio Recomendada -->
+    <section class="rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-primary font-mono text-xs font-bold uppercase tracking-wider">
+        <BookOpen className="w-4 h-4" />
+        <span>Ruta Pedagógica</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">📋 Guía de Estudio Recomendada</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3">
+          <div class="text-primary font-mono text-xs font-bold uppercase">Nivel 1 · Principiante</div>
+          <h3 class="font-bold text-text-primary">El Principiante Absoluto</h3>
+          <ul class="text-xs text-text-secondary space-y-2 list-disc list-inside leading-relaxed">
+            <li>Empieza por <strong class="text-text-primary">1.1 Neuroanatomía</strong> (8 min).</li>
+            <li>Sigue con <strong class="text-text-primary">1.2 Neuroquímica</strong> (10 min).</li>
+            <li>Lee en <strong class="text-text-primary">1.3</strong> solo <em>Neuroplasticidad</em> y <em>Sinapsis</em>.</li>
+            <li>Salta al Módulo II y vuelve a 1.4-1.6 cuando tengas dudas.</li>
+          </ul>
+        </div>
+
+        <div class="rounded-biotech border border-secondary/40 bg-surface p-5 space-y-3 shadow-violet-glow">
+          <div class="text-secondary font-mono text-xs font-bold uppercase">Nivel 2 · Avanzado</div>
+          <h3 class="font-bold text-text-primary">El Biohacker Experimentado</h3>
+          <ul class="text-xs text-text-secondary space-y-2 list-disc list-inside leading-relaxed">
+            <li>Ve directo a <strong class="text-secondary">1.4 Neurogenética</strong> (SNPs clave).</li>
+            <li>Lee <strong class="text-secondary">1.5 Neuroendocrinología</strong> si sufres fatiga.</li>
+            <li>Lee <strong class="text-secondary">1.6 Neuroinmunología</strong> para niebla mental.</li>
+            <li>Usa 1.2 como referencia al formular stacks.</li>
+          </ul>
+        </div>
+
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3">
+          <div class="text-emerald-400 font-mono text-xs font-bold uppercase">Nivel 3 · Clínico</div>
+          <h3 class="font-bold text-text-primary">Profesionales de la Salud</h3>
+          <ul class="text-xs text-text-secondary space-y-2 list-disc list-inside leading-relaxed">
+            <li>Revisa <strong class="text-emerald-400">1.3 Neurofisiología</strong> molecular completa.</li>
+            <li>Profundiza en <strong class="text-emerald-400">1.4 Farmacogenómica</strong> aplicada.</li>
+            <li>Aplica <strong class="text-emerald-400">1.6 Neuroinmunología</strong> en casos de depresión resistente o neuroinflamación.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Próximos Módulos -->
+    <section class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-primary font-mono text-xs font-bold uppercase tracking-wider">
+        <Layers className="w-4 h-4" />
+        <span>Currículum Global</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">🔗 Próximos Módulos del Atlas</h2>
+      
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-xs font-mono">
+        <div class="p-3 rounded border border-secondary/30 bg-secondary/10 flex items-center justify-between">
+          <span class="text-text-primary font-semibold">Módulo II: Nutrición Cerebral</span>
+          <span class="text-secondary text-[10px] uppercase font-bold">En Desarrollo</span>
+        </div>
+        <div class="p-3 rounded border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo III: Sintéticos & Racetams</span>
+          <span class="text-[10px]">Pendiente</span>
+        </div>
+        <div class="p-3 rounded border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo IV: Botánica & Hongos</span>
+          <span class="text-[10px]">Pendiente</span>
+        </div>
+        <div class="p-3 rounded border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo V: Psicodelia & Plasticidad</span>
+          <span class="text-[10px]">Pendiente</span>
+        </div>
+        <div class="p-3 rounded border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo VI: Bioenergética & Longevidad</span>
+          <span class="text-[10px]">Pendiente</span>
+        </div>
+        <div class="p-3 rounded border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo VII: Eje Intestino-Cerebro</span>
+          <span class="text-[10px]">Pendiente</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- AdBanner Inferior -->
+    <AdBanner slotId="modulo-1-bottom" format="horizontal" />
+
+    <!-- Disclaimer -->
+    <footer class="p-4 rounded-biotech border border-surface-bright bg-surface-lowest text-[11px] font-mono text-text-muted leading-relaxed flex items-start gap-3">
+      <ShieldAlert className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+      <p>
+        <strong>Aviso Médico & Legal:</strong> El contenido de NeuroAtlas es estrictamente educativo e informativo. No constituye consejo médico, diagnóstico ni tratamiento. Las sustancias mencionadas pueden tener interacciones farmacológicas y contraindicaciones. Consulta siempre con un profesional de la salud cualificado antes de iniciar cualquier protocolo de suplementación.
+      </p>
+    </footer>
+
+  </div>
+</BaseLayout>
