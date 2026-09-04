@@ -1,0 +1,21 @@
+{
+  "slug": "hormonas-sexuales-y-cerebro",
+  "titulo": "Hormonas Sexuales: Testosterona, Estrógeno y Progesterona en la cognición",
+  "modulo": "Modulo I",
+  "seccion": "1.5",
+  "tipo": "mecanismo",
+  "definicion": "Las hormonas sexuales no solo regulan la reproducción; son potentes neuromoduladores que dictan la confianza, la neuroprotección, la memoria verbal y la calma.",
+  "explicacion": "El eje Hipotálamo-Hipófisis-Gonadal (HPG) y la síntesis local de neuroesteroides modulan profundamente la neurotransmisión, la plasticidad y la estructura neural:\n\n1. Testosterona (y Dihidrotestosterona / DHT):\n- Actúa sobre receptores de andrógenos (AR) en el hipocampo, amígdala y corteza prefrontal.\n- Potencia el tono dopaminérgico mesocorticolímbico, la neurogénesis hipocampal y la memoria visoespacial.\n- Modula el drive cognitivo, la determinación ejecutiva, la resiliencia al esfuerzo mental y la autoeficacia.\n- Déficit: Fatiga crónica, anhedonia, apatía y pérdida de empuje cognitivo.\n\n2. Estrógenos (17β-Estradiol / E2):\n- Potente molécula neuroprotectora y antioxidante que señaliza mediante receptores nucleares ERα y ERβ, así como receptores acoplados a proteína G (GPER1).\n- Estimula la sinaptogénesis y la densidad de espinas dendríticas en el hipocampo CA1, mejorando la memoria verbal, la fluidez léxica y la tasa metabólica de glucosa cerebral.\n- La caída abrupta de E2 en la perimenopausia/menopausia precipita la hipometabolia cerebral, niebla mental y mayor vulnerabilidad al Alzheimer.\n\n3. Progesterona y Alopregnanolona (El modulador GABAérgico endógeno):\n- La progesterona cruza fácilmente la BHE y en astrocitos y neuronas se convierte enzimáticamente (vía 5α-reductasa y 3α-HSD) en Alopregnanolona.\n- La alopregnanolona es un modulador alostérico positivo de máxima potencia en los receptores GABA-A, ejerciendo una acción ansiolítica, sedante y neuroprotectora endógena.\n- Déficit: Ansiedad refractaria, insomnio de conciliación y disforia premenstrual.",
+  "relevancia_nootropica": "Optimización hormonal e intervenciones adaptogénicas:\n- Soporte de Testosterona: Entrenamiento de fuerza progresivo, optimización de Zinc, Magnesio elemental, Vitamina D3/K2, y fitoterápicos moduladores como Tongkat Ali (Eurycoma longifolia) y Ashwagandha KSM-66 (al atenuar el cortisol y el robo de pregnenolona, eleva la testosterona biodisponible).\n- Soporte de Estrógenos: Fitoestrógenos suaves (isoflavonas, linaza), control de estrés crónico y terapia hormonal bioidéntica supervisada.\n- Soporte de Progesterona / Alopregnanolona: Cofactores enzimáticos Vitamina B6 (Piridoxal-5-Fosfato), Vitamina C, Zinc y Vitex agnus-castus (Sauzgatillo) para equilibrar la ratio estrógeno/progesterona.",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "GABA",
+    "serotonina"
+  ],
+  "regiones_asociadas": [
+    "hipocampo",
+    "amígdala",
+    "corteza prefrontal",
+    "hipotálamo"
+  ]
+}
