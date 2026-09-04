@@ -1,0 +1,21 @@
+{
+  "slug": "vitamina-b1-tiamina",
+  "titulo": "Vitamina B1 (Tiamina): El combustible del cerebro",
+  "modulo": "Modulo II",
+  "seccion": "2.1",
+  "tipo": "concepto",
+  "definicion": "La vitamina B1 es esencial para el metabolismo de la glucosa, la principal fuente de energía del cerebro. Su deficiencia causa fatiga mental, confusión y, en casos severos, el síndrome de Wernicke-Korsakoff.",
+  "explicacion": "La Tiamina se fosforila intracelularmente a Tiamina Pirofosfato (TPP), cofactor activo de complejos multienzimáticos vitales para la bioenergética y la síntesis de macromoléculas:\n\n1. Enzimas dependientes de TPP:\n- Complejo Piruvato Deshidrogenasa (PDH): Puente limitante entre la glucólisis citosólica y el ciclo de Krebs mitocondrial para la generación de Acetil-CoA.\n- Complejo Alfa-Cetoglutarato Deshidrogenasa (α-KGDH): Control del flujo del ciclo de Krebs en las neuronas.\n- Transcetolasa (TK): Ruta de las pentosas fosfato, encargada de generar ribosa-5-fosfato para ácidos nucleicos y NADPH para regenerar glutatión reducido (GSH).\n\n2. Síntesis Colinérgica y Mielina:\nAl aportar el pool de Acetil-CoA necesario para la colina acetiltransferasa (ChAT), la B1 sustenta directamente los niveles de Acetilcolina y la biosíntesis de lípidos para la vaina de mielina.\n\n3. Formas Farmacológicas y Derivados Nootrópicos:\n- Tiamina HCl / Mononitrato: Hidrosoluble con baja tasa de transporte a través de la BHE mediado por transportadores saturables (THTR-1/2).\n- Benfotiamina (S-benzoiltiamina O-monofosfato): Derivado liposoluble con alta biodisponibilidad tisular periférica y protección contra productos finales de glicación avanzada (AGEs).\n- Sulbutiamina (Disulfuro de isobutiriltiamina): Dímero sintético lipofílico diseñado para atravesar la BHE sin restricciones.",
+  "relevancia_nootropica": "Aplicaciones clínicas de la Sulbutiamina y consideraciones terapéuticas:\n- Nootropía Dopaminérgica y Colinérgica: La Sulbutiamina induce la 'up-regulation' de receptores dopaminérgicos D1 en la corteza prefrontal y optimiza la transmisión colinérgica hipocampal.\n- Indicaciones: Astenia funcional, fatiga mental post-infecciosa (Long COVID), apatía ejecutiva y niebla mental secundaria a sobrecarga glucémica.\n- Posología: 400 a 800 mg/día en tomas matutinas con alimentos grasos (evitar tomas vespertinas por riesgo de estimulación e insomnio).\n- Alerta Nutricional: Las dietas hiperglucémicas ricas en carbohidratos refinados aceleran la depleción de TPP mitocondrial, provocando pseudo-hipoxia neuronal.",
+  "neurotransmisores_asociados": [
+    "acetilcolina",
+    "dopamina",
+    "GABA"
+  ],
+  "regiones_asociadas": [
+    "corteza prefrontal",
+    "hipocampo",
+    "cerebelo",
+    "cuerpos mamilares"
+  ]
+}

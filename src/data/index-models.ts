@@ -60,6 +60,7 @@ import ejeIntestinoJson from './concepts/eje-intestino-cerebro-inmune.json';
 // --- MÓDULO II: NUTRICIÓN CEREBRAL Y MICRONUTRIENTES ---
 // 2.1 Complejo B y Metilación
 import introVitaminasBJson from './concepts/introduccion-vitaminas-b-metilacion.json';
+import vitaminaB1Json from './concepts/vitamina-b1-tiamina.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -117,6 +118,7 @@ export const conceptos: Concepto[] = [
   // MÓDULO II
   // 2.1
   introVitaminasBJson as Concepto,
+  vitaminaB1Json as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
