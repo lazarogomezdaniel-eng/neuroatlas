@@ -1,0 +1,17 @@
+{
+  "slug": "vitamina-e-tocoferoles",
+  "titulo": "Vitamina E: El escudo lipídico de las membranas neuronales",
+  "modulo": "Modulo II",
+  "seccion": "2.2",
+  "tipo": "concepto",
+  "definicion": "La vitamina E es el principal antioxidante liposoluble del cuerpo. Protege los ácidos grasos poliinsaturados de las membranas neuronales contra la peroxidación lipídica.",
+  "explicacion": "La Vitamina E comprende una superfamilia de 8 isoformas liposolubles (4 tocoferoles y 4 tocotrienoles: alfa, beta, gamma y delta) que actúan como barredores de radicales peroxilo en las bicapas fosfolipídicas neuronales y las vainas de mielina:\n\n1. Fisiopatología de la Peroxidación Lipídica Cerebral:\n- El parénquima cerebral posee una composición lipídica cercana al 60% de su peso seco, con una altísima densidad de ácidos grasos poliinsaturados (PUFAs) de cadena larga, predominantemente Ácido Docosahexaenoico (DHA 22:6n-3) y Ácido Araquidónico (ARA 20:4n-6).\n- Los radicales libres (ROS/RNS) atacan los dobles enlaces de los PUFAs, iniciando una reacción en cadena auto-catalítica de peroxidación lipídica que genera aldehídos citotóxicos (4-hidroxinonenal o 4-HNE y malondialdehído o MDA), colapsando la fluidez de membrana y desacoplando receptores transmembrana.\n\n2. Mecanismo de Acción Liposoluble y Red de Reciclaje Redox:\n- El anillo cromanol de la vitamina E dona un protón/electrón al radical peroxilo lipídico (LOO•), convirtiéndolo en un hidroperóxido lipídico inocuo y transformándose temporalmente en radical tocoferoxilo.\n- Este radical tocoferoxilo es posteriormente reciclado en la interfase membrana-citosol por el Ácido Ascórbico (Vitamina C), Glutatión (GSH) y Ácido Alfa Lipoico, restaurando la capacidad antioxidante sin consumir el tocoferol.\n\n3. Espectro Completo: Tocoferoles vs Tocotrienoles:\n- Alfa-Tocoferol: Máxima afinidad por la proteína de transferencia hepática alfa-TTP, esencial para el transporte sistémico.\n- Gamma-Tocoferol: Posee una estructura no metilada en el carbono 5 del anillo cromanol, lo que le permite atrapar especies reactivas de nitrógeno (peroxinitrito / RNS) e inhibir la ciclooxigenasa-2 (COX-2).\n- Tocotrienoles (alfa, gamma, delta): Poseen una cola isoprenoide con tres dobles enlaces que facilita una distribución homogénea y 40-50 veces mayor movilidad lateral en la bicapa, bloqueando la enzima 12-lipoxigenasa (12-LOX) y suprimiendo la muerte neuronal inducida por excitotoxicidad de glutamato.",
+  "relevancia_nootropica": "Aplicaciones clínicas en neuroprotección, envejecimiento cerebral y posología:\n- Prevención del Declive Cognitivo y Alzheimer: Niveles séricos elevados del espectro completo de tocoferoles y tocotrienoles correlacionan de forma robusta con menor atrofia cerebral y menor depósito de placas beta-amiloides.\n- Regla de Oro en la Suplementación: Evitar suplementos de alfa-tocoferol sintético aislado (dl-alfa-tocoferol), ya que dosis elevadas desplazan y deprimen los niveles endógenos de gamma-tocoferol y tocotrienoles.\n- Selección de Formas Bioactivas: Utilizar extractos de espectro completo (complejo mixto de d-alfa, beta, gamma, delta tocoferoles y tocotrienoles derivados de palma roja o annatto).\n- Posología Diaria: 100 a 400 UI de tocoferoles mixtos naturales o 50-100 mg de tocotrienoles administrados con una comida que contenga grasas saludables.",
+  "neurotransmisores_asociados": [],
+  "regiones_asociadas": [
+    "membranas neuronales",
+    "vaina de mielina",
+    "balsas lipídicas",
+    "corteza cerebral"
+  ]
+}
