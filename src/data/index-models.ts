@@ -3,6 +3,7 @@ import categoriesJson from './categories/categories.json';
 import bacopaJson from './substances/bacopa-monnieri.json';
 
 // Conceptos de Neuroanatomía y Mecanismos (Módulo I)
+// 1.1 Neuroanatomía
 import neuroanatomiaJson from './concepts/neuroanatomia-funcional.json';
 import cortezaPrefrontalJson from './concepts/corteza-prefrontal.json';
 import hipocampoJson from './concepts/hipocampo.json';
@@ -13,7 +14,7 @@ import bheJson from './concepts/barrera-hematoencefalica.json';
 import glinfaticoJson from './concepts/sistema-glinfatico.json';
 import ltpJson from './concepts/plasticidad-sinaptica-ltp.json';
 
-// Sección 1.2 Neuroquímica
+// 1.2 Neuroquímica
 import introNeuroquimicaJson from './concepts/introduccion-neuroquimica.json';
 import dopaminaJson from './concepts/dopamina.json';
 import acetilcolinaJson from './concepts/acetilcolina.json';
@@ -23,7 +24,7 @@ import gabaJson from './concepts/gaba.json';
 import glutamatoJson from './concepts/glutamato.json';
 import otrosNeuromoduladoresJson from './concepts/otros-neuromoduladores.json';
 
-// Sección 1.3 Neurofisiología
+// 1.3 Neurofisiología
 import introNeurofisiologiaJson from './concepts/introduccion-neurofisiologia.json';
 import sinapsisJson from './concepts/sinapsis-y-senalizacion.json';
 import neuroplasticidadJson from './concepts/neuroplasticidad.json';
@@ -32,7 +33,7 @@ import sinaptogenesisJson from './concepts/sinaptogenesis-y-mielinizacion.json';
 import neuroinflamacionJson from './concepts/neuroinflamacion.json';
 import estresOxidativoJson from './concepts/estres-oxidativo.json';
 
-// Sección 1.4 Neurogenética
+// 1.4 Neurogenética
 import introGeneticaJson from './concepts/introduccion-genetica.json';
 import comtJson from './concepts/comt-val158met.json';
 import mthfrJson from './concepts/mthfr-c677t-a1298c.json';
@@ -43,12 +44,15 @@ import otrosGenesJson from './concepts/otros-genes-clave.json';
 import epigeneticaJson from './concepts/epigenetica.json';
 import farmacogenomicaPersonalizacionJson from './concepts/farmacogenomica-personalizacion.json';
 
-// Sección 1.5 Neuroendocrinología
+// 1.5 Neuroendocrinología
 import introNeuroendocrinologiaJson from './concepts/introduccion-neuroendocrinologia.json';
 import ejeHpaJson from './concepts/eje-hpa-cortisol.json';
 import hormonasTiroideasJson from './concepts/hormonas-tiroideas.json';
 import hormonasSexualesJson from './concepts/hormonas-sexuales-y-cerebro.json';
 import melatoninaJson from './concepts/melatonina-y-ritmos-circadianos.json';
+
+// 1.6 Neuroinmunología
+import introNeuroinmunologiaJson from './concepts/introduccion-neuroinmunologia.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -96,6 +100,8 @@ export const conceptos: Concepto[] = [
   hormonasTiroideasJson as Concepto,
   hormonasSexualesJson as Concepto,
   melatoninaJson as Concepto,
+  // 1.6
+  introNeuroinmunologiaJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {

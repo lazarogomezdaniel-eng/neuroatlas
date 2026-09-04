@@ -1,0 +1,22 @@
+{
+  "slug": "introduccion-neuroinmunologia",
+  "titulo": "Neuroinmunología: Cuando el sistema inmune dicta tu estado de ánimo",
+  "modulo": "Modulo I",
+  "seccion": "1.6",
+  "tipo": "concepto",
+  "definicion": "El estudio de la interacción bidireccional entre el sistema nervioso y el sistema inmunológico. Explica cómo la inflamación sistémica altera la neuroquímica y el comportamiento.",
+  "explicacion": "La neuroinmunología moderna desmiente el dogma del 'cerebro inmunológicamente privilegiado y aislado', demostrando una constante comunicación bidireccional a través de tres vías principales:\n1. Permeabilidad mediada por citocinas en la BHE: Transporte activo y disrupción de uniones estrechas por TNF-α, IL-1β e IL-6.\n2. Órganos circunventriculares: Regiones con capilares fenestrados carentes de BHE estricta (ej. área postrema, eminencia media) que censan marcadores inflamatorios periféricos.\n3. Vía aferente del Nervio Vago: Autopista neuroinmune que transduce señales de inflamación visceral e intestinal directamente al Núcleo del Tracto Solitario (NTS).\n\nEl Fenómeno de 'Sickness Behavior' (Comportamiento de Enfermedad):\nPrograma neuroconductual adaptativo conservado evolutivamente en respuesta a patógenos. Las citocinas proinflamatorias suprimen la transmisión dopaminérgica en el estriado ventral (núcleo accumbens) y alteran el metabolismo serotoninérgico para inducir letargo, anhedonia, aislamiento social y ahorro energético con el fin de priorizar la respuesta inmune.\n\nInflamación Crónica de Bajo Grado (Inflammaging):\nEn el contexto contemporáneo (dietas inflamatorias, estrés crónico, disbiosis, sedentarismo), la activación microglial persistente perpetúa un estado de 'Sickness Behavior' subclínico, manifestándose como depresión resistente al tratamiento, niebla mental, fatiga refractaria y pérdida de motivación ejecutiva.",
+  "relevancia_nootropica": "Es el cambio de paradigma frente a la depresión y la astenia cognitiva; antes de sobreestimular con agonistas dopaminérgicos o racetams, se debe apagar el fuego neuroinflamatorio:\n- Ácidos Grasos Omega-3 (EPA de alta pureza): Modulación de la cascada del ácido araquidónico y síntesis de mediadores pro-resolutivos especializados (SPMs: resolvinas y protectinas).\n- Curcumina optimizada (Longvida / BCM-95): Inhibición directa del factor nuclear kappa B (NF-κB) y reducción de citocinas circulantes.\n- Ácido Boswélico (Boswellia serrata / AKBA): Inhibición selectiva de la 5-lipoxigenasa (5-LOX).\n- Resveratrol y Polifenoles: Activación de SIRT1 y modulación del fenotipo microglial reactivo M1 a neuroprotector M2.",
+  "neurotransmisores_asociados": [
+    "serotonina",
+    "dopamina",
+    "glutamato"
+  ],
+  "regiones_asociadas": [
+    "microglía",
+    "hipotálamo",
+    "núcleos del rafe",
+    "órganos circunventriculares",
+    "nervio vago"
+  ]
+}
