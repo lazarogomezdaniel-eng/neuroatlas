@@ -1,0 +1,21 @@
+{
+  "slug": "magnesio-taurato",
+  "titulo": "Magnesio Taurato: Regulación del glutamato y salud cardiovascular",
+  "modulo": "Modulo II",
+  "seccion": "2.3",
+  "tipo": "concepto",
+  "definicion": "El magnesio taurato está unido a la taurina, un aminoácido con efectos neuroprotectores y cardioprotectores. Es la forma de magnesio ideal para personas con ansiedad, arritmias o sensibilidad al glutamato.",
+  "explicacion": "El Ditaurato de Magnesio es un complejo de coordinación donde el ion central de magnesio (Mg²⁺) se encuentra quelado con dos moléculas del aminoácido libre de azufre 2-aminoetanosulfónico (L-taurina), generando una potente interacción neurocardiovascular:\n\n1. Sinergia en el Gating NMDA y Bloqueo de Excitotoxicidad:\n- Acción del Magnesio: Bloqueo electrofisiológico dependiente de voltaje en el canal del receptor NMDA, limitando la afluencia de Ca²⁺ intracelular bajo potenciales de reposo.\n- Acción de la Taurina: Actúa como modulador alostérico positivo en receptores GABA-A e interacciona como agonista parcial en los receptores GlyR y GABA-B. De forma paralela, inhibe de manera no competitiva la cascada de fosforilación excitatoria mediada por NMDA y reduce la liberación presináptica excesiva de glutamato.\n\n2. Modulación Osmolítica y Estabilización de Membrana:\n- La taurina regula el flujo osmótico transmembrana (equilibrio Na⁺/K⁺ y Ca²⁺) y preserva la integridad estructural de la bicapa lipídica frente a la peroxidación.\n- Efecto Antioxidante: Elimina especies reactivas de oxígeno y neutraliza el ácido hipocloroso mediante la síntesis de tauroclorina, mitigando el estrés oxidativo neuronal y endotelial.\n\n3. Protección del Eje Cerebro-Corazón y Sistema Autónomo:\n- Atenúa el tono simpático periférico e inhibe la sobrecarga de calcio intracelular en los miocitos ventriculares y las células endoteliales cerebrales.\n- Previene arritmias dependientes de estrés o catecolaminas, optimiza la variabilidad de la frecuencia cardíaca (HRV) y favorece la vasodilatación cerebral dependiente de óxido nítrico.",
+  "relevancia_nootropica": "Aplicaciones clínicas en hiperexcitabilidad glutamatérgica, neuroprotección y posología:\n- Perfil Clínico Indicado: Pacientes y biohackers con hipersensibilidad a nootrópicos estimulantes, estados de sobreactivación cortical, susceptibilidad a migrañas con aura o reactividad cardiovascular al estrés (palpitaciones, taquicardia).\n- Dosis y Administración:\n  * Dosis Estándar: 200 a 400 mg de magnesio elemental activo (aportados en ~1500 - 3000 mg de magnesio taurato quelado).\n  * Estrategia de Timing: Dividido en dos tomas (mañana y noche) para estabilidad diurna o nocturna.\n- Sinergias de Stack: Combinación ideal con L-Teanina y CoQ10 / Ubiquinol para una protección celular y mitocondrial exhaustiva sin efectos sedantes excesivos.",
+  "neurotransmisores_asociados": [
+    "GABA",
+    "glutamato",
+    "taurina"
+  ],
+  "regiones_asociadas": [
+    "corteza cerebral",
+    "corazón",
+    "sistema nervioso autónomo",
+    "sistema nervioso central"
+  ]
+}
