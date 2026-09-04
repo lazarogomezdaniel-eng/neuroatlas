@@ -1,0 +1,20 @@
+{
+  "slug": "eje-intestino-cerebro-inmune",
+  "titulo": "El Eje Intestino-Cerebro-Inmune: El origen de la inflamación",
+  "modulo": "Modulo I",
+  "seccion": "1.6",
+  "tipo": "concepto",
+  "definicion": "La conexión anatómica y química donde la permeabilidad intestinal permite que toxinas bacterianas entren al torrente sanguíneo, desencadenando una respuesta inmune que impacta directamente en el cerebro.",
+  "explicacion": "El eje microbiota-intestino-inmune-cerebro constituye la interfase biológica más extensa de interacción con el entorno:\n\n1. Fisiopatología de la Permeabilidad Intestinal ('Leaky Gut'):\nEl epitelio intestinal consiste en una monocapa celular sellada por proteínas de unión estrecha (zonulina, ocludina y claudinas). El estrés neuroendocrino crónico (cortisol), disbiosis, consumo de alcohol, AINEs y emulsionantes industriales degradan estas uniones, permitiendo la translocación paracelular de macromoléculas a la lámina propia.\n\n2. Endotoxemia Metabólica mediada por LPS:\nLos lipopolisacáridos (LPS) de la membrana externa de bacterias Gram-negativas cruzan el epitelio comprometido hacia la circulación porta y sistémica. Al unirse a la proteína fijadora de LPS (LBP) y al complejo receptor CD14/TLR4 en monocitos y células dendríticas del GALT (tejido linfoide asociado al intestino, donde reside el 70-80% de la inmunidad corporal), desencadenan una tormenta periférica de citocinas (TNF-α, IL-1β, IL-6).\n\n3. Propagación Retrógrada al SNC:\nEsta señal inflamatoria viaja al encéfalo mediante estimulación de quimiorreceptores del nervio vago y difusión a través de los órganos circunventriculares, induciendo la polarización de la microglía hacia el fenotipo neurotóxico M1 y generando somnolencia postprandial y niebla mental ('Brain Fog').",
+  "relevancia_nootropica": "Protocolo de sellado de barreras y optimización del microbioma:\n- Butirato (Ácido Graso de Cadena Corta - SCFA / Butirato de Sodio o Calcio): Combustible metabólico primario de los colonocitos; actúa además como inhibidor de HDAC y señalizador epigenético para la expresión de claudinas y ocludinas.\n- L-Glutamina libre: Sustrato energético obligatorio para la proliferación enterocítica y la reparación ultraestructural de la mucosa digestiva.\n- Péptidos y Aminoácidos Estructurales: Colágeno hidrolizado y Glicina para la síntesis de la matriz extracelular epitelial.\n- Psicolépticos y Probióticos dirigidos: Cepas específicas (Lactobacillus rhamnosus GG, Bifidobacterium longum 1714) capaces de atenuar la liberación de LPS y modular la producción de GABA a través del nervio vago.",
+  "neurotransmisores_asociados": [
+    "serotonina",
+    "GABA"
+  ],
+  "regiones_asociadas": [
+    "intestino",
+    "nervio vago",
+    "microglía",
+    "tejido linfoide asociado al intestino (GALT)"
+  ]
+}

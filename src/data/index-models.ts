@@ -55,6 +55,7 @@ import melatoninaJson from './concepts/melatonina-y-ritmos-circadianos.json';
 import introNeuroinmunologiaJson from './concepts/introduccion-neuroinmunologia.json';
 import microgliaJson from './concepts/microglia-m1-m2.json';
 import citocinasJson from './concepts/citocinas-y-neuroinflamacion.json';
+import ejeIntestinoJson from './concepts/eje-intestino-cerebro-inmune.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -106,6 +107,7 @@ export const conceptos: Concepto[] = [
   introNeuroinmunologiaJson as Concepto,
   microgliaJson as Concepto,
   citocinasJson as Concepto,
+  ejeIntestinoJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
