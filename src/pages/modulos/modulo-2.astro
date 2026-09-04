@@ -1,0 +1,373 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdBanner from '../../components/monetization/AdBanner.astro';
+import { 
+  Sparkles, 
+  Clock, 
+  Layers, 
+  Award, 
+  BookOpen, 
+  ArrowRight, 
+  Zap, 
+  ShieldAlert, 
+  FlaskConical, 
+  Dna, 
+  Activity,
+  CheckCircle2
+} from 'lucide-react';
+---
+
+<BaseLayout
+  title="Módulo II: Nutrición Cerebral y Micronutrientes | NeuroAtlas"
+  description="Los cimientos bioquímicos: sin estos ladrillos, ningún nootrópico funcionará. Vitaminas B, metilación, espectro completo del magnesio y minerales esenciales."
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+    
+    <!-- 1. HERO -->
+    <header class="relative rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-10 overflow-hidden space-y-6">
+      <div class="absolute top-0 right-0 -mr-16 -mt-16 w-72 h-72 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      
+      <div class="flex flex-wrap items-center gap-2.5">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 border border-emerald-500/40 text-xs font-mono font-bold text-emerald-400 shadow-emerald-glow">
+          <FlaskConical className="w-3.5 h-3.5" />
+          MÓDULO II · NIVEL FUNDACIONAL
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Layers className="w-3.5 h-3.5 text-emerald-400" />
+          15 CONCEPTOS
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Award className="w-3.5 h-3.5 text-secondary" />
+          7 SECCIONES
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Clock className="w-3.5 h-3.5 text-primary" />
+          3-4 HORAS
+        </span>
+      </div>
+
+      <div class="space-y-3 max-w-3xl">
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
+          Módulo II: Nutrición Cerebral y Micronutrientes
+        </h1>
+        <p class="text-base sm:text-xl text-emerald-400 font-medium">
+          Los cimientos bioquímicos: sin estos ladrillos, ningún nootrópico funcionará
+        </p>
+        <p class="text-xs sm:text-sm text-text-secondary leading-relaxed pt-2">
+          Guía completa de vitaminas, minerales, lípidos y aminoácidos esenciales para el cerebro. Desde el espectro del magnesio hasta la metilación con vitaminas B.
+        </p>
+      </div>
+    </header>
+
+    <!-- AdBanner Superior -->
+    <AdBanner slotId="modulo-2-top" format="horizontal" />
+
+    <!-- 2. TABLA / PROPÓSITO -->
+    <section class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-emerald-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <Sparkles className="w-4 h-4" />
+        <span>Bioenergética & Cofactores</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">¿Por qué este módulo existe?</h2>
+      <p class="text-sm text-text-secondary leading-relaxed">
+        Imagina que quieres construir un rascacielos (tu rendimiento cognitivo) pero no tienes acero, cemento ni electricidad (micronutrientes). Da igual cuántos "suplementos mágicos" añadas: el edificio no se sostendrá.
+      </p>
+      <p class="text-xs text-text-secondary leading-relaxed">
+        El cerebro consume el <strong class="text-text-primary">20% de la energía del cuerpo</strong> y requiere una cantidad masiva de cofactores (vitaminas y minerales) para:
+      </p>
+
+      <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs font-mono text-text-secondary">
+        <li class="p-2.5 rounded bg-surface-low border border-surface-bright flex items-center gap-2">
+          <span class="text-emerald-400 font-bold">✓</span> Fabricar neurotransmisores (dopamina, 5-HT, GABA, ACh)
+        </li>
+        <li class="p-2.5 rounded bg-surface-low border border-surface-bright flex items-center gap-2">
+          <span class="text-emerald-400 font-bold">✓</span> Mantener la vaina de mielina de las neuronas
+        </li>
+        <li class="p-2.5 rounded bg-surface-low border border-surface-bright flex items-center gap-2">
+          <span class="text-emerald-400 font-bold">✓</span> Producir energía mitocondrial (ATP)
+        </li>
+        <li class="p-2.5 rounded bg-surface-low border border-surface-bright flex items-center gap-2">
+          <span class="text-emerald-400 font-bold">✓</span> Reparar ADN y frenar el estrés oxidativo
+        </li>
+      </ul>
+
+      <div class="p-4 rounded-biotech bg-emerald-500/10 border border-emerald-500/30 text-xs font-mono text-emerald-300 leading-relaxed">
+        <strong>La regla de oro:</strong> Antes de gastar dinero en racetams, péptidos o psicodélicos, asegúrate de que tu cuerpo tiene los cimientos nutricionales. Este módulo te enseña exactamente qué necesitas, en qué forma química y por qué.
+      </div>
+    </section>
+
+    <!-- 3. MAPA DE CONTENIDO (Secciones 2.1 y 2.3) -->
+    <section class="space-y-8">
+      <div class="border-b border-surface-bright pb-4 flex items-center justify-between">
+        <div>
+          <h2 class="text-2xl font-bold text-text-primary flex items-center gap-2">
+            <span>🗺️ Mapa de Contenido del Módulo II</span>
+          </h2>
+          <p class="text-xs sm:text-sm text-text-secondary mt-1">
+            Monografías exhaustivas de vitaminas, minerales y formas químicas bioactivas.
+          </p>
+        </div>
+      </div>
+
+      <!-- Sección 2.1 -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-mono text-xs font-bold">2.1</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 2.1 — El Complejo B y la Metilación</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">9 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">El motor de la producción de neurotransmisores y la desintoxicación cerebral.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/introduccion-vitaminas-b-metilacion" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <span class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Introducción a las Vitaminas B y Metilación</span>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all" />
+          </a>
+          <a href="/conceptos/vitamina-b1-tiamina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Vitamina B1 (Tiamina)</div>
+              <div class="text-[11px] text-text-muted italic">Metabolismo de la glucosa y energía cerebral</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/vitamina-b2-riboflavina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Vitamina B2 (Riboflavina)</div>
+              <div class="text-[11px] text-text-muted italic">Cadena de transporte de electrones y migrañas</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/vitamina-b3-niacina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Vitamina B3 (Niacina)</div>
+              <div class="text-[11px] text-text-muted italic">NAD+ y reparación del ADN</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/vitamina-b5-acido-pantotenico" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Vitamina B5 (Ácido Pantoténico)</div>
+              <div class="text-[11px] text-text-muted italic">Coenzima A y síntesis de acetilcolina</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/vitamina-b6-piridoxina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Vitamina B6 (Piridoxina / P-5-P)</div>
+              <div class="text-[11px] text-text-muted italic">Cofactor maestro para dopamina, serotonina y GABA</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/vitamina-b7-biotina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Vitamina B7 (Biotina)</div>
+              <div class="text-[11px] text-text-muted italic">Mielina y metabolismo de ácidos grasos</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/vitamina-b9-folato" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Vitamina B9 (Folato / Metilfolato)</div>
+              <div class="text-[11px] text-text-muted italic">Metilación, ADN y el gen MTHFR</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/vitamina-b12" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between md:col-span-2">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Vitamina B12 (Cobalamina)</div>
+              <div class="text-[11px] text-text-muted italic">Mielinización, energía y las 4 formas químicas</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Sección 2.3 -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-mono text-xs font-bold">2.3</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 2.3 — El Espectro Completo del Magnesio</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">6 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">El mineral maestro: 300+ reacciones enzimáticas, incluido el cerebro.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/introduccion-magnesio" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-primary transition-colors">Introducción al Magnesio</div>
+              <div class="text-[11px] text-text-muted italic">Por qué el 70% de la población es deficiente</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/magnesio-l-treonato" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-primary transition-colors">Magnesio L-Treonato (Magtein)</div>
+              <div class="text-[11px] text-text-muted italic">El único que cruza la BHE: memoria y aprendizaje</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/magnesio-glicinato" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-primary transition-colors">Magnesio Glicinato</div>
+              <div class="text-[11px] text-text-muted italic">Calma, ansiedad y sueño profundo</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/magnesio-taurato" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-primary transition-colors">Magnesio Taurato</div>
+              <div class="text-[11px] text-text-muted italic">Regulación del glutamato y salud cardiovascular</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/magnesio-malato" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-primary transition-colors">Magnesio Malato</div>
+              <div class="text-[11px] text-text-muted italic">Energía, fatiga crónica y ciclo de Krebs</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/otros-tipos-magnesio" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-primary transition-colors">Otros Tipos de Magnesio</div>
+              <div class="text-[11px] text-text-muted italic">Orotato, Citrato, Cloruro, Sulfato, Óxido y Aspartato</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. GUÍA DE ESTUDIO RECOMENDADA -->
+    <section class="rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-emerald-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <BookOpen className="w-4 h-4" />
+        <span>Ruta Pedagógica</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">📋 Guía de Estudio Recomendada</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-primary/10 border border-primary/30 text-primary font-mono text-[11px] font-bold uppercase">
+            Nivel 1
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Para el principiante:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Empieza con <strong class="text-text-primary">Introducción al Magnesio</strong> (el mineral más crítico para el cerebro).</li>
+            <li>Lee <strong class="text-text-primary">Magnesio L-Treonato</strong> y <strong class="text-text-primary">Magnesio Glicinato</strong> (los dos más útiles).</li>
+            <li>Sigue con <strong class="text-text-primary">Vitamina B9 (Folato)</strong> y <strong class="text-text-primary">Vitamina B12</strong> si tienes fatiga o niebla mental.</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-emerald-500/40 bg-surface p-5 space-y-3.5 shadow-emerald-glow">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-mono text-[11px] font-bold uppercase">
+            Nivel 2
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Para el biohacker:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Ve directo a <strong class="text-emerald-400">Metilación</strong> (B9 + B12 + gen MTHFR).</li>
+            <li>Aprende las diferencias entre <strong class="text-emerald-400">Magnesio L-Treonato</strong> y <strong class="text-emerald-400">Glicinato</strong> para tu stack de sueño/enfoque.</li>
+            <li>Revisa <strong class="text-emerald-400">Vitamina B6 (P-5-P)</strong> si tomas precursores de neurotransmisores (5-HTP, L-Tirosina).</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-secondary/30 bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-secondary/10 border border-secondary/30 text-secondary font-mono text-[11px] font-bold uppercase">
+            Nivel 3
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Para el profesional de la salud:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Profundiza en <strong class="text-secondary">Metilación</strong> (B9/B12) y su relación con el gen MTHFR.</li>
+            <li>Estudia <strong class="text-secondary">Magnesio Taurato</strong> y <strong class="text-secondary">Malato</strong> para pacientes con fatiga crónica o fibromialgia.</li>
+            <li>Usa la sección de <strong class="text-secondary">Complejo B</strong> como referencia clínica para déficits nutricionales.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. PRÓXIMOS MÓDULOS -->
+    <section class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-primary font-mono text-xs font-bold uppercase tracking-wider">
+        <Layers className="w-4 h-4" />
+        <span>Plan Curricular Global</span>
+      </div>
+      <div class="space-y-1">
+        <h2 class="text-2xl font-bold text-text-primary">🔗 Currículum de NeuroAtlas</h2>
+        <p class="text-xs text-text-secondary">Estado de publicación de los 14 módulos.</p>
+      </div>
+      
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 text-xs font-mono">
+        <a href="/modulos/modulo-1" class="p-3.5 rounded-biotech border border-primary/40 bg-primary/10 flex items-center justify-between hover:bg-primary/20 transition-all">
+          <span class="text-text-primary font-bold">Módulo I: Fundamentos Biológicos</span>
+          <span class="px-2 py-0.5 rounded bg-primary/20 text-primary text-[10px] font-bold uppercase">✅ Completo</span>
+        </a>
+        <div class="p-3.5 rounded-biotech border border-emerald-500/40 bg-emerald-500/10 flex items-center justify-between">
+          <span class="text-text-primary font-bold">Módulo II: Nutrición Cerebral</span>
+          <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 text-[10px] font-bold uppercase">🟡 En desarrollo</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo III: Farmacología Sintética</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo IV: Farmacopea Natural & Hongos</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo V: Psicodelia & Plasticidad</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo VI: Bioenergética & Longevidad</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo VII: Eje Intestino-Cerebro</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo VIII: Hormesis Ambiental</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo IX: Cronobiología & Sueño</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo X: El Arte del Stacking</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo XI: Aplicaciones Específicas</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo XII: Marcas & Calidad</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo XIII: Neuroética & Legalidad</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+        <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low flex items-center justify-between text-text-muted">
+          <span>Módulo XIV: Recursos & Tools</span>
+          <span class="text-[10px]">⏳ Pendiente</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- AdBanner Inferior -->
+    <AdBanner slotId="modulo-2-bottom" format="horizontal" />
+
+    <!-- 6. DISCLAIMER -->
+    <footer class="p-4 sm:p-5 rounded-biotech border border-surface-bright bg-surface-lowest text-[11px] font-mono text-text-muted leading-relaxed flex items-start gap-3">
+      <ShieldAlert className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+      <p>
+        <strong>Aviso Médico & Legal:</strong> El contenido de NeuroAtlas es estrictamente educativo e informativo. No constituye consejo médico, diagnóstico ni tratamiento. Las sustancias mencionadas pueden tener interacciones farmacológicas y contraindicaciones. Consulta siempre con un profesional de la salud cualificado antes de iniciar cualquier protocolo de suplementación.
+      </p>
+    </footer>
+
+  </div>
+</BaseLayout>
