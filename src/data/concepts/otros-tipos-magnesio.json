@@ -1,0 +1,21 @@
+{
+  "slug": "otros-tipos-magnesio",
+  "titulo": "Otros Tipos de Magnesio: Orotato, Citrato, Cloruro, Sulfato, Óxido y Aspartato",
+  "modulo": "Modulo II",
+  "seccion": "2.3",
+  "tipo": "concepto",
+  "definicion": "Guía completa de las formas de magnesio menos comunes pero con usos específicos: orotato (cardiovascular), citrato (digestión), cloruro (tópico), sulfato (baños), óxido (laxante) y aspartato (controversial).",
+  "explicacion": "El perfil farmacocinético, índice de absorción gastrointestinal y tropismo tisular del catión magnesio (Mg²⁺) varían drásticamente en función de la molécula ligando o anión acompañante:\n\n1. Magnesio Orotato (Quelado con ácido orótico):\n- Mecanismo: El ácido orótico es un intermediario clave en la ruta de síntesis de novo de nucleótidos pirimidínicos (UTP, CTP) y ácidos nucleicos mitocondriales. Estimula la síntesis de glucógeno y ATP en el miocardio isquémico.\n- Aplicaciones: Insuficiencia cardíaca congestiva, hipertrofia ventricular, rehabilitación post-infarto y resistencia aeróbica de alta demanda.\n\n2. Magnesio Citrato (Sal de ácido cítrico):\n- Mecanismo: Posee solubilidad y biodisponibilidad intermedias (~16-30%). Ejerce un gradiente osmótico moderado que atrae agua a la luz colónica, promoviendo el peristaltismo.\n- Aplicaciones: Estreñimiento funcional ocasional, quelación de oxalato urinario para mitigar la formación de nefrolitiasis (cálculos de oxalato cálcico).\n\n3. Magnesio Cloruro y Sulfato (Uso Tópico / Balneoterapia):\n- Cloruro de Magnesio (Aceite de Magnesio transdérmico): Absorción mediante los folículos pilosos y glándulas sudoríparas, útil en hipertonía muscular local o pacientes con malabsorción intestinal severa.\n- Sulfato de Magnesio (Sales de Epsom): Utilizado en hidroterapia y baños térmicos. El anión sulfato apoya vías de sulfoconjugación hepática fase II, con efecto miorelajante periférico.\n\n4. Magnesio Óxido y Magnesio Aspartato:\n- Óxido de Magnesio: Sal inorgánica con bajísima biodisponibilidad (~4%). Actúa casi exclusivamente como laxante osmótico y antiácido gástrico.\n- Aspartato de Magnesio: Complejo con ácido aspártico (aminoácido dicarboxílico excitatorio agonista de receptores NMDA). Posee buena biodisponibilidad pero debe evitarse en personas con predisposición a sobreestimulación cortical o migrañas.",
+  "relevancia_nootropica": "Criterios de prescripción diferencial en protocolos de optimización:\n- Jerarquía de Selección:\n  * Neuro-Optimización y Plasticidad: L-Treonato (preferente para BHE y densidad sináptica).\n  * Calma, Insomnio y Resiliencia al Estrés: Bisglicinato (sinergia glicinérgica).\n  * Sensibilidad al Glutamato y Salud Cardíaca: Taurato.\n  * Síndrome de Fatiga Crónica / Fibromialgia: Malato (soporte de ciclo de Krebs).\n  * Tránsito Intestinal: Citrato.\n  * Evitar para fines cognitivos: Óxido de magnesio (biodisponibilidad insuficiente) y Aspartato (posible excitotoxicidad teórica en sujetos susceptibles).\n- Dosis Elemental de Referencia: 200 a 400 mg de magnesio elemental activo.",
+  "neurotransmisores_asociados": [
+    "glutamato",
+    "GABA"
+  ],
+  "regiones_asociadas": [
+    "corazón",
+    "intestino",
+    "piel",
+    "músculos",
+    "mitocondrias"
+  ]
+}
