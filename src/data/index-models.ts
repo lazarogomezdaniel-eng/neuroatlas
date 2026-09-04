@@ -61,6 +61,7 @@ import ejeIntestinoJson from './concepts/eje-intestino-cerebro-inmune.json';
 // 2.1 Complejo B y Metilación
 import introVitaminasBJson from './concepts/introduccion-vitaminas-b-metilacion.json';
 import vitaminaB1Json from './concepts/vitamina-b1-tiamina.json';
+import vitaminaB2Json from './concepts/vitamina-b2-riboflavina.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -119,6 +120,7 @@ export const conceptos: Concepto[] = [
   // 2.1
   introVitaminasBJson as Concepto,
   vitaminaB1Json as Concepto,
+  vitaminaB2Json as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {

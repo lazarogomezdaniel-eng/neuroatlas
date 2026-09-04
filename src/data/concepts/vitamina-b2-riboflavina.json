@@ -1,0 +1,20 @@
+{
+  "slug": "vitamina-b2-riboflavina",
+  "titulo": "Vitamina B2 (Riboflavina): La cadena de transporte de electrones",
+  "modulo": "Modulo II",
+  "seccion": "2.1",
+  "tipo": "concepto",
+  "definicion": "La vitamina B2 es el precursor de FAD y FMN, cofactores esenciales para la cadena de transporte de electrones mitocondrial y la protección antioxidante. Su deficiencia se asocia con migrañas y fatiga.",
+  "explicacion": "La Riboflavina se transforma secuencialmente mediante la riboflavina quinasa y la FAD sintasa en dos coenzimas flavínicas esenciales:\n\n1. FMN (Flavín Mononucleótido) y FAD (Flavín Adenín Dinucleótido):\n- Cadena de Transporte de Electrones: FMN actúa como grupo prostético del Complejo I (NADH deshidrogenasa) y FAD del Complejo II (Succinato deshidrogenasa), regulando el flujo de protones hacia la ATP sintasa.\n- Beta-oxidación de Ácidos Grasos: FAD es cofactor obligado de las acil-CoA deshidrogenasas mitocondriales.\n- Reciclaje Antioxidante: FAD es el aceptor electrónico indispensable de la Glutatión Reductasa (GSR), la enzima responsable de regenerar el glutatión reducido (GSH) a partir de glutatión oxidado (GSSG) en las neuronas.\n\n2. Interconversión de Otras Vitaminas B:\n- Activación de Vitamina B6: La enzima piridoxina-5-fosfato oxidasa requiere FMN para transformar piridoxina en la forma biológicamente activa Piridoxal-5-Fosfato (P-5-P).\n- Ciclo de Metilación: FAD es cofactor estructural de la enzima MTHFR (Metilentetrahidrofolato Reductasa).",
+  "relevancia_nootropica": "Aplicaciones clínicas en neuro-optimización y cefaleas vasculares:\n- Profilaxis de Migraña: Ensayos clínicos controlados demuestran que dosis de 400 mg/día de Riboflavina corrigen el déficit bioenergético mitocondrial cortical y reducen la frecuencia de crisis migrañosas en un 50%.\n- Sinergia con B6 y Metilación: La suplementación con B6 o Folato es ineficaz si existe un déficit subclínico de B2 que bloquee sus enzimas de activación.\n- Farmacocinética y Seguridad: Posee una absorción saturable mediada por transportadores RFVT; el exceso plasmático se excreta por vía renal tiñendo la orina de un color amarillo fluorescente inocuo (flavocoria).",
+  "neurotransmisores_asociados": [
+    "dopamina",
+    "serotonina",
+    "GABA"
+  ],
+  "regiones_asociadas": [
+    "mitocondrias",
+    "sistema nervioso central",
+    "corteza cerebral"
+  ]
+}
