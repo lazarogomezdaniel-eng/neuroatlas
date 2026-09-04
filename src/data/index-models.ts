@@ -72,6 +72,7 @@ import vitaminaB12Json from './concepts/vitamina-b12.json';
 // 2.3 Espectro del Magnesio
 import introMagnesioJson from './concepts/introduccion-magnesio.json';
 import magnesioTreonatoJson from './concepts/magnesio-l-treonato.json';
+import magnesioGlicinatoJson from './concepts/magnesio-glicinato.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -141,6 +142,7 @@ export const conceptos: Concepto[] = [
   // 2.3 Espectro del Magnesio
   introMagnesioJson as Concepto,
   magnesioTreonatoJson as Concepto,
+  magnesioGlicinatoJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {

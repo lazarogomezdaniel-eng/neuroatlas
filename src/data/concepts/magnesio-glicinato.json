@@ -1,0 +1,21 @@
+{
+  "slug": "magnesio-glicinato",
+  "titulo": "Magnesio Glicinato: Calma, ansiedad y sueño profundo",
+  "modulo": "Modulo II",
+  "seccion": "2.3",
+  "tipo": "concepto",
+  "definicion": "El magnesio glicinato (o bisglicinato) está unido a la glicina, un aminoácido con efectos calmantes. Es la forma de magnesio más biodisponible y mejor tolerada para reducir la ansiedad, mejorar el sueño y relajar el sistema nervioso.",
+  "explicacion": "El Bisglicinato de Magnesio es un quelato donde el ion central de magnesio (Mg²⁺) se encuentra covalentemente ligado a dos moléculas de L-glicina, conformando una estructura en anillo biológicamente estable que evita la disociación gástrica y optimiza la absorción entérica mediante transportadores peptídicos PEPT1:\n\n1. Sinergia Neuroquímica Dual (Mg²⁺ + Glicina):\n- Mecanismo del Magnesio: Bloqueo dependiente de voltaje en el poro del receptor NMDA para mitigar la excitotoxicidad por glutamato, facilitación alostérica de receptores GABA-A y atenuación de la reactividad del eje HPA (reducción de ACTH y cortisol).\n- Mecanismo de la Glicina: La glicina actúa como neurotransmisor inhibitorio primario en el tronco encefálico y las interneuronas de la médula espinal a través de receptores GlyR ionotrópicos (apertura de canales de Cl⁻ e hiperpolarización neuronal), promoviendo relajación neuromuscular y descenso de la temperatura corporal central.\n\n2. Optimización de la Arquitectura del Sueño:\n- Disminuye la latencia de inicio del sueño y prolonga el tiempo en fases de onda lenta NREM (fase 3/4 profunda), restaurando el aclaramiento metabólico por el sistema glinfático.\n- Reduce micro-despertares nocturnos y la fragmentación del sueño sin inducir tolerancia ni suprimir fases REM.\n\n3. Ansiolisis No Sedante y Eje HPA:\n- Modula la hiperexcitabilidad de la amígdala basolateral y el hipotálamo, facilitando un estado de calma cognitiva y resiliencia al estrés psicofisiológico agudo y crónico.\n- Precursor Metabólico: La glicina aportada sirve como sustrato directo para la síntesis de Glutatión (GSH) junto a la cisteína y el glutamato, incrementando la capacidad antioxidante neuronal.",
+  "relevancia_nootropica": "Aplicaciones clínicas en neuro-relajación, modulación del estrés y posología:\n- Perfil de Biodisponibilidad y Tolerabilidad Digestiva: Al ser absorbido como dipéptido quelado a través de PEPT1, no compite con otros cationes divalentes ni atrae agua hacia la luz intestinal por efecto osmótico, eliminando el riesgo de diarrea o molestias gástricas típicas de sales inorgánicas (óxido, citrato).\n- Protocolo de Posología y Timing:\n  * Sueño e Insomnio: 200 a 400 mg de magnesio elemental (equivalente a 1000 - 2000 mg de bisglicinato puro) administrados 60-90 minutos antes de acostarse.\n  * Ansiedad / Tensión Diurna: 100-200 mg de magnesio elemental por la mañana o fraccionado en dos tomas durante el día.\n- Sinergias de Stack Nocturno: Combinación sinérgica con L-Teanina (200 mg), Apigenina (50 mg) y Mio-Inositol (2-3 g) para inducir ondas lentas cerebrales y relajación profunda.",
+  "neurotransmisores_asociados": [
+    "GABA",
+    "glutamato",
+    "glicina"
+  ],
+  "regiones_asociadas": [
+    "amígdala",
+    "hipotálamo",
+    "tronco encefálico",
+    "sistema nervioso central"
+  ]
+}
