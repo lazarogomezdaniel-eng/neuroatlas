@@ -166,6 +166,8 @@ import rolipramVinpocetinaJson from './concepts/rolipram-vinpocetina.json';
 
 // --- MÓDULO IV: FARMACOPEA NATURAL, BOTÁNICA Y FÚNGICA ---
 // 4.1 Adaptógenos: Reguladores del Eje HPA
+import introduccionAdaptogenosJson from './concepts/introduccion-adaptogenos.json';
+import rhodiolaRoseaJson from './concepts/rhodiola-rosea.json';
 import ashwagandhaJson from './concepts/ashwagandha.json';
 import ginsengJson from './concepts/ginseng.json';
 import schisandraJson from './concepts/schisandra.json';
@@ -188,8 +190,19 @@ import kannaBlueLotusJson from './concepts/kanna-blue-lotus.json';
 
 // 4.4 Fitotranquilizantes, Ansiolíticos & Sueño
 import valerianaPasifloraMelisaJson from './concepts/valeriana-pasiflora-melisa.json';
+import kavaKavaJson from './concepts/kava-kava.json';
 import magnoliaJson from './concepts/magnolia.json';
 import apigeninaLuteolinaJson from './concepts/apigenina-luteolina.json';
+
+// 4.5 Fitoterapéuticos Antidepresivos & Moduladores Afectivos
+import hierbaDeSanJuanJson from './concepts/hierba-de-san-juan.json';
+import azafranJson from './concepts/azafran.json';
+import curcumaBoswelliaJson from './concepts/curcuma-boswellia.json';
+
+// 4.6 Plantas Estimulantes & Cafeinérgicas
+import cafeTeJson from './concepts/cafe-te.json';
+import yerbaMateGuayusaGuaranaJson from './concepts/yerba-mate-guayusa-guarana.json';
+import cacaoJson from './concepts/cacao.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -353,6 +366,8 @@ export const conceptos: Concepto[] = [
 
   // MÓDULO IV
   // 4.1 Adaptógenos
+  introduccionAdaptogenosJson as Concepto,
+  rhodiolaRoseaJson as Concepto,
   ashwagandhaJson as Concepto,
   ginsengJson as Concepto,
   schisandraJson as Concepto,
@@ -375,8 +390,19 @@ export const conceptos: Concepto[] = [
 
   // 4.4 Fitotranquilizantes, Ansiolíticos & Sueño
   valerianaPasifloraMelisaJson as Concepto,
+  kavaKavaJson as Concepto,
   magnoliaJson as Concepto,
   apigeninaLuteolinaJson as Concepto,
+
+  // 4.5 Fitoterapéuticos Antidepresivos & Moduladores Afectivos
+  hierbaDeSanJuanJson as Concepto,
+  azafranJson as Concepto,
+  curcumaBoswelliaJson as Concepto,
+
+  // 4.6 Plantas Estimulantes & Cafeinérgicas
+  cafeTeJson as Concepto,
+  yerbaMateGuayusaGuaranaJson as Concepto,
+  cacaoJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {

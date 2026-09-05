@@ -303,12 +303,13 @@ import {
             </div>
             <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-purple-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
           </a>
-          <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-lowest/60 flex items-center justify-between opacity-60">
+          <a href="/conceptos/kava-kava" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-purple-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
             <div>
-              <div class="text-xs font-semibold text-text-muted">Kava Kava (Piper methysticum)</div>
-              <div class="text-[11px] text-text-muted italic">Kavalactonas (kavaina/dihidrokavaina), modulación GABA-A, canales de sodio/calcio y relajación muscular</div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-purple-400 transition-colors">Kava Kava (Piper methysticum)</div>
+              <div class="text-[11px] text-text-muted italic">Kavalactonas (kawaína/yangonina), modulación GABA-A, canales Nav/Cav y ansiolisis no dependiente</div>
             </div>
-          </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-purple-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
           <a href="/conceptos/magnolia" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-purple-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
             <div>
               <div class="text-xs font-semibold text-text-primary group-hover:text-purple-400 transition-colors">Magnolia officinalis (Honokiol y Magnolol / Hou Po)</div>
@@ -326,18 +327,76 @@ import {
         </div>
       </div>
 
-      <!-- Secciones 4.5 a 4.6 Roadmap -->
-      <div class="rounded-biotech border border-surface-bright bg-surface-lowest p-6 sm:p-8 space-y-4 opacity-80">
+      <!-- 4.5 Fitoterapéuticos Antidepresivos & Moduladores Afectivos -->
+      <div class="rounded-biotech border border-amber-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
         <div class="flex items-center justify-between border-b border-surface-bright pb-3">
           <div class="flex items-center gap-2">
-            <span class="px-2 py-0.5 rounded bg-surface-container text-text-muted font-mono text-xs font-bold">4.5–4.6</span>
-            <h3 class="text-lg font-bold text-text-primary">Secciones 4.5 a 4.6 — En Desarrollo Activo</h3>
+            <span class="px-2 py-0.5 rounded bg-amber-500/10 border border-amber-500/30 text-amber-400 font-mono text-xs font-bold">4.5</span>
+            <h3 class="text-lg font-bold text-text-primary">Fitoterapéuticos Antidepresivos & Moduladores Afectivos</h3>
           </div>
-          <span class="text-xs font-mono text-text-muted">PRÓXIMA ENTREGA</span>
+          <span class="text-xs font-mono text-amber-400 font-semibold">3/3 CONCEPTOS</span>
         </div>
-        <p class="text-xs text-text-secondary leading-relaxed">
-          Incluirá Fitoterapéuticos Antidepresivos y Estabilizadores del Ánimo (Hierba de San Juan, Azafrán) y Plantas Energéticas & Estimulantes Naturales (Café, Té verde con EGCG, Guayusa, Yerba Mate, Cacao y Teobromina).
-        </p>
+        <p class="text-xs text-text-secondary italic">Modulación de la recaptación monoaminérgica no selectiva, estabilización del estado de ánimo, neurogénesis hipocampal y farmacocinética crítica de citocromos.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/hierba-de-san-juan" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Hierba de San Juan (Hypericum perforatum)</div>
+              <div class="text-[11px] text-text-muted italic">Hiperforina e hipericina, inhibición TRPC6 de monoaminas, inducción masiva de CYP3A4 / P-gp e interacciones críticas</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/azafran" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Azafrán (Crocus sativus / Affron®)</div>
+              <div class="text-[11px] text-text-muted italic">Crocinas (Lepticrosalides®) y safranal, recaptación 5-HT/DA, modulación BDNF y reversión de disfunción sexual</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/curcuma-boswellia" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between md:col-span-2">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Cúrcuma y Boswellia (Longvida® SLCP™ + AprèsFlex® AKBA)</div>
+              <div class="text-[11px] text-text-muted italic">Sinergia antiinflamatoria cerebral, bloqueo dual COX-2 / 5-LOX / NF-κB, eje IDO-quinureninas y niebla mental</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 4.6 Plantas Estimulantes & Cafeinérgicas -->
+      <div class="rounded-biotech border border-orange-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-orange-500/10 border border-orange-500/30 text-orange-400 font-mono text-xs font-bold">4.6</span>
+            <h3 class="text-lg font-bold text-text-primary">Plantas Estimulantes & Fitocomplejos Cafeinérgicos</h3>
+          </div>
+          <span class="text-xs font-mono text-orange-400 font-semibold">3/3 CONCEPTOS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Fitomatrices de metilxantinas, modulación adenosínica A1/A2A, inducción de ondas alfa (L-teanina), polifenoles protectores y cronobiología de la vigilia.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/cafe-te" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-orange-500/50 hover:bg-surface-container transition-all group flex items-center justify-between md:col-span-2">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-orange-400 transition-colors">Café y Té (Camellia sinensis: Matcha, Té Verde, EGCG + L-Teanina)</div>
+              <div class="text-[11px] text-text-muted italic">Ácidos clorogénicos, trigonelina (ChAT), beta-carbolinas MAO-A/B, ondas alfa (8-12 Hz) y neuroprotección dopaminérgica</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-orange-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/yerba-mate-guayusa-guarana" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-orange-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-orange-400 transition-colors">Yerba Mate, Guayusa y Guaraná (Plantas Energéticas de América)</div>
+              <div class="text-[11px] text-text-muted italic">Matesaponinas, guaranina ligada a taninos (liberación 6-8h), teobromina y foco amazónico sin crash</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-orange-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/cacao" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-orange-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-orange-400 transition-colors">Cacao (Theobroma cacao / Flavanoles & Teobromina)</div>
+              <div class="text-[11px] text-text-muted italic">Epicatequina (eNOS/fMRI CBF), teobromina (6-10h), feniletilamina (PEA) y anandamida</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-orange-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
       </div>
     </section>
 
