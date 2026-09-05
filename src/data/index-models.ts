@@ -178,6 +178,19 @@ import cordycepsJson from './concepts/cordyceps.json';
 import reishiJson from './concepts/reishi.json';
 import chagaTurkeyTailJson from './concepts/chaga-turkey-tail.json';
 
+// 4.3 Hierbas Nootrópicas
+import ginkgoBilobaJson from './concepts/ginkgo-biloba.json';
+import bacopaMonnieriConceptoJson from './concepts/bacopa-monnieri.json';
+import gotuKolaJson from './concepts/gotu-kola.json';
+import salviaRomeroJson from './concepts/salvia-romero.json';
+import huperziaSerrataJson from './concepts/huperzia-serrata.json';
+import kannaBlueLotusJson from './concepts/kanna-blue-lotus.json';
+
+// 4.4 Fitotranquilizantes, Ansiolíticos & Sueño
+import valerianaPasifloraMelisaJson from './concepts/valeriana-pasiflora-melisa.json';
+import magnoliaJson from './concepts/magnolia.json';
+import apigeninaLuteolinaJson from './concepts/apigenina-luteolina.json';
+
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
 export const conceptos: Concepto[] = [
@@ -351,6 +364,19 @@ export const conceptos: Concepto[] = [
   cordycepsJson as Concepto,
   reishiJson as Concepto,
   chagaTurkeyTailJson as Concepto,
+
+  // 4.3 Hierbas Nootrópicas
+  ginkgoBilobaJson as Concepto,
+  bacopaMonnieriConceptoJson as Concepto,
+  gotuKolaJson as Concepto,
+  salviaRomeroJson as Concepto,
+  huperziaSerrataJson as Concepto,
+  kannaBlueLotusJson as Concepto,
+
+  // 4.4 Fitotranquilizantes, Ansiolíticos & Sueño
+  valerianaPasifloraMelisaJson as Concepto,
+  magnoliaJson as Concepto,
+  apigeninaLuteolinaJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
