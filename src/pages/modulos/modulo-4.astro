@@ -1,0 +1,304 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdBanner from '../../components/monetization/AdBanner.astro';
+import { 
+  Sparkles, 
+  Clock, 
+  Layers, 
+  Award, 
+  BookOpen, 
+  ArrowRight, 
+  Leaf, 
+  ShieldAlert, 
+  FlaskConical, 
+  Activity,
+  CheckCircle2,
+  Trees
+} from 'lucide-react';
+---
+
+<BaseLayout
+  title="Módulo IV: Farmacopea Natural, Botánica y Fúngica | NeuroAtlas"
+  description="El puente entre la sabiduría ancestral y la neurociencia moderna: adaptógenos, hongos funcionales, hierbas nootrópicas, ansiolíticas y antidepresivas."
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+    
+    <!-- 1. HERO -->
+    <header class="relative rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-10 overflow-hidden space-y-6">
+      <div class="absolute top-0 right-0 -mr-16 -mt-16 w-72 h-72 bg-lime-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      
+      <div class="flex flex-wrap items-center gap-2.5">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-lime-500/15 border border-lime-500/40 text-xs font-mono font-bold text-lime-400 shadow-lime-glow">
+          <Leaf className="w-3.5 h-3.5" />
+          MÓDULO IV · FITOFARMACOLOGÍA & MICOTERAPIA
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Layers className="w-3.5 h-3.5 text-lime-400" />
+          32 MONOGRAFÍAS
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Award className="w-3.5 h-3.5 text-secondary" />
+          6 SECCIONES
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Clock className="w-3.5 h-3.5 text-primary" />
+          5-6 HORAS
+        </span>
+      </div>
+
+      <div class="space-y-3 max-w-3xl">
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
+          Módulo IV: Farmacopea Natural, Botánica y Fúngica
+        </h1>
+        <p class="text-base sm:text-xl text-lime-400 font-medium">
+          El puente entre la sabiduría ancestral y la neurociencia moderna
+        </p>
+        <p class="text-xs sm:text-sm text-text-secondary leading-relaxed pt-2">
+          Guía exhaustiva de adaptógenos, hongos medicinales, fitonootrópicos, ansiolíticos botánicos y extractos estandarizados validados por la investigación molecular contemporánea.
+        </p>
+      </div>
+    </header>
+
+    <!-- AdBanner Superior -->
+    <AdBanner slotId="modulo-4-top" format="horizontal" />
+
+    <!-- 2. INTRODUCCIÓN & 4 GRANDES FAMILIAS -->
+    <section class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-lime-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <Sparkles className="w-4 h-4" />
+        <span>El Corazón Botánico de NeuroAtlas</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">¿Por qué este módulo es esencial?</h2>
+      <p class="text-sm text-text-secondary leading-relaxed">
+        Mientras que el Módulo III explora moléculas sintéticas diseñadas en reactores químicos, el Módulo IV nos conecta con la <strong class="text-text-primary">farmacopea más depurada por la evolución</strong>: las plantas y hongos que han sido usados durante milenios en el <em>Ayurveda</em>, la <em>Medicina Tradicional China (MTC)</em> y la etnobotánica global.
+      </p>
+      <p class="text-xs text-text-secondary leading-relaxed">
+        La neurociencia actual no reemplaza esta sabiduría, sino que la desentraña a nivel de receptores, transcripción génica y factores neurotróficos: sabemos que los bacósidos de la Bacopa facilitan la sinaptogénesis dendrítica, las hericenonas de la Melena de León cruzan la BHE estimulando el NGF, y los withanólidos modulan alostéricamente el eje HPA.
+      </p>
+
+      <!-- Tabla 4 Grandes Familias -->
+      <div class="overflow-x-auto pt-2">
+        <table class="w-full text-left text-xs font-mono border-collapse">
+          <thead>
+            <tr class="border-b border-surface-bright text-text-muted bg-surface-low">
+              <th class="p-3">Familia Botánica / Fúngica</th>
+              <th class="p-3">Función Principal</th>
+              <th class="p-3">Ejemplos Clave</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-surface-bright/50 text-text-secondary">
+            <tr class="hover:bg-surface-low/50 transition-colors">
+              <td class="p-3 font-semibold text-lime-400">Adaptógenos Primarios</td>
+              <td class="p-3">Modulación del eje HPA, homeostasis del cortisol y resistencia celular al estrés</td>
+              <td class="p-3">Rhodiola Rosea, Ashwagandha, Ginseng, Schisandra</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50 transition-colors">
+              <td class="p-3 font-semibold text-amber-400">Hongos Funcionales (Micoterapia)</td>
+              <td class="p-3">Neurogénesis, síntesis de NGF/BDNF, inmunomodulación y bioenergética ATP</td>
+              <td class="p-3">Melena de León, Cordyceps, Reishi, Chaga, Turkey Tail</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50 transition-colors">
+              <td class="p-3 font-semibold text-cyan-400">Hierbas Nootrópicas</td>
+              <td class="p-3">Consolidación mnésica, inhibición de AChE, microcirculación cerebral y plasticidad</td>
+              <td class="p-3">Ginkgo Biloba, Bacopa Monnieri, Gotu Kola, Huperzia Serrata</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50 transition-colors">
+              <td class="p-3 font-semibold text-purple-400">Fitofármacos Ansiolíticos & Antidepresivos</td>
+              <td class="p-3">Modulación GABAérgica positiva, inhibición monoaminérgica natural y estabilidad límbica</td>
+              <td class="p-3">Valeriana, Pasiflora, Kanna, Hierba de San Juan, Azafrán</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 3. MAPA DE CONTENIDO DEL MÓDULO IV -->
+    <section class="space-y-8">
+      <div class="flex items-center gap-2 text-lime-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <Trees className="w-4 h-4" />
+        <span>Estructura Curricular</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">🗺️ Mapa de Contenido</h2>
+
+      <!-- Sección 4.1 -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-lime-500/20 text-lime-400 font-mono text-xs font-bold">4.1</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 4.1 — Adaptógenos: Reguladores del Eje HPA</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">6 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Plantas maestras moduladoras del estrés: regulación del eje hipotálamo-hipófisis-adrenal, proteínas de choque térmico (Hsp70) y resistencia física y mental.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/introduccion-adaptogenos" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-lime-500/50 hover:bg-surface-container transition-all group flex items-center justify-between md:col-span-2">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-lime-400 transition-colors">Introducción a los Adaptógenos</div>
+              <div class="text-[11px] text-text-muted italic">Definición científica (Brekhman & Dardymov), hormesis celular, modulación del eje HPA y homeostasis neuroendocrina</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-lime-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/rhodiola-rosea" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-lime-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-lime-400 transition-colors">Rhodiola Rosea (Raíz de Oro)</div>
+              <div class="text-[11px] text-text-muted italic">Salidrósido, rosavinas (extracto 3:1), modulación de neuropéptido Y y antifatiga mental bajo estrés agudo</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-lime-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/ashwagandha" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-lime-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-lime-400 transition-colors">Ashwagandha (Withania somnifera)</div>
+              <div class="text-[11px] text-text-muted italic">Withanólidos, KSM-66® vs Sensoril®, agonismo GABAérgico, reducción de cortisol y regeneración de axones</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-lime-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/ginseng" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-lime-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-lime-400 transition-colors">Ginseng (Panax, Americano, Siberiano)</div>
+              <div class="text-[11px] text-text-muted italic">Ginsenósidos Rb1/Rg1 vs eleuterósidos, captación de glucosa neuronal y activación del sistema reticular</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-lime-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/schisandra" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-lime-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-lime-400 transition-colors">Schisandra Chinensis (Wu Wei Zi)</div>
+              <div class="text-[11px] text-text-muted italic">Schisandrinas, protección hepatocerebral de fase II, modulación de óxido nítrico y agudeza visual/mental</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-lime-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/maca-tongkat-ali" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-lime-500/50 hover:bg-surface-container transition-all group flex items-center justify-between md:col-span-2">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-lime-400 transition-colors">Maca Andina y Tongkat Ali (Eurycoma longifolia)</div>
+              <div class="text-[11px] text-text-muted italic">Macamidas endocannabinoides, euripéptidos/euricomanona, eje gonadal-cerebro y vigor psicofísico</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-lime-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Sección 4.2 -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 font-mono text-xs font-bold">4.2</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 4.2 — Hongos Funcionales: Micoterapia Clínica</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">5 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">El reino fúngico aplicado a la neurogénesis: beta-glucanos 1,3/1,6, diterpenos inductores de neurotrofinas y bioenergética mitocondrial.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/introduccion-micoterapia" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between md:col-span-2">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Introducción a la Micoterapia Clínica</div>
+              <div class="text-[11px] text-text-muted italic">Cuerpo fructífero vs micelio en grano, métodos de doble extracción (agua/etanol) y estandarización de beta-glucanos</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/melena-de-leon" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Melena de León (Hericium erinaceus)</div>
+              <div class="text-[11px] text-text-muted italic">Hericenonas y erinacinas, inducción de NGF y BDNF, remielinización y neurogénesis hipocampal</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/cordyceps" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Cordyceps (Militaris & Sinensis)</div>
+              <div class="text-[11px] text-text-muted italic">Cordicepina, adenosina, optimización de VO2 máx, síntesis mitocondrial de ATP y oxigenación cerebral</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/reishi" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Reishi (Ganoderma lucidum / Lingzhi)</div>
+              <div class="text-[11px] text-text-muted italic">Ácidos ganodéricos triterpénicos, modulación del sueño profundo no-REM, inmunidad Th1/Th2 y calma nerviosa</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/chaga-turkey-tail" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Chaga y Turkey Tail (Inonotus obliquus / Trametes)</div>
+              <div class="text-[11px] text-text-muted italic">Ácido betulínico, polisacáridos PSP/PSK, eje microbiota-microglía y máxima capacidad antioxidante ORAC</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Secciones 4.3 a 4.6 Roadmap -->
+      <div class="rounded-biotech border border-surface-bright bg-surface-lowest p-6 sm:p-8 space-y-4 opacity-80">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-surface-container text-text-muted font-mono text-xs font-bold">4.3–4.6</span>
+            <h3 class="text-lg font-bold text-text-primary">Secciones 4.3 a 4.6 — En Desarrollo Activo</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">PRÓXIMA ENTREGA</span>
+        </div>
+        <p class="text-xs text-text-secondary leading-relaxed">
+          Incluirá Hierbas Nootrópicas clásicas (Ginkgo Biloba, Bacopa Monnieri, Gotu Kola, Huperzia Serrata, Kanna), Fitotranquilizantes y Ansiolíticos (Valeriana, Pasiflora, Magnolia, Kava Kava), Fitoterapéuticos Antidepresivos (Hierba de San Juan, Azafrán) y Plantas Energéticas estimulantes (Café, Té verde, Guayusa, Yerba Mate, Cacao).
+        </p>
+      </div>
+    </section>
+
+    <!-- 4. GUÍA DE ESTUDIO Y PRECAUCIÓN -->
+    <section class="rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-lime-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <BookOpen className="w-4 h-4" />
+        <span>Ruta Pedagógica & Seguridad</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">📋 Guía de Estudio y Protocolos</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-lime-500/10 border border-lime-500/30 text-lime-400 font-mono text-[11px] font-bold uppercase">
+            Nivel 1
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Para el principiante:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Empieza con <strong class="text-text-primary">Rhodiola Rosea</strong> (adaptógeno seguro y bien estudiado para la fatiga mental aguda).</li>
+            <li>Incorpora <strong class="text-text-primary">Melena de León</strong> (extracto estandarizado de cuerpo fructífero) para memoria y neurogénesis.</li>
+            <li>Explora <strong class="text-text-primary">Ginkgo Biloba</strong> o <strong class="text-text-primary">Bacopa Monnieri</strong> como pilares nootrópicos con décadas de ensayos clínicos.</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-secondary/10 border border-secondary/30 text-secondary font-mono text-[11px] font-bold uppercase">
+            Nivel 2
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Para el biohacker:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Diseña <strong class="text-text-primary">stacks adaptogénicos sinérgicos</strong> (Rhodiola + Ashwagandha + Schisandra) adaptados a la curva circadiana del cortisol.</li>
+            <li>Exige extractos con <strong class="text-text-primary">patentes y estandarización analítica</strong> (KSM-66®, Sensoril®, EGb 761, Shoden®).</li>
+            <li>Domina los métodos de <strong class="text-text-primary">doble extracción</strong> en micoterapia para garantizar beta-glucanos hidrosolubles y triterpenos liposolubles.</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-primary/10 border border-primary/30 text-primary font-mono text-[11px] font-bold uppercase">
+            Nivel 3
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Para el profesional clínico:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Evalúa la farmacocinética de <strong class="text-text-primary">withanólidos, ginsenósidos y rosavinas</strong> en la regulación del eje HPA.</li>
+            <li>Monitorea el <strong class="text-text-primary">eje intestino-microbiota-cerebro</strong> modulado por los beta-glucanos 1,3/1,6 fúngicos.</li>
+            <li>Aplica la evidencia clínica de Bacopa (300 mg/día estandarizado al 55% bacósidos) en pacientes con declive mnésico.</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Alerta de Bioseguridad / Interacciones -->
+      <div class="p-4 rounded-biotech bg-rose-500/10 border border-rose-500/30 text-xs text-rose-300 space-y-2">
+        <div class="flex items-center gap-2 font-bold font-mono text-rose-400">
+          <ShieldAlert className="w-4 h-4" />
+          <span>⚠️ ADVERTENCIA TOXICOLÓGICA & INTERACCIONES FARMACOLÓGICAS</span>
+        </div>
+        <p class="leading-relaxed">
+          El contenido de NeuroAtlas es estrictamente educativo. Los extractos botánicos y fúngicos contienen principios activos con alta potencia farmacológica capaz de inducir o inhibir citocromos hepáticos (CYP450). Por ejemplo, la <strong class="text-text-primary">Hierba de San Juan</strong> (inductor potente de CYP3A4 y glicoproteína-P) anula la eficacia de anticonceptivos orales, antirretrovirales, inmunosupresores y anticoagulantes. Consulta siempre con un profesional sanitario antes de iniciar cualquier protocolo.
+        </p>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

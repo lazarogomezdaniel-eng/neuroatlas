@@ -164,6 +164,20 @@ import isribJson from './concepts/isrib.json';
 import azulMetilenoJson from './concepts/azul-metileno.json';
 import rolipramVinpocetinaJson from './concepts/rolipram-vinpocetina.json';
 
+// --- MÓDULO IV: FARMACOPEA NATURAL, BOTÁNICA Y FÚNGICA ---
+// 4.1 Adaptógenos: Reguladores del Eje HPA
+import ashwagandhaJson from './concepts/ashwagandha.json';
+import ginsengJson from './concepts/ginseng.json';
+import schisandraJson from './concepts/schisandra.json';
+import macaTongkatAliJson from './concepts/maca-tongkat-ali.json';
+
+// 4.2 Hongos Funcionales: Micoterapia Clínica
+import introduccionMicoterapiaJson from './concepts/introduccion-micoterapia.json';
+import melenaDeLeonJson from './concepts/melena-de-leon.json';
+import cordycepsJson from './concepts/cordyceps.json';
+import reishiJson from './concepts/reishi.json';
+import chagaTurkeyTailJson from './concepts/chaga-turkey-tail.json';
+
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
 export const conceptos: Concepto[] = [
@@ -323,6 +337,20 @@ export const conceptos: Concepto[] = [
   isribJson as Concepto,
   azulMetilenoJson as Concepto,
   rolipramVinpocetinaJson as Concepto,
+
+  // MÓDULO IV
+  // 4.1 Adaptógenos
+  ashwagandhaJson as Concepto,
+  ginsengJson as Concepto,
+  schisandraJson as Concepto,
+  macaTongkatAliJson as Concepto,
+
+  // 4.2 Hongos Funcionales
+  introduccionMicoterapiaJson as Concepto,
+  melenaDeLeonJson as Concepto,
+  cordycepsJson as Concepto,
+  reishiJson as Concepto,
+  chagaTurkeyTailJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
