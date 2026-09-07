@@ -1,0 +1,394 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdBanner from '../../components/monetization/AdBanner.astro';
+import { 
+  Zap, 
+  Clock, 
+  Layers, 
+  Award, 
+  BookOpen, 
+  ArrowRight, 
+  ShieldAlert, 
+  Activity,
+  Dna,
+  Flame,
+  ShieldCheck,
+  RefreshCw,
+  Sparkles,
+  HeartPulse,
+  Network
+} from 'lucide-react';
+---
+
+<BaseLayout
+  title="Módulo VII: El Eje Intestino-Cerebro | NeuroAtlas"
+  description="Cómo tu microbioma dicta tu estado de ánimo, cognición y salud mental: psicobióticos, SCFAs, butirato, intestino permeable, disbiosis y trasplante de microbiota fecal."
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+    
+    <!-- 1. HERO -->
+    <header class="relative rounded-biotech border border-emerald-500/30 bg-surface-low p-6 sm:p-10 overflow-hidden space-y-6">
+      <div class="absolute top-0 right-0 -mr-16 -mt-16 w-72 h-72 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      
+      <div class="flex flex-wrap items-center gap-2.5">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-emerald-500/15 border border-emerald-500/40 text-xs font-mono font-bold text-emerald-400">
+          <Activity className="w-3.5 h-3.5" />
+          MÓDULO VII · EL EJE INTESTINO-CEREBRO
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Layers className="w-3.5 h-3.5 text-emerald-400" />
+          15 MONOGRAFÍAS
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Award className="w-3.5 h-3.5 text-secondary" />
+          4 SECCIONES
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Clock className="w-3.5 h-3.5 text-primary" />
+          4-5 HORAS
+        </span>
+      </div>
+
+      <div class="space-y-3 max-w-3xl">
+        <div class="text-3xl sm:text-4xl">🦠</div>
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
+          Módulo VII: El Eje Intestino-Cerebro
+        </h1>
+        <p class="text-base sm:text-xl text-emerald-400 font-medium">
+          Cómo tu microbioma dicta tu estado de ánimo, cognición y salud mental
+        </p>
+        <p class="text-xs sm:text-sm text-text-secondary leading-relaxed pt-2">
+          La revolución neurocientífica del "segundo cerebro": más de 40 billones de microorganismos, 500 millones de neuronas en el sistema nervioso entérico y el 90% de la serotonina corporal en constante diálogo bidireccional con el sistema nervioso central.
+        </p>
+      </div>
+    </header>
+
+    <!-- AdBanner Superior -->
+    <AdBanner slotId="modulo-7-top" format="horizontal" />
+
+    <!-- 2. PILARES DEL EJE INTESTINO-CEREBRO -->
+    <section class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-emerald-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <Sparkles className="w-4 h-4" />
+        <span>Los 4 Pilares de la Neurobiología Entérica</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">Fundamentos de la Comunicación Bidireccional</h2>
+      <p class="text-sm text-text-secondary leading-relaxed">
+        Durante décadas el cerebro fue concebido como un órgano aislado de mando superior. La evidencia contemporánea demuestra que el equilibrio neuroquímico y la neurogénesis dependen críticamente del ecosistema intestinal:
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4 pt-1">
+        <div class="p-4 rounded-biotech border border-surface-bright bg-surface-low space-y-2">
+          <div class="text-xs font-mono font-bold text-emerald-400">01 · Microbiota Comensal</div>
+          <div class="text-xs font-semibold text-text-primary">El Segundo Genoma</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Más de 1.000 especies y 150 veces más genes que el genoma humano produciendo moléculas neuroactivas.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-biotech border border-surface-bright bg-surface-low space-y-2">
+          <div class="text-xs font-mono font-bold text-emerald-400">02 · Metabolitos & SCFAs</div>
+          <div class="text-xs font-semibold text-text-primary">Butirato y Ácidos Grasos</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Inhibición de HDACs por butirato, síntesis de GABA y maduración de la microglía cerebral por acetato y propionato.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-biotech border border-surface-bright bg-surface-low space-y-2">
+          <div class="text-xs font-mono font-bold text-emerald-400">03 · Integridad de Barrera</div>
+          <div class="text-xs font-semibold text-text-primary">Zonulina & Tight Junctions</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Mantenimiento del sellado epitelial para impedir la translocación de lipopolisacáridos (LPS) y endotoxemia sistémica.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-biotech border border-surface-bright bg-surface-low space-y-2">
+          <div class="text-xs font-mono font-bold text-emerald-400">04 · El Eje Vagal & GALT</div>
+          <div class="text-xs font-semibold text-text-primary">Inmunidad y Señal Neural</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            El 70% del sistema inmunitario en la mucosa entérica y transmisión instantánea por el X par craneal.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. LAS 4 VÍAS DE COMUNICACIÓN -->
+    <section class="rounded-biotech border border-emerald-500/20 bg-surface-lowest p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-emerald-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <Network className="w-4 h-4" />
+        <span>Mecanismos de Transferencia de Información</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">Las 4 Vías de Comunicación Intestino-Cerebro</h2>
+      
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs border border-surface-bright rounded-biotech overflow-hidden">
+          <thead class="bg-surface-low border-b border-surface-bright text-text-primary font-mono">
+            <tr>
+              <th class="p-3">Vía</th>
+              <th class="p-3">Mecanismo Biomolecular</th>
+              <th class="p-3">Velocidad</th>
+              <th class="p-3">Impacto Clínico / Cognitivo</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-surface-bright text-text-secondary">
+            <tr class="hover:bg-surface-low/50">
+              <td class="p-3 font-semibold text-emerald-400">Nervio Vago</td>
+              <td class="p-3">Comunicación neural directa vía fibras aferentes vagales y receptores 5-HT3</td>
+              <td class="p-3 font-mono text-text-muted">Milisegundos</td>
+              <td class="p-3">Tono parasimpático, ansiolisis, control de frecuencia cardíaca</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50">
+              <td class="p-3 font-semibold text-emerald-400">Metabolitos Microbianos</td>
+              <td class="p-3">SCFAs (butirato, propionato, acetato), ligandos de AhR, GABA microbiano</td>
+              <td class="p-3 font-mono text-text-muted">Minutos - Horas</td>
+              <td class="p-3">Epigenética (inhibición HDAC), integridad de BHE, neurogénesis</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50">
+              <td class="p-3 font-semibold text-emerald-400">Sistema Inmune (GALT)</td>
+              <td class="p-3">Citoquinas inflamatorias (IL-1β, IL-6, TNF-α), células T reguladoras (Treg)</td>
+              <td class="p-3 font-mono text-text-muted">Horas - Días</td>
+              <td class="p-3">Neuroinflamación microglial, niebla mental, fatiga crónica</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50">
+              <td class="p-3 font-semibold text-emerald-400">Sistema Endocrino</td>
+              <td class="p-3">Eje HPA, secreción de cortisol y péptidos gastrointestinales (GLP-1, PYY)</td>
+              <td class="p-3 font-mono text-text-muted">Horas - Días</td>
+              <td class="p-3">Respuesta al estrés psicológico, saciedad y homeostasis de glucosa</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 4. TEMARIO DETALLADO POR SECCIONES -->
+    <section class="space-y-6">
+      <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-bold text-text-primary flex items-center gap-2.5">
+          <Flame className="w-6 h-6 text-emerald-400" />
+          <span>Estructura del Módulo VII</span>
+        </h2>
+        <span class="text-xs font-mono text-text-muted">4 SECCIONES EDUCATIVAS</span>
+      </div>
+
+      <!-- 7.1 Introducción al Eje Intestino-Cerebro -->
+      <div class="rounded-biotech border border-emerald-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-mono text-xs font-bold">7.1</span>
+            <h3 class="text-lg font-bold text-text-primary">Introducción al Eje Intestino-Cerebro & Señalización Neural</h3>
+          </div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">4 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">La arquitectura fundamental: nervio vago, metagenómica del microbioma y el enigma de la serotonina periférica vs central.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 pt-2">
+          <a href="/conceptos/introduccion-eje-intestino-cerebro" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Introducción al Eje Intestino-Cerebro</div>
+              <div class="text-[11px] text-text-muted italic">La red bidireccional entre el sistema nervioso entérico y central</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/nervio-vago" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">El Nervio Vago: La Autopista Neural</div>
+              <div class="text-[11px] text-text-muted italic">Transmisión aferente parasimpática y estimulación vagal</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/microbioma" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">El Microbioma: El Segundo Genoma</div>
+              <div class="text-[11px] text-text-muted italic">Bacteroidetes, Firmicutes, Actinobacteria y diversidad alfa/beta</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/serotonina-intestinal" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Serotonina Intestinal vs Cerebral</div>
+              <div class="text-[11px] text-text-muted italic">Células enterocromafines, transportador SERT y el dilema de la BHE</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 7.2 Psicobióticos: Probióticos para el Cerebro -->
+      <div class="rounded-biotech border border-emerald-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-mono text-xs font-bold">7.2</span>
+            <h3 class="text-lg font-bold text-text-primary">Psicobióticos: Probióticos para el Cerebro</h3>
+          </div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">3 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Bacterias vivas con beneficios documentados sobre el estado de ánimo, modulación del eje HPA y fermentación tradicional.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 pt-2">
+          <a href="/conceptos/psicobioticos" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Introducción a los Psicobióticos</div>
+              <div class="text-[11px] text-text-muted italic">Concepto de Dinan & Cryan: cepas bacterianas que modulan neurotransmisores</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/cepas-psicobioticas" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Cepas Psicobióticas Clave</div>
+              <div class="text-[11px] text-text-muted italic">L. rhamnosus JB-1, B. longum 1714 y L. helveticus R0052</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/fermentados" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Kéfir, Kombucha y Alimentos Fermentados</div>
+              <div class="text-[11px] text-text-muted italic">Simbióticos vivos, diversidad microbiana y reducción de estrés</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 7.3 Prebióticos, Postbióticos y SCFAs -->
+      <div class="rounded-biotech border border-emerald-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-mono text-xs font-bold">7.3</span>
+            <h3 class="text-lg font-bold text-text-primary">Prebióticos, Postbióticos & Ácidos Grasos de Cadena Corta</h3>
+          </div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">4 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Nutrición del microbioma y metabolitos funcionales: fermentación colónica de fibras y señalización epigenética.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 pt-2">
+          <a href="/conceptos/scfas" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Ácidos Grasos de Cadena Corta (SCFAs)</div>
+              <div class="text-[11px] text-text-muted italic">Acetato, propionato y butirato como moduladores epigenéticos</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/butirato" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Butirato: Combustible del Colonocito</div>
+              <div class="text-[11px] text-text-muted italic">Inhibición de HDAC, aumento de BDNF y sellado de la barrera intestinal</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/prebioticos" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Prebióticos: Inulina, FOS, GOS & Almidón</div>
+              <div class="text-[11px] text-text-muted italic">Sustratos de fermentación selectiva para Bifidobacterias y Faecalibacterium</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/postbioticos" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Postbióticos: Más Allá del Probiótico Vivo</div>
+              <div class="text-[11px] text-text-muted italic">Metabolitos celulares, bacteriocinas y vesículas de membrana externa</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 7.4 Disbiosis, Intestino Permeable y FMT -->
+      <div class="rounded-biotech border border-emerald-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-mono text-xs font-bold">7.4</span>
+            <h3 class="text-lg font-bold text-text-primary">Disbiosis, Intestino Permeable & FMT</h3>
+          </div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">4 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Patologías del eje: translocación de LPS, sobrecrecimiento bacteriano (SIBO/SIFO) y trasplante de microbiota fecal.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 pt-2">
+          <a href="/conceptos/intestino-permeable" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Intestino Permeable (Leaky Gut)</div>
+              <div class="text-[11px] text-text-muted italic">Disrupción de uniones estrechas, zonulina y neuroinflamación por LPS</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/disbiosis" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Disbiosis: El Desequilibrio del Ecosistema</div>
+              <div class="text-[11px] text-text-muted italic">Pérdida de diversidad, ratio Firmicutes/Bacteroidetes y salud mental</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/sibo-sifo" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">SIBO y SIFO</div>
+              <div class="text-[11px] text-text-muted italic">Sobrecrecimiento bacteriano y fúngico en el intestino delgado</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/fmt" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Trasplante de Microbiota Fecal (FMT)</div>
+              <div class="text-[11px] text-text-muted italic">De C. difficile a la investigación en autismo, depresión y Parkinson</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. GUÍA DE PROTOCOLOS Y SEGURIDAD -->
+    <section class="rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-emerald-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <BookOpen className="w-4 h-4" />
+        <span>Ruta Pedagógica & Personalización</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">📋 Guía de Estudio y Navegación Clínica</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-mono text-[11px] font-bold uppercase">
+            Nivel 1 · Principiante
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Fundamentos del Eje:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Lee la <strong class="text-text-primary">Introducción al Eje Intestino-Cerebro</strong> para comprender la red bidireccional.</li>
+            <li>Incorpora <strong class="text-text-primary">Alimentos Fermentados</strong> (kéfir, chucrut) para diversificar la microbiota de forma natural.</li>
+            <li>Comprende el rol del <strong class="text-text-primary">Butirato</strong> como protector de la barrera intestinal y combustible del colonocito.</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-secondary/10 border border-secondary/30 text-secondary font-mono text-[11px] font-bold uppercase">
+            Nivel 2 · Biohacker
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Optimización Psicobiótica:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Identifica <strong class="text-text-primary">cepas psicobióticas específicas</strong> (L. rhamnosus JB-1, B. longum 1714) para estrés y memoria de trabajo.</li>
+            <li>Añade <strong class="text-text-primary">Almidón Resistente tipo 3</strong> para maximizar la producción endógena de SCFAs.</li>
+            <li>Monitorea la permeabilidad intestinal y elimina desencadenantes inflamatorios (gluten, emulsionantes sintéticos).</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-primary/10 border border-primary/30 text-primary font-mono text-[11px] font-bold uppercase">
+            Nivel 3 · Avanzado
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Intervenciones Médicas:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Analiza la fisiopatología del <strong class="text-text-primary">SIBO y SIFO</strong> antes de pautar prebióticos fermentables (FODMAPs).</li>
+            <li>Evalúa la neuroinflamación mediada por <strong class="text-text-primary">endotoxemia de LPS</strong> en depresión resistente y Parkinson.</li>
+            <li>Revisa la evidencia de <strong class="text-text-primary">Trasplante de Microbiota Fecal (FMT)</strong> en patología neuropsiquiátrica.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="p-4 rounded-biotech border border-amber-500/30 bg-amber-500/5 flex items-start gap-3 text-xs text-text-secondary">
+        <ShieldAlert className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
+        <div>
+          <strong class="text-text-primary">Aviso de Personalización Clínica:</strong> El campo del microbioma es sumamente dinámico e individualizado. Intervenciones ricas en prebióticos o fermentados pueden agravar cuadros de SIBO o intolerancia a la histamina. Consulta siempre con un profesional de la salud antes de modificar radicalmente tu protocolo gastrointestinal.
+        </div>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

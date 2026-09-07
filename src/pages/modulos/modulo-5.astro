@@ -1,0 +1,473 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdBanner from '../../components/monetization/AdBanner.astro';
+import { 
+  Sparkles, 
+  Clock, 
+  Layers, 
+  Award, 
+  BookOpen, 
+  ArrowRight, 
+  ShieldAlert, 
+  Activity,
+  Dna,
+  Brain,
+  Scale
+} from 'lucide-react';
+---
+
+<BaseLayout
+  title="Módulo V: Psicodelia y Moduladores de Plasticidad | NeuroAtlas"
+  description="El renacimiento psicodélico: análisis científico de los psicodélicos clásicos, disociativos, entactógenos y su papel en la neuroplasticidad y la terapia."
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+    
+    <!-- 1. HERO -->
+    <header class="relative rounded-biotech border border-purple-500/30 bg-surface-low p-6 sm:p-10 overflow-hidden space-y-6">
+      <div class="absolute top-0 right-0 -mr-16 -mt-16 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      
+      <div class="flex flex-wrap items-center gap-2.5">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-purple-500/15 border border-purple-500/40 text-xs font-mono font-bold text-purple-400 shadow-purple-glow">
+          <Brain className="w-3.5 h-3.5" />
+          MÓDULO V · PSICODELIA & NEUROPLASTICIDAD
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Layers className="w-3.5 h-3.5 text-purple-400" />
+          19 MONOGRAFÍAS
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Award className="w-3.5 h-3.5 text-secondary" />
+          6 SECCIONES
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Clock className="w-3.5 h-3.5 text-primary" />
+          5-6 HORAS
+        </span>
+      </div>
+
+      <div class="space-y-3 max-w-3xl">
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
+          Módulo V: Psicodelia y Moduladores de Plasticidad
+        </h1>
+        <p class="text-base sm:text-xl text-purple-400 font-medium">
+          El renacimiento psicodélico: ciencia, terapia y neurogénesis
+        </p>
+        <p class="text-xs sm:text-sm text-text-secondary leading-relaxed pt-2">
+          Análisis científico riguroso de los psicodélicos clásicos, disociativos, entactógenos y su impacto en la sinaptogénesis, la Red Neuronal por Defecto (DMN) y la psicofarmacología clínica moderna basada en ensayos de Johns Hopkins, Imperial College y MAPS.
+        </p>
+      </div>
+    </header>
+
+    <!-- AdBanner Superior -->
+    <AdBanner slotId="modulo-5-top" format="horizontal" />
+
+    <!-- ⚠️ AVISO LEGAL Y ÉTICO CRÍTICO -->
+    <section class="rounded-biotech border border-red-500/40 bg-red-950/10 p-6 sm:p-8 space-y-4">
+      <div class="flex items-center gap-2.5 text-red-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <ShieldAlert className="w-5 h-5 text-red-400 shrink-0" />
+        <span>Aviso Legal, Ético y de Reducción de Daños</span>
+      </div>
+      <p class="text-xs sm:text-sm text-text-secondary leading-relaxed">
+        <strong class="text-red-300">La mayoría de las sustancias analizadas en este módulo están catalogadas en la Lista I de la Convención de Viena de 1971 y son ilegales en gran parte del mundo.</strong> Su posesión, síntesis, transporte o suministro pueden acarrear graves sanciones penales. Este contenido tiene fines estrictamente <strong class="text-text-primary">educativos, científicos y de reducción de daños</strong>.
+      </p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 pt-2 text-xs">
+        <div class="p-3.5 rounded-biotech border border-red-500/20 bg-surface-low space-y-1.5">
+          <div class="font-bold text-red-400 font-mono flex items-center gap-1.5">
+            <Scale className="w-3.5 h-3.5" />
+            Contraindicaciones Médicas Absolutas:
+          </div>
+          <ul class="text-text-muted space-y-1 list-disc list-inside">
+            <li>Historial personal o familiar de <strong class="text-text-secondary">psicosis o esquizofrenia</strong>.</li>
+            <li><strong class="text-text-secondary">Trastorno Afectivo Bipolar</strong> (alto riesgo de viraje maníaco).</li>
+            <li><strong class="text-text-secondary">Cardiopatías valvulares</strong> (por agonismo 5-HT2B crónico).</li>
+            <li><strong class="text-text-secondary">Combinación con Litio</strong> (riesgo crítico de crisis convulsivas).</li>
+            <li>Embarazo y lactancia activa.</li>
+          </ul>
+        </div>
+
+        <div class="p-3.5 rounded-biotech border border-purple-500/20 bg-surface-low space-y-1.5">
+          <div class="font-bold text-purple-400 font-mono flex items-center gap-1.5">
+            <Activity className="w-3.5 h-3.5" />
+            Marcos Legales y Regulatorios (2024–2026):
+          </div>
+          <ul class="text-text-muted space-y-1 list-disc list-inside">
+            <li><strong class="text-text-secondary">Australia (2023):</strong> Psilocibina para depresión resistente y MDMA para TEPT aprobados bajo prescripción médica autorizada.</li>
+            <li><strong class="text-text-secondary">EE.UU. (Oregon & Colorado):</strong> Programas de administración terapéutica de psilocibina supervisada por facilitadores licenciados.</li>
+            <li><strong class="text-text-secondary">Suiza & Países Bajos:</strong> Uso compasivo regulado y venta legal de trufas escleróticas de psilocibina.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. EL RENACIMIENTO PSICODÉLICO & LAS 4 GRANDES FAMILIAS -->
+    <section class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-purple-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <Sparkles className="w-4 h-4" />
+        <span>Bases Moleculares de la Neuroplasticidad</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">El Renacimiento Científico (2006–Presente)</h2>
+      <p class="text-sm text-text-secondary leading-relaxed">
+        Tras décadas de parálisis regulatoria e investigación clandestina (1970–2000), tres hitos científicos catalizaron el nuevo paradigma neuroterapéutico:
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-1">
+        <div class="p-4 rounded-biotech border border-surface-bright bg-surface-low space-y-2">
+          <div class="text-xs font-mono font-bold text-purple-400">2006 · Johns Hopkins</div>
+          <div class="text-xs font-semibold text-text-primary">Griffiths et al.</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Publicación en <em>Psychopharmacology</em> demostrando que la psilocibina induce experiencias de disolución del ego con significado personal y cambios sostenidos de personalidad y bienestar en voluntarios sanos.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-biotech border border-surface-bright bg-surface-low space-y-2">
+          <div class="text-xs font-mono font-bold text-purple-400">2012 · Imperial College London</div>
+          <div class="text-xs font-semibold text-text-primary">Carhart-Harris & Nutt</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Primeros estudios de neuroimagen fMRI y MEG revelando la disminución del flujo sanguíneo y conectividad funcional en nodos clave de la <strong class="text-text-secondary">Red Neuronal por Defecto (DMN)</strong>.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-biotech border border-surface-bright bg-surface-low space-y-2">
+          <div class="text-xs font-mono font-bold text-purple-400">2017–2024 · MAPS</div>
+          <div class="text-xs font-semibold text-text-primary">Mitchell et al. (Fase III)</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Ensayos clínicos multicéntricos de Fase III (MAPP1/MAPP2) demostrando que la psicoterapia asistida con MDMA produce remisión diagnóstica en más del 67% de pacientes con TEPT severo y crónico.
+          </p>
+        </div>
+      </div>
+
+      <!-- Tabla 4 Grandes Familias -->
+      <div class="pt-4 space-y-3">
+        <h3 class="text-base font-bold text-text-primary">Las 4 Grandes Familias Farmacológicas</h3>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left text-xs font-mono border-collapse">
+            <thead>
+              <tr class="border-b border-surface-bright text-text-muted bg-surface-low">
+                <th class="p-3">Familia</th>
+                <th class="p-3">Dianas Receptoras Primarias</th>
+                <th class="p-3">Mecanismo Neurobiológico Clave</th>
+                <th class="p-3">Moléculas Representativas</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-surface-bright/50 text-text-secondary">
+              <tr class="hover:bg-surface-low/50 transition-colors">
+                <td class="p-3 font-semibold text-purple-400">Psicodélicos Clásicos</td>
+                <td class="p-3">Agonismo 5-HT2A (corteza profunda capa V)</td>
+                <td class="p-3">Colapso de la DMN, entropía cortical, neurogénesis vía BDNF/TrkB</td>
+                <td class="p-3">Psilocibina, LSD, DMT, Mescalina, 5-MeO-DMT</td>
+              </tr>
+              <tr class="hover:bg-surface-low/50 transition-colors">
+                <td class="p-3 font-semibold text-cyan-400">Disociativos</td>
+                <td class="p-3">Antagonismo no competitivo del receptor NMDA</td>
+                <td class="p-3">Burst de glutamato, activación de AMPA, estimulación masiva de mTORC1</td>
+                <td class="p-3">Ketamina, Esketamina (Spravato®), DXM, Óxido Nitroso</td>
+              </tr>
+              <tr class="hover:bg-surface-low/50 transition-colors">
+                <td class="p-3 font-semibold text-pink-400">Entactógenos / Empatógenos</td>
+                <td class="p-3">Inversión de transportadores SERT/DAT + 5-HT2A</td>
+                <td class="p-3">Liberación masiva de serotonina y oxitocina, extinción del miedo amigdalino</td>
+                <td class="p-3">MDMA, MDA</td>
+              </tr>
+              <tr class="hover:bg-surface-low/50 transition-colors">
+                <td class="p-3 font-semibold text-amber-400">Psicodélicos Atípicos</td>
+                <td class="p-3">Receptores Kappa-opioides (KOR), CB1, VMAT2</td>
+                <td class="p-3">Modulación de circuitos adictivos, disforia introspectiva y reinicio estriatal</td>
+                <td class="p-3">Ibogaína, Salvinorina A, Fitocannabinoides</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. MAPA DE CONTENIDO: LAS 6 SECCIONES -->
+    <section class="space-y-6">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2 text-purple-400 font-mono text-xs font-bold uppercase tracking-wider">
+          <Layers className="w-4 h-4" />
+          <span>Currículum Estructurado del Módulo</span>
+        </div>
+        <span class="text-xs font-mono text-text-muted">6 SECCIONES TEMÁTICAS</span>
+      </div>
+
+      <!-- 5.1 Psicodélicos Clásicos -->
+      <div class="rounded-biotech border border-purple-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-purple-500/10 border border-purple-500/30 text-purple-400 font-mono text-xs font-bold">5.1</span>
+            <h3 class="text-lg font-bold text-text-primary">Psicodélicos Clásicos: Triptaminas, Ergolinas & Fenetilaminas</h3>
+          </div>
+          <span class="text-xs font-mono text-purple-400 font-semibold">6 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Agonistas selectivos de receptores 5-HT2A en neuronas piramidales de la capa V, desintegración de la Red Neuronal por Defecto (DMN) y plasticidad sináptica.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/introduccion-psicodelicos" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-purple-500/50 hover:bg-surface-container transition-all group flex items-center justify-between md:col-span-2">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-purple-400 transition-colors">Introducción a los Psicodélicos Clásicos</div>
+              <div class="text-[11px] text-text-muted italic">Mecanismo 5-HT2A capa V, desintegración de la DMN, teoría REBUS de entropía cerebral y cascada psicoplastogénica</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-purple-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/psilocibina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-purple-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-purple-400 transition-colors">Psilocibina y Psilocina (Psilocybe spp.)</div>
+              <div class="text-[11px] text-text-muted italic">Desfosforilación alcalina (4-HO-DMT), ensayos clínicos NEJM en depresión resistente y adicciones</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-purple-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/lsd" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-purple-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-purple-400 transition-colors">LSD (Dietilamida del Ácido Lisérgico)</div>
+              <div class="text-[11px] text-text-muted italic">Afinidad polivalente (5-HT/Dopamina), conformación del 'lid' molecular y neuroimagen fMRI de conectividad global</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-purple-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/dmt-ayahuasca" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-purple-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-purple-400 transition-colors">DMT y Ayahuasca (N,N-Dimetiltriptamina / Banisteriopsis)</div>
+              <div class="text-[11px] text-text-muted italic">Agonismo receptor Sigma-1, inhibición de MAO por beta-carbolinas (harmina) y experiencias breakthrough</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-purple-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/mescalina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-purple-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-purple-400 transition-colors">Mescalina (Peyote, San Pedro / Trichocereus)</div>
+              <div class="text-[11px] text-text-muted italic">Fenetilamina alcaloide, modulación serotoninérgica-adrenérgica y farmacocinética de 12 horas</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-purple-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/5-meo-dmt" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-purple-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-purple-400 transition-colors">5-MeO-DMT (Incilius alvarius / 'La Molécula de Dios')</div>
+              <div class="text-[11px] text-text-muted italic">Agonismo ultra-afín 5-HT1A/5-HT2A, reactividad cardiovascular y disolución egoica no visual instantánea</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-purple-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 5.2 Disociativos -->
+      <div class="rounded-biotech border border-cyan-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 font-mono text-xs font-bold">5.2</span>
+            <h3 class="text-lg font-bold text-text-primary">Disociativos: Antagonistas NMDA & Vía mTORC1</h3>
+          </div>
+          <span class="text-xs font-mono text-cyan-400 font-semibold">2 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Bloqueo de canales NMDA en interneuronas GABAérgicas, desinhibición piramidal, oleada de glutamato y sinaptogénesis ultrarrápida mediada por mTOR y BDNF.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/ketamina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-cyan-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-cyan-400 transition-colors">Ketamina y Esketamina (Spravato®)</div>
+              <div class="text-[11px] text-text-muted italic">Enantiómeros R/S, metabolito hidroxinorketamina (HNK), reversión inmediata de ideación suicida y protocolos IV</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-cyan-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/dxm-oxido-nitroso" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-cyan-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-cyan-400 transition-colors">DXM y Óxido Nitroso (Dextrometorfano & N2O)</div>
+              <div class="text-[11px] text-text-muted italic">Metabolito dextrorfano, modulación sigma-1, inhibición de B12/metionina sintetasa y bioseguridad</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-cyan-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 5.3 Entactógenos -->
+      <div class="rounded-biotech border border-pink-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-pink-500/10 border border-pink-500/30 text-pink-400 font-mono text-xs font-bold">5.3</span>
+            <h3 class="text-lg font-bold text-text-primary">Entactógenos & Empatógenos: Terapia Asistida</h3>
+          </div>
+          <span class="text-xs font-mono text-pink-400 font-semibold">2 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Reversión de transportadores VMAT2/SERT, hiperliberación de serotonina y oxitocina, reducción de la reactividad amigdalina y reconsolidación de memorias traumáticas.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/mdma" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-pink-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-pink-400 transition-colors">MDMA (3,4-Metilendioximetanfetamina)</div>
+              <div class="text-[11px] text-text-muted italic">Psicoterapia de Fase III en TEPT (MAPS), oxitocina, ventana de tolerancia afectiva y protocolos de reducción de neurotoxicidad</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-pink-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/mda" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-pink-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-pink-400 transition-colors">MDA (Tenanfetamina / 'The Love Drug')</div>
+              <div class="text-[11px] text-text-muted italic">Metabolito activo de MDMA, mayor afinidad 5-HT2A con componente alucinógeno y perfil de neurotoxicidad comparada</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-pink-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 5.4 Psicodélicos Atípicos -->
+      <div class="rounded-biotech border border-amber-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-amber-500/10 border border-amber-500/30 text-amber-400 font-mono text-xs font-bold">5.4</span>
+            <h3 class="text-lg font-bold text-text-primary">Psicodélicos Atípicos & Moduladores Complejos</h3>
+          </div>
+          <span class="text-xs font-mono text-amber-400 font-semibold">3 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Mecanismos no clásicos: agonismo kappa-opioide, modulación del sistema endocannabinoide e interrupción de circuitos adictivos.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 pt-2">
+          <a href="/conceptos/ibogaina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Ibogaína (Tabernanthe iboga)</div>
+              <div class="text-[11px] text-text-muted italic">Reset del circuito de recompensa en adicciones a opioides, noribogaína y riesgo de cardiotoxicidad hERG / QT</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/salvia-divinorum" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Salvia Divinorum (Salvinorina A)</div>
+              <div class="text-[11px] text-text-muted italic">Diterpeno agonista selectivo KOR (receptores Kappa-opioides), disforia no serotoninérgica y distorsión espaciotemporal</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/cannabis-endocannabinoide" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Cannabis y Sistema Endocannabinoide</div>
+              <div class="text-[11px] text-text-muted italic">THC vs CBD, modulación retrógrada CB1/CB2, efecto séquito (terpenos) y neuroplasticidad sináptica</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 5.5 Microdosis -->
+      <div class="rounded-biotech border border-emerald-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-mono text-xs font-bold">5.5</span>
+            <h3 class="text-lg font-bold text-text-primary">Microdosis: Protocolos Sub-Perceptuales & Evidencia</h3>
+          </div>
+          <span class="text-xs font-mono text-emerald-400 font-semibold">3 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Administración sub-alucinógena (5-10% de la dosis plena): optimización cognitiva, neurogénesis sin disrupción perceptiva y control frente al efecto placebo.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 pt-2">
+          <a href="/conceptos/protocolo-fadiman" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Protocolo Fadiman</div>
+              <div class="text-[11px] text-text-muted italic">Pauta de 3 días (Día 1: microdosis, Día 2: efecto residual, Día 3: día de descanso y reseteo basal)</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/protocolo-stamets" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Protocolo Stamets (Neurogenesis Stack)</div>
+              <div class="text-[11px] text-text-muted italic">Psilocibina sub-perceptual + Melena de León (Hericium) + Niacina (B3) para permeabilidad periférica</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/evidencia-microdosis" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Evidencia Clínica de la Microdosis</div>
+              <div class="text-[11px] text-text-muted italic">Ensayos controlados con placebo por auto-cegamiento (Szigeti et al., Balaban et al.) y marcadores de neuroplasticidad</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 5.6 Neuroplasticidad Psicodélica & Integración -->
+      <div class="rounded-biotech border border-indigo-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 font-mono text-xs font-bold">5.6</span>
+            <h3 class="text-lg font-bold text-text-primary">Neuroplasticidad Psicodélica, Teoría REBUS & Integración</h3>
+          </div>
+          <span class="text-xs font-mono text-indigo-400 font-semibold">3 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Modelos computacionales del cerebro predictivo, desestabilización de priors de alto nivel (REBUS), cascadas mTOR/BDNF y el proceso psicoterapéutico de integración.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 pt-2">
+          <a href="/conceptos/teoria-rebus" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Teoría REBUS y Entropía Cerebral</div>
+              <div class="text-[11px] text-text-muted italic">Relaxed Beliefs Under Psychedelics (Carhart-Harris & Friston), colapso de priors rígidos y arquitectura predictiva</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/mtor-bdnf" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Mecanismos mTOR/BDNF y Sinaptogénesis</div>
+              <div class="text-[11px] text-text-muted italic">Crecimiento de espinas dendríticas, psicoplastógenos no alucinógenos (Tabernanthalog) y TrkB intracelular</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/set-setting-integracion" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Set & Setting e Integración Psicoterapéutica</div>
+              <div class="text-[11px] text-text-muted italic">Preparación del marco psicológico y ambiental, dosificación musical, reducción de riesgos y traducción de insights</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. GUÍA DE ESTUDIO Y PROTOCOLOS -->
+    <section class="rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-purple-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <BookOpen className="w-4 h-4" />
+        <span>Ruta Pedagógica & Seguridad</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">📋 Guía de Estudio y Navegación</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-purple-500/10 border border-purple-500/30 text-purple-400 font-mono text-[11px] font-bold uppercase">
+            Nivel 1 · Principiante
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Fundamentos y Seguridad:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Comienza con <strong class="text-text-primary">Introducción a los Psicodélicos Clásicos</strong> para entender el receptor 5-HT2A y la DMN.</li>
+            <li>Revisa detalladamente la monografía de <strong class="text-text-primary">Set & Setting e Integración</strong>.</li>
+            <li>Consulta siempre las contraindicaciones farmacológicas absolutas (interacciones con litio e ISRS).</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-secondary/10 border border-secondary/30 text-secondary font-mono text-[11px] font-bold uppercase">
+            Nivel 2 · Biohacker
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Plasticidad y Microdosis:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Analiza los protocolos de microdosis (<strong class="text-text-primary">Fadiman vs Stamets Neurogenesis Stack</strong> con Melena de León).</li>
+            <li>Estudia los mecanismos moleculares de <strong class="text-text-primary">mTOR / BDNF y Psicoplastógenos</strong>.</li>
+            <li>Evalúa la evidencia objetiva frente a los efectos de expectativa y auto-cegamiento.</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-primary/10 border border-primary/30 text-primary font-mono text-[11px] font-bold uppercase">
+            Nivel 3 · Profesional
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Neurociencia Clínica:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Profundiza en la <strong class="text-text-primary">Teoría REBUS</strong> (Friston & Carhart-Harris) y la física de la entropía cerebral.</li>
+            <li>Revisa los ensayos clínicos de <strong class="text-text-primary">MDMA para TEPT (MAPS)</strong> y <strong class="text-text-primary">Psilocibina para Depresión Mayor</strong>.</li>
+            <li>Explora la farmacología de la <strong class="text-text-primary">Ketamina / Esketamina</strong> y el metabolito HNK en psiquiatría de intervención.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. DISCLAIMER FINAL -->
+    <footer class="rounded-biotech border border-surface-bright bg-surface-lowest p-6 text-center space-y-2">
+      <div class="text-xs font-mono text-text-muted">
+        ⚖️ <strong class="text-text-secondary">Disclaimer Final de NeuroAtlas:</strong> Este material es exclusivamente informativo, enciclopédico y pedagógico. En ningún caso promueve o incentiva la adquisición o el consumo de sustancias no autorizadas. La neurociencia aplicada persigue el rigor, la educación basada en evidencia y la máxima reducción de riesgos para la salud pública.
+      </div>
+    </footer>
+
+  </div>
+</BaseLayout>

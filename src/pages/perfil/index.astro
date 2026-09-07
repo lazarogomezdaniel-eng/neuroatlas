@@ -1,0 +1,156 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { CURRICULUM_MODULES } from '../../data/curriculum-data';
+import { User, GraduationCap, CheckCircle2, Bookmark, Sliders, Award, Activity } from 'lucide-react';
+---
+
+<BaseLayout
+  title="Mi Perfil y Progreso Académico | NeuroAtlas"
+  description="Panel personal de seguimiento de estudio, progreso en los 14 módulos, stacks guardados y certificaciones en neurobiología aplicada."
+>
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
+    <!-- Header Perfil -->
+    <div class="rounded-biotech border border-surface-bright bg-surface-low p-6 md:p-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+      <div class="flex items-center gap-4">
+        <div class="w-16 h-16 rounded-biotech bg-primary/10 border-2 border-primary/40 flex items-center justify-center text-primary text-2xl font-bold font-mono">
+          NA
+        </div>
+        <div class="space-y-1">
+          <div class="flex items-center gap-2">
+            <h1 class="text-xl md:text-2xl font-bold text-text-primary">Investigador NeuroAtlas</h1>
+            <span class="px-2 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 font-mono text-xs font-semibold">
+              Nivel III · Biohacker Clínico
+            </span>
+          </div>
+          <p class="text-xs text-text-secondary">
+            Plan Curricular de Neurociencia Aplicada, Farmacología & Nootropía.
+          </p>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <a
+          href="/stacks"
+          class="px-3.5 py-2 rounded-biotech border border-surface-bright bg-surface text-xs font-semibold text-text-primary hover:border-primary/50 hover:bg-surface-container transition-all flex items-center gap-2"
+        >
+          <Sliders className="w-3.5 h-3.5 text-primary" />
+          <span>Mis Stacks</span>
+        </a>
+        <a
+          href="/modulos"
+          class="px-3.5 py-2 rounded-biotech bg-primary text-surface-lowest text-xs font-bold hover:bg-primary-hover shadow-cyan-glow transition-all flex items-center gap-2"
+        >
+          <GraduationCap className="w-3.5 h-3.5" />
+          <span>Continuar Currículum</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Métricas de Progreso -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div class="p-5 rounded-biotech border border-surface-bright bg-surface space-y-2">
+        <div class="text-xs font-mono text-text-muted flex items-center justify-between">
+          <span>Módulos Completados</span>
+          <span class="text-emerald-400">4 / 14</span>
+        </div>
+        <div class="text-2xl font-bold font-mono text-text-primary">28.5%</div>
+        <div class="w-full bg-surface-container rounded-full h-1.5 overflow-hidden">
+          <div class="bg-emerald-400 h-full rounded-full" style="width: 28.5%"></div>
+        </div>
+      </div>
+
+      <div class="p-5 rounded-biotech border border-surface-bright bg-surface space-y-2">
+        <div class="text-xs font-mono text-text-muted flex items-center justify-between">
+          <span>Fichas Estudiadas</span>
+          <span class="text-primary">149 / 400</span>
+        </div>
+        <div class="text-2xl font-bold font-mono text-text-primary">149</div>
+        <div class="w-full bg-surface-container rounded-full h-1.5 overflow-hidden">
+          <div class="bg-primary h-full rounded-full" style="width: 37.2%"></div>
+        </div>
+      </div>
+
+      <div class="p-5 rounded-biotech border border-surface-bright bg-surface space-y-2">
+        <div class="text-xs font-mono text-text-muted flex items-center justify-between">
+          <span>Stacks Diseñados</span>
+          <span class="text-secondary">Activos</span>
+        </div>
+        <div class="text-2xl font-bold font-mono text-text-primary">3</div>
+        <p class="text-[11px] text-text-muted">Enfoque, Memoria y Sueño REM</p>
+      </div>
+
+      <div class="p-5 rounded-biotech border border-surface-bright bg-surface space-y-2">
+        <div class="text-xs font-mono text-text-muted flex items-center justify-between">
+          <span>Certificación Académica</span>
+          <span class="text-amber-400">En Curso</span>
+        </div>
+        <div class="text-2xl font-bold font-mono text-text-primary">Módulo V</div>
+        <p class="text-[11px] text-text-muted">Psicodelia y Plasticidad Sináptica</p>
+      </div>
+    </div>
+
+    <!-- Lista de los 14 Módulos con Estado y Barra -->
+    <div class="rounded-biotech border border-surface-bright bg-surface p-6 space-y-6">
+      <div class="flex items-center justify-between border-b border-surface-bright pb-4">
+        <div>
+          <h2 class="text-lg font-bold text-text-primary">Currículum Global de 14 Módulos</h2>
+          <p class="text-xs text-text-muted">Progreso estructurado de aprendizaje secuencial</p>
+        </div>
+        <span class="px-2.5 py-1 rounded bg-surface-low border border-surface-bright text-xs font-mono text-text-secondary">
+          140+ horas estimadas
+        </span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {CURRICULUM_MODULES.map((m) => (
+          <div class="p-4 rounded-biotech border border-surface-bright/70 bg-surface-low flex flex-col justify-between space-y-3">
+            <div class="flex items-start justify-between gap-3">
+              <div class="flex items-center gap-2.5 min-w-0">
+                <span class="text-xl">{m.icon}</span>
+                <div class="min-w-0">
+                  <div class="text-xs font-bold text-text-primary truncate">
+                    Módulo {m.romanNumeral}: {m.title}
+                  </div>
+                  <div class="text-[11px] text-text-muted truncate">
+                    {m.sectionsCount} Secciones · {m.conceptCount} Monografías
+                  </div>
+                </div>
+              </div>
+              <span class={`px-2 py-0.5 rounded text-[10px] font-mono font-bold shrink-0 ${
+                m.status === 'completed'
+                  ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/30'
+                  : m.status === 'in_progress'
+                  ? 'bg-amber-500/10 text-amber-400 border border-amber-500/30'
+                  : 'bg-surface-bright/40 text-text-muted border border-surface-bright'
+              }`}>
+                {m.statusLabel}
+              </span>
+            </div>
+
+            <div class="space-y-1.5">
+              <div class="flex justify-between text-[10px] font-mono text-text-muted">
+                <span>Progreso</span>
+                <span>{m.status === 'completed' ? '100%' : m.status === 'in_progress' ? `${m.progressPercent}%` : '0%'}</span>
+              </div>
+              <div class="w-full bg-surface-container rounded-full h-1.5 overflow-hidden">
+                <div
+                  class="h-full rounded-full transition-all"
+                  style={`width: ${m.status === 'completed' ? 100 : m.progressPercent}%; background-color: ${m.color};`}
+                ></div>
+              </div>
+            </div>
+
+            <div class="pt-2 border-t border-surface-bright/40 flex justify-end">
+              <a
+                href={m.href}
+                class="text-xs font-mono text-primary hover:underline flex items-center gap-1"
+              >
+                <span>Acceder al Módulo →</span>
+              </a>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </main>
+</BaseLayout>

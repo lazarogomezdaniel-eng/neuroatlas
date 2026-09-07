@@ -204,6 +204,73 @@ import cafeTeJson from './concepts/cafe-te.json';
 import yerbaMateGuayusaGuaranaJson from './concepts/yerba-mate-guayusa-guarana.json';
 import cacaoJson from './concepts/cacao.json';
 
+// --- MÓDULO V: PSICODELIA Y MODULADORES DE PLASTICIDAD ---
+// 5.1 Psicodélicos Clásicos (Triptaminas y Ergolinas)
+import introduccionPsicodelicosJson from './concepts/introduccion-psicodelicos.json';
+import psilocibinaJson from './concepts/psilocibina.json';
+import lsdJson from './concepts/lsd.json';
+import dmtAyahuascaJson from './concepts/dmt-ayahuasca.json';
+import mescalinaJson from './concepts/mescalina.json';
+import cincoMeoDmtJson from './concepts/5-meo-dmt.json';
+
+// 5.2 Disociativos (Antagonistas NMDA)
+import ketaminaJson from './concepts/ketamina.json';
+import dxmOxidoNitrosoJson from './concepts/dxm-oxido-nitroso.json';
+
+// 5.3 Entactógenos (Empatógenos)
+import mdmaJson from './concepts/mdma.json';
+import mdaJson from './concepts/mda.json';
+
+// 5.4 Psicodélicos Atípicos
+import ibogainaJson from './concepts/ibogaina.json';
+import salviaDivinorumJson from './concepts/salvia-divinorum.json';
+import cannabisEndocannabinoideJson from './concepts/cannabis-endocannabinoide.json';
+
+// 5.5 Microdosis (Protocolos Sub-Perceptuales)
+import protocoloFadimanJson from './concepts/protocolo-fadiman.json';
+import protocoloStametsJson from './concepts/protocolo-stamets.json';
+import evidenciaMicrodosisJson from './concepts/evidencia-microdosis.json';
+
+// 5.6 Neuroplasticidad Psicodélica & Integración
+import teoriaRebusJson from './concepts/teoria-rebus.json';
+import mtorBdnfJson from './concepts/mtor-bdnf.json';
+import setSettingIntegracionJson from './concepts/set-setting-integracion.json';
+
+// MÓDULO VI: BIOENERGÉTICA Y ANTI-AGING
+// 6.2 Vías NAD+, Sirtuinas & AMPK
+import nadSirtuinasJson from './concepts/nad-sirtuinas.json';
+import nmnNrJson from './concepts/nmn-nr.json';
+import resveratrolPterostilbenoJson from './concepts/resveratrol-pterostilbeno.json';
+import apigeninaCd38Json from './concepts/apigenina-cd38.json';
+// 6.3 Senolíticos & Autofagia
+import senescenciaCelularJson from './concepts/senescencia-celular.json';
+import fisetinaJson from './concepts/fisetina.json';
+import quercetinaDasatinibJson from './concepts/quercetina-dasatinib.json';
+// 6.4 Telómeros & Biohacking Biofísico
+import telomerosJson from './concepts/telomeros.json';
+import astragalusTa65Json from './concepts/astragalus-ta65.json';
+import inhibidoresParpJson from './concepts/inhibidores-parp.json';
+// MÓDULO VII: EL EJE INTESTINO-CEREBRO
+// 7.1 Introducción al Eje Intestino-Cerebro & Señalización Neural
+import introduccionEjeIntestinoCerebroJson from './concepts/introduccion-eje-intestino-cerebro.json';
+import nervioVagoJson from './concepts/nervio-vago.json';
+import microbiomaJson from './concepts/microbioma.json';
+import serotoninaIntestinalJson from './concepts/serotonina-intestinal.json';
+// 7.2 Psicobióticos: Probióticos para el Cerebro
+import psicobioticosJson from './concepts/psicobioticos.json';
+import cepasPsicobioticasJson from './concepts/cepas-psicobioticas.json';
+import fermentadosJson from './concepts/fermentados.json';
+// 7.3 Prebióticos, Postbióticos y SCFAs
+import scfasJson from './concepts/scfas.json';
+import butiratoJson from './concepts/butirato.json';
+import prebioticosJson from './concepts/prebioticos.json';
+import postbioticosJson from './concepts/postbioticos.json';
+// 7.4 Disbiosis, Intestino Permeable y FMT
+import intestinoPermeableJson from './concepts/intestino-permeable.json';
+import disbiosisJson from './concepts/disbiosis.json';
+import siboSifoJson from './concepts/sibo-sifo.json';
+import fmtJson from './concepts/fmt.json';
+
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
 export const conceptos: Concepto[] = [
@@ -403,6 +470,74 @@ export const conceptos: Concepto[] = [
   cafeTeJson as Concepto,
   yerbaMateGuayusaGuaranaJson as Concepto,
   cacaoJson as Concepto,
+
+  // MÓDULO V: PSICODELIA Y MODULADORES DE PLASTICIDAD
+  // 5.1 Psicodélicos Clásicos
+  introduccionPsicodelicosJson as Concepto,
+  psilocibinaJson as Concepto,
+  lsdJson as Concepto,
+  dmtAyahuascaJson as Concepto,
+  mescalinaJson as Concepto,
+  cincoMeoDmtJson as Concepto,
+
+  // 5.2 Disociativos (Antagonistas NMDA)
+  ketaminaJson as Concepto,
+  dxmOxidoNitrosoJson as Concepto,
+
+  // 5.3 Entactógenos (Empatógenos)
+  mdmaJson as Concepto,
+  mdaJson as Concepto,
+
+  // 5.4 Psicodélicos Atípicos
+  ibogainaJson as Concepto,
+  salviaDivinorumJson as Concepto,
+  cannabisEndocannabinoideJson as Concepto,
+
+  // 5.5 Microdosis
+  protocoloFadimanJson as Concepto,
+  protocoloStametsJson as Concepto,
+  evidenciaMicrodosisJson as Concepto,
+
+  // 5.6 Neuroplasticidad Psicodélica & Integración
+  teoriaRebusJson as Concepto,
+  mtorBdnfJson as Concepto,
+  setSettingIntegracionJson as Concepto,
+
+  // MÓDULO VI: BIOENERGÉTICA Y ANTI-AGING
+  // 6.2
+  nadSirtuinasJson as Concepto,
+  nmnNrJson as Concepto,
+  resveratrolPterostilbenoJson as Concepto,
+  apigeninaCd38Json as Concepto,
+  // 6.3
+  senescenciaCelularJson as Concepto,
+  fisetinaJson as Concepto,
+  quercetinaDasatinibJson as Concepto,
+  // 6.4
+  telomerosJson as Concepto,
+  astragalusTa65Json as Concepto,
+  inhibidoresParpJson as Concepto,
+
+  // MÓDULO VII: EL EJE INTESTINO-CEREBRO
+  // 7.1
+  introduccionEjeIntestinoCerebroJson as Concepto,
+  nervioVagoJson as Concepto,
+  microbiomaJson as Concepto,
+  serotoninaIntestinalJson as Concepto,
+  // 7.2
+  psicobioticosJson as Concepto,
+  cepasPsicobioticasJson as Concepto,
+  fermentadosJson as Concepto,
+  // 7.3
+  scfasJson as Concepto,
+  butiratoJson as Concepto,
+  prebioticosJson as Concepto,
+  postbioticosJson as Concepto,
+  // 7.4
+  intestinoPermeableJson as Concepto,
+  disbiosisJson as Concepto,
+  siboSifoJson as Concepto,
+  fmtJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {

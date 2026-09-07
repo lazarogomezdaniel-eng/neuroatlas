@@ -1,0 +1,374 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdBanner from '../../components/monetization/AdBanner.astro';
+import { 
+  Zap, 
+  Clock, 
+  Layers, 
+  Award, 
+  BookOpen, 
+  ArrowRight, 
+  ShieldAlert, 
+  Activity,
+  Dna,
+  Flame,
+  Sun,
+  ShieldCheck,
+  RefreshCw,
+  Sparkles
+} from 'lucide-react';
+---
+
+<BaseLayout
+  title="Módulo VI: Bioenergética y Anti-Aging | NeuroAtlas"
+  description="Optimización mitocondrial, producción de ATP, vías de NAD+, sirtuinas (SIRT1-7), senolíticos y fotobiomodulación cerebral transcranial."
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+    
+    <!-- 1. HERO -->
+    <header class="relative rounded-biotech border border-amber-500/30 bg-surface-low p-6 sm:p-10 overflow-hidden space-y-6">
+      <div class="absolute top-0 right-0 -mr-16 -mt-16 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      
+      <div class="flex flex-wrap items-center gap-2.5">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/15 border border-amber-500/40 text-xs font-mono font-bold text-amber-400 shadow-amber-glow">
+          <Zap className="w-3.5 h-3.5" />
+          MÓDULO VI · BIOENERGÉTICA & ANTI-AGING
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Layers className="w-3.5 h-3.5 text-amber-400" />
+          22 MONOGRAFÍAS
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Award className="w-3.5 h-3.5 text-secondary" />
+          4 SECCIONES
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Clock className="w-3.5 h-3.5 text-primary" />
+          3-4 HORAS
+        </span>
+      </div>
+
+      <div class="space-y-3 max-w-3xl">
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
+          Módulo VI: Bioenergética y Anti-Aging
+        </h1>
+        <p class="text-base sm:text-xl text-amber-400 font-medium">
+          Optimización mitocondrial, metabolismo del NAD+ y gerosupresión celular
+        </p>
+        <p class="text-xs sm:text-sm text-text-secondary leading-relaxed pt-2">
+          La neurobiología de la longevidad aplicada a la cognición: cómo la respiración celular, la biogénesis mitocondrial, las reservas de NAD+, la activación de sirtuinas (SIRT1–7) y la depuración senolítica previenen el deterioro cognitivo y potencian el rendimiento mental.
+        </p>
+      </div>
+    </header>
+
+    <!-- AdBanner Superior -->
+    <AdBanner slotId="modulo-6-top" format="horizontal" />
+
+    <!-- 2. PILARES BIOENERGÉTICOS -->
+    <section class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-amber-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <Sparkles className="w-4 h-4" />
+        <span>Los 4 Motores Celulares de la Longevidad</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">Bases Biofísicas del Envejecimiento Cerebral</h2>
+      <p class="text-sm text-text-secondary leading-relaxed">
+        El cerebro representa solo el 2% del peso corporal pero consume más del 20% del oxígeno y la glucosa total del organismo. Toda fatiga mental, niebla cognitiva o neurodegeneración tiene un origen directo en el desacoplamiento bioenergético mitocondrial:
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4 pt-1">
+        <div class="p-4 rounded-biotech border border-surface-bright bg-surface-low space-y-2">
+          <div class="text-xs font-mono font-bold text-amber-400">01 · ATP & Cadena Respiratoria</div>
+          <div class="text-xs font-semibold text-text-primary">Fosforilación Oxidativa</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Eficiencia de los Complejos I a IV para bombear protones sin fugas masivas de radicales libres (ROS).
+          </p>
+        </div>
+
+        <div class="p-4 rounded-biotech border border-surface-bright bg-surface-low space-y-2">
+          <div class="text-xs font-mono font-bold text-amber-400">02 · Pool de NAD+ / Sirtuinas</div>
+          <div class="text-xs font-semibold text-text-primary">Mantenimiento Epigenético</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Activación estequiométrica de SIRT1 a SIRT7 para reparación de ADN de doble cadena y silenciamiento de ruido epigenético.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-biotech border border-surface-bright bg-surface-low space-y-2">
+          <div class="text-xs font-mono font-bold text-amber-400">03 · Depuración Senolítica</div>
+          <div class="text-xs font-semibold text-text-primary">Autofagia y SASP</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Eliminación de células zombi senescentes y reciclaje de mitocondrias disfuncionales vía PINK1/Parkin.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-biotech border border-surface-bright bg-surface-low space-y-2">
+          <div class="text-xs font-mono font-bold text-amber-400">04 · Fotobiomodulación</div>
+          <div class="text-xs font-semibold text-text-primary">Citocromo c Oxidasa</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Estimulación fotónica en el espectro rojo / infrarrojo cercano para disociar óxido nítrico e incrementar el potencial de membrana.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. TEMARIO DETALLADO POR SECCIONES -->
+    <section class="space-y-6">
+      <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-bold text-text-primary flex items-center gap-2.5">
+          <Flame className="w-6 h-6 text-amber-400" />
+          <span>Estructura del Módulo VI</span>
+        </h2>
+        <span class="text-xs font-mono text-text-muted">4 SECCIONES EDUCATIVAS</span>
+      </div>
+
+      <!-- 6.1 Función Mitocondrial & ATP -->
+      <div class="rounded-biotech border border-amber-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-amber-500/10 border border-amber-500/30 text-amber-400 font-mono text-xs font-bold">6.1</span>
+            <h3 class="text-lg font-bold text-text-primary">Función Mitocondrial, Síntesis de ATP & Biogénesis</h3>
+          </div>
+          <span class="text-xs font-mono text-amber-400 font-semibold">4 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">La maquinaria bioenergética fundamental: cadena respiratoria, biogénesis mediada por PGC-1α y optimizadores del transporte electrónico.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 pt-2">
+          <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-lowest/60 flex items-center justify-between opacity-60">
+            <div>
+              <div class="text-xs font-semibold text-text-muted">Fisiología Mitocondrial & Complejos I-V</div>
+              <div class="text-[11px] text-text-muted italic">Gradiente electroquímico de protones y síntesis de ATP cerebral</div>
+            </div>
+          </div>
+          <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-lowest/60 flex items-center justify-between opacity-60">
+            <div>
+              <div class="text-xs font-semibold text-text-muted">Coenzima Q10 & Ubiquinol</div>
+              <div class="text-[11px] text-text-muted italic">Lanzadera electrónica móvil y protector antioxidante de membrana lipídica</div>
+            </div>
+          </div>
+          <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-lowest/60 flex items-center justify-between opacity-60">
+            <div>
+              <div class="text-xs font-semibold text-text-muted">PQQ (Pirroloquinolina Quinona)</div>
+              <div class="text-[11px] text-text-muted italic">Inducción directa de biogénesis mitocondrial vía CREB y PGC-1α</div>
+            </div>
+          </div>
+          <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-lowest/60 flex items-center justify-between opacity-60">
+            <div>
+              <div class="text-xs font-semibold text-text-muted">Ácido Alfa Lipoico & Acetil-L-Carnitina</div>
+              <div class="text-[11px] text-text-muted italic">Transporte de ácidos grasos (CPT1) y reciclaje de antioxidantes endógenos</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6.2 Vías NAD+, Sirtuinas & AMPK -->
+      <div class="rounded-biotech border border-amber-500/30 bg-surface-lowest p-6 sm:p-8 space-y-4 shadow-amber-glow/10">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-amber-500/20 border border-amber-500/40 text-amber-400 font-mono text-xs font-bold">6.2</span>
+            <h3 class="text-lg font-bold text-text-primary">Vías NAD+, Sirtuinas & Activación AMPK</h3>
+          </div>
+          <span class="text-xs font-mono text-amber-400 font-semibold">5 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">El eje metabólico de la longevidad: cinética de la coenzima NAD+, biología de las desacetilasas SIRT1-7, inhibición de CD38 y sensores de baja energía.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 pt-2">
+          <a href="/conceptos/nad-sirtuinas" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">NAD+ y Sirtuinas (SIRT1-7)</div>
+              <div class="text-[11px] text-text-muted italic">Sustrato obligatorio, familias enzimáticas, declive cronológico y Protocolo Sinclair</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/nmn-nr" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Precursores: NMN vs Nicotinamida Ribósido</div>
+              <div class="text-[11px] text-text-muted italic">Vías de rescate, transportador Slc12a8, biodisponibilidad y donantes TMG</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/resveratrol-pterostilbeno" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Resveratrol, Pterostilbeno & STACs</div>
+              <div class="text-[11px] text-text-muted italic">Activadores alostéricos de SIRT1, metoxilación, farmacocinética y BHE</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/apigenina-cd38" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Apigenina: Inhibidor de CD38</div>
+              <div class="text-[11px] text-text-muted italic">Preservación de NAD+, bloqueo de NADasa del 'inflammaging' y Stack Sinclair</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-lowest/60 flex items-center justify-between opacity-60">
+            <div>
+              <div class="text-xs font-semibold text-text-muted">Activación AMPK: Metformina & Berberina</div>
+              <div class="text-[11px] text-text-muted italic">El sensor metabólico de ATP/AMP y miméticos de restricción calórica</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6.3 Senolíticos & Autofagia -->
+      <div class="rounded-biotech border border-amber-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-amber-500/10 border border-amber-500/30 text-amber-400 font-mono text-xs font-bold">6.3</span>
+            <h3 class="text-lg font-bold text-text-primary">Senolíticos, Autofagia & Eliminación Celular</h3>
+          </div>
+          <span class="text-xs font-mono text-amber-400 font-semibold">6 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Eliminación selectiva de células senescentes ('zombis') inflamatorias y activación del reciclaje macromolecular.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 pt-2">
+          <a href="/conceptos/senescencia-celular" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Senescencia Celular & Células Zombi</div>
+              <div class="text-[11px] text-text-muted italic">Arresto p16/p21, cóctel inflamatorio SASP y efecto paracrino</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/fisetina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Fisetina: El Senolítico Natural</div>
+              <div class="text-[11px] text-text-muted italic">Inhibición de SCAPs, protocolo intermitente Hit & Run y neuroprotección BDNF</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/quercetina-dasatinib" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Quercetina & Dasatinib (D+Q)</div>
+              <div class="text-[11px] text-text-muted italic">El primer stack senolítico validado, complementariedad celular y ensayos humanos</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-lowest/60 flex items-center justify-between opacity-60">
+            <div>
+              <div class="text-xs font-semibold text-text-muted">Autofagia y Mitofagia (PINK1/Parkin)</div>
+              <div class="text-[11px] text-text-muted italic">Reciclaje de mitocondrias despolarizadas y agregados proteicos</div>
+            </div>
+          </div>
+          <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-lowest/60 flex items-center justify-between opacity-60">
+            <div>
+              <div class="text-xs font-semibold text-text-muted">Espermidina & Urolitina A</div>
+              <div class="text-[11px] text-text-muted italic">Poliaminas epigenéticas y metabolitos microbianos inductores de mitofagia</div>
+            </div>
+          </div>
+          <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-lowest/60 flex items-center justify-between opacity-60">
+            <div>
+              <div class="text-xs font-semibold text-text-muted">Senoterapéuticos & Reprogramación OSK</div>
+              <div class="text-[11px] text-text-muted italic">Factores de Yamanaka y reversión del reloj epigenético de Horvath</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 6.4 Telómeros, Fotobiomodulación & Biohacking Biofísico -->
+      <div class="rounded-biotech border border-amber-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-amber-500/10 border border-amber-500/30 text-amber-400 font-mono text-xs font-bold">6.4</span>
+            <h3 class="text-lg font-bold text-text-primary">Telómeros, Fotobiomodulación & Biohacking Biofísico</h3>
+          </div>
+          <span class="text-xs font-mono text-amber-400 font-semibold">7 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Relojes biológicos, activación de telomerasa, fotónica celular sobre el citocromo c oxidasa y biofísica regenerativa.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 pt-2">
+          <a href="/conceptos/telomeros" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Telómeros: El Reloj Biológico</div>
+              <div class="text-[11px] text-text-muted italic">Shelterina, límite de Hayflick, telomerasa TERT y protocolo Blackburn</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/astragalus-ta65" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Astragalus & TA-65</div>
+              <div class="text-[11px] text-text-muted italic">Cicloastragenol, activación de telomerasa TERT y rejuvenecimiento inmune</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/inhibidores-parp" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Inhibidores de PARP & NAD+</div>
+              <div class="text-[11px] text-text-muted italic">Reparación genómica vs consumo de NAD+, letalidad sintética y activación SIRT6</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-lowest/60 flex items-center justify-between opacity-60">
+            <div>
+              <div class="text-xs font-semibold text-text-muted">Fotobiomodulación Transcraneal (tPBM)</div>
+              <div class="text-[11px] text-text-muted italic">Luz roja (660 nm) e infrarrojo cercano (810–850 nm) sobre el Citocromo c Oxidasa</div>
+            </div>
+          </div>
+          <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-lowest/60 flex items-center justify-between opacity-60">
+            <div>
+              <div class="text-xs font-semibold text-text-muted">PEMF Cerebral (Campos Pulsados)</div>
+              <div class="text-[11px] text-text-muted italic">Modulación de canales iónicos de calcio y potencial transmembrana</div>
+            </div>
+          </div>
+          <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-lowest/60 flex items-center justify-between opacity-60">
+            <div>
+              <div class="text-xs font-semibold text-text-muted">Oxigenación Hiperbárica (HBOT)</div>
+              <div class="text-[11px] text-text-muted italic">Presión barométrica, angiogénesis microvascular y elongación de telómeros</div>
+            </div>
+          </div>
+          <div class="p-3.5 rounded-biotech border border-surface-bright bg-surface-lowest/60 flex items-center justify-between opacity-60">
+            <div>
+              <div class="text-xs font-semibold text-text-muted">Hormesis Térmica Mitocondrial</div>
+              <div class="text-[11px] text-text-muted italic">Proteínas de choque térmico (Hsp70), sauna y desacoplamiento graso UCP1</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. GUÍA DE PROTOCOLOS Y SEGURIDAD -->
+    <section class="rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-amber-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <BookOpen className="w-4 h-4" />
+        <span>Ruta Pedagógica & Bioseguridad</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">📋 Guía de Estudio y Navegación</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-amber-500/10 border border-amber-500/30 text-amber-400 font-mono text-[11px] font-bold uppercase">
+            Nivel 1 · Fundamentos
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Energía Celular Básica:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Comprende la respiración celular y el rol de <strong class="text-text-primary">CoQ10 y PQQ</strong> en la cadena de transporte electrónico.</li>
+            <li>Estudia la monografía de <strong class="text-text-primary">NAD+ y Sirtuinas</strong> para entender la pérdida de coenzima con la edad.</li>
+            <li>Asegura donantes de metilo (TMG) antes de dosificar precursores.</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-secondary/10 border border-secondary/30 text-secondary font-mono text-[11px] font-bold uppercase">
+            Nivel 2 · Optimización
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Stacking y Sinergias:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Integra el <strong class="text-text-primary">Stack Sinclair</strong>: NMN + Resveratrol lipídico + TMG.</li>
+            <li>Modula el consumo de NAD+ mediante inhibidores de CD38 (<strong class="text-text-primary">Apigenina / Quercetina</strong>).</li>
+            <li>Sincroniza la toma de precursores con la mañana para respetar la oscilación circadiana de NAMPT.</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-primary/10 border border-primary/30 text-primary font-mono text-[11px] font-bold uppercase">
+            Nivel 3 · Avanzado
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Tecnologías Biofísicas:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Combina precursores moleculares con <strong class="text-text-primary">Fotobiomodulación Transcraneal (tPBM 810 nm)</strong>.</li>
+            <li>Evalúa ciclos intermitentes de senolíticos (Fisetina / D+Q) bajo protocolo *Hit & Run*.</li>
+            <li>Monitorea biomarcadores de metilación (reloj de Horvath) y velocidad de onda de pulso arterial.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import { AppShell } from '../components/layout/AppShell';
 
 interface Props {
   title?: string;
@@ -7,6 +8,7 @@ interface Props {
   image?: string;
   canonicalUrl?: string;
   type?: string;
+  withSidebar?: boolean;
 }
 
 const {
@@ -15,7 +17,10 @@ const {
   image = 'https://neuroatlas.org/og-image.jpg',
   canonicalUrl = Astro.url.href,
   type = 'website',
+  withSidebar = true,
 } = Astro.props;
+
+const currentPath = Astro.url.pathname;
 ---
 
 <!DOCTYPE html>
@@ -53,6 +58,12 @@ const {
   <link rel="sitemap" href="/sitemap-index.xml" />
 </head>
 <body class="bg-surface-lowest text-text-primary antialiased selection:bg-primary/20 selection:text-primary font-sans h-full overflow-hidden">
-  <slot />
+  {withSidebar ? (
+    <AppShell client:load currentPath={currentPath} title={title}>
+      <slot />
+    </AppShell>
+  ) : (
+    <slot />
+  )}
 </body>
 </html>
