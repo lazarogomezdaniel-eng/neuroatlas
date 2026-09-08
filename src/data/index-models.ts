@@ -287,6 +287,10 @@ import restriccionCaloricaJson from './concepts/restriccion-calorica.json';
 // 8.5 Fotobiomodulación
 import luzRojaInfrarrojaJson from './concepts/luz-roja-infrarroja.json';
 import protocolosFotobiomodulacionJson from './concepts/protocolos-fotobiomodulacion.json';
+// 8.6 Hipoxia y Respiración
+import hipoxiaIntermitenteJson from './concepts/hipoxia-intermitente.json';
+import respiracionWimHofJson from './concepts/respiracion-wim-hof.json';
+import metodoButeykoJson from './concepts/metodo-buteyko.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -572,6 +576,10 @@ export const conceptos: Concepto[] = [
   // 8.5
   luzRojaInfrarrojaJson as Concepto,
   protocolosFotobiomodulacionJson as Concepto,
+  // 8.6
+  hipoxiaIntermitenteJson as Concepto,
+  respiracionWimHofJson as Concepto,
+  metodoButeykoJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
