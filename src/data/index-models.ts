@@ -294,6 +294,14 @@ import metodoButeykoJson from './concepts/metodo-buteyko.json';
 // 8.7 Otros Estresores Horméticos
 import otrosEstresoresHormeticosJson from './concepts/otros-estresores-hormeticos.json';
 
+// MÓDULO IX: CRONOBIOLOGÍA Y SUEÑO
+// 9.1 Cronobiología: El Reloj Maestro
+import introduccionCronobiologiaJson from './concepts/introduccion-cronobiologia.json';
+import scnJson from './concepts/scn.json';
+import melatoninaCronobiologiaJson from './concepts/melatonina.json';
+import cronotiposJson from './concepts/cronotipos.json';
+import jetLagJson from './concepts/jet-lag.json';
+
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
 export const conceptos: Concepto[] = [
@@ -584,6 +592,14 @@ export const conceptos: Concepto[] = [
   metodoButeykoJson as Concepto,
   // 8.7
   otrosEstresoresHormeticosJson as Concepto,
+
+  // MÓDULO IX: CRONOBIOLOGÍA Y SUEÑO
+  // 9.1
+  introduccionCronobiologiaJson as Concepto,
+  scnJson as Concepto,
+  melatoninaCronobiologiaJson as Concepto,
+  cronotiposJson as Concepto,
+  jetLagJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
