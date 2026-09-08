@@ -215,8 +215,8 @@ export const CURRICULUM_MODULES: ModuleItem[] = [
     status: 'completed',
     statusLabel: '✅ Completado',
     progressPercent: 100,
-    conceptCount: 13,
-    sectionsCount: 6,
+    conceptCount: 14,
+    sectionsCount: 7,
     readTime: '4-5 h',
     sections: [
       { id: '8-1', number: '8.1', title: 'Fundamentos de la Hormesis', href: '/modulos/modulo-8#8-1-fundamentos', conceptCount: 2 },
@@ -224,7 +224,8 @@ export const CURRICULUM_MODULES: ModuleItem[] = [
       { id: '8-3', number: '8.3', title: 'Exposición al Calor', href: '/modulos/modulo-8#8-3-calor', conceptCount: 2 },
       { id: '8-4', number: '8.4', title: 'Ayuno y Restricción Calórica', href: '/modulos/modulo-8#8-4-ayuno', conceptCount: 2 },
       { id: '8-5', number: '8.5', title: 'Fotobiomodulación', href: '/modulos/modulo-8#8-5-fotobiomodulacion', conceptCount: 2 },
-      { id: '8-6', number: '8.6', title: 'Hipoxia y Respiración', href: '/modulos/modulo-8#8-6-hipoxia-respiracion', conceptCount: 3 }
+      { id: '8-6', number: '8.6', title: 'Hipoxia y Respiración', href: '/modulos/modulo-8#8-6-hipoxia-respiracion', conceptCount: 3 },
+      { id: '8-7', number: '8.7', title: 'Otros Estresores Horméticos', href: '/modulos/modulo-8#8-7-otros-estresores', conceptCount: 1 }
     ]
   },
   {

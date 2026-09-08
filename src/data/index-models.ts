@@ -291,6 +291,8 @@ import protocolosFotobiomodulacionJson from './concepts/protocolos-fotobiomodula
 import hipoxiaIntermitenteJson from './concepts/hipoxia-intermitente.json';
 import respiracionWimHofJson from './concepts/respiracion-wim-hof.json';
 import metodoButeykoJson from './concepts/metodo-buteyko.json';
+// 8.7 Otros Estresores Horméticos
+import otrosEstresoresHormeticosJson from './concepts/otros-estresores-hormeticos.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -580,6 +582,8 @@ export const conceptos: Concepto[] = [
   hipoxiaIntermitenteJson as Concepto,
   respiracionWimHofJson as Concepto,
   metodoButeykoJson as Concepto,
+  // 8.7
+  otrosEstresoresHormeticosJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
