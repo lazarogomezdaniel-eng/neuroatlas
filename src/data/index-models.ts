@@ -280,6 +280,7 @@ import frioNorepinefrinaJson from './concepts/frio-norepinefrina.json';
 import wimHofFrioJson from './concepts/wim-hof-frio.json';
 // 8.3 Exposición al Calor
 import saunaJson from './concepts/sauna.json';
+import hipertermiaJson from './concepts/hipertermia.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -558,6 +559,7 @@ export const conceptos: Concepto[] = [
   wimHofFrioJson as Concepto,
   // 8.3
   saunaJson as Concepto,
+  hipertermiaJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
