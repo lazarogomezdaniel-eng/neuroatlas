@@ -275,6 +275,8 @@ import fmtJson from './concepts/fmt.json';
 // 8.1 Fundamentos de la Hormesis
 import introduccionHormesisJson from './concepts/introduccion-hormesis.json';
 import cargaAlostaticaJson from './concepts/carga-alostatica.json';
+// 8.2 Exposición al Frío
+import frioNorepinefrinaJson from './concepts/frio-norepinefrina.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -548,6 +550,8 @@ export const conceptos: Concepto[] = [
   // 8.1
   introduccionHormesisJson as Concepto,
   cargaAlostaticaJson as Concepto,
+  // 8.2
+  frioNorepinefrinaJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
