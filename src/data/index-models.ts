@@ -271,6 +271,10 @@ import disbiosisJson from './concepts/disbiosis.json';
 import siboSifoJson from './concepts/sibo-sifo.json';
 import fmtJson from './concepts/fmt.json';
 
+// MÓDULO VIII: HORMESIS Y NOOTRÓPICOS AMBIENTALES
+// 8.1 Fundamentos de la Hormesis
+import introduccionHormesisJson from './concepts/introduccion-hormesis.json';
+
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
 export const conceptos: Concepto[] = [
@@ -538,6 +542,10 @@ export const conceptos: Concepto[] = [
   disbiosisJson as Concepto,
   siboSifoJson as Concepto,
   fmtJson as Concepto,
+
+  // MÓDULO VIII: HORMESIS Y NOOTRÓPICOS AMBIENTALES
+  // 8.1
+  introduccionHormesisJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
