@@ -277,6 +277,7 @@ import introduccionHormesisJson from './concepts/introduccion-hormesis.json';
 import cargaAlostaticaJson from './concepts/carga-alostatica.json';
 // 8.2 Exposición al Frío
 import frioNorepinefrinaJson from './concepts/frio-norepinefrina.json';
+import wimHofFrioJson from './concepts/wim-hof-frio.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -552,6 +553,7 @@ export const conceptos: Concepto[] = [
   cargaAlostaticaJson as Concepto,
   // 8.2
   frioNorepinefrinaJson as Concepto,
+  wimHofFrioJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
