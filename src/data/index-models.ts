@@ -286,6 +286,7 @@ import ayunoIntermitenteJson from './concepts/ayuno-intermitente.json';
 import restriccionCaloricaJson from './concepts/restriccion-calorica.json';
 // 8.5 Fotobiomodulación
 import luzRojaInfrarrojaJson from './concepts/luz-roja-infrarroja.json';
+import protocolosFotobiomodulacionJson from './concepts/protocolos-fotobiomodulacion.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -570,6 +571,7 @@ export const conceptos: Concepto[] = [
   restriccionCaloricaJson as Concepto,
   // 8.5
   luzRojaInfrarrojaJson as Concepto,
+  protocolosFotobiomodulacionJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
