@@ -301,6 +301,11 @@ import scnJson from './concepts/scn.json';
 import melatoninaCronobiologiaJson from './concepts/melatonina.json';
 import cronotiposJson from './concepts/cronotipos.json';
 import jetLagJson from './concepts/jet-lag.json';
+// 9.2 Arquitectura del Sueño
+import fasesSuenoJson from './concepts/fases-sueno.json';
+import ondasCerebralesJson from './concepts/ondas-cerebrales.json';
+import ciclosSuenoJson from './concepts/ciclos-sueno.json';
+import suenoMemoriaJson from './concepts/sueno-memoria.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -600,6 +605,11 @@ export const conceptos: Concepto[] = [
   melatoninaCronobiologiaJson as Concepto,
   cronotiposJson as Concepto,
   jetLagJson as Concepto,
+  // 9.2
+  fasesSuenoJson as Concepto,
+  ondasCerebralesJson as Concepto,
+  ciclosSuenoJson as Concepto,
+  suenoMemoriaJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
