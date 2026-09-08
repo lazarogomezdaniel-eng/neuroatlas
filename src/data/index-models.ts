@@ -281,6 +281,8 @@ import wimHofFrioJson from './concepts/wim-hof-frio.json';
 // 8.3 Exposición al Calor
 import saunaJson from './concepts/sauna.json';
 import hipertermiaJson from './concepts/hipertermia.json';
+// 8.4 Ayuno y Restricción Calórica
+import ayunoIntermitenteJson from './concepts/ayuno-intermitente.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -560,6 +562,8 @@ export const conceptos: Concepto[] = [
   // 8.3
   saunaJson as Concepto,
   hipertermiaJson as Concepto,
+  // 8.4
+  ayunoIntermitenteJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
