@@ -274,6 +274,7 @@ import fmtJson from './concepts/fmt.json';
 // MÓDULO VIII: HORMESIS Y NOOTRÓPICOS AMBIENTALES
 // 8.1 Fundamentos de la Hormesis
 import introduccionHormesisJson from './concepts/introduccion-hormesis.json';
+import cargaAlostaticaJson from './concepts/carga-alostatica.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -546,6 +547,7 @@ export const conceptos: Concepto[] = [
   // MÓDULO VIII: HORMESIS Y NOOTRÓPICOS AMBIENTALES
   // 8.1
   introduccionHormesisJson as Concepto,
+  cargaAlostaticaJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
