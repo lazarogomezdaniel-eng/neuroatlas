@@ -1,0 +1,429 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdBanner from '../../components/monetization/AdBanner.astro';
+import { 
+  Zap, 
+  Clock, 
+  Layers, 
+  Award, 
+  BookOpen, 
+  ArrowRight, 
+  ShieldAlert, 
+  Activity,
+  Flame,
+  ShieldCheck,
+  RefreshCw,
+  Sparkles,
+  HeartPulse,
+  Thermometer,
+  Sun,
+  Wind
+} from 'lucide-react';
+---
+
+<BaseLayout
+  title="Módulo VIII: Hormesis y Nootrópicos Ambientales | NeuroAtlas"
+  description="Lo que no te mata te hace más fuerte: la ciencia del estrés beneficioso. Frío, calor, ayuno, luz roja, hipoxia y respiración celular."
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+    
+    <!-- 1. HERO -->
+    <header class="relative rounded-biotech border border-red-500/30 bg-surface-low p-6 sm:p-10 overflow-hidden space-y-6">
+      <div class="absolute top-0 right-0 -mr-16 -mt-16 w-72 h-72 bg-red-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      
+      <div class="flex flex-wrap items-center gap-2.5">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-red-500/15 border border-red-500/40 text-xs font-mono font-bold text-red-400">
+          <Flame className="w-3.5 h-3.5 text-red-400" />
+          MÓDULO VIII · HORMESIS & NOOTRÓPICOS AMBIENTALES
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Layers className="w-3.5 h-3.5 text-red-400" />
+          18 CONCEPTOS
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Award className="w-3.5 h-3.5 text-amber-400" />
+          6 SECCIONES
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Clock className="w-3.5 h-3.5 text-primary" />
+          4-5 HORAS
+        </span>
+      </div>
+
+      <div class="space-y-3 max-w-3xl">
+        <div class="text-3xl sm:text-4xl">🔥</div>
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
+          Módulo VIII: Hormesis y Nootrópicos Ambientales
+        </h1>
+        <p class="text-base sm:text-xl text-red-400 font-medium">
+          Lo que no te mata te hace más fuerte: la ciencia del estrés beneficioso
+        </p>
+        <p class="text-xs sm:text-sm text-text-secondary leading-relaxed pt-2">
+          Guía exhaustiva sobre cómo el frío, el calor, el ayuno, la luz roja, la hipoxia y la respiración activan vías ancestrales de longevidad y neuroplasticidad a través del principio biológico de la hormesis.
+        </p>
+      </div>
+    </header>
+
+    <!-- AdBanner Superior -->
+    <AdBanner slotId="modulo-8-top" format="horizontal" />
+
+    <!-- 2. LA PARADOJA DE LA HORMESIS & XENOHORMESIS -->
+    <section class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-red-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <Sparkles className="w-4 h-4" />
+        <span>Fundamentos Evolutivos & Biofísicos</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">La Paradoja de la Hormesis y la Xenohormesis</h2>
+      <p class="text-sm text-text-secondary leading-relaxed">
+        <strong>Hormesis</strong> (del griego <em>hormáein</em>, "poner en movimiento") es el fenómeno biológico universal por el cual <strong>un estresor en dosis bajas o moderadas produce una respuesta celular adaptativa altamente beneficiosa</strong>, mientras que en dosis altas resulta citotóxico o deletéreo. La curva de respuesta celular dibuja una <strong>J invertida</strong>:
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-1">
+        <div class="p-4 rounded-biotech border border-surface-bright bg-surface-low space-y-2">
+          <div class="text-xs font-mono font-bold text-text-muted">01 · Sub-umbral (Sin Estímulo)</div>
+          <div class="text-xs font-semibold text-text-primary">Termo-neutralidad & Abundancia</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            La vida moderna a 22°C constantes, sin esfuerzo térmico ni ayuno, silencia los genes de longevidad y atrofia la resiliencia alostática.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-biotech border border-red-500/30 bg-red-500/5 space-y-2">
+          <div class="text-xs font-mono font-bold text-red-400">02 · Zona de Hormesis (Óptimo)</div>
+          <div class="text-xs font-semibold text-text-primary">Estrés Agudo Intermitente</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Dosis breves y controladas activan factores de transcripción clave: <strong>FOXO, Nrf2, AMPK, Sirtuinas, PGC-1α</strong> y <strong>HSPs</strong>.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-biotech border border-surface-bright bg-surface-low space-y-2">
+          <div class="text-xs font-mono font-bold text-amber-400">03 · Dosis Tóxica (Distrés Crónico)</div>
+          <div class="text-xs font-semibold text-text-primary">Sobrecarga y Daño Tisular</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Exposiciones excesivas colapsan la capacidad antioxidante y reparadora, derivando en hipotermia, rabdomiólisis o estrés oxidativo no compensado.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. LAS 5 HORMESIS PRINCIPALES -->
+    <section class="rounded-biotech border border-red-500/20 bg-surface-lowest p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-red-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <Activity className="w-4 h-4" />
+        <span>Matriz de Señalización Celular</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">Las 5 Hormesis Principales & Nootropía Ambiental</h2>
+      
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs border border-surface-bright rounded-biotech overflow-hidden">
+          <thead class="bg-surface-low border-b border-surface-bright text-text-primary font-mono">
+            <tr>
+              <th class="p-3">Hormesis</th>
+              <th class="p-3">Activador Principal</th>
+              <th class="p-3">Vía Biomolecular Clave</th>
+              <th class="p-3">Beneficio Clínico & Cognitivo</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-surface-bright text-text-secondary">
+            <tr class="hover:bg-surface-low/50">
+              <td class="p-3 font-semibold text-cyan-400 flex items-center gap-1.5">
+                <Thermometer className="w-3.5 h-3.5" /> Frío
+              </td>
+              <td class="p-3">Norepinefrina periférica y central, Grasa Parda (BAT)</td>
+              <td class="p-3 font-mono text-text-muted">UCP1, PGC-1α, dopamina basal x2.5</td>
+              <td class="p-3">Foco sostenido, elevación del estado de ánimo, biogénesis mitocondrial</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50">
+              <td class="p-3 font-semibold text-red-400 flex items-center gap-1.5">
+                <Flame className="w-3.5 h-3.5" /> Calor (Sauna)
+              </td>
+              <td class="p-3">Proteínas de Choque Térmico (HSPs: HSP70, HSP90)</td>
+              <td class="p-3 font-mono text-text-muted">HSF-1, eNOS, BDNF cerebral</td>
+              <td class="p-3">Neuroprotección contra plegamiento anómalo de proteínas, salud cardiovascular</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50">
+              <td class="p-3 font-semibold text-amber-400 flex items-center gap-1.5">
+                <Zap className="w-3.5 h-3.5" /> Ayuno
+              </td>
+              <td class="p-3">Beta-hidroxibutirato (BHB), Depleción glucogénica</td>
+              <td class="p-3 font-mono text-text-muted">AMPK on / mTOR off, Autofagia (LC3-II)</td>
+              <td class="p-3">Claridad mental profunda, eliminación de detritos celulares, longevidad neuronal</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50">
+              <td class="p-3 font-semibold text-rose-400 flex items-center gap-1.5">
+                <Sun className="w-3.5 h-3.5" /> Luz Roja / NIR
+              </td>
+              <td class="p-3">Fotones 660 nm y 850 nm (Fotobiomodulación)</td>
+              <td class="p-3 font-mono text-text-muted">Citocromo c oxidasa (Complejo IV), síntesis de ATP</td>
+              <td class="p-3">Rescate bioenergético neuronal, modulación de microglía, regeneración tisular</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50">
+              <td class="p-3 font-semibold text-emerald-400 flex items-center gap-1.5">
+                <Wind className="w-3.5 h-3.5" /> Hipoxia & Respiración
+              </td>
+              <td class="p-3">Tolerancia al CO₂ y pulsos hipóxicos breves</td>
+              <td class="p-3 font-mono text-text-muted">HIF-1α, EPO, angiogénesis cerebral (VEGF)</td>
+              <td class="p-3">Resiliencia ante estrés isquémico, incremento del VO2 max, tono parasimpático</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 4. TEMARIO DETALLADO POR SECCIONES (6 SECCIONES) -->
+    <section class="space-y-6">
+      <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-bold text-text-primary flex items-center gap-2.5">
+          <Flame className="w-6 h-6 text-red-400" />
+          <span>Estructura del Módulo VIII</span>
+        </h2>
+        <span class="text-xs font-mono text-text-muted">6 SECCIONES EDUCATIVAS</span>
+      </div>
+
+      <!-- 8.1 Fundamentos de la Hormesis -->
+      <div class="rounded-biotech border border-red-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-red-500/10 border border-red-500/30 text-red-400 font-mono text-xs font-bold">8.1</span>
+            <h3 class="text-lg font-bold text-text-primary">Fundamentos de la Hormesis y Xenohormesis</h3>
+          </div>
+          <span class="text-xs font-mono text-red-400 font-semibold">2 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Las bases biofísicas de la respuesta adaptativa: curva en J, genes de longevidad y balance de la carga alostática.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/introduccion-hormesis" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-red-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-red-400 transition-colors">Introducción a la Hormesis y Xenohormesis</div>
+              <div class="text-[11px] text-text-muted italic">La hipótesis evolutiva, factores FOXO/Nrf2 y la paradoja del estrés benéfico</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-red-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/carga-alostatica" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-red-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-red-400 transition-colors">El Concepto de Carga Alostática</div>
+              <div class="text-[11px] text-text-muted italic">Capacidad adaptativa del organismo, desgaste por distrés crónico y reserva funcional</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-red-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 8.2 Exposición al Frío -->
+      <div class="rounded-biotech border border-red-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-red-500/10 border border-red-500/30 text-red-400 font-mono text-xs font-bold">8.2</span>
+            <h3 class="text-lg font-bold text-text-primary">Exposición al Frío y Crioterapia</h3>
+          </div>
+          <span class="text-xs font-mono text-red-400 font-semibold">2 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Crioestimulación: choque adrenérgico, proliferación de tejido adiposo pardo y neuroquímica dopaminérgica sostenida.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/frio-norepinefrina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-red-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-red-400 transition-colors">Frío: La Vía de la Norepinefrina y Grasa Parda</div>
+              <div class="text-[11px] text-text-muted italic">Termogénesis adaptativa, proteína UCP1 y elevación de dopamina plasmática</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-red-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/wim-hof-frio" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-red-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-red-400 transition-colors">Protocolo Wim Hof y Baños de Hielo</div>
+              <div class="text-[11px] text-text-muted italic">Inmersión en agua helada (CWI), tiempos de exposición y modulación de dolor</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-red-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 8.3 Exposición al Calor -->
+      <div class="rounded-biotech border border-red-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-red-500/10 border border-red-500/30 text-red-400 font-mono text-xs font-bold">8.3</span>
+            <h3 class="text-lg font-bold text-text-primary">Exposición al Calor y Termoterapia</h3>
+          </div>
+          <span class="text-xs font-mono text-red-400 font-semibold">2 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Termogénesis celular y proteínas chaperonas: el modelo cardiovascular de la sauna finlandesa y neuroprotección cerebral.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/sauna" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-red-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-red-400 transition-colors">Sauna: Proteínas de Choque Térmico y Longevidad</div>
+              <div class="text-[11px] text-text-muted italic">HSP70, dilatación endotelial por óxido nítrico y reducción de mortalidad por Laukkanen</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-red-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/hipertermia" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-red-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-red-400 transition-colors">Hipertermia y Neuroprotección</div>
+              <div class="text-[11px] text-text-muted italic">Prevención del plegamiento proteico aberrante, BDNF y ensayos en depresión mayor</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-red-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 8.4 Ayuno y Restricción Calórica -->
+      <div class="rounded-biotech border border-red-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-red-500/10 border border-red-500/30 text-red-400 font-mono text-xs font-bold">8.4</span>
+            <h3 class="text-lg font-bold text-text-primary">Ayuno y Restricción Calórica</h3>
+          </div>
+          <span class="text-xs font-mono text-red-400 font-semibold">2 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">El interruptor metabólico ancestral: señalización de AMPK, supresión de mTOR y renovación por autofagia celular.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/ayuno-intermitente" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-red-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-red-400 transition-colors">Ayuno Intermitente: Autofagia y Cetonas</div>
+              <div class="text-[11px] text-text-muted italic">Transición metabólica a BHB, inducción de autofagia (Yoshinori Ohsumi) y foco cognitivo</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-red-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/restriccion-calorica" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-red-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-red-400 transition-colors">Restricción Calórica y Longevidad</div>
+              <div class="text-[11px] text-text-muted italic">Mimetizadores de restricción calórica (CRMs), activación de Sirtuinas y epigenética</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-red-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 8.5 Fotobiomodulación -->
+      <div class="rounded-biotech border border-red-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-red-500/10 border border-red-500/30 text-red-400 font-mono text-xs font-bold">8.5</span>
+            <h3 class="text-lg font-bold text-text-primary">Fotobiomodulación (Luz Roja y NIR)</h3>
+          </div>
+          <span class="text-xs font-mono text-red-400 font-semibold">2 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Biofotónica y bioenergética: activación del citocromo c oxidasa mitocondrial mediante longitudes de onda en ventana óptica.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/luz-roja-infrarroja" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-red-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-red-400 transition-colors">Luz Roja e Infrarroja Cercana (PBM)</div>
+              <div class="text-[11px] text-text-muted italic">Mecanismos mitocondriales, liberación de óxido nítrico y generación de ATP</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-red-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/protocolos-fotobiomodulacion" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-red-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-red-400 transition-colors">Protocolos para Cerebro y Piel</div>
+              <div class="text-[11px] text-text-muted italic">PBM transcraneal para trauma cerebral, depresión y síntesis de colágeno dérmico</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-red-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 8.6 Hipoxia y Respiración -->
+      <div class="rounded-biotech border border-red-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-red-500/10 border border-red-500/30 text-red-400 font-mono text-xs font-bold">8.6</span>
+            <h3 class="text-lg font-bold text-text-primary">Hipoxia Intermitente y Respiración</h3>
+          </div>
+          <span class="text-xs font-mono text-red-400 font-semibold">3 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Manipulación de gases en sangre: señalización del factor HIF-1α, efecto Bohr y calibración del quimiorreceptor medular de CO₂.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 pt-2">
+          <a href="/conceptos/hipoxia-intermitente" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-red-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-red-400 transition-colors">Hipoxia Intermitente y HIF-1α</div>
+              <div class="text-[11px] text-text-muted italic">Adaptación celular a la hipoxia (Premio Nobel 2019), eritropoyesis y neuroangiogénesis</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-red-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/respiracion-wim-hof" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-red-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-red-400 transition-colors">Método Wim Hof (Respiración)</div>
+              <div class="text-[11px] text-text-muted italic">Hiperventilación controlada, alcalosis respiratoria y modulación de citoquinas en PNAS</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-red-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/metodo-buteyko" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-red-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-red-400 transition-colors">Método Buteyko y Tolerancia al CO₂</div>
+              <div class="text-[11px] text-text-muted italic">Respiración nasal, efecto Bohr, vasodilatación cerebral y test de pausa de control (BOLT)</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-red-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. GUÍA DE PROTOCOLOS Y SEGURIDAD -->
+    <section class="rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-red-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <BookOpen className="w-4 h-4" />
+        <span>Ruta Pedagógica & Personalización</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">📋 Guía de Estudio y Progresión</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-red-500/10 border border-red-500/30 text-red-400 font-mono text-[11px] font-bold uppercase">
+            Nivel 1 · Principiante
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Fundamentos & Adaptación:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Lee la <strong class="text-text-primary">Introducción a la Hormesis</strong> para asimilar el concepto de la curva bifásica en J.</li>
+            <li>Inicia con <strong class="text-text-primary">Duchas Frías</strong> al final del baño diario (protocolo gradual de 30 a 60 segundos).</li>
+            <li>Incorpora <strong class="text-text-primary">Sauna Tradicional</strong> 2-3 veces por semana si dispones de acceso.</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-amber-500/10 border border-amber-500/30 text-amber-400 font-mono text-[11px] font-bold uppercase">
+            Nivel 2 · Biohacker
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Stacking Ambiental:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Aplica el <strong class="text-text-primary">Protocolo Wim Hof completo</strong> combinando ciclos de respiración e inmersión en hielo.</li>
+            <li>Implementa el <strong class="text-text-primary">Ayuno Intermitente 16:8</strong> y un ayuno mensual prolongado de 24-36 horas.</li>
+            <li>Adquiere o utiliza un <strong class="text-text-primary">Panel de Fotobiomodulación (PBM)</strong> para exposición mitocondrial diaria.</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-primary/10 border border-primary/30 text-primary font-mono text-[11px] font-bold uppercase">
+            Nivel 3 · Profesional
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Biofisiología Médica:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Profundiza en la <strong class="text-text-primary">Señalización Molecular</strong> de factores de transcripción (HIF-1α, HSF-1, FOXO3a).</li>
+            <li>Examina los <strong class="text-text-primary">Ensayos Clínicos de Sauna</strong> sobre longevidad y reducción de demencia (cohorte KIHD de Laukkanen).</li>
+            <li>Analiza la evidencia de <strong class="text-text-primary">PBM Transcraneal</strong> en traumatismo craneoencefálico leve (TCE) y depresión mayor.</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Advertencias de seguridad -->
+      <div class="p-4 rounded-biotech border border-red-500/30 bg-red-500/5 flex items-start gap-3 text-xs text-text-secondary">
+        <ShieldAlert className="w-5 h-5 text-red-400 shrink-0 mt-0.5" />
+        <div class="space-y-1">
+          <strong class="text-text-primary">⚠️ Consideraciones de Seguridad Clínica:</strong>
+          <p>
+            Las prácticas de hormesis son poderosas herramientas biológicas pero requieren absoluto respeto fisiológico:
+          </p>
+          <ul class="list-disc list-inside space-y-1 pt-1 text-[11px]">
+            <li><strong>Frío extremo:</strong> Riesgo de choque térmico, síncope e hipotermia si no se realiza con supervisión o progresión gradual.</li>
+            <li><strong>Sauna:</strong> Estrictamente contraindicada en estenosis aórtica severa, angina inestable y embarazo.</li>
+            <li><strong>Ayuno prolongado:</strong> Requiere vigilancia electrolítica médica en diabéticos y personas bajo medicación crónica.</li>
+            <li><strong>Respiración Wim Hof / Hipóxica:</strong> <span class="text-red-400 font-bold">NUNCA</span> realizar dentro del agua, piscinas, bañeras o conduciendo vehículos, debido al riesgo inminente de desmayo por hipoxia (apagón de aguas poco profundas / shallow water blackout).</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>
