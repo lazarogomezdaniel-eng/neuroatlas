@@ -1,0 +1,485 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdBanner from '../../components/monetization/AdBanner.astro';
+import { 
+  Moon, 
+  Sun, 
+  Clock, 
+  Layers, 
+  Award, 
+  BookOpen, 
+  ArrowRight, 
+  ShieldAlert, 
+  Activity,
+  Brain,
+  Waves,
+  AlertTriangle
+} from 'lucide-react';
+---
+
+<BaseLayout
+  title="Módulo IX: Cronobiología y Sueño | NeuroAtlas"
+  description="El pilar olvidado: por qué el sueño es la intervención más poderosa para tu cerebro. Ritmos circadianos, sistema glinfático, arquitectura NREM/REM y protocolos de optimización."
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+    
+    <!-- 1. HERO -->
+    <header class="relative rounded-biotech border border-indigo-500/30 bg-surface-low p-6 sm:p-10 overflow-hidden space-y-6">
+      <div class="absolute top-0 right-0 -mr-16 -mt-16 w-72 h-72 bg-indigo-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      
+      <div class="flex flex-wrap items-center gap-2.5">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-indigo-500/15 border border-indigo-500/40 text-xs font-mono font-bold text-indigo-400">
+          <Moon className="w-3.5 h-3.5 text-indigo-400" />
+          MÓDULO IX · CRONOBIOLOGÍA & SUEÑO
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Layers className="w-3.5 h-3.5 text-indigo-400" />
+          24 CONCEPTOS
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Award className="w-3.5 h-3.5 text-amber-400" />
+          6 SECCIONES
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Clock className="w-3.5 h-3.5 text-primary" />
+          5-6 HORAS
+        </span>
+      </div>
+
+      <div class="space-y-3 max-w-3xl">
+        <div class="text-3xl sm:text-4xl">🌙</div>
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
+          Módulo IX: Cronobiología y Sueño
+        </h1>
+        <p class="text-base sm:text-xl text-indigo-400 font-medium">
+          El pilar olvidado: por qué el sueño es la intervención más poderosa para tu cerebro
+        </p>
+        <p class="text-xs sm:text-sm text-text-secondary leading-relaxed pt-2">
+          Guía exhaustiva sobre ritmos circadianos, arquitectura del sueño, el sistema glinfático de limpieza cerebral nocturna, trastornos del sueño y protocolos de optimización basados en la neurociencia moderna.
+        </p>
+      </div>
+    </header>
+
+    <!-- AdBanner Superior -->
+    <AdBanner slotId="modulo-9-top" format="horizontal" />
+
+    <!-- 2. LA EPIDEMIA SILENCIOSA Y EL SUEÑO COMO NOOTRÓPICO DEFINITIVO -->
+    <section class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-indigo-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <AlertTriangle className="w-4 h-4" />
+        <span>Crisis Biológica de la Modernidad</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">La Epidemia Silenciosa del Siglo XXI</h2>
+      <p class="text-sm text-text-secondary leading-relaxed">
+        Vivimos en una sociedad que desprecia sistemáticamente el descanso biológico. Más del <strong>35% de los adultos duerme menos de 7 horas</strong> por noche, el 40% reporta sueño no reparador y hasta el 80% de las apneas del sueño permanecen sin diagnosticar. El déficit crónico acelera la neurodegeneración, colapsa la inmunidad y eleva la mortalidad por todas las causas en un 12%.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-1">
+        <div class="p-4 rounded-biotech border border-surface-bright bg-surface-low space-y-2">
+          <div class="text-xs font-mono font-bold text-text-muted">01 · Consolidación & Poda</div>
+          <div class="text-xs font-semibold text-text-primary">Memoria y Plasticidad</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Transferencia de memorias transitorias desde el hipocampo hacia la neocorteza y poda de conexiones sinápticas redundantes mediante el sueño de ondas lentas.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-biotech border border-indigo-500/30 bg-indigo-500/5 space-y-2">
+          <div class="text-xs font-mono font-bold text-indigo-400">02 · Depuración Glinfática</div>
+          <div class="text-xs font-semibold text-text-primary">El Lavado Cerebrovascular</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Durante el sueño profundo, el espacio intersticial cerebral se expande un 60%, facilitando el flujo de LCR para barrer agregados de <strong>beta-amiloide y tau</strong>.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-biotech border border-surface-bright bg-surface-low space-y-2">
+          <div class="text-xs font-mono font-bold text-amber-400">03 · Recalibración Endocrina</div>
+          <div class="text-xs font-semibold text-text-primary">Hormonas & Metabolismo</div>
+          <p class="text-[11px] text-text-muted leading-relaxed">
+            Picos de hormona del crecimiento (GH), supresión nocturna de cortisol y calibración del apetito mediante equilibrio de leptina y grelina.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. LAS 3 DIMENSIONES DEL SUEÑO -->
+    <section class="rounded-biotech border border-indigo-500/20 bg-surface-lowest p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-indigo-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <Activity className="w-4 h-4" />
+        <span>Marco Teórico Integrado</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">Las 3 Dimensiones del Sueño Humano</h2>
+      
+      <div class="overflow-x-auto">
+        <table class="w-full text-left text-xs border border-surface-bright rounded-biotech overflow-hidden">
+          <thead class="bg-surface-low border-b border-surface-bright text-text-primary font-mono">
+            <tr>
+              <th class="p-3">Dimensión</th>
+              <th class="p-3">Componente Biológico</th>
+              <th class="p-3">Eje Molecular Clave</th>
+              <th class="p-3">Pregunta Fundamental</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-surface-bright text-text-secondary">
+            <tr class="hover:bg-surface-low/50">
+              <td class="p-3 font-semibold text-indigo-400 flex items-center gap-1.5">
+                <Sun className="w-3.5 h-3.5" /> Cronobiología
+              </td>
+              <td class="p-3">Núcleo Supraquiasmático (SCN), genes reloj (CLOCK, BMAL1, PER, CRY)</td>
+              <td class="p-3 font-mono text-text-muted">Melatonina pineal, melanopsina ipRGC, cortisol circadiano</td>
+              <td class="p-3 font-semibold text-text-primary">¿Cuándo debemos dormir?</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50">
+              <td class="p-3 font-semibold text-cyan-400 flex items-center gap-1.5">
+                <Waves className="w-3.5 h-3.5" /> Arquitectura
+              </td>
+              <td class="p-3">Ciclos ultradianos de 90 min: fases NREM (N1, N2, N3) y sueño REM</td>
+              <td class="p-3 font-mono text-text-muted">Husos de sueño, complejos K, ondas delta lentas (&lt; 4 Hz), acetilcolina</td>
+              <td class="p-3 font-semibold text-text-primary">¿Cómo dormimos y procesamos memorias?</td>
+            </tr>
+            <tr class="hover:bg-surface-low/50">
+              <td class="p-3 font-semibold text-emerald-400 flex items-center gap-1.5">
+                <Brain className="w-3.5 h-3.5" /> Calidad & Limpieza
+              </td>
+              <td class="p-3">Sistema glinfático perivascular astrocitario (canales AQP4)</td>
+              <td class="p-3 font-mono text-text-muted">Drenaje de LCR/intersticial, aclaramiento de beta-amiloide y tau hiperfosforilada</td>
+              <td class="p-3 font-semibold text-text-primary">¿Qué regeneración celular conseguimos?</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 4. TEMARIO DETALLADO POR SECCIONES (6 SECCIONES, 24 CONCEPTOS) -->
+    <section class="space-y-6">
+      <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-bold text-text-primary flex items-center gap-2.5">
+          <Moon className="w-6 h-6 text-indigo-400" />
+          <span>Estructura del Módulo IX</span>
+        </h2>
+        <span class="text-xs font-mono text-text-muted">6 SECCIONES EDUCATIVAS · 24 MONOGRAFÍAS</span>
+      </div>
+
+      <!-- 9.1 Cronobiología: El Reloj Maestro -->
+      <div class="rounded-biotech border border-indigo-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 font-mono text-xs font-bold">9.1</span>
+            <h3 class="text-lg font-bold text-text-primary">Cronobiología: El Reloj Maestro</h3>
+          </div>
+          <span class="text-xs font-mono text-indigo-400 font-semibold">5 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">El oscilador central del hipotálamo, fotorreceptores de melanopsina, la cascada de melatonina y la adaptación genética de cronotipos.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 pt-2">
+          <a href="/conceptos/introduccion-cronobiologia" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Introducción a la Cronobiología</div>
+              <div class="text-[11px] text-text-muted italic">Evolución circadiana, Zeitgebers y el bucle transcripcional molecular</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/scn" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">El Núcleo Supraquiasmático (SCN)</div>
+              <div class="text-[11px] text-text-muted italic">Las 20.000 neuronas reloj del hipotálamo y la vía retinohipotalámica</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/melatonina" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Melatonina: La Hormona de la Oscuridad</div>
+              <div class="text-[11px] text-text-muted italic">Síntesis pineal a partir de serotonina, receptores MT1/MT2 y efecto antioxidante</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/cronotipos" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Cronotipos: Alondras, Búhos y Colibríes</div>
+              <div class="text-[11px] text-text-muted italic">Polimorfismos en genes PER3/CLOCK, test MEQ y desfase horario social</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/jet-lag" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Jet Lag y Trabajo por Turnos</div>
+              <div class="text-[11px] text-text-muted italic">Desincronización periférica, curvas de respuesta de fase (PRC) y turnos rotativos</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 9.2 Arquitectura del Sueño -->
+      <div class="rounded-biotech border border-indigo-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 font-mono text-xs font-bold">9.2</span>
+            <h3 class="text-lg font-bold text-text-primary">Arquitectura del Sueño</h3>
+          </div>
+          <span class="text-xs font-mono text-indigo-400 font-semibold">4 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">La orquesta electrofisiológica nocturna: fases N1, N2, N3 y REM, oscilaciones cerebrales y transferencia hipocampocortical de memorias.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/fases-sueno" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Las 4 Fases del Sueño NREM y REM</div>
+              <div class="text-[11px] text-text-muted italic">De la somnolencia ligera al sueño de ondas lentas y parálisis atónica con ensueños</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/ondas-cerebrales" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Ondas Cerebrales durante el Sueño</div>
+              <div class="text-[11px] text-text-muted italic">Husos de sueño (Sleep Spindles), Complejos K y oscilaciones lentas delta (&lt; 1 Hz)</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/ciclos-sueno" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Los Ciclos Ultradianos de 90 Minutos</div>
+              <div class="text-[11px] text-text-muted italic">El hipnograma clásico, proporción temprana de N3 y dominancia tardía de fase REM</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/sueno-memoria" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Sueño y Consolidación de Memoria</div>
+              <div class="text-[11px] text-text-muted italic">Reactivaicón neural hipocampal, consolidación de memoria declarativa vs procedimental</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 9.3 El Sistema Glinfático -->
+      <div class="rounded-biotech border border-indigo-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 font-mono text-xs font-bold">9.3</span>
+            <h3 class="text-lg font-bold text-text-primary">El Sistema Glinfático de Limpieza Cerebral</h3>
+          </div>
+          <span class="text-xs font-mono text-indigo-400 font-semibold">3 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">El descubrimiento de Maiken Nedergaard: circulación perivascular de líquido cefalorraquídeo acoplada a canales de acuaporina-4 (AQP4).</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 pt-2">
+          <a href="/conceptos/sistema-glinfatico" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">El Sistema Glinfático</div>
+              <div class="text-[11px] text-text-muted italic">Canales astrocitarios AQP4, espacio intersticial expandido y pulsos arteriales</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/amiloide-tau" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Beta-Amiloide, Tau y Neurodegeneración</div>
+              <div class="text-[11px] text-text-muted italic">Privación de sueño, acumulación de placas Aβ42 y ovillos tau en Alzheimer</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/posicion-dormir" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Posición al Dormir y Limpieza Cerebral</div>
+              <div class="text-[11px] text-text-muted italic">Eficacia hidrodinámica de la postura lateral vs supina y prono para el drenaje glinfático</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 9.4 Trastornos del Sueño -->
+      <div class="rounded-biotech border border-indigo-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 font-mono text-xs font-bold">9.4</span>
+            <h3 class="text-lg font-bold text-text-primary">Trastornos del Sueño</h3>
+          </div>
+          <span class="text-xs font-mono text-indigo-400 font-semibold">4 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Patologías clínicas del sueño: del insomnio psicofisiológico y la hipoxia obstructiva nocturna a los trastornos del despertar motor.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/insomnio" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Insomnio: Causas y Tratamientos</div>
+              <div class="text-[11px] text-text-muted italic">Modelo de las 3P de Spielman, hiperarousal cortical y terapia cognitivo-conductual (CBT-I)</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/apnea-sueno" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Apnea del Sueño (SAHOS)</div>
+              <div class="text-[11px] text-text-muted italic">Índice AHI, colapso faríngeo, microdespertares, CPAP y daño cardiovascular</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/narcolepsia" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Narcolepsia y Otros Trastornos</div>
+              <div class="text-[11px] text-text-muted italic">Pérdida autoinmune de neuronas de hipocretina/orexina, cataplejía y parálisis del sueño</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/parasomnias" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Parasomnias: Sonambulismo y Más</div>
+              <div class="text-[11px] text-text-muted italic">Trastornos del despertar NREM, terrores nocturnos y trastorno de conducta REM (RBD)</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 9.5 Optimización del Sueño -->
+      <div class="rounded-biotech border border-indigo-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 font-mono text-xs font-bold">9.5</span>
+            <h3 class="text-lg font-bold text-text-primary">Optimización del Sueño</h3>
+          </div>
+          <span class="text-xs font-mono text-indigo-400 font-semibold">5 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Herramientas prácticas basadas en neurociencia: protocolos de luz solar, temperatura, stacks nutracéuticos, higiene conductual y siestas NSDR.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 pt-2">
+          <a href="/conceptos/protocolo-huberman-sueno" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Protocolo Huberman para el Sueño</div>
+              <div class="text-[11px] text-text-muted italic">Luz matutina de ángulo bajo, retraso de cafeína de 90 min y termorregulación</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/protocolo-walker-sueno" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Protocolo Matthew Walker</div>
+              <div class="text-[11px] text-text-muted italic">Las reglas de 'Why We Sleep': regularidad absoluta, 18°C y oscuridad circadiana</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/suplementos-sueno" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Suplementos para el Sueño: Guía Completa</div>
+              <div class="text-[11px] text-text-muted italic">Magnesio L-Treonato, Bisglicinato, Apigenina, L-Teanina, GABA e Inositol</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/higiene-sueno" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Higiene del Sueño: Los 15 Mandamientos</div>
+              <div class="text-[11px] text-text-muted italic">Reglas conductuales innegociables para blindar la eficiencia del descanso</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/siestas-nsdr" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Siestas Estratégicas y NSDR (Yoga Nidra)</div>
+              <div class="text-[11px] text-text-muted italic">Non-Sleep Deep Rest de 10-20 min, recuperación de dopamina y recarga cognitiva</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- 9.6 Sueño y Longevidad -->
+      <div class="rounded-biotech border border-indigo-500/20 bg-surface-lowest p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 font-mono text-xs font-bold">9.6</span>
+            <h3 class="text-lg font-bold text-text-primary">Sueño y Longevidad Sistémica</h3>
+          </div>
+          <span class="text-xs font-mono text-indigo-400 font-semibold">3 MONOGRAFÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">El impacto trascendental del descanso sobre la velocidad del reloj epigenético, el rendimiento neuromuscular y la salud afectiva.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 pt-2">
+          <a href="/conceptos/sueno-longevidad" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Sueño, Longevidad y Envejecimiento</div>
+              <div class="text-[11px] text-text-muted italic">Telómeros, senescencia celular, relojes epigenéticos de Horvath y esperanza de vida</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/sueno-rendimiento" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Sueño y Rendimiento Deportivo</div>
+              <div class="text-[11px] text-text-muted italic">Tiempo de reacción, síntesis de glucógeno, prevención de lesiones y estudio de Stanford</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/sueno-salud-mental" class="p-3.5 rounded-biotech border border-surface-bright bg-surface-low hover:border-indigo-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-indigo-400 transition-colors">Sueño y Salud Mental</div>
+              <div class="text-[11px] text-text-muted italic">Amortiguación amigdalina nocturna, desensibilización del trauma en fase REM y depresión</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-indigo-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. GUÍA DE ESTUDIO Y PROGRESIÓN -->
+    <section class="rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-indigo-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <BookOpen className="w-4 h-4" />
+        <span>Ruta Pedagógica & Personalización</span>
+      </div>
+      <h2 class="text-2xl font-bold text-text-primary">📋 Guía de Estudio y Progresión</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-2">
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-indigo-500/10 border border-indigo-500/30 text-indigo-400 font-mono text-[11px] font-bold uppercase">
+            Nivel 1 · Principiante
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Fundamentos Circadianos:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Lee la <strong class="text-text-primary">Introducción a la Cronobiología</strong> para entender los ritmos circadianos y Zeitgebers.</li>
+            <li>Estudia los <strong class="text-text-primary">15 Mandamientos de la Higiene del Sueño</strong> y audita tu dormitorio.</li>
+            <li>Implementa el <strong class="text-text-primary">Protocolo Huberman</strong> (exposición a luz solar en los primeros 30-60 min del día).</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-amber-500/10 border border-amber-500/30 text-amber-400 font-mono text-[11px] font-bold uppercase">
+            Nivel 2 · Biohacker
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Optimización Avanzada:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Investiga el <strong class="text-text-primary">Sistema Glinfático</strong> y adopta la postura lateral para maximizar el drenaje de LCR.</li>
+            <li>Aprende e incorpora <strong class="text-text-primary">NSDR (Non-Sleep Deep Rest)</strong> de 10-20 min para recargar dopamina a mediodía.</li>
+            <li>Conoce tu <strong class="text-text-primary">Cronotipo genético</strong> y alinea tus bloques de foco cognitivo profundo.</li>
+          </ol>
+        </div>
+
+        <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-3.5">
+          <div class="inline-block px-2.5 py-0.5 rounded bg-primary/10 border border-primary/30 text-primary font-mono text-[11px] font-bold uppercase">
+            Nivel 3 · Profesional
+          </div>
+          <h3 class="text-base font-bold text-text-primary">Neurofisiología Médica:</h3>
+          <ol class="text-xs text-text-secondary space-y-2.5 list-decimal list-inside leading-relaxed">
+            <li>Profundiza en la <strong class="text-text-primary">Arquitectura del Sueño</strong> y la interpretación de polisomnografía (PSG).</li>
+            <li>Estudia la fisiopatología del <strong class="text-text-primary">Insomnio y Apnea del Sueño (SAHOS)</strong>.</li>
+            <li>Analiza la evidencia directa del <strong class="text-text-primary">Sueño en Neurodegeneración</strong> (aclaramiento de beta-amiloide y tau).</li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Advertencias de seguridad -->
+      <div class="p-4 rounded-biotech border border-indigo-500/30 bg-indigo-500/5 flex items-start gap-3 text-xs text-text-secondary">
+        <ShieldAlert className="w-5 h-5 text-indigo-400 shrink-0 mt-0.5" />
+        <div class="space-y-1">
+          <strong class="text-text-primary">⚠️ Consideraciones de Seguridad y Descargo Clínico:</strong>
+          <p>
+            El contenido de este módulo tiene fines exclusivamente educativos y divulgativos:
+          </p>
+          <ul class="list-disc list-inside space-y-1 pt-1 text-[11px]">
+            <li><strong>Trastornos del Sueño Severos:</strong> El insomnio crónico resistente y la apnea obstructiva del sueño (SAHOS) requieren evaluación diagnóstica formal mediante polisomnografía en una unidad médica de sueño.</li>
+            <li><strong>Apnea del Sueño No Tratada:</strong> Constituye un factor de riesgo mayor e independiente de hipertensión arterial refractaria, arritmias cardíacas e ictus; requiere indicación médica de CPAP u otras terapias respiratorias.</li>
+            <li><strong>Uso de Suplementos:</strong> La suplementación con melatonina a dosis suprafisiológicas prolongadas o compuestos GABAérgicos debe ajustarse con prudencia para no alterar la pulsatilidad endocrina natural.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>

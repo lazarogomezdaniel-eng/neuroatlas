@@ -237,17 +237,19 @@ export const CURRICULUM_MODULES: ModuleItem[] = [
     icon: '🌙',
     color: '#6366F1',
     href: '/modulos/modulo-9',
-    status: 'pending',
-    statusLabel: '⏳ Pendiente',
+    status: 'in_progress',
+    statusLabel: '⚡ En Desarrollo',
     progressPercent: 0,
-    conceptCount: 16,
-    sectionsCount: 4,
-    readTime: '3-4 h',
+    conceptCount: 24,
+    sectionsCount: 6,
+    readTime: '5-6 h',
     sections: [
-      { id: '9-1', number: '9.1', title: 'Fases del Sueño & Sistema Glinfático', href: '/modulos/modulo-9#9-1-fases-sueno', conceptCount: 4 },
-      { id: '9-2', number: '9.2', title: 'Ritmos Circadianos & Melatonina', href: '/modulos/modulo-9#9-2-circadiano', conceptCount: 4 },
-      { id: '9-3', number: '9.3', title: 'Suplementación para el Sueño', href: '/modulos/modulo-9#9-3-suplementacion-sueno', conceptCount: 4 },
-      { id: '9-4', number: '9.4', title: 'Higiene del Sueño & Bio-Tracking', href: '/modulos/modulo-9#9-4-higiene-sueno', conceptCount: 4 }
+      { id: '9-1', number: '9.1', title: 'Cronobiología: El Reloj Maestro', href: '/modulos/modulo-9#9-1-cronobiologia', conceptCount: 5 },
+      { id: '9-2', number: '9.2', title: 'Arquitectura del Sueño', href: '/modulos/modulo-9#9-2-arquitectura', conceptCount: 4 },
+      { id: '9-3', number: '9.3', title: 'El Sistema Glinfático', href: '/modulos/modulo-9#9-3-sistema-glinfatico', conceptCount: 3 },
+      { id: '9-4', number: '9.4', title: 'Trastornos del Sueño', href: '/modulos/modulo-9#9-4-trastornos', conceptCount: 4 },
+      { id: '9-5', number: '9.5', title: 'Optimización del Sueño', href: '/modulos/modulo-9#9-5-optimizacion', conceptCount: 5 },
+      { id: '9-6', number: '9.6', title: 'Sueño y Longevidad', href: '/modulos/modulo-9#9-6-longevidad', conceptCount: 3 }
     ]
   },
   {
