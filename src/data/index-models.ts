@@ -306,6 +306,10 @@ import fasesSuenoJson from './concepts/fases-sueno.json';
 import ondasCerebralesJson from './concepts/ondas-cerebrales.json';
 import ciclosSuenoJson from './concepts/ciclos-sueno.json';
 import suenoMemoriaJson from './concepts/sueno-memoria.json';
+// 9.3 El Sistema Glinfático
+import sistemaGlinfaticoJson from './concepts/sistema-glinfatico.json';
+import amiloideTauJson from './concepts/amiloide-tau.json';
+import posicionDormirJson from './concepts/posicion-dormir.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -610,6 +614,10 @@ export const conceptos: Concepto[] = [
   ondasCerebralesJson as Concepto,
   ciclosSuenoJson as Concepto,
   suenoMemoriaJson as Concepto,
+  // 9.3
+  sistemaGlinfaticoJson as Concepto,
+  amiloideTauJson as Concepto,
+  posicionDormirJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
