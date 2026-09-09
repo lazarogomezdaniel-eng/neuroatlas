@@ -310,6 +310,11 @@ import suenoMemoriaJson from './concepts/sueno-memoria.json';
 import sistemaGlinfaticoJson from './concepts/sistema-glinfatico.json';
 import amiloideTauJson from './concepts/amiloide-tau.json';
 import posicionDormirJson from './concepts/posicion-dormir.json';
+// 9.4 Trastornos del Sueño
+import insomnioJson from './concepts/insomnio.json';
+import apneaSuenoJson from './concepts/apnea-sueno.json';
+import narcolepsiaJson from './concepts/narcolepsia.json';
+import parasomniasJson from './concepts/parasomnias.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -618,6 +623,11 @@ export const conceptos: Concepto[] = [
   sistemaGlinfaticoJson as Concepto,
   amiloideTauJson as Concepto,
   posicionDormirJson as Concepto,
+  // 9.4
+  insomnioJson as Concepto,
+  apneaSuenoJson as Concepto,
+  narcolepsiaJson as Concepto,
+  parasomniasJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
