@@ -315,6 +315,12 @@ import insomnioJson from './concepts/insomnio.json';
 import apneaSuenoJson from './concepts/apnea-sueno.json';
 import narcolepsiaJson from './concepts/narcolepsia.json';
 import parasomniasJson from './concepts/parasomnias.json';
+// 9.5 Optimización del Sueño
+import protocoloHubermanSuenoJson from './concepts/protocolo-huberman-sueno.json';
+import protocoloWalkerSuenoJson from './concepts/protocolo-walker-sueno.json';
+import suplementosSuenoJson from './concepts/suplementos-sueno.json';
+import higieneSuenoJson from './concepts/higiene-sueno.json';
+import siestasNsdrJson from './concepts/siestas-nsdr.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -628,6 +634,12 @@ export const conceptos: Concepto[] = [
   apneaSuenoJson as Concepto,
   narcolepsiaJson as Concepto,
   parasomniasJson as Concepto,
+  // 9.5
+  protocoloHubermanSuenoJson as Concepto,
+  protocoloWalkerSuenoJson as Concepto,
+  suplementosSuenoJson as Concepto,
+  higieneSuenoJson as Concepto,
+  siestasNsdrJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
