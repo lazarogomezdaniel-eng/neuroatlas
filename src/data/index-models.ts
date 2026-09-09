@@ -321,6 +321,10 @@ import protocoloWalkerSuenoJson from './concepts/protocolo-walker-sueno.json';
 import suplementosSuenoJson from './concepts/suplementos-sueno.json';
 import higieneSuenoJson from './concepts/higiene-sueno.json';
 import siestasNsdrJson from './concepts/siestas-nsdr.json';
+// 9.6 Sueño y Longevidad Sistémica
+import suenoLongevidadJson from './concepts/sueno-longevidad.json';
+import suenoRendimientoJson from './concepts/sueno-rendimiento.json';
+import suenoSaludMentalJson from './concepts/sueno-salud-mental.json';
 
 export const categorias: Categoria[] = categoriesJson as Categoria[];
 export const sustancias: Sustancia[] = [bacopaJson as Sustancia];
@@ -640,6 +644,10 @@ export const conceptos: Concepto[] = [
   suplementosSuenoJson as Concepto,
   higieneSuenoJson as Concepto,
   siestasNsdrJson as Concepto,
+  // 9.6
+  suenoLongevidadJson as Concepto,
+  suenoRendimientoJson as Concepto,
+  suenoSaludMentalJson as Concepto,
 ];
 
 export const getSustanciaBySlug = (slug: string): Sustancia | undefined => {
