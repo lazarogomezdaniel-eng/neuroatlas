@@ -4,7 +4,7 @@
   "modulo": "Modulo II",
   "seccion": "2.1",
   "tipo": "sustancia",
-  "orden": 19,
+  "orden": 20,
   "definicion": "La vitamina B3 (niacina y sus vitámeros ácido nicotínico, nicotinamida, nicotinamida ribósido y mononucleótido de nicotinamida) es una vitamina hidrosoluble esencial que actúa como sustrato para la biosíntesis de NAD+ y NADP+, coenzimas centrales del metabolismo redox, la producción mitocondrial de ATP, la reparación genómica por PARP y la regulación epigenética por sirtuinas en el sistema nervioso central.",
   "neurotransmisores_asociados": [
     "serotonina",
