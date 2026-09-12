@@ -1,0 +1,259 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdBanner from '../../components/monetization/AdBanner.astro';
+import { 
+  Users, 
+  Award, 
+  Clock, 
+  ArrowRight, 
+  HeartHandshake, 
+  Activity, 
+  Zap, 
+  Sparkles, 
+  ShieldCheck, 
+  Brain, 
+  Terminal, 
+  Dumbbell,
+  AlertTriangle,
+  Stethoscope
+} from 'lucide-react';
+---
+
+<BaseLayout
+  title="Módulo XI: Poblaciones y Condiciones Específicas | NeuroAtlas"
+  description="Guía clínica y personalizada de nootrópicos: TDAH, depresión, Alzheimer, ansiedad, perfiles profesionales (programadores, atletas), poblaciones específicas (adolescentes, mayores de 60, mujeres) y protocolos terapéuticos integrales."
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+    
+    <!-- 1. HERO -->
+    <header class="relative rounded-biotech border border-teal-500/30 bg-surface-low p-6 sm:p-10 overflow-hidden space-y-6">
+      <div class="absolute top-0 right-0 -mr-16 -mt-16 w-72 h-72 bg-teal-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      
+      <div class="flex flex-wrap items-center gap-2.5">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-teal-500/15 border border-teal-500/40 text-xs font-mono font-bold text-teal-400">
+          <Users className="w-3.5 h-3.5 text-teal-400" />
+          MÓDULO XI · POBLACIONES & CONDICIONES
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Sparkles className="w-3.5 h-3.5 text-teal-400" />
+          11 PROTOCOLOS CLÍNICOS
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Award className="w-3.5 h-3.5 text-primary" />
+          4 SECCIONES
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Clock className="w-3.5 h-3.5 text-emerald-400" />
+          APLICACIÓN PERSONALIZADA
+        </span>
+      </div>
+
+      <div class="space-y-3 max-w-3xl">
+        <div class="text-3xl sm:text-4xl">🧬</div>
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
+          Módulo XI: Poblaciones y Condiciones Específicas
+        </h1>
+        <p class="text-base sm:text-xl text-teal-400 font-medium">
+          Personalización nootrópica: de la salud mental al alto rendimiento y la neuroprotección clínica
+        </p>
+        <p class="text-xs sm:text-sm text-text-secondary leading-relaxed pt-2">
+          No existe un protocolo universal. La genética, la etapa biológica, los niveles hormonales y las condiciones de salud determinan drásticamente la respuesta a los nootrópicos. Este módulo aborda el uso complementario en trastornos neurológicos, la optimización para programadores y deportistas, la seguridad en adolescentes y tercera edad, y protocolos para estrés sostenido y neurodegeneración.
+        </p>
+      </div>
+    </header>
+
+    <!-- AdBanner Superior -->
+    <AdBanner slotId="modulo-11-top" format="horizontal" />
+
+    <!-- 2. REGLA CLÍNICA FUNDAMENTAL -->
+    <section class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+      <div class="flex items-center gap-2 text-teal-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <Stethoscope className="w-4 h-4" />
+        <span>Principio de Individualización Biológica</span>
+      </div>
+      <h2 class="text-xl sm:text-2xl font-bold text-text-primary">
+        Complemento Terapéutico, Nunca Sustituto Médico
+      </h2>
+      <p class="text-xs sm:text-sm text-text-secondary leading-relaxed">
+        Los nootrópicos y adaptógenos son herramientas de modulación celular y neuroquímica con respaldo científico, pero <strong>jamás deben reemplazar diagnósticos o tratamientos psiquiátricos/médicos prescritos</strong>. En poblaciones vulnerables (embarazo, adolescencia, polimedicación en mayores de 60 años), la regla de oro es la máxima prudencia, comenzando con monocompuestos a dosis conservadoras y evaluando la respuesta durante 4 a 6 semanas.
+      </p>
+    </section>
+
+    <!-- 3. MAPA DE CONTENIDO: LAS 4 SECCIONES -->
+    <section class="space-y-8">
+      <div class="border-b border-surface-bright pb-4 flex items-center justify-between">
+        <div>
+          <h2 class="text-2xl font-bold text-text-primary flex items-center gap-2">
+            <span>🗺️ Mapa de Protocolos del Módulo XI</span>
+          </h2>
+          <p class="text-xs sm:text-sm text-text-secondary mt-1">
+            11 monografías clínicas estructuradas por condición, edad, ocupación y protocolos integrales.
+          </p>
+        </div>
+      </div>
+
+      <!-- Sección 11.1: Salud Mental y Condiciones Clínicas -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-mono text-xs font-bold">11.1</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 11.1 — Salud Mental & Trastornos Neurológicos</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">4 FICHAS CLÍNICAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Apoyo complementario riguroso para afecciones neuropsiquiátricas frecuentes.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/nootropicos-tdah" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-primary transition-colors">Nootrópicos para TDAH</div>
+              <div class="text-[11px] text-text-muted italic mt-0.5">L-tirosina, omega-3, magnesio y función ejecutiva prefrontal</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/nootropicos-depresion" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-primary transition-colors">Nootrópicos para Depresión</div>
+              <div class="text-[11px] text-text-muted italic mt-0.5">Omega-3 EPA, SAMe, azafrán y neuroinflamación</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/nootropicos-alzheimer" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-primary transition-colors">Nootrópicos para Alzheimer</div>
+              <div class="text-[11px] text-text-muted italic mt-0.5">Citicolina, Hericium erinaceus, DHA y prevención sináptica</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/nootropicos-ansiedad" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-primary transition-colors">Nootrópicos para Ansiedad</div>
+              <div class="text-[11px] text-text-muted italic mt-0.5">Ashwagandha, L-teanina, magnesio y modulación GABAérgica</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-primary group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Sección 11.2: Perfiles Profesionales y Rendimiento -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-teal-500/20 text-teal-400 font-mono text-xs font-bold">11.2</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 11.2 — Alto Rendimiento & Perfiles Profesionales</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">2 PROTOCOLOS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Stacks orientados a demandas cognitivas extremas y fatiga de alto volumen.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/nootropicos-programador" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-teal-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-teal-400 transition-colors">Nootrópicos para Programadores</div>
+              <div class="text-[11px] text-text-muted italic mt-0.5">Cafeína + L-teanina, citicolina, creatina y bloques ultradianos</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-teal-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/nootropicos-atleta" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-teal-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-teal-400 transition-colors">Nootrópicos para Atletas</div>
+              <div class="text-[11px] text-text-muted italic mt-0.5">Creatina, beta-alanina, cafeína calibrada y recuperación mental</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-teal-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Sección 11.3: Poblaciones Específicas por Edad y Fisiología -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-blue-500/20 text-blue-400 font-mono text-xs font-bold">11.3</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 11.3 — Edad, Ciclo Vital & Fisiología Específica</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">3 GUÍAS CLÍNICAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Seguridad, contraindicaciones e intervenciones específicas según etapa biológica.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 pt-2">
+          <a href="/conceptos/nootropicos-adolescentes" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-blue-500/50 hover:bg-surface-container transition-all group flex flex-col justify-between space-y-2">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-blue-400 transition-colors">Adolescentes (12-18 años)</div>
+              <div class="text-[11px] text-text-muted italic mt-1">Cerebro en desarrollo, sustancias a evitar y opciones seguras</div>
+            </div>
+            <span class="text-[11px] text-blue-400 flex items-center gap-1 font-mono pt-2">Ver monografía →</span>
+          </a>
+          <a href="/conceptos/nootropicos-mayores" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-blue-500/50 hover:bg-surface-container transition-all group flex flex-col justify-between space-y-2">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-blue-400 transition-colors">Mayores de 60 Años</div>
+              <div class="text-[11px] text-text-muted italic mt-1">DHA, citicolina, Bacopa y prevención del deterioro cognitivo</div>
+            </div>
+            <span class="text-[11px] text-blue-400 flex items-center gap-1 font-mono pt-2">Ver monografía →</span>
+          </a>
+          <a href="/conceptos/nootropicos-mujeres" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-blue-500/50 hover:bg-surface-container transition-all group flex flex-col justify-between space-y-2">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-blue-400 transition-colors">Mujeres & Hormonas</div>
+              <div class="text-[11px] text-text-muted italic mt-1">Ciclo menstrual, embarazo, lactancia, menopausia y anticonceptivos</div>
+            </div>
+            <span class="text-[11px] text-blue-400 flex items-center gap-1 font-mono pt-2">Ver monografía →</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Sección 11.4: Protocolos Terapéuticos Integrales -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-mono text-xs font-bold">11.4</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 11.4 — Protocolos Terapéuticos Integrales</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">2 PROTOCOLOS MULTIMODALES</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Intervenciones sistémicas: combinación de 5 pilares (estilo de vida, dieta y suplementación).</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/protocolo-neurodegeneracion" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Protocolo de Neurodegeneración</div>
+              <div class="text-[11px] text-text-muted italic mt-0.5">Dieta MIND, ejercicio, limpieza glinfática y neuroprotectores clave</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/protocolo-estres-cronico" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Protocolo de Estrés Crónico</div>
+              <div class="text-[11px] text-text-muted italic mt-0.5">Regulación del eje HPA, cortisol, adaptógenos y descanso restaurador</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. RECOMENDACIONES CLÍNICAS -->
+    <section class="rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-8 space-y-4">
+      <h3 class="text-base font-bold text-text-primary flex items-center gap-2">
+        <ShieldCheck className="w-5 h-5 text-teal-400" />
+        Decálogo de Seguridad y Buenas Prácticas en Poblaciones Especiales
+      </h3>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs text-text-secondary">
+        <div class="space-y-2 p-3 rounded-lg bg-surface border border-surface-bright">
+          <strong class="text-text-primary block font-mono text-[11px] text-teal-400">1. Consulta Previa Obligatoria</strong>
+          Si tomas fármacos (antidepresivos, ansiolíticos, levotiroxina, anticoagulantes), consulta siempre las interacciones con enzimas hepáticas CYP450 antes de introducir cualquier extracto vegetal.
+        </div>
+        <div class="space-y-2 p-3 rounded-lg bg-surface border border-surface-bright">
+          <strong class="text-text-primary block font-mono text-[11px] text-teal-400">2. Estrategia de Un Solo Compuesto</strong>
+          Nunca inicies múltiples suplementos a la vez en condiciones clínicas. Introduce uno solo cada 3-4 semanas para aislar con precisión eficacia y tolerabilidad digestiva o neural.
+        </div>
+        <div class="space-y-2 p-3 rounded-lg bg-surface border border-surface-bright">
+          <strong class="text-text-primary block font-mono text-[11px] text-teal-400">3. Análisis Sanguíneos Primero</strong>
+          Corrige deficiencias elementales (Ferritina, Vitamina D3, B12, Magnesio sérico) antes de recurrir a moduladores de neurotransmisión sintéticos o botánicos avanzados.
+        </div>
+        <div class="space-y-2 p-3 rounded-lg bg-surface border border-surface-bright">
+          <strong class="text-text-primary block font-mono text-[11px] text-teal-400">4. Registro Objetivo de Síntomas</strong>
+          Utiliza escalas validadas o un diario cuantificado diario (humor 1-10, calidad de sueño, tiempo de concentración) en lugar de percepciones vagas e influenciadas por el efecto placebo.
+        </div>
+      </div>
+    </section>
+
+    <!-- AdBanner Inferior -->
+    <AdBanner slotId="modulo-11-bottom" format="horizontal" />
+
+  </div>
+</BaseLayout>
