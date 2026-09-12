@@ -1,0 +1,292 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdBanner from '../../components/monetization/AdBanner.astro';
+import { 
+  Layers, 
+  Award, 
+  Clock, 
+  ArrowRight, 
+  ShieldAlert, 
+  Activity, 
+  Zap, 
+  Sparkles, 
+  ShieldCheck, 
+  Flame, 
+  Sliders, 
+  CheckCircle2 
+} from 'lucide-react';
+---
+
+<BaseLayout
+  title="Módulo X: El Arte del Stacking & Protocolos Clínicos | NeuroAtlas"
+  description="Guía definitiva sobre cómo combinar nootrópicos: sinergias farmacológicas, farmacocinética, stacks clásicos (Huberman, Attia), combinaciones por objetivo y seguridad."
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+    
+    <!-- 1. HERO -->
+    <header class="relative rounded-biotech border border-amber-500/30 bg-surface-low p-6 sm:p-10 overflow-hidden space-y-6">
+      <div class="absolute top-0 right-0 -mr-16 -mt-16 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      
+      <div class="flex flex-wrap items-center gap-2.5">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/15 border border-amber-500/40 text-xs font-mono font-bold text-amber-400">
+          <Layers className="w-3.5 h-3.5 text-amber-400" />
+          MÓDULO X · EL ARTE DEL STACKING
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+          15 PROTOCOLOS
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Award className="w-3.5 h-3.5 text-primary" />
+          5 SECCIONES
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Clock className="w-3.5 h-3.5 text-emerald-400" />
+          GUÍA PRÁCTICA
+        </span>
+      </div>
+
+      <div class="space-y-3 max-w-3xl">
+        <div class="text-3xl sm:text-4xl">🎯</div>
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
+          Módulo X: El Arte del Stacking
+        </h1>
+        <p class="text-base sm:text-xl text-amber-400 font-medium">
+          Cómo combinar nootrópicos con rigor: sinergias, timing, dosis y protocolos reales
+        </p>
+        <p class="text-xs sm:text-sm text-text-secondary leading-relaxed pt-2">
+          De la teoría abstracta a la práctica diaria. Aprende cómo 1+1 puede ser 3 mediante sinergias farmacológicas, descubre los protocolos de Andrew Huberman y Peter Attia, diseña combinaciones para tu objetivo (foco, memoria, sueño, ánimo) y blinda tu seguridad frente a interacciones peligrosas.
+        </p>
+      </div>
+    </header>
+
+    <!-- AdBanner Superior -->
+    <AdBanner slotId="modulo-10-top" format="horizontal" />
+
+    <!-- 2. LA REGLA DE ORO DEL STACKING -->
+    <section class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+      <div class="flex items-center gap-2 text-amber-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <Zap className="w-4 h-4" />
+        <span>El Enfoque de Precisión</span>
+      </div>
+      <h2 class="text-xl sm:text-2xl font-bold text-text-primary">
+        Menos es más: Por qué los stacks masivos fracasan
+      </h2>
+      <p class="text-xs sm:text-sm text-text-secondary leading-relaxed">
+        El error más común del principiante es mezclar 8 o 10 ingredientes en una misma toma con la esperanza de que sumen sus efectos. En neurobiología, esto produce saturación de receptores, competencia enzimática en el hígado (CYP450) y efectos secundarios impredecibles. Los mejores protocolos del mundo utilizan únicamente <strong>2 a 3 compuestos con mecanismos complementarios</strong>, dosis calibradas y un timing riguroso alineado con el ritmo circadiano.
+      </p>
+    </section>
+
+    <!-- 3. MAPA DE CONTENIDO: LAS 5 SECCIONES -->
+    <section class="space-y-8">
+      <div class="border-b border-surface-bright pb-4 flex items-center justify-between">
+        <div>
+          <h2 class="text-2xl font-bold text-text-primary flex items-center gap-2">
+            <span>🗺️ Mapa de Protocolos del Módulo X</span>
+          </h2>
+          <p class="text-xs sm:text-sm text-text-secondary mt-1">
+            15 monografías clínicas clasificadas por área funcional.
+          </p>
+        </div>
+      </div>
+
+      <!-- Sección 10.1: Principios del Stacking -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-primary/20 text-primary font-mono text-xs font-bold">10.1</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 10.1 — Principios del Stacking</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">3 GUÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Las bases farmacológicas: cómo funcionan las sinergias, absorción y cálculo de dosis.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 pt-2">
+          <a href="/conceptos/principios-sinergia" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex flex-col justify-between space-y-2">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-primary transition-colors">Principios de Sinergia</div>
+              <div class="text-[11px] text-text-muted italic mt-1">Por qué 1+1 puede ser 3 en nootrópicos</div>
+            </div>
+            <span class="text-[11px] text-primary flex items-center gap-1 font-mono pt-2">Ver guía →</span>
+          </a>
+          <a href="/conceptos/farmacocinetica-stacks" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex flex-col justify-between space-y-2">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-primary transition-colors">Farmacocinética de Stacks</div>
+              <div class="text-[11px] text-text-muted italic mt-1">Timing, vida media y biodisponibilidad</div>
+            </div>
+            <span class="text-[11px] text-primary flex items-center gap-1 font-mono pt-2">Ver guía →</span>
+          </a>
+          <a href="/conceptos/dosis-stacking" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-primary/50 hover:bg-surface-container transition-all group flex flex-col justify-between space-y-2">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-primary transition-colors">Dosis en Stacks</div>
+              <div class="text-[11px] text-text-muted italic mt-1">Cómo calcular y ajustar dosis al combinar</div>
+            </div>
+            <span class="text-[11px] text-primary flex items-center gap-1 font-mono pt-2">Ver guía →</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Sección 10.2: Stacks Clásicos -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 font-mono text-xs font-bold">10.2</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 10.2 — Stacks Clásicos & Protocolos de Referencia</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">4 PROTOCOLOS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Los protocolos más contrastados por la ciencia y la comunidad de alto rendimiento.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/stack-huberman" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Stack Huberman</div>
+              <div class="text-[11px] text-text-muted italic">El protocolo matutino y circadiano de Andrew Huberman</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/stack-attia" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Stack Attia</div>
+              <div class="text-[11px] text-text-muted italic">El protocolo de medicina de precisión y longevidad de Peter Attia</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/stack-estudiante" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Stack para Estudiantes</div>
+              <div class="text-[11px] text-text-muted italic">Concentración, memoria y resistencia para exámenes</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/stack-ejecutivo" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-amber-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-amber-400 transition-colors">Stack para Ejecutivos</div>
+              <div class="text-[11px] text-text-muted italic">Toma de decisiones bajo presión y resistencia al estrés laboral</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-amber-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Sección 10.3: Stacks por Objetivo -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-mono text-xs font-bold">10.3</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 10.3 — Stacks Específicos por Objetivo</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">4 PROTOCOLOS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Encuentra la combinación exacta según lo que necesitas potenciar hoy.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/stack-foco" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Stack para Foco</div>
+              <div class="text-[11px] text-text-muted italic">Concentración profunda, atención sostenida y cero nerviosismo</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/stack-memoria" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Stack para Memoria</div>
+              <div class="text-[11px] text-text-muted italic">Aprendizaje, retención a largo plazo y recuperación rápida</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/stack-sueno" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Stack para Sueño</div>
+              <div class="text-[11px] text-text-muted italic">Calidad de ondas lentas N3, latencia mínima y descanso reparador</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/stack-animo" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-emerald-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-emerald-400 transition-colors">Stack para Ánimo</div>
+              <div class="text-[11px] text-text-muted italic">Estabilidad emocional, modulación del cortisol y control de ansiedad</div>
+            </div>
+            <ArrowRight className="w-3.5 h-3.5 text-text-muted group-hover:text-emerald-400 group-hover:translate-x-1 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Sección 10.4: Seguridad e Interacciones -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-rose-500/20 text-rose-400 font-mono text-xs font-bold">10.4</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 10.4 — Seguridad Crítica & Banderas Rojas</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">2 GUÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Lo que nunca debes hacer. Combinaciones peligrosas, interacciones farmacológicas y contraindicaciones.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/interacciones-peligrosas" class="p-4 rounded-biotech border border-rose-500/30 bg-surface-low hover:border-rose-500 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-rose-400 group-hover:text-rose-300 transition-colors">Interacciones Peligrosas</div>
+              <div class="text-[11px] text-text-muted italic">Combinaciones que NO debes hacer (síndrome serotoninérgico, crisis hipertensiva)</div>
+            </div>
+            <ShieldAlert className="w-4 h-4 text-rose-400 shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/contraindicaciones-stacks" class="p-4 rounded-biotech border border-rose-500/30 bg-surface-low hover:border-rose-500 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-rose-400 group-hover:text-rose-300 transition-colors">Contraindicaciones de Stacks</div>
+              <div class="text-[11px] text-text-muted italic">Cuándo NO hacer stacks (embarazo, medicación concurrente, patologías previas)</div>
+            </div>
+            <ShieldAlert className="w-4 h-4 text-rose-400 shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+
+      <!-- Sección 10.5: Personalización y Monitoreo -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-4">
+        <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+          <div class="flex items-center gap-2">
+            <span class="px-2 py-0.5 rounded bg-violet-500/20 text-violet-400 font-mono text-xs font-bold">10.5</span>
+            <h3 class="text-lg font-bold text-text-primary">Sección 10.5 — Personalización & Monitoreo</h3>
+          </div>
+          <span class="text-xs font-mono text-text-muted">2 GUÍAS</span>
+        </div>
+        <p class="text-xs text-text-secondary italic">Metodología paso a paso para diseñar tu propio stack y medir resultados objetivamente.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+          <a href="/conceptos/diseno-stacks-personalizado" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-violet-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-violet-400 transition-colors">Diseño de Stacks Personalizado</div>
+              <div class="text-[11px] text-text-muted italic">El algoritmo paso a paso para crear tu propia combinación</div>
+            </div>
+            <Sliders className="w-3.5 h-3.5 text-text-muted group-hover:text-violet-400 transition-all shrink-0 ml-2" />
+          </a>
+          <a href="/conceptos/monitoreo-stacks" class="p-4 rounded-biotech border border-surface-bright bg-surface-low hover:border-violet-500/50 hover:bg-surface-container transition-all group flex items-center justify-between">
+            <div>
+              <div class="text-xs font-semibold text-text-primary group-hover:text-violet-400 transition-colors">Monitoreo de Stacks</div>
+              <div class="text-[11px] text-text-muted italic">Herramientas, registro diario, biomarcadores y prevención de tolerancia</div>
+            </div>
+            <Activity className="w-3.5 h-3.5 text-text-muted group-hover:text-violet-400 transition-all shrink-0 ml-2" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- AdBanner Inferior -->
+    <AdBanner slotId="modulo-10-bottom" format="horizontal" />
+
+    <!-- 4. HERRAMIENTA INTERACTIVA: STACK BUILDER -->
+    <section class="rounded-biotech border border-primary/30 bg-surface-low p-6 sm:p-8 space-y-4 text-center">
+      <h3 class="text-xl font-bold text-text-primary">
+        ¿Listo para diseñar tu combinación?
+      </h3>
+      <p class="text-xs sm:text-sm text-text-secondary max-w-2xl mx-auto">
+        Utiliza nuestro Constructor de Stacks interactivo con detector automático de sinergias colinérgicas, solapamientos de neurotransmisores y alertas de desensibilización.
+      </p>
+      <div class="pt-2">
+        <a
+          href="/stacks"
+          class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-surface-lowest font-bold text-xs uppercase tracking-wider hover:bg-primary-hover transition-colors shadow-cyan-glow"
+        >
+          <span>Abrir Constructor de Stacks</span>
+          <ArrowRight className="w-4 h-4" />
+        </a>
+      </div>
+    </section>
+
+  </div>
+</BaseLayout>
