@@ -1,0 +1,318 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AdBanner from '../../components/monetization/AdBanner.astro';
+import { 
+  ShieldCheck, 
+  Award, 
+  Clock, 
+  ArrowRight, 
+  Sparkles, 
+  AlertTriangle, 
+  CheckCircle2, 
+  HelpCircle, 
+  Search, 
+  Flame, 
+  Ban, 
+  FileCheck,
+  Scale
+} from 'lucide-react';
+---
+
+<BaseLayout
+  title="Módulo XII: Criterios de Calidad, Transparencia & Anti-Estafas | NeuroAtlas"
+  description="Guía independiente de evaluación de suplementos y nootrópicos: cómo auditar certificados de análisis (CoA), detectar adulteraciones y evitar el marketing engañoso con base científica rigurosa."
+>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+    
+    <!-- 1. HERO -->
+    <header class="relative rounded-biotech border border-amber-500/30 bg-surface-low p-6 sm:p-10 overflow-hidden space-y-6">
+      <div class="absolute top-0 right-0 -mr-16 -mt-16 w-72 h-72 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+      
+      <div class="flex flex-wrap items-center gap-2.5">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/15 border border-amber-500/40 text-xs font-mono font-bold text-amber-400">
+          <ShieldCheck className="w-3.5 h-3.5 text-amber-400" />
+          MÓDULO XII · CALIDAD & TRANSPARENCIA
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+          4 GUÍAS CRÍTICAS
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Award className="w-3.5 h-3.5 text-primary" />
+          0% PATROCINIOS
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Clock className="w-3.5 h-3.5 text-emerald-400" />
+          100% INDEPENDIENTE
+        </span>
+      </div>
+
+      <div class="space-y-3 max-w-3xl">
+        <div class="text-3xl sm:text-4xl">🛡️</div>
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
+          Módulo XII: Criterios de Calidad, Transparencia & Anti-Estafas
+        </h1>
+        <p class="text-base sm:text-xl text-amber-400 font-medium">
+          Aprende a evaluar cualquier suplemento antes de comprar: análisis de laboratorio, biodisponibilidad real y detección de fraudes
+        </p>
+        <p class="text-xs sm:text-sm text-text-secondary leading-relaxed pt-2">
+          La industria de los nootrópicos y suplementos dietéticos carece de la regulación estricta del sector farmacéutico. Hasta un tercio de los productos comercializados contienen discrepancias de dosis, rellenos inactivos o formas químicas con una absorción inferior al 5%. Este módulo proporciona el criterio técnico y bioquímico necesario para proteger tu salud y tu presupuesto.
+        </p>
+      </div>
+
+      <!-- Quick Action Buttons -->
+      <div class="flex flex-wrap items-center gap-3 pt-2">
+        <a 
+          href="/marcas" 
+          class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-amber-500/20 hover:bg-amber-500/30 border border-amber-500/40 text-amber-300 font-semibold text-xs tracking-wide transition-all"
+        >
+          <Search className="w-4 h-4" />
+          Guía Interactiva de Calidad de Ingredientes →
+        </a>
+        <a 
+          href="/stacks" 
+          class="inline-flex items-center gap-2 px-4 py-2.5 rounded-lg bg-surface hover:bg-surface-container border border-surface-bright text-text-secondary hover:text-text-primary text-xs font-semibold tracking-wide transition-all"
+        >
+          Ver Protocolos Clínicos (Stacks) →
+        </a>
+      </div>
+    </header>
+
+    <!-- 2. MEDICAL & INDEPENDENCE DISCLAIMER -->
+    <div class="p-5 sm:p-6 rounded-xl border border-amber-500/40 bg-amber-500/10 backdrop-blur-sm space-y-3">
+      <div class="flex items-center gap-2.5 text-amber-400 font-bold text-sm">
+        <AlertTriangle className="w-5 h-5 flex-shrink-0 text-amber-400" />
+        <span>Compromiso de Independencia Editorial y Científica</span>
+      </div>
+      <p class="text-xs text-text-secondary leading-relaxed">
+        NeuroAtlas <strong>no vende suplementos, no acepta comisiones por afiliados, ni recibe financiación de ninguna marca comercial</strong>. Todo el contenido presentado tiene un fin estrictamente educativo y de divulgación bioquímica. La evaluación de productos se basa en literatura científica arbitrada (PubMed/NCBI) y estándares analíticos de farmacopea internacional (USP, NSF, Informed Sport). Ningún contenido reemplaza el diagnóstico o criterio de un profesional de la salud cualificado.
+      </p>
+    </div>
+
+    <!-- 3. SECTIONS & CONCEPTS GRID -->
+    <main class="space-y-8">
+      <div class="flex items-center justify-between border-b border-surface-bright pb-3">
+        <h2 class="text-xl font-bold text-text-primary flex items-center gap-2">
+          <span>📚</span>
+          Fichas Críticas del Módulo XII
+        </h2>
+        <span class="text-xs font-mono text-text-muted">4 Guías de Consulta</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+        <!-- Card 1: Evaluar Suplementos -->
+        <a
+          href="/conceptos/evaluar-suplementos"
+          class="group rounded-biotech border border-amber-500/30 bg-surface p-6 hover:border-amber-500 hover:shadow-amber-glow transition-all flex flex-col justify-between space-y-5"
+        >
+          <div class="space-y-3">
+            <div class="flex justify-between items-center text-[10px] font-mono">
+              <span class="text-amber-400 font-bold uppercase">SECCIÓN 12.1 · METODOLOGÍA</span>
+              <span class="px-2 py-0.5 rounded bg-amber-500/20 text-amber-400 font-semibold">
+                AUDITORÍA
+              </span>
+            </div>
+            <div class="text-3xl">🔬</div>
+            <h3 class="text-lg font-bold text-text-primary group-hover:text-amber-400 transition-colors">
+              Cómo Evaluar Suplementos: Guía Crítica
+            </h3>
+            <p class="text-xs text-text-secondary leading-relaxed">
+              Los 6 criterios indispensables antes de comprar: sellos de terceros (NSF, USP), lectura de Certificados de Análisis (CoA), biodisponibilidad molecular y cálculo de dosis activa real.
+            </p>
+          </div>
+
+          <div class="pt-4 border-t border-surface-bright/50 flex items-center justify-between text-xs font-mono">
+            <span class="text-text-muted">Criterios Técnicos</span>
+            <span class="text-amber-400 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+              Leer Guía →
+            </span>
+          </div>
+        </a>
+
+        <!-- Card 2: Marcas Económicas y Calidad-Precio -->
+        <a
+          href="/conceptos/marcas-economicas"
+          class="group rounded-biotech border border-emerald-500/30 bg-surface p-6 hover:border-emerald-500 hover:shadow-emerald-glow transition-all flex flex-col justify-between space-y-5"
+        >
+          <div class="space-y-3">
+            <div class="flex justify-between items-center text-[10px] font-mono">
+              <span class="text-emerald-400 font-bold uppercase">SECCIÓN 12.2 · RELACIÓN VALOR/PRECIO</span>
+              <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-semibold">
+                PRESUPUESTO EFICIENTE
+              </span>
+            </div>
+            <div class="text-3xl">⚖️</div>
+            <h3 class="text-lg font-bold text-text-primary group-hover:text-emerald-400 transition-colors">
+              Calidad sin Sobreprecio: Criterio Calidad-Precio
+            </h3>
+            <p class="text-xs text-text-secondary leading-relaxed">
+              Cómo comprar materias primas genéricas de alta pureza (glicinatos, citicolina, creatina Creapure) sin pagar el sobrecoste inflado del packaging de marcas de lujo o marketing con influencers.
+            </p>
+          </div>
+
+          <div class="pt-4 border-t border-surface-bright/50 flex items-center justify-between text-xs font-mono">
+            <span class="text-text-muted">Optimización Económica</span>
+            <span class="text-emerald-400 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+              Leer Guía →
+            </span>
+          </div>
+        </a>
+
+        <!-- Card 3: Estafas en Suplementos -->
+        <a
+          href="/conceptos/estafas-suplementos"
+          class="group rounded-biotech border border-rose-500/30 bg-surface p-6 hover:border-rose-500 hover:shadow-rose-glow transition-all flex flex-col justify-between space-y-5"
+        >
+          <div class="space-y-3">
+            <div class="flex justify-between items-center text-[10px] font-mono">
+              <span class="text-rose-400 font-bold uppercase">SECCIÓN 12.3 · SEGURIDAD & TOXICIDAD</span>
+              <span class="px-2 py-0.5 rounded bg-rose-500/20 text-rose-400 font-semibold">
+                ALERTAS CLÍNICAS
+              </span>
+            </div>
+            <div class="text-3xl">🚨</div>
+            <h3 class="text-lg font-bold text-text-primary group-hover:text-rose-400 transition-colors">
+              Estafas y Fraudes Habituales en la Industria
+            </h3>
+            <p class="text-xs text-text-secondary leading-relaxed">
+              Detección de prácticas peligrosas: spiking de nitrógeno en proteínas, contaminación por metales pesados (arsénico, plomo), adulteración con fármacos ocultos y omisión de extractos activos.
+            </p>
+          </div>
+
+          <div class="pt-4 border-t border-surface-bright/50 flex items-center justify-between text-xs font-mono">
+            <span class="text-text-muted">Prevención de Riesgos</span>
+            <span class="text-rose-400 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+              Leer Guía →
+            </span>
+          </div>
+        </a>
+
+        <!-- Card 4: Marketing Engañoso -->
+        <a
+          href="/conceptos/marketing-enganoso"
+          class="group rounded-biotech border border-cyan-500/30 bg-surface p-6 hover:border-cyan-500 hover:shadow-cyan-glow transition-all flex flex-col justify-between space-y-5"
+        >
+          <div class="space-y-3">
+            <div class="flex justify-between items-center text-[10px] font-mono">
+              <span class="text-cyan-400 font-bold uppercase">SECCIÓN 12.3 · ANÁLISIS CRÍTICO</span>
+              <span class="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-400 font-semibold">
+                DESMONTANDO HUMO
+              </span>
+            </div>
+            <div class="text-3xl">🧩</div>
+            <h3 class="text-lg font-bold text-text-primary group-hover:text-cyan-400 transition-colors">
+              Marketing Engañoso en Nootrópicos: Cómo Detectarlo
+            </h3>
+            <p class="text-xs text-text-secondary leading-relaxed">
+              El engaño de las "mezclas propietarias" (Proprietary Blends), cherry-picking de estudios en ratones vendido como milagro humano, avales de pseudomédicos y técnicas de persuasión psicológica.
+            </p>
+          </div>
+
+          <div class="pt-4 border-t border-surface-bright/50 flex items-center justify-between text-xs font-mono">
+            <span class="text-text-muted">Psicología de Consumo</span>
+            <span class="text-cyan-400 flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+              Leer Guía →
+            </span>
+          </div>
+        </a>
+
+      </div>
+    </main>
+
+    <!-- 4. QUICK CHECKLIST SECTION -->
+    <section class="rounded-biotech border border-surface-bright bg-surface p-6 sm:p-8 space-y-6">
+      <div class="space-y-2">
+        <h2 class="text-xl font-bold text-text-primary flex items-center gap-2">
+          <FileCheck className="w-5 h-5 text-amber-400" />
+          Lista Rápida de Verificación (Checklist de Seguridad)
+        </h2>
+        <p class="text-xs sm:text-sm text-text-secondary">
+          Aplica este filtro antes de gastar un solo euro en cualquier suplemento o formulación cognitiva:
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 text-xs">
+        <div class="p-4 rounded-xl border border-surface-bright bg-surface-low space-y-2">
+          <div class="font-bold text-text-primary flex items-center gap-1.5">
+            <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+            1. Transparencia de Dosis
+          </div>
+          <p class="text-text-muted leading-relaxed">
+            Huye de "Complejo Nootrópico 850mg (Mezcla propia)". Cada compuesto debe especificar su miligramaje individual exacto.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-xl border border-surface-bright bg-surface-low space-y-2">
+          <div class="font-bold text-text-primary flex items-center gap-1.5">
+            <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+            2. Estandarización de Extractos
+          </div>
+          <p class="text-text-muted leading-relaxed">
+            En fitoterapia, la planta molida es inútil. Exige extracto estandarizado (ej: Bacopa al 50-55% bacósidos, Ashwagandha al 5% withanólidos).
+          </p>
+        </div>
+
+        <div class="p-4 rounded-xl border border-surface-bright bg-surface-low space-y-2">
+          <div class="font-bold text-text-primary flex items-center gap-1.5">
+            <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+            3. Forma Química Quelada
+          </div>
+          <p class="text-text-muted leading-relaxed">
+            Prioriza formas orgánicas y queladas (bisglicinato, malato, taurato) sobre sales inorgánicas baratas como el óxido, que causan diarrea osmótica.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-xl border border-surface-bright bg-surface-low space-y-2">
+          <div class="font-bold text-text-primary flex items-center gap-1.5">
+            <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+            4. Certificados de Análisis (CoA)
+          </div>
+          <p class="text-text-muted leading-relaxed">
+            El laboratorio debe disponer de análisis de lotes recientes por terceros independientes acreditados bajo normas ISO 17025.
+          </p>
+        </div>
+
+        <div class="p-4 rounded-xl border border-surface-bright bg-surface-low space-y-2">
+          <div class="font-bold text-text-primary flex items-center gap-1.5">
+            <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+            5. Ausencia de Metales Pesados
+          </div>
+          <p class="text-text-muted leading-relaxed">
+            Verifica que el CoA certifique límites seguros en Plomo (&lt;0.5 ppm), Cadmio (&lt;0.5 ppm), Arsénico (&lt;1.0 ppm) y Mercurio (&lt;0.1 ppm).
+          </p>
+        </div>
+
+        <div class="p-4 rounded-xl border border-surface-bright bg-surface-low space-y-2">
+          <div class="font-bold text-text-primary flex items-center gap-1.5">
+            <CheckCircle2 className="w-4 h-4 text-emerald-400 flex-shrink-0" />
+            6. Cero Promesas Milagro
+          </div>
+          <p class="text-text-muted leading-relaxed">
+            Si la publicidad afirma "activar el 100% de tu cerebro" o curar patologías neurodegenerativas, el producto viola normativas y es fraudulento.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. FOOTER NAVIGATION -->
+    <div class="pt-6 border-t border-surface-bright flex flex-col sm:flex-row items-center justify-between gap-4">
+      <a 
+        href="/modulos/modulo-11" 
+        class="text-xs font-mono text-text-muted hover:text-teal-400 transition-colors flex items-center gap-1"
+      >
+        ← Módulo XI: Poblaciones Específicas
+      </a>
+      <a 
+        href="/modulos" 
+        class="text-xs font-mono text-primary hover:underline"
+      >
+        Volver al Catálogo de Módulos (I a XII)
+      </a>
+    </div>
+
+    <!-- AdBanner -->
+    <AdBanner slotId="modulo-12-footer" format="horizontal" />
+
+  </div>
+</BaseLayout>

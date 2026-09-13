@@ -1,28 +1,365 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { StackBuilder } from '../../components/features/StackBuilder';
-import { Layers } from 'lucide-react';
+import { 
+  Layers, 
+  Sparkles, 
+  ShieldAlert, 
+  ShieldCheck, 
+  Clock, 
+  ArrowRight, 
+  CheckCircle2, 
+  AlertTriangle, 
+  Zap, 
+  Brain, 
+  Moon, 
+  Heart, 
+  Flame,
+  Info,
+  ExternalLink
+} from 'lucide-react';
+
+// Protocolos clínicos reales estructurados
+const protocolos = [
+  {
+    id: 'foco-teanina-cafeina',
+    categoria: 'foco',
+    titulo: 'Stack Foco Sereno (Ratio 1:2 Clásico)',
+    subtitulo: 'La sinergia con mayor evidencia para concentración sin nerviosismo',
+    icono: Zap,
+    colorBadge: 'bg-cyan-500/15 text-cyan-400 border-cyan-500/30',
+    colorBorder: 'hover:border-cyan-500/50',
+    evidencia: 'Grado A (Meta-análisis en humanos)',
+    ingredientes: [
+      { nombre: 'Cafeína anhidra o café', dosis: '100 mg', timing: '90 min tras despertar' },
+      { nombre: 'L-Teanina', dosis: '200 mg', timing: 'Junto con la cafeína' }
+    ],
+    laVerdad: 'No te hace más inteligente ni aumenta tu IQ. Lo que hace es neutralizar la vasoconstricción y el temblor de la cafeína, promoviendo ondas alfa en EEG (alerta relajada) durante 3-4 horas.',
+    link: '/conceptos/stack-foco'
+  },
+  {
+    id: 'protocolo-huberman',
+    categoria: 'foco',
+    titulo: 'Protocolo Andrew Huberman (Ritmo Circadiano)',
+    subtitulo: 'Alineación de dopamina, cortisol y adenosina según la hora del día',
+    icono: Sparkles,
+    colorBadge: 'bg-amber-500/15 text-amber-400 border-amber-500/30',
+    colorBorder: 'hover:border-amber-500/50',
+    evidencia: 'Grado B (Ensayos clínicos y neurofisiología)',
+    ingredientes: [
+      { nombre: 'Luz solar matutina directa', dosis: '10-15 min', timing: 'Primeros 30 min del día' },
+      { nombre: 'Retraso de cafeína', dosis: '100-200 mg', timing: '90-120 min tras despertar' },
+      { nombre: 'L-Tirosina (opcional)', dosis: '500 mg', timing: 'Solo en días de alta demanda' }
+    ],
+    laVerdad: 'El 80% del efecto de este protocolo proviene de la luz solar en la retina y de retrasar la cafeína para evitar el "bajón" de la tarde, no de suplementos caros.',
+    link: '/conceptos/stack-huberman'
+  },
+  {
+    id: 'protocolo-programador',
+    categoria: 'foco',
+    titulo: 'Protocolo para Programadores & Deep Work',
+    subtitulo: 'Memoria de trabajo, resolución lógica y resistencia a la fatiga',
+    icono: Brain,
+    colorBadge: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30',
+    colorBorder: 'hover:border-emerald-500/50',
+    evidencia: 'Grado B (Evidencia sólida en memoria operativa)',
+    ingredientes: [
+      { nombre: 'Cafeína + L-Teanina', dosis: '100 mg + 200 mg', timing: 'Bloque matutino' },
+      { nombre: 'Citicolina (CDP-Colina)', dosis: '250 mg', timing: '30 min antes del 2º bloque' },
+      { nombre: 'Creatina monohidrato', dosis: '5 g', timing: 'Diariamente con agua' }
+    ],
+    laVerdad: 'La creatina actúa por saturación mitocondrial celular tras 2-3 semanas; no da energía instantánea. Trabajar más de 6 horas seguidas sin pausas ultradianas de 15 min destruye la calidad del código, tomes lo que tomes.',
+    link: '/conceptos/nootropicos-programador'
+  },
+  {
+    id: 'stack-sueno-profundo',
+    categoria: 'sueno',
+    titulo: 'Stack Sueño Profundo & Ondas Lentas (Delta)',
+    subtitulo: 'Latencia reducida, sueño no-REM restaurador y reseteo neural',
+    icono: Moon,
+    colorBadge: 'bg-indigo-500/15 text-indigo-400 border-indigo-500/30',
+    colorBorder: 'hover:border-indigo-500/50',
+    evidencia: 'Grado A (Magnesio & Teanina en arquitectura de sueño)',
+    ingredientes: [
+      { nombre: 'Bisglicinato de Magnesio', dosis: '200-400 mg', timing: '45-60 min antes de dormir' },
+      { nombre: 'L-Teanina', dosis: '100-200 mg', timing: 'Junto con el magnesio' },
+      { nombre: 'Apigenina (opcional)', dosis: '50 mg', timing: 'Antes de acostarse' }
+    ],
+    laVerdad: 'Ningún suplemento supera dormir en una habitación a 18°C, a oscuras total y sin pantallas 1 hora antes. La melatonina a dosis altas (>1-2 mg) genera resaca matutina y desajusta tu producción propia; evítala salvo jet-lag puntual.',
+    link: '/conceptos/stack-sueno'
+  },
+  {
+    id: 'stack-memoria-estudiante',
+    categoria: 'memoria',
+    titulo: 'Stack Memoria & Retención (Estudiantes y Opositores)',
+    subtitulo: 'Consolidación sináptica a largo plazo y velocidad de procesamiento',
+    icono: Layers,
+    colorBadge: 'bg-purple-500/15 text-purple-400 border-purple-500/30',
+    colorBorder: 'hover:border-purple-500/50',
+    evidencia: 'Grado B (Estudios aleatorizados doble ciego en retención)',
+    ingredientes: [
+      { nombre: 'Bacopa Monnieri (55% bacósidos)', dosis: '300 mg', timing: 'Con comida que contenga grasas' },
+      { nombre: 'Citicolina', dosis: '250-500 mg', timing: 'Por la mañana' },
+      { nombre: 'Melena de León (extracto)', dosis: '1.000 mg', timing: 'Por la mañana con desayuno' }
+    ],
+    laVerdad: 'La Bacopa tarda entre 8 y 12 semanas de uso continuo en hacer efecto perceptible. No sirve para tomar la noche antes del examen. Además, si se toma con el estómago vacío produce náuseas.',
+    link: '/conceptos/stack-memoria'
+  },
+  {
+    id: 'stack-animo-cortisol',
+    categoria: 'calma',
+    titulo: 'Stack Ánimo, Calma & Reducción del Estrés',
+    subtitulo: 'Regulación del eje HPA, reducción de cortisol y estabilidad emocional',
+    icono: Heart,
+    colorBadge: 'bg-rose-500/15 text-rose-400 border-rose-500/30',
+    colorBorder: 'hover:border-rose-500/50',
+    evidencia: 'Grado A (Omega-3 EPA); Grado B (Ashwagandha KSM-66)',
+    ingredientes: [
+      { nombre: 'Omega-3 (Alto en EPA)', dosis: '1.000-2.000 mg EPA', timing: 'Con la comida principal' },
+      { nombre: 'Ashwagandha (KSM-66)', dosis: '300-600 mg', timing: 'Por la tarde/noche' },
+      { nombre: 'Bisglicinato de Magnesio', dosis: '200-400 mg', timing: 'Por la noche' }
+    ],
+    laVerdad: 'La Ashwagandha reduce el cortisol hasta un 30%, pero DEBE ciclarse (ej. 8 semanas de uso y 2 semanas de descanso) porque el uso ininterrumpido puede inducir apatía emocional (anhedonia) en algunas personas.',
+    link: '/conceptos/stack-animo'
+  },
+  {
+    id: 'protocolo-attia',
+    categoria: 'longevidad',
+    titulo: 'Protocolo Peter Attia (Medicina Preventiva & Longevidad)',
+    subtitulo: 'Mantenimiento bioenergético neuronal y prevención del declive cognitivo',
+    icono: ShieldCheck,
+    colorBadge: 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30',
+    colorBorder: 'hover:border-emerald-500/50',
+    evidencia: 'Grado A (Mayor evidencia clínica acumulativa a largo plazo)',
+    ingredientes: [
+      { nombre: 'Creatina monohidrato', dosis: '5 g', timing: 'Cualquier momento del día' },
+      { nombre: 'Omega-3 EPA/DHA', dosis: '2.000 mg totales', timing: 'Con comida grasa' },
+      { nombre: 'Vitamina D3 + K2', dosis: '2.000-5.000 UI', timing: 'Con desayuno graso' }
+    ],
+    laVerdad: 'Este protocolo no busca que "sientas un subidón" en 20 minutos; busca mantener la integridad de la membrana neuronal, la densidad mitocondrial y la reserva sináptica durante las próximas décadas.',
+    link: '/conceptos/stack-attia'
+  },
+  {
+    id: 'protocolo-tdah',
+    categoria: 'foco',
+    titulo: 'Protocolo Complementario para TDAH & Función Ejecutiva',
+    subtitulo: 'Soporte dopaminérgico prefrontal y control de la impulsividad',
+    icono: Brain,
+    colorBadge: 'bg-blue-500/15 text-blue-400 border-blue-500/30',
+    colorBorder: 'hover:border-blue-500/50',
+    evidencia: 'Grado B (Estudios clínicos complementarios)',
+    ingredientes: [
+      { nombre: 'L-Tirosina (precursor DA/NE)', dosis: '500-1.000 mg', timing: 'En ayunas por la mañana' },
+      { nombre: 'Omega-3 (Alto en EPA)', dosis: '1.500 mg EPA', timing: 'Con comida' },
+      { nombre: 'Magnesio glicinato', dosis: '200-300 mg', timing: 'Tarde/noche' }
+    ],
+    laVerdad: 'Es una intervención complementaria para optimizar sustratos neurotransmisores. NUNCA sustituye al metilfenidato o tratamiento farmacológico prescrito por un neurólogo o psiquiatra en casos clínicos.',
+    link: '/conceptos/nootropicos-tdah'
+  }
+];
 ---
 
 <BaseLayout
-  title="Constructor de Stacks de Nootrópicos & Sinergias | NeuroAtlas"
-  description="Diseñador bio-farmacológico de protocolos. Detección automática de sinergias, antagonismos y alertas de desensibilización."
+  title="Protocolos y Stacks de Nootrópicos Basados en Evidencia | NeuroAtlas"
+  description="Guía práctica y transparente de combinaciones nootrópicas: dosis exactas en miligramos, nivel de evidencia científica, lo que dice la ciencia sin humo y constructor interactivo de stacks."
 >
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-8">
-    <div class="rounded-biotech border border-surface-bright bg-surface-low p-6 md:p-8 space-y-3">
-      <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-primary/10 border border-primary/30 text-xs font-mono text-primary font-semibold">
-        <Layers className="w-3.5 h-3.5" />
-        <span>HERRAMIENTA BIOQUÍMICA INTERACTIVA</span>
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+    
+    <!-- 1. HERO CON PROPÓSITO CLARO -->
+    <header class="relative rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-10 space-y-5 overflow-hidden">
+      <div class="absolute top-0 right-0 -mr-16 -mt-16 w-80 h-80 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+      
+      <div class="flex flex-wrap items-center gap-2">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/15 border border-primary/40 text-xs font-mono font-bold text-primary">
+          <Layers className="w-3.5 h-3.5 text-primary" />
+          PROTOCOLOS PRÁCTICOS & DOSIS EXACTAS
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+          100% CIENCIA REAL
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+          <Info className="w-3.5 h-3.5 text-amber-400" />
+          SIN MARCAS PATROCINADAS
+        </span>
       </div>
-      <h1 class="text-2xl md:text-4xl font-extrabold text-text-primary tracking-tight">
-        Constructor de Stacks & Detección de Sinergias
-      </h1>
-      <p class="text-xs md:text-sm text-text-secondary max-w-3xl leading-relaxed">
-        Diseña combinaciones nootrópicas personalizadas. El motor analiza solapamientos de neurotransmisores, sinergias colinérgicas y alertas de desensibilización en tiempo real.
-      </p>
-    </div>
 
-    <!-- Isla React hidratada para interactividad pura -->
-    <StackBuilder client:load />
+      <div class="space-y-3 max-w-3xl">
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
+          El Arte del Stacking: <span class="text-primary">Protocolos Que Funcionan</span>
+        </h1>
+        <p class="text-base sm:text-lg text-text-secondary leading-relaxed">
+          Aquí tienes combinaciones probadas por la neurociencia clínica. Dosis exactas en miligramos, momentos de toma y la verdad sin filtros sobre qué esperar y qué es puro mito comercial.
+        </p>
+      </div>
+
+      <!-- DISCLAIMER MÉDICO OBLIGATORIO & TRANSPARENTE -->
+      <div class="mt-4 p-4 rounded-xl border border-amber-500/30 bg-amber-500/5 flex items-start gap-3 text-xs text-amber-200/90 leading-relaxed">
+        <AlertTriangle className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
+        <div>
+          <strong class="text-amber-400 font-semibold block mb-0.5">Aviso de Responsabilidad & Honestidad Científica:</strong>
+          La información aquí expuesta tiene fines estrictamente educativos y de divulgación. Los nootrópicos no sustituyen tratamientos médicos ni hábitos basales (dormir 7-8h, ejercicio y nutrición). Si tomas fármacos (antidepresivos, ansiolíticos, levotiroxina) o estás embarazada, consulta siempre con un médico antes de suplementarte.
+        </div>
+      </div>
+    </header>
+
+    <!-- 2. CATÁLOGO VISUAL DE PROTOCOLOS -->
+    <section class="space-y-6">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-surface-bright pb-4">
+        <div>
+          <h2 class="text-2xl font-bold text-text-primary flex items-center gap-2">
+            <span>🎯 Protocolos Listos para Usar</span>
+          </h2>
+          <p class="text-xs sm:text-sm text-text-secondary mt-1">
+            Diseñados con 2 o 3 compuestos con sinergia validada. Menos ingredientes, mayor eficacia y cero saturación enzimática.
+          </p>
+        </div>
+      </div>
+
+      <!-- Grilla de Tarjetas de Stacks -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {protocolos.map((proto) => {
+          const Icon = proto.icono;
+          return (
+            <article class={`rounded-biotech border border-surface-bright bg-surface p-6 space-y-4 transition-all hover:bg-surface-low hover:shadow-lg flex flex-col justify-between ${proto.colorBorder}`}>
+              <div class="space-y-3">
+                {/* Cabecera de la tarjeta */}
+                <div class="flex items-start justify-between gap-2">
+                  <div class="flex items-center gap-2">
+                    <div class="p-2 rounded-lg bg-surface-lowest border border-surface-bright text-primary">
+                      <Icon className="w-5 h-5" />
+                    </div>
+                    <span class={`text-[11px] font-mono font-semibold px-2 py-0.5 rounded-full border ${proto.colorBadge}`}>
+                      {proto.evidencia}
+                    </span>
+                  </div>
+                </div>
+
+                <div>
+                  <h3 class="text-lg font-bold text-text-primary group-hover:text-primary transition-colors">
+                    {proto.titulo}
+                  </h3>
+                  <p class="text-xs text-text-muted mt-0.5 italic">
+                    {proto.subtitulo}
+                  </p>
+                </div>
+
+                <!-- Tabla de ingredientes en miligramos -->
+                <div class="space-y-2 pt-2">
+                  <div class="text-[11px] font-mono uppercase tracking-wider text-text-muted font-bold">
+                    Componentes & Dosis Diaria:
+                  </div>
+                  <div class="space-y-1.5">
+                    {proto.ingredientes.map((ing) => (
+                      <div class="flex items-center justify-between p-2 rounded-lg bg-surface-lowest border border-surface-bright text-xs">
+                        <span class="font-medium text-text-primary flex items-center gap-1.5">
+                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+                          {ing.nombre}
+                        </span>
+                        <div class="flex items-center gap-2 font-mono text-[11px]">
+                          <span class="text-primary font-bold">{ing.dosis}</span>
+                          <span class="text-text-muted text-[10px]">({ing.timing})</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                <!-- La verdad sin humo -->
+                <div class="p-3 rounded-lg bg-surface-container/60 border border-surface-bright text-xs text-text-secondary leading-relaxed space-y-1">
+                  <div class="flex items-center gap-1.5 font-bold text-[11px] text-text-primary">
+                    <Info className="w-3.5 h-3.5 text-cyan-400 shrink-0" />
+                    <span>La verdad científica (sin humo):</span>
+                  </div>
+                  <p class="text-[11px] text-text-secondary">
+                    {proto.laVerdad}
+                  </p>
+                </div>
+              </div>
+
+              <!-- Footer de la tarjeta -->
+              <div class="pt-3 border-t border-surface-bright/50 flex items-center justify-between">
+                <a
+                  href={proto.link}
+                  class="inline-flex items-center gap-1.5 text-xs font-semibold text-primary hover:underline group"
+                >
+                  <span>Ver monografía y estudios completos</span>
+                  <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
+                </a>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </section>
+
+    <!-- 3. SECCIÓN DE SEGURIDAD CRÍTICA (ALERTAS ROJAS / ÁMBAR) -->
+    <section class="rounded-biotech border border-rose-500/30 bg-rose-500/5 p-6 sm:p-8 space-y-6">
+      <div class="flex items-center gap-2 text-rose-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <ShieldAlert className="w-4 h-4" />
+        <span>Zona Crítica de Seguridad Farmacológica</span>
+      </div>
+
+      <div class="space-y-2">
+        <h2 class="text-xl sm:text-2xl font-bold text-text-primary">
+          Combinaciones Prohibidas & Qué Evitar
+        </h2>
+        <p class="text-xs sm:text-sm text-text-secondary max-w-3xl leading-relaxed">
+          La mayoría de personas creen que "lo natural no hace daño". Sin embargo, mezclar suplementos con mecanismos superpuestos puede provocar crisis hipertensivas, colapso de receptores o el potencialmente mortal <strong>síndrome serotoninérgico</strong>.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+        <div class="p-4 rounded-xl bg-surface border border-rose-500/30 space-y-2">
+          <div class="flex items-center gap-2 text-rose-400 font-bold text-sm">
+            <AlertTriangle className="w-4 h-4" />
+            <span>⚠️ Peligro Vital: Síndrome Serotoninérgico</span>
+          </div>
+          <p class="text-text-secondary leading-relaxed">
+            <strong>NUNCA mezcles:</strong> 5-HTP, L-Triptófano o Hierba de San Juan con fármacos antidepresivos (ISRS, IRSN o IMAOs). La acumulación excesiva de serotonina en la hendidura sináptica causa hipertermia, convulsiones y riesgo vital inmediato.
+          </p>
+          <a href="/conceptos/interacciones-peligrosas" class="text-rose-400 font-semibold hover:underline inline-flex items-center gap-1 pt-1 font-mono text-[11px]">
+            Leer guía completa de interacciones peligrosas →
+          </a>
+        </div>
+
+        <div class="p-4 rounded-xl bg-surface border border-amber-500/30 space-y-2">
+          <div class="flex items-center gap-2 text-amber-400 font-bold text-sm">
+            <Clock className="w-4 h-4" />
+            <span>⚠️ Tolerancia, Ciclado & Reseteo Receptor</span>
+          </div>
+          <p class="text-text-secondary leading-relaxed">
+            Sustancias que actúan sobre receptores de adenosina (cafeína), dopamina (estimulantes) o GABA (fenibut, ashwagandha a largo plazo) provocan desensibilización si se toman sin descanso. <strong>Regla obligatoria:</strong> 5 días de toma, 2 días de descanso cada semana.
+          </p>
+          <a href="/conceptos/contraindicaciones-stacks" class="text-amber-400 font-semibold hover:underline inline-flex items-center gap-1 pt-1 font-mono text-[11px]">
+            Ver contraindicaciones y cuándo parar →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. CONSTRUCTOR INTERACTIVO DE STACKS -->
+    <section class="space-y-6 pt-4">
+      <div class="border-b border-surface-bright pb-4 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+        <div>
+          <div class="flex items-center gap-2 text-primary font-mono text-xs font-bold uppercase tracking-wider">
+            <Sparkles className="w-3.5 h-3.5" />
+            <span>Herramienta Interactiva en Vivo</span>
+          </div>
+          <h2 class="text-2xl font-bold text-text-primary mt-1">
+            Diseña Tu Propio Stack Personalizado
+          </h2>
+          <p class="text-xs sm:text-sm text-text-secondary mt-0.5">
+            Añade sustancias de nuestra base de datos. El motor calculará automáticamente la compatibilidad, solapamiento de neurotransmisores y posibles antagonismos.
+          </p>
+        </div>
+      </div>
+
+      <!-- Componente React Interactivo de StackBuilder -->
+      <div class="rounded-biotech border border-surface-bright bg-surface p-4 sm:p-6 shadow-sm">
+        <StackBuilder client:load />
+      </div>
+    </section>
+
   </main>
 </BaseLayout>
