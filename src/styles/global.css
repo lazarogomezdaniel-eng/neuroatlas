@@ -4,17 +4,90 @@
 
 @layer base {
   :root {
-    --color-surface-lowest: #090e1c;
-    --color-surface: #0e1322;
+    --color-surface-lowest: #070b16;
+    --color-surface: #0c1222;
+    --color-surface-low: #13192c;
+    --color-surface-container: #1a223a;
     --color-primary: #22d3ee;
-    --color-secondary: #8b5cf6;
+    --color-secondary: #a855f7;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
   }
 
   body {
     background-color: var(--color-surface-lowest);
     color: #f8fafc;
     overflow-x: hidden;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
+
+  h1, h2, h3, h4 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+/* Fondo con rejilla nanométrica/biotech */
+.bg-grid-biotech {
+  background-image: 
+    radial-gradient(rgba(34, 211, 238, 0.08) 1px, transparent 1px),
+    radial-gradient(rgba(168, 85, 247, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px, 96px 96px;
+  background-position: 0 0, 16px 16px;
+}
+
+/* Efecto specular highlight superior para tarjetas de alta gama */
+.specular-top {
+  position: relative;
+  overflow: hidden;
+}
+.specular-top::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.15) 50%, transparent 100%);
+  pointer-events: none;
+}
+
+.specular-cyan::before {
+  background: linear-gradient(90deg, transparent 0%, rgba(34, 211, 238, 0.4) 50%, transparent 100%);
+}
+
+.specular-purple::before {
+  background: linear-gradient(90deg, transparent 0%, rgba(168, 85, 247, 0.4) 50%, transparent 100%);
+}
+
+.specular-amber::before {
+  background: linear-gradient(90deg, transparent 0%, rgba(245, 158, 11, 0.4) 50%, transparent 100%);
+}
+
+/* Glassmorphism de alta definición */
+.glass-panel {
+  background: rgba(14, 19, 34, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.glass-panel-hover {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), 
+              box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1), 
+              border-color 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.glass-panel-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 32px -8px rgba(0, 0, 0, 0.5), 0 0 24px -4px rgba(34, 211, 238, 0.15);
+  border-color: rgba(34, 211, 238, 0.35);
 }
 
 /* Scrollbars personalizados con estética Biotech */
@@ -23,11 +96,12 @@
   height: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #090e1c;
+  background: #070b16;
 }
 ::-webkit-scrollbar-thumb {
-  background: #1c2236;
-  border-radius: 4px;
+  background: #1a223a;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #22d3ee;

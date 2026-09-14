@@ -12,39 +12,42 @@ import {
   ShieldAlert, 
   Info,
   Beaker,
-  Sparkles
+  Sparkles,
+  Scale,
+  Atom,
+  Check
 } from 'lucide-react';
 
 const comparativasFormas = [
   {
     nutriente: 'Magnesio',
     formaOptima: 'Bisglicinato o L-Treonato',
-    absorcionOptima: '30% - 50% (Cruza barrera hematoencefálica)',
+    absorcionOptima: '30% - 50% (Cruza activamente la barrera hematoencefálica)',
     formaEvitar: 'Óxido de Magnesio',
-    absorcionEvitar: '4% - 10% (Causa diarrea, nula penetración cerebral)',
-    motivo: 'El óxido es el ingrediente más barato de la industria. Su biodisponibilidad es casi nula y actúa principalmente como laxante osmótico, no como soporte neural.'
+    absorcionEvitar: '4% - 10% (Causa diarrea osmótica, nula penetración neural)',
+    motivo: 'El óxido es el compuesto más barato de la industria. Su biodisponibilidad es casi nula y actúa principalmente como laxante osmótico, no como soporte cerebral.'
   },
   {
     nutriente: 'Colina (Acetilcolina)',
     formaOptima: 'Citicolina (CDP-Colina) o Alfa-GPC',
-    absorcionOptima: 'Cruza activamente la BHE y eleva uridina/ACh',
+    absorcionOptima: 'Cruza activamente la BHE y eleva uridina plasmática y ACh',
     formaEvitar: 'Bitartrato de Colina',
     absorcionEvitar: 'Metabolizada masivamente a TMAO en el intestino',
-    motivo: 'El bitartrato no cruza eficazmente al cerebro y bacterias intestinales lo degradan a trimetilamina (TMAO), asociado a inflamación cardiovascular.'
+    motivo: 'El bitartrato no cruza eficazmente al cerebro y la microbiota intestinal lo convierte en trimetilamina (TMAO), metabolito con potencial proinflamatorio.'
   },
   {
     nutriente: 'Curcumina (Neuroinflamación)',
     formaOptima: 'Extracto con Piperina o Complejo Fitosomado',
     absorcionOptima: '+2.000% de biodisponibilidad plasmática',
-    formaEvitar: 'Polvo de cúrcuma crudo no formulado',
+    formaEvitar: 'Polvo de cúrcuma crudo sin formular',
     absorcionEvitar: '< 1% de absorción plasmática',
-    motivo: 'La curcumina pura es rápidamente glucuronizada y eliminada por el hígado antes de llegar a la circulación cerebral salvo que se combine con piperina o lípidos.'
+    motivo: 'La curcumina cruda es rápidamente glucuronizada y eliminada por el hígado antes de alcanzar la circulación cerebral salvo que se formule con piperina o liposomas.'
   },
   {
     nutriente: 'Bacopa Monnieri',
     formaOptima: 'Extracto estandarizado (55% bacósidos)',
-    absorcionOptima: 'Fracciones bioactivas A y B cuantificadas',
-    formaEvitar: 'Polvo de planta entera sin estandarizar',
+    absorcionOptima: 'Fracciones bioactivas A y B cuantificadas por HPLC',
+    formaEvitar: 'Polvo de planta entera molida sin estandarizar',
     absorcionEvitar: 'Concentración variable e indetectable de bacósidos',
     motivo: 'Tomar raíz seca molida no garantiza ninguna dosis terapéutica de bacósidos y puede acumular metales pesados si el suelo de cultivo no fue analizado.'
   }
@@ -62,86 +65,90 @@ const patentes = [
   title="Criterios de Calidad, Pureza y Detección de Fraudes | NeuroAtlas"
   description="Guía independiente y científica para evaluar suplementos: formas químicas de alta absorción vs formas inútiles, sellos de laboratorio y detección de estafas."
 >
-  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+  <div class="bg-grid-biotech min-h-screen py-10 px-4 sm:px-6 lg:px-8 space-y-12 max-w-6xl mx-auto">
     
-    <!-- 1. HERO -->
-    <header class="relative rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-10 space-y-5 overflow-hidden">
-      <div class="absolute top-0 right-0 -mr-16 -mt-16 w-80 h-80 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+    <!-- 1. HERO CON IDENTIDAD AMBER / BIOTECH -->
+    <header class="relative rounded-2xl border border-white/[0.08] bg-surface/85 backdrop-blur-xl p-6 sm:p-10 space-y-6 overflow-hidden specular-amber shadow-2xl">
+      <div class="absolute top-0 right-0 -mr-20 -mt-20 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
       
-      <div class="flex flex-wrap items-center gap-2">
+      <div class="flex flex-wrap items-center gap-2.5 relative z-10">
         <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-500/15 border border-amber-500/40 text-xs font-mono font-bold text-amber-400">
           <Award className="w-3.5 h-3.5 text-amber-400" />
           EDUCACIÓN AL CONSUMIDOR INDEPENDIENTE
         </span>
-        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-lowest/80 border border-white/10 text-xs font-mono text-text-muted">
           <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
-          CERO PATROCINIOS
+          0% PATROCINIOS
         </span>
-        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container border border-surface-bright text-xs font-mono text-text-muted">
+        <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-lowest/80 border border-white/10 text-xs font-mono text-text-muted">
           <Beaker className="w-3.5 h-3.5 text-cyan-400" />
           AUDITORÍA ANALÍTICA
         </span>
       </div>
 
-      <div class="space-y-3 max-w-3xl">
-        <h1 class="text-3xl sm:text-5xl font-extrabold text-text-primary tracking-tight leading-tight">
-          Criterios de Calidad: <span class="text-amber-400">Cómo Leer la Letra Pequeña</span>
+      <div class="space-y-3 max-w-3xl relative z-10">
+        <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight">
+          Criterios de Calidad: <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-200">Cómo Leer la Letra Pequeña</span>
         </h1>
         <p class="text-base sm:text-lg text-text-secondary leading-relaxed">
-          La industria de los suplementos no está sometida a la misma regulación que los fármacos. No te recomendamos marcas comerciales ni recibimos comisiones: te enseñamos la química real para que sepas qué compuestos absorbe tu organismo y qué productos son puro desperdicio económico.
+          La industria de los suplementos no está sometida a la regulación de los medicamentos. No te recomendamos marcas comerciales ni cobramos comisiones: te enseñamos la química analítica para que distingas qué compuestos absorbe tu organismo y qué productos son puro relleno inerte.
         </p>
       </div>
 
       <!-- DISCLAIMER TRANSPARENTE -->
-      <div class="mt-4 p-4 rounded-xl border border-amber-500/30 bg-amber-500/5 flex items-start gap-3 text-xs text-amber-200/90 leading-relaxed">
+      <div class="p-4 sm:p-5 rounded-xl border border-amber-500/30 bg-amber-500/10 backdrop-blur-md flex items-start gap-3.5 text-xs text-amber-200/90 leading-relaxed relative z-10">
         <Info className="w-5 h-5 text-amber-400 shrink-0 mt-0.5" />
         <div>
-          <strong class="text-amber-400 font-semibold block mb-0.5">Independencia Editorial y Científica:</strong>
-          NeuroAtlas no vende suplementos, no acepta comisiones por venta ni tiene acuerdos con fabricantes. Los estándares que aquí se muestran provienen de farmacopeas oficiales (USP, Ph. Eur.), análisis de terceros (ConsumerLab, Labdoor) y ensayos clínicos publicados.
+          <strong class="text-amber-400 font-bold block mb-1">Independencia Editorial & Compromiso Ético:</strong>
+          NeuroAtlas no vende suplementos, no acepta enlaces de afiliados ni recibe compensaciones de fabricantes. Los criterios expuestos provienen de estándares de farmacopea (USP, Ph. Eur.), análisis de laboratorios independientes acreditados (ISO 17025) y literatura biomédica indexada.
         </div>
       </div>
     </header>
 
     <!-- 2. COMPARATIVA DE FORMAS QUÍMICAS: QUÉ SIRVE VS QUÉ EVITAR -->
     <section class="space-y-6">
-      <div class="border-b border-surface-bright pb-4">
-        <h2 class="text-2xl font-bold text-text-primary flex items-center gap-2">
-          <span>🧬 Formas de Alta Absorción vs Relleno Inútil</span>
+      <div class="border-b border-white/[0.08] pb-4">
+        <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-primary/10 border border-primary/30 text-[10px] font-mono text-primary font-bold uppercase tracking-wider mb-1">
+          <Atom className="w-3 h-3" />
+          Biodisponibilidad Molecular
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
+          Formas de Alta Absorción vs Relleno Inútil
         </h2>
         <p class="text-xs sm:text-sm text-text-secondary mt-1">
-          La misma etiqueta puede prometer "Magnesio" o "Colina", pero la molécula que acompaña al nutriente define si cruza al cerebro o termina en el inodoro.
+          La misma etiqueta puede promocionar "Magnesio" o "Colina", pero la molécula que acompaña al nutriente define si penetra al cerebro o se elimina por el tracto digestivo.
         </p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
         {comparativasFormas.map((item) => (
-          <div class="rounded-biotech border border-surface-bright bg-surface p-6 space-y-4 flex flex-col justify-between">
-            <div class="space-y-3">
-              <div class="flex items-center justify-between border-b border-surface-bright pb-2">
-                <span class="text-base font-bold text-text-primary font-mono">{item.nutriente}</span>
-                <span class="text-xs font-mono px-2 py-0.5 rounded bg-surface-lowest text-amber-400 border border-amber-500/30">
+          <article class="group relative rounded-2xl border border-white/[0.08] bg-surface/85 backdrop-blur-xl p-6 space-y-4 flex flex-col justify-between specular-amber transition-all duration-200 ease-out hover:-translate-y-1 hover:shadow-2xl">
+            <div class="space-y-3.5">
+              <div class="flex items-center justify-between border-b border-white/[0.06] pb-3">
+                <span class="text-lg font-bold text-white font-mono tracking-tight">{item.nutriente}</span>
+                <span class="text-[10px] font-mono font-bold px-2.5 py-0.5 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/30">
                   Criterio Bioquímico
                 </span>
               </div>
 
               <!-- Lo que debes buscar -->
-              <div class="p-3 rounded-lg bg-emerald-500/10 border border-emerald-500/20 space-y-1">
-                <div class="flex items-center gap-1.5 text-xs font-bold text-emerald-400">
-                  <CheckCircle2 className="w-3.5 h-3.5 shrink-0" />
+              <div class="p-3.5 rounded-xl bg-emerald-500/10 border border-emerald-500/25 space-y-1">
+                <div class="flex items-center gap-2 text-xs font-bold text-emerald-300">
+                  <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
                   <span>Qué buscar: {item.formaOptima}</span>
                 </div>
-                <div class="text-[11px] text-text-secondary pl-5">
+                <div class="text-xs text-slate-300 pl-6 leading-relaxed">
                   {item.absorcionOptima}
                 </div>
               </div>
 
               <!-- Lo que debes evitar -->
-              <div class="p-3 rounded-lg bg-rose-500/10 border border-rose-500/20 space-y-1">
-                <div class="flex items-center gap-1.5 text-xs font-bold text-rose-400">
-                  <XCircle className="w-3.5 h-3.5 shrink-0" />
+              <div class="p-3.5 rounded-xl bg-rose-500/10 border border-rose-500/25 space-y-1">
+                <div class="flex items-center gap-2 text-xs font-bold text-rose-300">
+                  <XCircle className="w-4 h-4 text-rose-400 shrink-0" />
                   <span>Qué evitar: {item.formaEvitar}</span>
                 </div>
-                <div class="text-[11px] text-text-secondary pl-5">
+                <div class="text-xs text-slate-300 pl-6 leading-relaxed">
                   {item.absorcionEvitar}
                 </div>
               </div>
@@ -150,71 +157,71 @@ const patentes = [
                 {item.motivo}
               </p>
             </div>
-          </div>
+          </article>
         ))}
       </div>
     </section>
 
     <!-- 3. LAS 4 REGLAS DE ORO PARA NO SER ENGAÑADO -->
-    <section class="rounded-biotech border border-surface-bright bg-surface-low p-6 sm:p-8 space-y-6">
+    <section class="rounded-2xl border border-white/[0.08] bg-surface/85 backdrop-blur-xl p-6 sm:p-8 space-y-6 specular-top shadow-2xl">
       <div class="space-y-2">
         <div class="flex items-center gap-2 text-cyan-400 font-mono text-xs font-bold uppercase tracking-wider">
           <ShieldAlert className="w-4 h-4" />
           <span>Banderas Rojas del Marketing</span>
         </div>
-        <h2 class="text-xl sm:text-2xl font-bold text-text-primary">
-          Cómo Detectar Estafas y Productos de Baja Calidad
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
+          Cómo Detectar Estafas y Productos Inertes
         </h2>
         <p class="text-xs sm:text-sm text-text-secondary leading-relaxed">
-          Antes de pulsar "comprar", verifica estos 4 puntos críticos en la etiqueta o ficha técnica del producto:
+          Antes de comprar cualquier suplemento, pasa la etiqueta por este filtro de 4 puntos críticos:
         </p>
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
-        <div class="p-4 rounded-xl bg-surface border border-surface-bright space-y-2">
-          <strong class="text-text-primary block font-mono text-xs text-amber-400">
+        <div class="p-5 rounded-xl bg-surface-lowest/80 border border-white/[0.06] space-y-2.5 hover:border-amber-500/40 transition-colors">
+          <strong class="text-amber-400 block font-mono text-xs font-bold">
             1. Huir de las "Mezclas Propietarias" (Proprietary Blends)
           </strong>
           <p class="text-text-secondary leading-relaxed">
             Si la etiqueta dice <em>"Fórmula Cerebral Secreta: 800 mg"</em> y luego lista 10 ingredientes sin poner cuántos miligramos hay de cada uno, el fabricante está ocultando que el 95% es el ingrediente barato y apenas hay trazas del caro. Exige siempre dosis desglosadas por compuesto.
           </p>
-          <a href="/conceptos/estafas-suplementos" class="text-primary hover:underline inline-flex items-center gap-1 pt-1 font-mono text-[11px]">
+          <a href="/conceptos/estafas-suplementos" class="text-primary hover:underline inline-flex items-center gap-1 pt-1 font-mono text-[11px] font-semibold">
             Leer monografía sobre estafas comunes →
           </a>
         </div>
 
-        <div class="p-4 rounded-xl bg-surface border border-surface-bright space-y-2">
-          <strong class="text-text-primary block font-mono text-xs text-amber-400">
+        <div class="p-5 rounded-xl bg-surface-lowest/80 border border-white/[0.06] space-y-2.5 hover:border-amber-500/40 transition-colors">
+          <strong class="text-amber-400 block font-mono text-xs font-bold">
             2. Desconfiar de Afirmaciones Milagrosas
           </strong>
           <p class="text-text-secondary leading-relaxed">
             Cualquier marca que prometa <em>"Aumenta tu IQ 20 puntos"</em>, <em>"Cura la niebla mental en 24h"</em> o <em>"Reemplaza tu medicación para el TDAH"</em> está violando la ley y usando pseudociencia agresiva. La neurobiología produce mejoras graduales del 5% al 15%, no milagros de la noche a la mañana.
           </p>
-          <a href="/conceptos/marketing-enganoso" class="text-primary hover:underline inline-flex items-center gap-1 pt-1 font-mono text-[11px]">
+          <a href="/conceptos/marketing-enganoso" class="text-primary hover:underline inline-flex items-center gap-1 pt-1 font-mono text-[11px] font-semibold">
             Ver cómo desmontar el marketing engañoso →
           </a>
         </div>
 
-        <div class="p-4 rounded-xl bg-surface border border-surface-bright space-y-2">
-          <strong class="text-text-primary block font-mono text-xs text-amber-400">
+        <div class="p-5 rounded-xl bg-surface-lowest/80 border border-white/[0.06] space-y-2.5 hover:border-amber-500/40 transition-colors">
+          <strong class="text-amber-400 block font-mono text-xs font-bold">
             3. Exigir Sellos de Laboratorio Independiente (CoA)
           </strong>
           <p class="text-text-secondary leading-relaxed">
             Las mejores marcas someten sus lotes a laboratorios externos e independientes (NSF Certified for Sport, USP, Informed Choice o certificados de análisis CoA por lote) para garantizar que el producto contiene exactamente lo que declara y está libre de metales pesados (plomo, mercurio) o contaminantes microbiológicos.
           </p>
-          <a href="/conceptos/evaluar-suplementos" class="text-primary hover:underline inline-flex items-center gap-1 pt-1 font-mono text-[11px]">
+          <a href="/conceptos/evaluar-suplementos" class="text-primary hover:underline inline-flex items-center gap-1 pt-1 font-mono text-[11px] font-semibold">
             Guía de 6 pasos para evaluar un suplemento →
           </a>
         </div>
 
-        <div class="p-4 rounded-xl bg-surface border border-surface-bright space-y-2">
-          <strong class="text-text-primary block font-mono text-xs text-amber-400">
+        <div class="p-5 rounded-xl bg-surface-lowest/80 border border-white/[0.06] space-y-2.5 hover:border-amber-500/40 transition-colors">
+          <strong class="text-amber-400 block font-mono text-xs font-bold">
             4. El Precio Ridículamente Bajo es Sospechoso
           </strong>
           <p class="text-text-secondary leading-relaxed">
             La síntesis química pura y la extracción botánica estandarizada tienen costes industriales inevitables. Un bote de 120 cápsulas de Bacopa o Citicolina por 6€ suele indicar que el principio activo está infradosificado o que la materia prima no pasó controles de pureza.
           </p>
-          <a href="/conceptos/marcas-economicas" class="text-primary hover:underline inline-flex items-center gap-1 pt-1 font-mono text-[11px]">
+          <a href="/conceptos/marcas-economicas" class="text-primary hover:underline inline-flex items-center gap-1 pt-1 font-mono text-[11px] font-semibold">
             Marcas con buena relación calidad-precio real →
           </a>
         </div>
@@ -223,28 +230,38 @@ const patentes = [
 
     <!-- 4. PATENTES Y MATERIAS PRIMAS ESTANDARIZADAS DE REFERENCIA -->
     <section class="space-y-4">
-      <div class="border-b border-surface-bright pb-3">
-        <h2 class="text-xl font-bold text-text-primary flex items-center gap-2">
+      <div class="border-b border-white/[0.08] pb-3">
+        <h2 class="text-xl sm:text-2xl font-extrabold text-white tracking-tight flex items-center gap-2">
           <span>🏆 Materias Primas Patentadas (Gold Standard Clínico)</span>
         </h2>
-        <p class="text-xs text-text-secondary mt-0.5">
+        <p class="text-xs sm:text-sm text-text-secondary mt-1">
           Muchos fabricantes compran principios activos producidos bajo patente por laboratorios farmacéuticos que han financiado los ensayos clínicos originales:
         </p>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         {patentes.map((pat) => (
-          <div class="rounded-biotech border border-surface-bright bg-surface p-5 space-y-2">
+          <div class="rounded-2xl border border-white/[0.08] bg-surface/85 backdrop-blur-xl p-5 space-y-2.5 specular-top">
             <div class="flex justify-between items-start">
-              <h3 class="text-sm font-bold text-text-primary">{pat.nombre}</h3>
-              <span class="text-[11px] font-mono px-2 py-0.5 rounded bg-surface-lowest text-primary border border-primary/20">{pat.pureza}</span>
+              <h3 class="text-sm font-bold text-white">{pat.nombre}</h3>
+              <span class="text-[10px] font-mono px-2.5 py-0.5 rounded-full bg-primary/10 text-primary border border-primary/30 font-bold">{pat.pureza}</span>
             </div>
-            <div class="text-xs font-mono text-amber-400">{pat.principio}</div>
+            <div class="text-xs font-mono text-amber-400 font-semibold">{pat.principio}</div>
             <p class="text-xs text-text-secondary leading-relaxed pt-1">{pat.ventaja}</p>
           </div>
         ))}
       </div>
     </section>
 
-  </main>
+    <!-- 5. PIE DE PÁGINA -->
+    <div class="pt-6 border-t border-white/[0.08] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-text-muted">
+      <a href="/stacks" class="text-secondary hover:underline flex items-center gap-1">
+        ← Volver a los Protocolos Clínicos
+      </a>
+      <a href="/modulos/modulo-12" class="text-amber-400 hover:underline flex items-center gap-1">
+        Ver Módulo XII: Transparencia & Criterios Clínicos →
+      </a>
+    </div>
+
+  </div>
 </BaseLayout>

@@ -5,22 +5,30 @@ import { Layers } from 'lucide-react';
 ---
 
 <BaseLayout
-  title="Módulos de Aprendizaje y Guía Científica | NeuroAtlas"
-  description="Los 14 módulos estructurados del Atlas de Neurociencia Aplicada y Nootropía. Desde la biología fundacional hasta protocolos de stacking clínico."
+  title="Currículum Académico: 12 Módulos Clínicos | NeuroAtlas"
+  description="Los 12 módulos completos del Atlas de Neurociencia Aplicada y Nootropía. Desde la biología fundacional hasta protocolos de stacking clínico."
 >
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-10">
-    <div class="rounded-biotech border border-surface-bright bg-surface-low p-6 md:p-8 space-y-3">
-      <div class="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-primary/10 border border-primary/30 text-xs font-mono text-primary font-semibold">
-        <Layers className="w-3.5 h-3.5" />
-        <span>CURRÍCULUM ACADÉMICO · 14 MÓDULOS</span>
+  <div class="bg-grid-biotech min-h-screen py-10 px-4 sm:px-6 lg:px-8 space-y-10 max-w-7xl mx-auto">
+    <header class="relative rounded-2xl border border-white/[0.08] bg-surface/85 backdrop-blur-xl p-6 md:p-10 space-y-4 specular-top shadow-2xl overflow-hidden">
+      <div class="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+
+      <div class="flex flex-wrap items-center gap-2 relative z-10">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/15 border border-primary/40 text-xs font-mono text-primary font-bold">
+          <Layers className="w-3.5 h-3.5" />
+          <span>CURRÍCULUM ACADÉMICO · 12 MÓDULOS (100% COMPLETADO)</span>
+        </div>
+        <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-lowest/80 border border-white/10 text-xs font-mono text-text-muted">
+          250+ Fichas Clínicas
+        </span>
       </div>
-      <h1 class="text-2xl md:text-4xl font-extrabold text-text-primary tracking-tight">
-        Módulos del NeuroAtlas
+
+      <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight relative z-10">
+        Currículum Integral de <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-cyan-300">NeuroAtlas</span>
       </h1>
-      <p class="text-xs md:text-sm text-text-secondary max-w-3xl leading-relaxed">
-        Aprende neurobiología aplicada, farmacología, diseño de stacks y bio-optimización mediante nuestro programa secuencial basado en evidencia clínica.
+      <p class="text-sm sm:text-base text-text-secondary max-w-3xl leading-relaxed relative z-10">
+        Domina la neurobiología celular, farmacología, fitoterapia, micología médica, diseño de combinaciones y auditoría analítica a través de nuestro programa estructurado de 12 módulos.
       </p>
-    </div>
+    </header>
 
     <!-- AdBanner Superior -->
     <AdBanner slotId="modulos-top" format="horizontal" />
@@ -375,5 +383,5 @@ import { Layers } from 'lucide-react';
         </div>
       </a>
     </div>
-  </main>
+  </div>
 </BaseLayout>
