@@ -2,6 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { conceptos, getConceptoBySlug } from '../../data/index-models';
 import AdBanner from '../../components/monetization/AdBanner.astro';
+import SupplementQualitySection from '../../components/features/SupplementQualitySection.astro';
+import { getSupplementQualityData } from '../../data/supplement-quality';
 import { ArrowLeft, Brain, Activity, Zap } from 'lucide-react';
 
 export function getStaticPaths() {
@@ -12,6 +14,7 @@ export function getStaticPaths() {
 }
 
 const { concepto: c } = Astro.props;
+const qualityData = getSupplementQualityData(c.slug);
 ---
 
 <BaseLayout
@@ -92,5 +95,9 @@ const { concepto: c } = Astro.props;
         </div>
       </div>
     </div>
+
+    {qualityData && (
+      <SupplementQualitySection qualityData={qualityData} productName={c.titulo} />
+    )}
   </main>
 </BaseLayout>

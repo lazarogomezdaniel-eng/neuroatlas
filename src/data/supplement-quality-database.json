@@ -1,0 +1,2714 @@
+{
+  "version": "1.0",
+  "descripcion": "Base de datos de calidad, formas y sinergias para MERGE automático con fichas de suplementos. Antigravity: al renderizar una ficha de suplemento, buscar su slug en este archivo y mostrar las secciones como bloques adicionales.",
+  "productos": {
+    "creatina": {
+      "sellos_calidad": [
+        {
+          "sello": "Creapure®",
+          "fabricante": "AlzChem Trostberg GmbH (Alemania)",
+          "que_verifica": "Pureza ≥99.99%, libre de dicianodiamida, dihidrotriazina, creatinina, tiourea",
+          "por_que_importa": "Estándar de oro mundial. Única creatina fabricada bajo normativa IFS Food"
+        },
+        {
+          "sello": "NSF Certified for Sport",
+          "fabricante": "NSF International",
+          "que_verifica": "Ausencia de >275 sustancias prohibidas por WADA, metales pesados, contaminantes",
+          "por_que_importa": "Esencial para atletas que compiten. Verifica cada lote"
+        },
+        {
+          "sello": "Informed Sport",
+          "fabricante": "LGC Limited (UK)",
+          "que_verifica": "Testeo de cada lote contra >250 sustancias prohibidas",
+          "por_que_importa": "Estándar militar y deportivo profesional"
+        },
+        {
+          "sello": "Informed Choice",
+          "fabricante": "LGC Limited (UK)",
+          "que_verifica": "Testeo aleatorio contra sustancias prohibidas",
+          "por_que_importa": "Versión menos estricta que Informed Sport"
+        },
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia, pureza, disolución según Farmacopea EE.UU.",
+          "por_que_importa": "Garantiza que la dosis indicada es real"
+        },
+        {
+          "sello": "Labdoor",
+          "fabricante": "Labdoor Inc.",
+          "que_verifica": "Exactitud de etiqueta, pureza, biodisponibilidad",
+          "por_que_importa": "Rankings públicos verificables online"
+        },
+        {
+          "sello": "Cologne List®",
+          "fabricante": "Olympiastützpunkt Rheinland",
+          "que_verifica": "Ausencia de sustancias dopantes",
+          "por_que_importa": "Lista alemana de referencia para atletas"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Monohidrato",
+          "formula": "C₄H₉N₃O₂·H₂O",
+          "biodisponibilidad": "Alta (~100%)",
+          "evidencia": ">99% de estudios clínicos. Gold standard desde 1992",
+          "veredicto": "recomendada",
+          "nota": "La más estudiada, barata y efectiva"
+        },
+        {
+          "forma": "Micronizada",
+          "formula": "Monohidrato con partículas <200 μm",
+          "biodisponibilidad": "Alta, mejor disolución",
+          "evidencia": "Misma que monohidrato",
+          "veredicto": "recomendada",
+          "nota": "Menos molestias GI, se mezcla mejor"
+        },
+        {
+          "forma": "HCl (clorhidrato)",
+          "formula": "C₄H₉N₃O₂·HCl",
+          "biodisponibilidad": "Alta, más soluble en agua",
+          "evidencia": "Limitada (3-5 estudios)",
+          "veredicto": "aceptable",
+          "nota": "Menos retención de agua, más cara"
+        },
+        {
+          "forma": "Etil éster",
+          "formula": "C₆H₁₃N₃O₂",
+          "biodisponibilidad": "Baja (se degrada a creatinina)",
+          "evidencia": "Estudios muestran MENOR eficacia que monohidrato",
+          "veredicto": "evitar",
+          "nota": "Marketing superior a evidencia"
+        },
+        {
+          "forma": "Tamponada (Kre-Alkalyn®)",
+          "formula": "Monohidrato con pH alcalino (12-14)",
+          "biodisponibilidad": "Similar a monohidrato",
+          "evidencia": "1-2 estudios, sin superioridad demostrada",
+          "veredicto": "evitar",
+          "nota": "Precio premium sin beneficio probado"
+        },
+        {
+          "forma": "Malato",
+          "formula": "Creatina + ácido málico",
+          "biodisponibilidad": "Teóricamente alta",
+          "evidencia": "Muy limitada",
+          "veredicto": "sin_evidencia",
+          "nota": "Sin estudios suficientes"
+        },
+        {
+          "forma": "Citrato",
+          "formula": "Creatina + ácido cítrico",
+          "biodisponibilidad": "Teóricamente alta",
+          "evidencia": "Muy limitada",
+          "veredicto": "sin_evidencia",
+          "nota": "Sin estudios suficientes"
+        },
+        {
+          "forma": "Quelato de magnesio",
+          "formula": "Creatina + Mg",
+          "biodisponibilidad": "Teóricamente alta",
+          "evidencia": "Muy limitada",
+          "veredicto": "sin_evidencia",
+          "nota": "Concepto interesante, sin estudios sólidos"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Polvo",
+          "ventaja": "Barata, fácil de mezclar, dosis flexible",
+          "desventaja": "Sabor neutro/granulado, requiere medición",
+          "para_quien": "Uso diario, mejor relación calidad-precio"
+        },
+        {
+          "presentacion": "Cápsulas",
+          "ventaja": "Conveniente, sin sabor, dosis precisa",
+          "desventaja": "Más cara por gramo, más aditivos",
+          "para_quien": "Viajes, personas que odian el sabor"
+        },
+        {
+          "presentacion": "Gomitas",
+          "ventaja": "Sabor agradable, sin preparación",
+          "desventaja": "Dosis baja por gomita, más cara, azúcares añadidos",
+          "para_quien": "Niños/adolescentes bajo supervisión"
+        },
+        {
+          "presentacion": "Líquida",
+          "ventaja": "Absorción teóricamente más rápida",
+          "desventaja": "Inestable (creatina se degrada a creatinina en agua), cara",
+          "para_quien": "No recomendada por inestabilidad"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Carbohidratos simples (30-50 g)",
+          "mecanismo": "Pico de insulina aumenta captación muscular vía GLUT4",
+          "ratio": "5 g creatina + 30-50 g dextrosa/maltodextrina",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Proteína (20-40 g)",
+          "mecanismo": "Similar a carbohidratos, con beneficio adicional de síntesis proteica",
+          "ratio": "5 g creatina + 20-40 g whey",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Beta-alanina",
+          "mecanismo": "Efectos complementarios: creatina=fuerza/potencia, beta-alanina=resistencia",
+          "ratio": "5 g creatina + 3-6 g beta-alanina",
+          "evidencia": "moderada_sólida"
+        },
+        {
+          "con": "HMB",
+          "mecanismo": "Teórica sinergia en retención muscular",
+          "ratio": "5 g creatina + 3 g HMB",
+          "evidencia": "débil"
+        },
+        {
+          "con": "Ácido alfa-lipoico",
+          "mecanismo": "Puede mejorar captación vía sensibilidad insulínica",
+          "ratio": "5 g creatina + 500-1000 mg ALA",
+          "evidencia": "preliminar"
+        }
+      ],
+      "variantes_a_evitar": [
+        {
+          "forma": "Etil éster",
+          "motivo": "Estudios muestran menor eficacia que monohidrato. Marketing sin respaldo"
+        },
+        {
+          "forma": "Kre-Alkalyn (tamponada)",
+          "motivo": "Precio premium sin beneficio demostrado sobre monohidrato"
+        },
+        {
+          "forma": "Líquida",
+          "motivo": "Creatina se degrada a creatinina en solución acuosa"
+        }
+      ]
+    },
+    "vitamina_d3": {
+      "sellos_calidad": [
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia exacta, pureza, disolución, ausencia de metales pesados",
+          "por_que_importa": "D3 es liposoluble y puede acumularse; pureza crítica"
+        },
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Contenido exacto, ausencia de contaminantes",
+          "por_que_importa": "Verifica que las UI indicadas son reales"
+        },
+        {
+          "sello": "ConsumerLab Approved",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Testeo independiente, exactitud de etiqueta",
+          "por_que_importa": "Publica comparativas entre marcas"
+        },
+        {
+          "sello": "Labdoor",
+          "fabricante": "Labdoor Inc.",
+          "que_verifica": "Exactitud, pureza, valor",
+          "por_que_importa": "Rankings públicos"
+        },
+        {
+          "sello": "Non-GMO Project",
+          "fabricante": "Non-GMO Project",
+          "que_verifica": "Ausencia de OGM",
+          "por_que_importa": "Relevante si D3 deriva de lanolina (oveja)"
+        },
+        {
+          "sello": "Vegan Society",
+          "fabricante": "Vegan Society",
+          "que_verifica": "Origen no animal (D3 de liquen)",
+          "por_que_importa": "Para veganos que evitan D3 de lanolina"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "D3 (colecalciferol)",
+          "origen": "Lanolina (grasa de lana de oveja), liquen",
+          "uso": "Suplementación general",
+          "veredicto": "recomendada",
+          "nota": "Más efectiva que D2 para elevar niveles séricos de 25(OH)D"
+        },
+        {
+          "forma": "D2 (ergocalciferol)",
+          "origen": "Hongos irradiados, levaduras",
+          "uso": "Veganos estrictos",
+          "veredicto": "aceptable_para_veganos",
+          "nota": "Vida media más corta, menos efectiva que D3"
+        },
+        {
+          "forma": "25-hidroxivitamina D (calcidiol)",
+          "origen": "Metabolito hepático",
+          "uso": "Pacientes con fallo hepático",
+          "veredicto": "solo_prescripcion",
+          "nota": "No para uso general"
+        },
+        {
+          "forma": "1,25-dihidroxivitamina D (calcitriol)",
+          "origen": "Hormona activa renal",
+          "uso": "Hipoparatiroidismo, insuficiencia renal",
+          "veredicto": "solo_prescripcion",
+          "nota": "Riesgo de hipercalcemia"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsula blanda con aceite",
+          "biodisponibilidad": "Alta (liposoluble)",
+          "ventaja": "Ya viene con grasa vehicular",
+          "desventaja": "Puede contener aceite de soja (alérgeno)"
+        },
+        {
+          "presentacion": "Comprimido seco",
+          "biodisponibilidad": "Menor (requiere grasa dietética)",
+          "ventaja": "Barata, estable",
+          "desventaja": "Debe tomarse obligatoriamente con comida grasosa"
+        },
+        {
+          "presentacion": "Gotas líquidas",
+          "biodisponibilidad": "Alta",
+          "ventaja": "Dosis flexible, ideal para niños",
+          "desventaja": "Requiere medición precisa, oxidación si no se almacena bien"
+        },
+        {
+          "presentacion": "Spray sublingual",
+          "biodisponibilidad": "Alta (absorción mucosa oral)",
+          "ventaja": "Evita tracto digestivo, útil en malabsorción",
+          "desventaja": "Dosis menos precisa, más cara"
+        },
+        {
+          "presentacion": "Liposomada",
+          "biodisponibilidad": "Muy alta (encapsulada en fosfolípidos)",
+          "ventaja": "Mejor absorción, ideal para malabsorción",
+          "desventaja": "Precio 3-5x superior"
+        },
+        {
+          "presentacion": "Gomitas",
+          "biodisponibilidad": "Variable",
+          "ventaja": "Sabor agradable",
+          "desventaja": "Dosis inexacta, azúcares añadidos, degradación por humedad"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Vitamina K2 (MK-7)",
+          "mecanismo": "D3 aumenta absorción de Ca; K2 activa osteocalcina y MGP, dirigiendo Ca a huesos y evitando calcificación arterial",
+          "ratio": "2.000-5.000 UI D3 + 100-200 mcg K2 MK-7",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Magnesio",
+          "mecanismo": "Mg es cofactor de CYP27B1 (convierte 25(OH)D a 1,25(OH)₂D) y de VDR",
+          "ratio": "2.000-5.000 UI D3 + 200-400 mg Mg",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Grasa dietética",
+          "mecanismo": "D3 es liposoluble; grasa aumenta absorción",
+          "ratio": "Tomar con comida que contenga 5-10 g grasa",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Zinc",
+          "mecanismo": "Cofactor de VDR (receptor de vitamina D)",
+          "ratio": "15-30 mg Zn",
+          "evidencia": "preliminar"
+        }
+      ],
+      "variantes_k2": [
+        {
+          "forma": "MK-4 (menaquinona-4)",
+          "vida_media": "1-2 horas",
+          "origen": "Animal (mantequilla, huevo)",
+          "veredicto": "aceptable",
+          "nota": "Requiere dosis múltiples/día"
+        },
+        {
+          "forma": "MK-7 (menaquinona-7)",
+          "vida_media": "48-72 horas",
+          "origen": "Fermentación bacteriana (natto)",
+          "veredicto": "recomendada",
+          "nota": "Una dosis/día, niveles séricos estables"
+        },
+        {
+          "forma": "MK-9",
+          "vida_media": "Similar a MK-7",
+          "origen": "Quesos fermentados",
+          "veredicto": "aceptable",
+          "nota": "Menos estudiada que MK-7"
+        }
+      ],
+      "dosis_fisiologicas": [
+        {
+          "rango": "0.1-0.3 mg",
+          "uso": "Fisiológica, imita producción pineal",
+          "veredicto": "ideal_para_uso_cronico"
+        },
+        {
+          "rango": "0.5-1 mg",
+          "uso": "Levemente suprafisiológica",
+          "veredicto": "aceptable"
+        },
+        {
+          "rango": "3-5 mg",
+          "uso": "Suprafisiológica común",
+          "veredicto": "puede_causar_somnolencia_residual"
+        },
+        {
+          "rango": "10-20 mg",
+          "uso": "Muy suprafisiológica",
+          "veredicto": "evitar_salvo_prescripcion"
+        }
+      ]
+    },
+    "omega_3": {
+      "sellos_calidad": [
+        {
+          "sello": "IFOS (International Fish Oil Standards)",
+          "fabricante": "IFOS/Nutrasource Diagnostics",
+          "que_verifica": "Pureza (metales pesados, PCBs, dioxinas), potencia, frescura (TOTOX), forma triglicérida",
+          "por_que_importa": "Estándar más riguroso del mundo para omega-3. Rating 1-5 estrellas"
+        },
+        {
+          "sello": "Friend of the Sea",
+          "fabricante": "Friend of the Sea",
+          "que_verifica": "Sostenibilidad de la pesca, ausencia de especies amenazadas",
+          "por_que_importa": "Crítico para evitar sobrepesca"
+        },
+        {
+          "sello": "GOED",
+          "fabricante": "Global Organization for EPA and DHA Omega-3s",
+          "que_verifica": "Cumplimiento de monografía GOED (pureza, frescura)",
+          "por_que_importa": "Asociación industrial con estándares voluntarios altos"
+        },
+        {
+          "sello": "MSC (Marine Stewardship Council)",
+          "fabricante": "MSC",
+          "que_verifica": "Pesca sostenible certificada",
+          "por_que_importa": "Certificación de sostenibilidad pesquera"
+        },
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza, potencia, ausencia de contaminantes",
+          "por_que_importa": "Estándar general de calidad"
+        },
+        {
+          "sello": "ORIVO",
+          "fabricante": "ORIVO",
+          "que_verifica": "Origen geográfico del aceite (no adulteración)",
+          "por_que_importa": "Verifica que el aceite es de la especie/zona declarada"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Triglicérido (TG)",
+          "absorcion": "Alta (natural)",
+          "origen": "Aceite de pescado sin procesar",
+          "veredicto": "recomendada",
+          "nota": "Forma natural, mejor absorción"
+        },
+        {
+          "forma": "Etil éster (EE)",
+          "absorcion": "Menor (~60-70% de TG)",
+          "origen": "Concentración industrial",
+          "veredicto": "aceptable",
+          "nota": "Más barata, pero requiere reesterificación para volver a TG"
+        },
+        {
+          "forma": "Triglicérido re-esterificado (rTG)",
+          "absorcion": "Alta (similar a TG)",
+          "origen": "EE convertido de vuelta a TG",
+          "veredicto": "recomendada",
+          "nota": "Lo mejor de ambos mundos"
+        },
+        {
+          "forma": "Fosfolípido",
+          "absorcion": "Muy alta (especial para DHA cerebral)",
+          "origen": "Aceite de krill",
+          "veredicto": "recomendada_para_DHA",
+          "nota": "Concentración EPA/DHA menor"
+        },
+        {
+          "forma": "Ácido graso libre (FFA)",
+          "absorcion": "Muy alta",
+          "origen": "Hidrólisis de TG/EE",
+          "veredicto": "aceptable",
+          "nota": "Menos estable, más susceptible a oxidación"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsula blanda estándar",
+          "ventaja": "Conveniente, sin sabor",
+          "desventaja": "Tamaño grande, posible reflujo a pescado"
+        },
+        {
+          "presentacion": "Cápsula entérica",
+          "ventaja": "Sin reflujo a pescado",
+          "desventaja": "Más cara, absorción ligeramente retrasada"
+        },
+        {
+          "presentacion": "Líquida (botella)",
+          "ventaja": "Dosis flexible, barata por gramo",
+          "desventaja": "Oxidación si no se refrigera, sabor"
+        },
+        {
+          "presentacion": "Líquida con sabor",
+          "ventaja": "Sabor enmascarado",
+          "desventaja": "Mismos riesgos de oxidación"
+        },
+        {
+          "presentacion": "Gomitas",
+          "ventaja": "Sabor agradable",
+          "desventaja": "Dosis baja, más cara, azúcares"
+        },
+        {
+          "presentacion": "Liposomal",
+          "ventaja": "Absorción aumentada",
+          "desventaja": "Muy cara"
+        },
+        {
+          "presentacion": "Aceite de krill",
+          "ventaja": "Forma fosfolípido, astaxantina natural",
+          "desventaja": "Concentración EPA/DHA menor, más caro"
+        },
+        {
+          "presentacion": "Aceite de algas",
+          "ventaja": "Vegano, sin riesgo de metales pesados marinos",
+          "desventaja": "Más caro, concentración variable"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Vitamina E (tocoferoles)",
+          "mecanismo": "Protección contra oxidación del aceite",
+          "ratio": "100-200 UI por cada 1-2 g omega-3",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Curcumina",
+          "mecanismo": "Efectos antiinflamatorios complementarios",
+          "ratio": "1-2 g omega-3 + 500 mg curcumina",
+          "evidencia": "moderada"
+        },
+        {
+          "con": "Comida grasosa",
+          "mecanismo": "Aumenta absorción de omega-3",
+          "ratio": "Tomar con comida que contenga grasa",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Astaxantina",
+          "mecanismo": "Antioxidante potente, protege omega-3",
+          "ratio": "4-12 mg",
+          "evidencia": "moderada"
+        }
+      ],
+      "metricas_calidad": [
+        {
+          "parametro": "Valor de peróxidos (PV)",
+          "limite_aceptable": "<5 meq/kg",
+          "que_indica": "Oxidación primaria"
+        },
+        {
+          "parametro": "Anisidina (pAV)",
+          "limite_aceptable": "<20",
+          "que_indica": "Oxidación secundaria"
+        },
+        {
+          "parametro": "TOTOX",
+          "limite_aceptable": "<10 (ideal), <26 (límite GOED)",
+          "que_indica": "Oxidación total = 2PV + pAV"
+        },
+        {
+          "parametro": "Dioxinas + PCBs",
+          "limite_aceptable": "<1.5 pg WHO-TEQ/g",
+          "que_indica": "Contaminantes ambientales"
+        },
+        {
+          "parametro": "Metales pesados (Pb, Hg, Cd, As)",
+          "limite_aceptable": "<0.1 ppm cada uno",
+          "que_indica": "Toxicidad"
+        }
+      ]
+    },
+    "magnesio": {
+      "sellos_calidad": [
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia, pureza, disolución",
+          "por_que_importa": "Magnesio tiene múltiples formas; USP verifica la forma declarada"
+        },
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza, ausencia de contaminantes",
+          "por_que_importa": "Verifica ausencia de metales pesados"
+        },
+        {
+          "sello": "ConsumerLab Approved",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud de etiqueta",
+          "por_que_importa": "Comparativas entre formas de Mg"
+        },
+        {
+          "sello": "Labdoor",
+          "fabricante": "Labdoor Inc.",
+          "que_verifica": "Exactitud, pureza",
+          "por_que_importa": "Rankings públicos"
+        },
+        {
+          "sello": "Non-GMO Project",
+          "fabricante": "Non-GMO Project",
+          "que_verifica": "Ausencia de OGM",
+          "por_que_importa": "Relevante para formas queladas"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Óxido",
+          "formula": "MgO",
+          "biodisponibilidad": "Muy baja (4-10%)",
+          "uso": "Laxante, antiácido",
+          "veredicto": "evitar_para_suplementacion",
+          "nota": "Solo como laxante"
+        },
+        {
+          "forma": "Citrato",
+          "formula": "Mg₃(C₆H₅O₇)₂",
+          "biodisponibilidad": "Moderada (25-35%)",
+          "uso": "General, estreñimiento leve",
+          "veredicto": "recomendada",
+          "nota": "Buena relación calidad-precio"
+        },
+        {
+          "forma": "Glicinato / Bisglicinato",
+          "formula": "Mg(C₂H₄NO₂)₂",
+          "biodisponibilidad": "Alta (30-50%)",
+          "uso": "Sueño, ansiedad, relajación",
+          "veredicto": "recomendada",
+          "nota": "Quelato con glicina, efecto calmante"
+        },
+        {
+          "forma": "Malato",
+          "formula": "MgC₄H₄O₅",
+          "biodisponibilidad": "Alta",
+          "uso": "Energía, fibromialgia",
+          "veredicto": "recomendada",
+          "nota": "Para fatiga"
+        },
+        {
+          "forma": "Taurato",
+          "formula": "Mg(C₂H₆NO₃S)₂",
+          "biodisponibilidad": "Alta",
+          "uso": "Cardiovascular, arritmias",
+          "veredicto": "recomendada",
+          "nota": "Para corazón"
+        },
+        {
+          "forma": "Treonato (L-treonato)",
+          "formula": "Mg(C₄H⇇O₅)₂",
+          "biodisponibilidad": "Alta, cruza BHE",
+          "uso": "Cognición, memoria",
+          "veredicto": "recomendada",
+          "nota": "Magtein® para cerebro"
+        },
+        {
+          "forma": "Cloruro",
+          "formula": "MgCl₂",
+          "biodisponibilidad": "Moderada-alta",
+          "uso": "Tópico, baños",
+          "veredicto": "uso_topico",
+          "nota": "Uso tópico principalmente"
+        },
+        {
+          "forma": "Sulfato (Epsom)",
+          "formula": "MgSO₄",
+          "biodisponibilidad": "Baja oral, alta tópica",
+          "uso": "Baños, relajación muscular",
+          "veredicto": "uso_topico",
+          "nota": "Baños de relajación"
+        },
+        {
+          "forma": "Lactato",
+          "formula": "Mg(C₃H₅O₃)₂",
+          "biodisponibilidad": "Moderada",
+          "uso": "General",
+          "veredicto": "aceptable",
+          "nota": "Menos común"
+        },
+        {
+          "forma": "Orotato",
+          "formula": "Mg(C₅H₃N₂O₄)₂",
+          "biodisponibilidad": "Alta",
+          "uso": "Cardiovascular",
+          "veredicto": "recomendada",
+          "nota": "Buena para corazón, menos estudiada"
+        },
+        {
+          "forma": "Pidolato",
+          "formula": "Mg(C₅H₆NO₃)₂",
+          "biodisponibilidad": "Alta",
+          "uso": "General",
+          "veredicto": "aceptable",
+          "nota": "Aceptable"
+        },
+        {
+          "forma": "Acetil taurato (ATA)",
+          "formula": "Mg(C₄H₈NO₄S)₂",
+          "biodisponibilidad": "Alta, cruza BHE",
+          "uso": "Ansiedad, cognición",
+          "veredicto": "recomendada",
+          "nota": "Nueva, prometedora (MagMind®)"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas",
+          "ventaja": "Dosis precisa, conveniente",
+          "desventaja": "Más aditivos"
+        },
+        {
+          "presentacion": "Polvo",
+          "ventaja": "Barato, dosis flexible",
+          "desventaja": "Sabor amargo (especialmente citrato)"
+        },
+        {
+          "presentacion": "Líquida",
+          "ventaja": "Absorción rápida, fácil de tomar",
+          "desventaja": "Sabor, estabilidad"
+        },
+        {
+          "presentacion": "Tópica (aceite/crema)",
+          "ventaja": "Evita tracto GI",
+          "desventaja": "Absorción débil/evidencia limitada"
+        },
+        {
+          "presentacion": "Sales de baño (Epsom)",
+          "ventaja": "Relajación muscular",
+          "desventaja": "No es suplementación oral efectiva"
+        },
+        {
+          "presentacion": "Liposomal",
+          "ventaja": "Alta absorción",
+          "desventaja": "Cara"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Vitamina B6 (P5P)",
+          "mecanismo": "B6 facilita transporte de Mg al interior celular",
+          "ratio": "200-400 mg Mg + 10-25 mg B6",
+          "evidencia": "moderada_sólida"
+        },
+        {
+          "con": "Taurina",
+          "mecanismo": "Efectos calmantes complementarios, sinergia cardiovascular",
+          "ratio": "200-400 mg Mg + 500-1000 mg taurina",
+          "evidencia": "moderada"
+        },
+        {
+          "con": "L-teanina",
+          "mecanismo": "Relajación sin sedación",
+          "ratio": "200-400 mg Mg + 100-200 mg teanina",
+          "evidencia": "moderada"
+        },
+        {
+          "con": "Vitamina D",
+          "mecanismo": "Mg es cofactor para activación de D3",
+          "ratio": "200-400 mg Mg + D3",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Glicina",
+          "mecanismo": "Si es bisglicinato, ya incluye glicina",
+          "ratio": "Incluido en la forma",
+          "evidencia": "sólida_para_sueño"
+        }
+      ]
+    },
+    "cafeina": {
+      "sellos_calidad": [
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia exacta (crítico: sobredosis de cafeína es peligrosa)",
+          "por_que_importa": "Dosis precisa es seguridad"
+        },
+        {
+          "sello": "NSF Certified for Sport",
+          "fabricante": "NSF International",
+          "que_verifica": "Ausencia de sustancias prohibidas, pureza",
+          "por_que_importa": "Atletas"
+        },
+        {
+          "sello": "Labdoor",
+          "fabricante": "Labdoor Inc.",
+          "que_verifica": "Exactitud de dosis",
+          "por_que_importa": "Cafeína tiene margen terapéutico estrecho"
+        },
+        {
+          "sello": "ConsumerLab",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud de etiqueta",
+          "por_que_importa": "Verifica que mg indicados son reales"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Anhidra",
+          "formula": "C₈H₁₀N₄O₂",
+          "caracteristicas": "Estándar, 99% de productos",
+          "veredicto": "recomendada",
+          "nota": "La más estudiada"
+        },
+        {
+          "forma": "Citrato",
+          "formula": "C₈H₁₀N₄O₂·C₆H₈O₇",
+          "caracteristicas": "Más soluble, usada en medicina neonatal",
+          "veredicto": "uso_medico",
+          "nota": "Uso médico principalmente"
+        },
+        {
+          "forma": "Malato",
+          "formula": "Cafeína + ácido málico",
+          "caracteristicas": "Teórica energía sostenida",
+          "veredicto": "sin_evidencia",
+          "nota": "Sin evidencia sólida de superioridad"
+        },
+        {
+          "forma": "Time-release / microencapsulada",
+          "formula": "Liberación prolongada",
+          "caracteristicas": "Evita pico, efecto más sostenido",
+          "veredicto": "recomendada",
+          "nota": "Útil para evitar crash"
+        },
+        {
+          "forma": "Con L-teanina",
+          "formula": "Combinación 1:2",
+          "caracteristicas": "Enfoque sereno",
+          "veredicto": "recomendada",
+          "nota": "Stack más estudiado"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas/comprimidos",
+          "ventaja": "Dosis precisa, sin sabor",
+          "desventaja": "Efecto pico rápido"
+        },
+        {
+          "presentacion": "Polvo",
+          "ventaja": "Barato, dosis flexible",
+          "desventaja": "Riesgo de sobredosis por medición imprecisa"
+        },
+        {
+          "presentacion": "Gomitas",
+          "ventaja": "Sabor",
+          "desventaja": "Dosis inexacta, azúcares"
+        },
+        {
+          "presentacion": "Líquida",
+          "ventaja": "Absorción rápida",
+          "desventaja": "Dosis difícil de medir"
+        },
+        {
+          "presentacion": "Chicles",
+          "ventaja": "Absorción bucal rápida",
+          "desventaja": "Dosis limitada"
+        },
+        {
+          "presentacion": "Café / té natural",
+          "ventaja": "Con polifenoles, L-teanina (té)",
+          "desventaja": "Dosis variable"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "L-teanina",
+          "mecanismo": "Teanina suaviza nerviosismo, mantiene enfoque",
+          "ratio": "1:2 (100 mg cafeína + 200 mg teanina)",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Carbohidratos",
+          "mecanismo": "Mejora rendimiento deportivo",
+          "ratio": "3-6 mg/kg cafeína + 30-60 g CHO/h",
+          "evidencia": "sólida_para_deporte"
+        },
+        {
+          "con": "Creatina",
+          "mecanismo": "Teórica sinergia ergogénica",
+          "ratio": "5 g creatina + 100-200 mg cafeína",
+          "evidencia": "mixta"
+        }
+      ],
+      "dosis_seguras": [
+        {
+          "rango": "50-100 mg",
+          "uso": "Baja, para personas sensibles",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "100-200 mg",
+          "uso": "Moderada, estándar",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "200-400 mg",
+          "uso": "Alta, para usuarios tolerantes",
+          "veredicto": "segura_con_precaucion"
+        },
+        {
+          "rango": ">400 mg",
+          "uso": "Muy alta",
+          "veredicto": "evitar"
+        },
+        {
+          "rango": ">1000 mg",
+          "uso": "Tóxica",
+          "veredicto": "peligrosa"
+        }
+      ]
+    },
+    "melatonina": {
+      "sellos_calidad": [
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia exacta",
+          "por_que_importa": "Dosis precisa"
+        },
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza, ausencia de contaminantes",
+          "por_que_importa": "Verifica contenido"
+        },
+        {
+          "sello": "ConsumerLab Approved",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud de etiqueta",
+          "por_que_importa": "Estudios muestran variabilidad enorme entre marcas"
+        },
+        {
+          "sello": "Labdoor",
+          "fabricante": "Labdoor Inc.",
+          "que_verifica": "Exactitud",
+          "por_que_importa": "Rankings públicos"
+        }
+      ],
+      "formas_presentacion": [
+        {
+          "presentacion": "Liberación inmediata",
+          "farmacocinetica": "Pico 30-60 min, vida media 30-60 min",
+          "uso": "Jet lag, inicio de sueño",
+          "veredicto": "recomendada_para_conciliar"
+        },
+        {
+          "presentacion": "Liberación prolongada",
+          "farmacocinetica": "Liberación 6-8 horas",
+          "uso": "Mantenimiento de sueño, ancianos",
+          "veredicto": "recomendada_para_despertares"
+        },
+        {
+          "presentacion": "Sublingual",
+          "farmacocinetica": "Absorción rápida, evita primer paso hepático",
+          "uso": "Inicio rápido",
+          "veredicto": "recomendada_efecto_rapido"
+        },
+        {
+          "presentacion": "Liposomal",
+          "farmacocinetica": "Alta biodisponibilidad",
+          "uso": "Dosis bajas efectivas",
+          "veredicto": "aceptable"
+        },
+        {
+          "presentacion": "Gomitas",
+          "farmacocinetica": "Sabor agradable",
+          "uso": "Niños, adultos",
+          "veredicto": "precaucion_niños"
+        },
+        {
+          "presentacion": "Líquida (gotas)",
+          "farmacocinetica": "Dosis flexible",
+          "uso": "Ajuste fino de dosis",
+          "veredicto": "recomendada_para_microdosis"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Magnesio glicinato",
+          "mecanismo": "Relajación muscular, GABA",
+          "ratio": "0.5-3 mg melatonina + 200-400 mg Mg",
+          "evidencia": "moderada"
+        },
+        {
+          "con": "L-teanina",
+          "mecanismo": "Relajación sin sedación excesiva",
+          "ratio": "0.5-3 mg + 100-200 mg teanina",
+          "evidencia": "moderada"
+        },
+        {
+          "con": "Apigenina",
+          "mecanismo": "Modulación GABA-A",
+          "ratio": "0.5-3 mg + 50 mg apigenina",
+          "evidencia": "preliminar"
+        },
+        {
+          "con": "Glicina",
+          "mecanismo": "Reduce temperatura corporal, mejora calidad de sueño",
+          "ratio": "0.5-3 mg + 3 g glicina",
+          "evidencia": "moderada"
+        }
+      ],
+      "dosis": [
+        {
+          "rango": "0.1-0.3 mg",
+          "uso": "Fisiológica, imita producción pineal",
+          "veredicto": "ideal_para_uso_cronico"
+        },
+        {
+          "rango": "0.5-1 mg",
+          "uso": "Levemente suprafisiológica",
+          "veredicto": "aceptable"
+        },
+        {
+          "rango": "3-5 mg",
+          "uso": "Suprafisiológica común",
+          "veredicto": "puede_causar_somnolencia_residual"
+        },
+        {
+          "rango": "10-20 mg",
+          "uso": "Muy suprafisiológica",
+          "veredicto": "evitar_salvo_prescripcion"
+        }
+      ]
+    },
+    "curcumina": {
+      "sellos_calidad": [
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza, ausencia de metales pesados",
+          "por_que_importa": "Cúrcuma puede contener Pb"
+        },
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia de curcuminoides",
+          "por_que_importa": "Verifica % curcuminoides"
+        },
+        {
+          "sello": "ConsumerLab",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud, pureza",
+          "por_que_importa": "Ha detectado adulteración con colorantes"
+        },
+        {
+          "sello": "Labdoor",
+          "fabricante": "Labdoor Inc.",
+          "que_verifica": "Exactitud, pureza",
+          "por_que_importa": "Rankings"
+        },
+        {
+          "sello": "Non-GMO Project",
+          "fabricante": "Non-GMO Project",
+          "que_verifica": "Ausencia de OGM",
+          "por_que_importa": "Relevante para extractos"
+        },
+        {
+          "sello": "Orgánico (USDA/EU)",
+          "fabricante": "USDA/EU",
+          "que_verifica": "Ausencia de pesticidas",
+          "por_que_importa": "Cúrcuma puede tener residuos de pesticidas"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Curcumina estándar 95%",
+          "biodisponibilidad_relativa": "Baseline (1x)",
+          "tecnologia": "Extracto simple",
+          "veredicto": "aceptable_con_piperina",
+          "nota": "Baja absorción, necesita piperina"
+        },
+        {
+          "forma": "+ Piperina (Bioperine®)",
+          "biodisponibilidad_relativa": "20x (2000% aumento)",
+          "tecnologia": "Inhibe glucuronidación hepática",
+          "veredicto": "recomendada",
+          "nota": "Buena relación calidad-precio"
+        },
+        {
+          "forma": "Fitosoma (Meriva®)",
+          "biodisponibilidad_relativa": "29x",
+          "tecnologia": "Curcumina unida a fosfatidilcolina",
+          "veredicto": "recomendada",
+          "nota": "Alta absorción, estudios clínicos sólidos"
+        },
+        {
+          "forma": "Nanopartículas (Theracurmin®)",
+          "biodisponibilidad_relativa": "27x",
+          "tecnologia": "Partículas coloidales <100 nm",
+          "veredicto": "recomendada",
+          "nota": "Alta absorción"
+        },
+        {
+          "forma": "Liposomal",
+          "biodisponibilidad_relativa": "20-30x",
+          "tecnologia": "Encapsulación en liposomas",
+          "veredicto": "recomendada",
+          "nota": "Alta absorción"
+        },
+        {
+          "forma": "BCM-95®",
+          "biodisponibilidad_relativa": "8-9x",
+          "tecnologia": "Curcumina + aceites esenciales de cúrcuma",
+          "veredicto": "recomendada",
+          "nota": "Buena absorción, sin piperina"
+        },
+        {
+          "forma": "Longvida®",
+          "biodisponibilidad_relativa": "65x",
+          "tecnologia": "Matriz lipídica sólida (SLCP)",
+          "veredicto": "recomendada",
+          "nota": "Alta absorción, cruza BHE"
+        },
+        {
+          "forma": "Cyclodextrina",
+          "biodisponibilidad_relativa": "40x",
+          "tecnologia": "Inclusión en ciclodextrinas",
+          "veredicto": "aceptable",
+          "nota": "Menos común"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas",
+          "ventaja": "Conveniente",
+          "desventaja": "Requiere forma de alta absorción"
+        },
+        {
+          "presentacion": "Polvo",
+          "ventaja": "Barato, versátil",
+          "desventaja": "Sabor amargo, baja absorción sin potenciador"
+        },
+        {
+          "presentacion": "Líquida",
+          "ventaja": "Absorción rápida",
+          "desventaja": "Sabor, estabilidad"
+        },
+        {
+          "presentacion": "Tópica",
+          "ventaja": "Uso local (piel, articulaciones)",
+          "desventaja": "No sistémica"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Piperina",
+          "mecanismo": "Inhibe UGTs (glucuronidación), aumenta biodisponibilidad",
+          "ratio": "500-1000 mg curcumina + 5-10 mg piperina",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Grasas",
+          "mecanismo": "Curcumina es liposoluble",
+          "ratio": "Tomar con comida grasosa",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Omega-3",
+          "mecanismo": "Efectos antiinflamatorios complementarios",
+          "ratio": "500-1000 mg + 1-2 g omega-3",
+          "evidencia": "moderada"
+        },
+        {
+          "con": "Quercetina",
+          "mecanismo": "Sinergia antiinflamatoria",
+          "ratio": "500 mg + 250-500 mg",
+          "evidencia": "preliminar"
+        }
+      ]
+    },
+    "ashwagandha": {
+      "sellos_calidad": [
+        {
+          "sello": "KSM-66®",
+          "fabricante": "Ixoreal Biomed",
+          "que_verifica": "Extracto de raíz, 5% withanólidos, proceso patentado",
+          "por_que_importa": "Extracto más estudiado clínicamente"
+        },
+        {
+          "sello": "Sensoril®",
+          "fabricante": "Arjuna Natural",
+          "que_verifica": "Extracto de raíz + hoja, 10% withanólidos",
+          "por_que_importa": "Mayor concentración, efecto más sedante"
+        },
+        {
+          "sello": "Shoden®",
+          "fabricante": "Arjuna Natural",
+          "que_verifica": "Extracto de raíz + hoja, 35% withanólidos",
+          "por_que_importa": "Máxima concentración"
+        },
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza, ausencia de metales pesados",
+          "por_que_importa": "Ashwagandha puede contener Pb, Hg, As"
+        },
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia de withanólidos",
+          "por_que_importa": "Verifica % withanólidos"
+        },
+        {
+          "sello": "ConsumerLab",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud, pureza",
+          "por_que_importa": "Ha detectado variabilidad entre marcas"
+        },
+        {
+          "sello": "Orgánico",
+          "fabricante": "USDA/EU",
+          "que_verifica": "Ausencia de pesticidas",
+          "por_que_importa": "Raíz puede acumular pesticidas"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "KSM-66®",
+          "withanolidos": "5%",
+          "parte_planta": "Solo raíz",
+          "evidencia": ">20 estudios clínicos",
+          "veredicto": "recomendada",
+          "nota": "La más estudiada"
+        },
+        {
+          "forma": "Sensoril®",
+          "withanolidos": "10%",
+          "parte_planta": "Raíz + hoja",
+          "evidencia": "~10 estudios",
+          "veredicto": "recomendada",
+          "nota": "Más sedante"
+        },
+        {
+          "forma": "Shoden®",
+          "withanolidos": "35%",
+          "parte_planta": "Raíz + hoja",
+          "evidencia": "~5 estudios",
+          "veredicto": "recomendada",
+          "nota": "Alta potencia, menos volumen"
+        },
+        {
+          "forma": "Extracto estándar",
+          "withanolidos": "2.5-5%",
+          "parte_planta": "Variable",
+          "evidencia": "Limitada",
+          "veredicto": "aceptable",
+          "nota": "Verificar % real"
+        },
+        {
+          "forma": "Polvo de raíz",
+          "withanolidos": "0.5-1%",
+          "parte_planta": "Raíz completa",
+          "evidencia": "Tradicional (Ayurveda)",
+          "veredicto": "aceptable",
+          "nota": "Requiere dosis altas (3-6 g)"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas",
+          "ventaja": "Dosis precisa, conveniente",
+          "desventaja": "Más aditivos"
+        },
+        {
+          "presentacion": "Polvo",
+          "ventaja": "Tradicional, barato",
+          "desventaja": "Sabor amargo/astringente"
+        },
+        {
+          "presentacion": "Líquida (tintura)",
+          "ventaja": "Absorción rápida",
+          "desventaja": "Alcohol (si es tintura)"
+        },
+        {
+          "presentacion": "Gomitas",
+          "ventaja": "Sabor",
+          "desventaja": "Dosis baja, azúcares"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Magnesio",
+          "mecanismo": "Relajación, reducción de cortisol",
+          "ratio": "300-600 mg ashwagandha + 200-400 mg Mg",
+          "evidencia": "moderada"
+        },
+        {
+          "con": "L-teanina",
+          "mecanismo": "Calma sin sedación",
+          "ratio": "300-600 mg + 100-200 mg",
+          "evidencia": "preliminar"
+        },
+        {
+          "con": "Rhodiola rosea",
+          "mecanismo": "Adaptógenos complementarios",
+          "ratio": "300-600 mg + 200-400 mg",
+          "evidencia": "moderada"
+        },
+        {
+          "con": "Leche caliente",
+          "mecanismo": "Método ayurvédico tradicional, mejora absorción",
+          "ratio": "Tomar con leche",
+          "evidencia": "tradicional"
+        }
+      ],
+      "precauciones": [
+        {
+          "condicion": "Hipertiroidismo",
+          "precaucion": "Ashwagandha puede aumentar T3/T4. Contraindicada"
+        },
+        {
+          "condicion": "Enfermedades autoinmunes",
+          "precaucion": "Puede estimular inmunidad. Precaución"
+        },
+        {
+          "condicion": "Embarazo",
+          "precaucion": "Contraindicada (efecto abortivo en animales)"
+        },
+        {
+          "condicion": "Medicación tiroidea",
+          "precaucion": "Interacción potencial"
+        },
+        {
+          "condicion": "Inmunosupresores",
+          "precaucion": "Puede contrarrestar efecto"
+        }
+      ]
+    },
+    "bacopa_monnieri": {
+      "sellos_calidad": [
+        {
+          "sello": "Bacognize®",
+          "fabricante": "Natural Remedies (India)",
+          "que_verifica": "45% bacósidos, extracto patentado",
+          "por_que_importa": "Extracto con estudios clínicos"
+        },
+        {
+          "sello": "Synapsa®",
+          "fabricante": "Verdure Sciences",
+          "que_verifica": "Planta completa, extracto patentado",
+          "por_que_importa": "Estudios clínicos propios"
+        },
+        {
+          "sello": "CDRI 08",
+          "fabricante": "CSIR (Council of Scientific and Industrial Research)",
+          "que_verifica": "45% bacósidos, desarrollo CSIR India",
+          "por_que_importa": "Extracto gubernamental indio con estudios"
+        },
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza, ausencia de metales pesados",
+          "por_que_importa": "Bacopa puede contener Pb (crece en suelos contaminados)"
+        },
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia de bacósidos",
+          "por_que_importa": "Verifica % bacósidos"
+        },
+        {
+          "sello": "ConsumerLab",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud",
+          "por_que_importa": "Verifica contenido real"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Bacognize®",
+          "bacósidos": "45%",
+          "evidencia": ">10 estudios clínicos",
+          "veredicto": "recomendada"
+        },
+        {
+          "forma": "Synapsa®",
+          "bacósidos": "Variable",
+          "evidencia": "~5 estudios",
+          "veredicto": "recomendada"
+        },
+        {
+          "forma": "CDRI 08",
+          "bacósidos": "45%",
+          "evidencia": ">15 estudios clínicos",
+          "veredicto": "recomendada"
+        },
+        {
+          "forma": "Extracto estándar 55%",
+          "bacósidos": "55%",
+          "evidencia": "Limitada",
+          "veredicto": "aceptable"
+        },
+        {
+          "forma": "Extracto estándar 20-50%",
+          "bacósidos": "Variable",
+          "evidencia": "Limitada",
+          "veredicto": "aceptable_verificar"
+        },
+        {
+          "forma": "Polvo de planta completa",
+          "bacósidos": "1-3%",
+          "evidencia": "Tradicional",
+          "veredicto": "aceptable",
+          "nota": "Requiere dosis altas (3-5 g)"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas",
+          "ventaja": "Conveniente",
+          "desventaja": "Sabor amargo enmascarado"
+        },
+        {
+          "presentacion": "Polvo",
+          "ventaja": "Barato",
+          "desventaja": "Sabor muy amargo"
+        },
+        {
+          "presentacion": "Líquida",
+          "ventaja": "Absorción rápida",
+          "desventaja": "Sabor, estabilidad"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Comida grasosa",
+          "mecanismo": "Bacósidos son liposolubles",
+          "ratio": "Con comida que contenga grasa",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Ginkgo biloba",
+          "mecanismo": "Efectos complementarios en memoria",
+          "ratio": "300 mg Bacopa + 120 mg Ginkgo",
+          "evidencia": "preliminar"
+        },
+        {
+          "con": "Fosfatidilserina",
+          "mecanismo": "Neuroprotección complementaria",
+          "ratio": "300 mg + 100-300 mg",
+          "evidencia": "preliminar"
+        }
+      ],
+      "efectos_secundarios": [
+        {
+          "efecto": "Molestias GI (náuseas, calambres)",
+          "frecuencia": "10-20%",
+          "mitigacion": "Tomar con comida"
+        },
+        {
+          "efecto": "Diarrea",
+          "frecuencia": "5-10%",
+          "mitigacion": "Reducir dosis"
+        },
+        {
+          "efecto": "Fatiga inicial",
+          "frecuencia": "5-10%",
+          "mitigacion": "Tomar por la noche"
+        }
+      ]
+    },
+    "citicolina": {
+      "sellos_calidad": [
+        {
+          "sello": "Cognizin®",
+          "fabricante": "Kyowa Hakko Bio (Japón)",
+          "que_verifica": "Citicolina patentada, pureza >99%",
+          "por_que_importa": "La forma más estudiada de citicolina"
+        },
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza",
+          "por_que_importa": "Verifica contenido"
+        },
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia",
+          "por_que_importa": "Verifica dosis"
+        },
+        {
+          "sello": "ConsumerLab",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud",
+          "por_que_importa": "Verifica contenido real"
+        },
+        {
+          "sello": "Labdoor",
+          "fabricante": "Labdoor Inc.",
+          "que_verifica": "Exactitud",
+          "por_que_importa": "Rankings"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Citicolina (CDP-colina)",
+          "porcentaje_colina": "~18.5% colina",
+          "cruza_bhe": "Sí (parcialmente)",
+          "evidencia": "Sólida (>50 estudios)",
+          "veredicto": "recomendada",
+          "nota": "Neuroprotectora"
+        },
+        {
+          "forma": "Cognizin®",
+          "porcentaje_colina": "Igual que citicolina",
+          "cruza_bhe": "Sí",
+          "evidencia": "Sólida",
+          "veredicto": "recomendada",
+          "nota": "Forma patentada de referencia"
+        },
+        {
+          "forma": "Alfa-GPC (L-alfa-glicerofosfocolina)",
+          "porcentaje_colina": "~40% colina",
+          "cruza_bhe": "Sí",
+          "evidencia": "Moderada-sólida",
+          "veredicto": "recomendada",
+          "nota": "Mayor % colina"
+        },
+        {
+          "forma": "Colina bitartrato",
+          "porcentaje_colina": "~41% colina",
+          "cruza_bhe": "Baja",
+          "evidencia": "Limitada para cerebro",
+          "veredicto": "aceptable_para_higado",
+          "nota": "Buena para hígado, no para cerebro"
+        },
+        {
+          "forma": "Colina citrato",
+          "porcentaje_colina": "~40% colina",
+          "cruza_bhe": "Baja",
+          "evidencia": "Limitada",
+          "veredicto": "aceptable",
+          "nota": "Similar a bitartrato"
+        },
+        {
+          "forma": "Fosfatidilcolina (lecitina)",
+          "porcentaje_colina": "~13% colina",
+          "cruza_bhe": "Sí (como fosfolípido)",
+          "evidencia": "Moderada",
+          "veredicto": "aceptable",
+          "nota": "Buena pero baja concentración"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas",
+          "ventaja": "Conveniente",
+          "desventaja": "Más aditivos"
+        },
+        {
+          "presentacion": "Polvo",
+          "ventaja": "Dosis flexible",
+          "desventaja": "Sabor, higroscópico (absorbe humedad)"
+        },
+        {
+          "presentacion": "Líquida",
+          "ventaja": "Absorción rápida",
+          "desventaja": "Estabilidad"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Uridina",
+          "mecanismo": "Sinergia en síntesis de fosfolípidos",
+          "ratio": "250 mg citicolina + 250 mg uridina",
+          "evidencia": "moderada"
+        },
+        {
+          "con": "DHA",
+          "mecanismo": "Incorporación a membranas neuronales",
+          "ratio": "250 mg + 1 g DHA",
+          "evidencia": "moderada"
+        },
+        {
+          "con": "Racetams",
+          "mecanismo": "Racetams aumentan demanda de acetilcolina",
+          "ratio": "250-500 mg citicolina + racetam",
+          "evidencia": "anecdótica_moderada"
+        },
+        {
+          "con": "Cafeína",
+          "mecanismo": "Complementariedad estimulante-colinérgica",
+          "ratio": "250 mg + 100 mg cafeína",
+          "evidencia": "preliminar"
+        }
+      ]
+    },
+    "l_teanina": {
+      "sellos_calidad": [
+        {
+          "sello": "Suntheanine®",
+          "fabricante": "Taiyo International",
+          "que_verifica": "L-teanina patentada por fermentación bacteriana, pureza >99%",
+          "por_que_importa": "La forma más estudiada"
+        },
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza",
+          "por_que_importa": "Verifica contenido"
+        },
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia",
+          "por_que_importa": "Verifica dosis"
+        },
+        {
+          "sello": "ConsumerLab",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud",
+          "por_que_importa": "Verifica contenido real"
+        },
+        {
+          "sello": "Labdoor",
+          "fabricante": "Labdoor Inc.",
+          "que_verifica": "Exactitud",
+          "por_que_importa": "Rankings"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "L-teanina libre",
+          "caracteristicas": "Forma estándar, 99% de productos",
+          "veredicto": "recomendada"
+        },
+        {
+          "forma": "Suntheanine®",
+          "caracteristicas": "Patentada, fermentación bacteriana",
+          "veredicto": "recomendada",
+          "nota": "La más estudiada"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas",
+          "ventaja": "Conveniente, dosis precisa",
+          "desventaja": "Más aditivos"
+        },
+        {
+          "presentacion": "Polvo",
+          "ventaja": "Dosis flexible, barato",
+          "desventaja": "Sabor ligeramente dulce"
+        },
+        {
+          "presentacion": "Sublingual",
+          "ventaja": "Absorción rápida",
+          "desventaja": "Menos común"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Cafeína",
+          "mecanismo": "Teanina suaviza nerviosismo, mantiene enfoque",
+          "ratio": "1:2 (100 mg cafeína + 200 mg teanina)",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Magnesio",
+          "mecanismo": "Relajación complementaria",
+          "ratio": "100-200 mg teanina + 200-400 mg Mg",
+          "evidencia": "moderada"
+        },
+        {
+          "con": "Melatonina",
+          "mecanismo": "Sueño sin sedación excesiva",
+          "ratio": "100-200 mg teanina + 0.5-3 mg melatonina",
+          "evidencia": "moderada"
+        }
+      ],
+      "dosis": [
+        {
+          "rango": "50-100 mg",
+          "uso": "Baja, para personas sensibles",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "100-200 mg",
+          "uso": "Moderada, estándar",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "200-400 mg",
+          "uso": "Alta, para ansiedad",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "400-800 mg",
+          "uso": "Muy alta",
+          "veredicto": "segura_con_precaucion"
+        }
+      ]
+    },
+    "rhodiola_rosea": {
+      "sellos_calidad": [
+        {
+          "sello": "SHR-5",
+          "fabricante": "Swedish Herbal Institute",
+          "que_verifica": "Extracto patentado sueco, 3% rosavinas + 1% salidrósido",
+          "por_que_importa": "Extracto con estudios clínicos europeos"
+        },
+        {
+          "sello": "Rhodiolife®",
+          "fabricante": "Biovail",
+          "que_verifica": "Extracto patentado",
+          "por_que_importa": "Estudios clínicos"
+        },
+        {
+          "sello": "Rosavin®",
+          "fabricante": "Natural Remedies",
+          "que_verifica": "Estandarizado en rosavinas",
+          "por_que_importa": "Verifica contenido activo"
+        },
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza, ausencia de contaminantes",
+          "por_que_importa": "Verifica contenido"
+        },
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia",
+          "por_que_importa": "Verifica dosis"
+        },
+        {
+          "sello": "ConsumerLab",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud",
+          "por_que_importa": "Verifica contenido real"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "SHR-5",
+          "estandarizacion": "3% rosavinas + 1% salidrósido",
+          "evidencia": ">15 estudios clínicos",
+          "veredicto": "recomendada"
+        },
+        {
+          "forma": "Rhodiolife®",
+          "estandarizacion": "3% rosavinas + 1% salidrósido",
+          "evidencia": "~10 estudios",
+          "veredicto": "recomendada"
+        },
+        {
+          "forma": "Extracto estándar",
+          "estandarizacion": "3% rosavinas + 1% salidrósido",
+          "evidencia": "Limitada",
+          "veredicto": "aceptable"
+        },
+        {
+          "forma": "Polvo de raíz",
+          "estandarizacion": "Variable",
+          "evidencia": "Tradicional",
+          "veredicto": "aceptable",
+          "nota": "Requiere dosis altas"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas",
+          "ventaja": "Conveniente, dosis precisa",
+          "desventaja": "Más aditivos"
+        },
+        {
+          "presentacion": "Polvo",
+          "ventaja": "Barato, versátil",
+          "desventaja": "Sabor amargo"
+        },
+        {
+          "presentacion": "Líquida (tintura)",
+          "ventaja": "Absorción rápida",
+          "desventaja": "Alcohol (si es tintura)"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Ashwagandha",
+          "mecanismo": "Adaptógenos complementarios",
+          "ratio": "200-400 mg Rhodiola + 300-600 mg Ashwagandha",
+          "evidencia": "moderada"
+        },
+        {
+          "con": "Cafeína",
+          "mecanismo": "Energía complementaria",
+          "ratio": "200-400 mg + 100 mg cafeína",
+          "evidencia": "preliminar",
+          "precaucion": "Puede causar sobreestimulación en personas sensibles"
+        },
+        {
+          "con": "Magnesio",
+          "mecanismo": "Equilibrio estimulación/relajación",
+          "ratio": "200-400 mg + 200-400 mg Mg",
+          "evidencia": "moderada"
+        }
+      ],
+      "dosis": [
+        {
+          "rango": "100-200 mg",
+          "uso": "Baja, para personas sensibles",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "200-400 mg",
+          "uso": "Moderada, estándar",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "400-600 mg",
+          "uso": "Alta, para fatiga severa",
+          "veredicto": "segura_con_precaucion"
+        },
+        {
+          "rango": ">600 mg",
+          "uso": "Muy alta",
+          "veredicto": "evitar"
+        }
+      ],
+      "timing": [
+        {
+          "momento": "Mañana",
+          "razon": "Evitar insomnio",
+          "veredicto": "recomendado"
+        },
+        {
+          "momento": "Tarde (antes de 3 PM)",
+          "razon": "Si se necesita segunda dosis",
+          "veredicto": "aceptable"
+        },
+        {
+          "momento": "Noche",
+          "razon": "Puede causar insomnio",
+          "veredicto": "evitar"
+        }
+      ]
+    },
+    "melena_de_leon": {
+      "sellos_calidad": [
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza, ausencia de contaminantes",
+          "por_que_importa": "Hongos pueden acumular metales pesados"
+        },
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia",
+          "por_que_importa": "Verifica contenido"
+        },
+        {
+          "sello": "Orgánico (USDA/EU)",
+          "fabricante": "USDA/EU",
+          "que_verifica": "Ausencia de pesticidas, OGM",
+          "por_que_importa": "Hongos acumulan contaminantes del sustrato"
+        },
+        {
+          "sello": "ConsumerLab",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud, pureza",
+          "por_que_importa": "Ha detectado productos con bajo contenido de beta-glucanos"
+        },
+        {
+          "sello": "Labdoor",
+          "fabricante": "Labdoor Inc.",
+          "que_verifica": "Exactitud",
+          "por_que_importa": "Rankings"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Extracto de micelio",
+          "caracteristicas": "Cultivado en grano (arroz, avena)",
+          "veredicto": "aceptable",
+          "nota": "Verificar que no sea mayormente grano (bajo contenido de compuestos activos)"
+        },
+        {
+          "forma": "Extracto de cuerpo fructífero",
+          "caracteristicas": "Hongo completo maduro",
+          "veredicto": "recomendada",
+          "nota": "Mayor concentración de hericenonas y erinacinas"
+        },
+        {
+          "forma": "Extracto dual (micelio + cuerpo fructífero)",
+          "caracteristicas": "Combinación de ambos",
+          "veredicto": "recomendada",
+          "nota": "Lo mejor de ambos mundos"
+        },
+        {
+          "forma": "Polvo de hongo completo",
+          "caracteristicas": "Hongo seco molido",
+          "veredicto": "aceptable",
+          "nota": "Requiere dosis altas (3-5 g)"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas",
+          "ventaja": "Conveniente, dosis precisa",
+          "desventaja": "Más aditivos"
+        },
+        {
+          "presentacion": "Polvo",
+          "ventaja": "Versátil, barato",
+          "desventaja": "Sabor terroso"
+        },
+        {
+          "presentacion": "Líquida (extracto)",
+          "ventaja": "Absorción rápida",
+          "desventaja": "Alcohol (si es tintura)"
+        },
+        {
+          "presentacion": "Café funcional",
+          "ventaja": "Sabor agradable, conveniente",
+          "desventaja": "Dosis baja, mezcla con cafeína"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "NGF precursores",
+          "mecanismo": "Potencian efecto neurotrófico",
+          "ratio": "Variable",
+          "evidencia": "preliminar"
+        },
+        {
+          "con": "Omega-3",
+          "mecanismo": "Neuroprotección complementaria",
+          "ratio": "500-3000 mg melena + 1-2 g omega-3",
+          "evidencia": "preliminar"
+        },
+        {
+          "con": "Bacopa monnieri",
+          "mecanismo": "Memoria y neuroplasticidad complementarias",
+          "ratio": "500-3000 mg + 300 mg Bacopa",
+          "evidencia": "preliminar"
+        }
+      ],
+      "dosis": [
+        {
+          "rango": "250-500 mg",
+          "uso": "Baja, extracto concentrado",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "500-1000 mg",
+          "uso": "Moderada, estándar",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "1000-3000 mg",
+          "uso": "Alta, polvo o extracto estándar",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "3000-5000 mg",
+          "uso": "Muy alta",
+          "veredicto": "segura_con_precaucion"
+        }
+      ]
+    },
+    "zinc": {
+      "sellos_calidad": [
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia, pureza",
+          "por_que_importa": "Verifica dosis de zinc elemental"
+        },
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza, ausencia de contaminantes",
+          "por_que_importa": "Verifica ausencia de metales pesados"
+        },
+        {
+          "sello": "ConsumerLab",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud",
+          "por_que_importa": "Verifica contenido real"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Óxido",
+          "biodisponibilidad": "Muy baja",
+          "uso": "Tópico, protector solar",
+          "veredicto": "evitar_para_suplementacion"
+        },
+        {
+          "forma": "Sulfato",
+          "biodisponibilidad": "Moderada",
+          "uso": "General, barato",
+          "veredicto": "aceptable",
+          "nota": "Puede causar molestias GI"
+        },
+        {
+          "forma": "Gluconato",
+          "biodisponibilidad": "Moderada-alta",
+          "uso": "General, pastillas",
+          "veredicto": "recomendada"
+        },
+        {
+          "forma": "Picolinato",
+          "biodisponibilidad": "Alta",
+          "uso": "General, mejor absorción",
+          "veredicto": "recomendada"
+        },
+        {
+          "forma": "Bisglicinato",
+          "biodisponibilidad": "Alta",
+          "uso": "General, suave para estómago",
+          "veredicto": "recomendada"
+        },
+        {
+          "forma": "Citrato",
+          "biodisponibilidad": "Moderada-alta",
+          "uso": "General",
+          "veredicto": "aceptable"
+        },
+        {
+          "forma": "Carnosina (zinc L-carnosina)",
+          "biodisponibilidad": "Alta",
+          "uso": "Salud gástrica, úlceras",
+          "veredicto": "recomendada_para_estomago"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas",
+          "ventaja": "Conveniente, dosis precisa",
+          "desventaja": "Más aditivos"
+        },
+        {
+          "presentacion": "Pastillas (lozenges)",
+          "ventaja": "Absorción bucal, para resfriados",
+          "desventaja": "Sabor metálico"
+        },
+        {
+          "presentacion": "Líquida",
+          "ventaja": "Absorción rápida",
+          "desventaja": "Sabor metálico"
+        },
+        {
+          "presentacion": "Tópica",
+          "ventaja": "Uso local (piel)",
+          "desventaja": "No sistémica"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Cobre",
+          "mecanismo": "Zinc en dosis altas puede causar deficiencia de cobre",
+          "ratio": "10:1 Zn:Cu (ej. 30 mg Zn + 3 mg Cu)",
+          "evidencia": "sólida",
+          "nota": "Crítico si se toman >25 mg Zn/día crónico"
+        },
+        {
+          "con": "Vitamina C",
+          "mecanismo": "Mejora absorción de zinc",
+          "ratio": "15-30 mg Zn + 500-1000 mg C",
+          "evidencia": "moderada"
+        },
+        {
+          "con": "Vitamina B6",
+          "mecanismo": "Cofactor para metabolismo de zinc",
+          "ratio": "15-30 mg Zn + 10-25 mg B6",
+          "evidencia": "moderada"
+        }
+      ],
+      "dosis": [
+        {
+          "rango": "8-11 mg",
+          "uso": "RDA (mujeres/hombres)",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "15-30 mg",
+          "uso": "Suplementación estándar",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "30-40 mg",
+          "uso": "Alta, con cobre",
+          "veredicto": "segura_con_cobre"
+        },
+        {
+          "rango": ">40 mg",
+          "uso": "Muy alta",
+          "veredicto": "evitar_cronico",
+          "nota": "Riesgo de deficiencia de cobre"
+        }
+      ],
+      "precauciones": [
+        {
+          "condicion": "Tomar en ayunas",
+          "precaucion": "Mejor absorción, pero puede causar náuseas"
+        },
+        {
+          "condicion": "Tomar con calcio, café, té",
+          "precaucion": "Inhiben absorción de zinc. Separar 2 horas"
+        },
+        {
+          "condicion": "Uso crónico >40 mg/día",
+          "precaucion": "Suplementar con cobre (2-3 mg/día)"
+        }
+      ]
+    },
+    "vitamina_b12": {
+      "sellos_calidad": [
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia, pureza",
+          "por_que_importa": "Verifica mcg de B12"
+        },
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza",
+          "por_que_importa": "Verifica contenido"
+        },
+        {
+          "sello": "ConsumerLab",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud",
+          "por_que_importa": "Verifica contenido real"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Cianocobalamina",
+          "caracteristicas": "Sintética, estable, barata",
+          "veredicto": "aceptable",
+          "nota": "Contiene traza de cianuro (inofensiva), debe convertirse a formas activas"
+        },
+        {
+          "forma": "Metilcobalamina",
+          "caracteristicas": "Forma activa, no requiere conversión",
+          "veredicto": "recomendada",
+          "nota": "Preferible para personas con polimorfismos MTHFR"
+        },
+        {
+          "forma": "Adenosilcobalamina",
+          "caracteristicas": "Forma activa mitocondrial",
+          "veredicto": "recomendada",
+          "nota": "Complementaria a metilcobalamina"
+        },
+        {
+          "forma": "Hidroxocobalamina",
+          "caracteristicas": "Forma inyectable, usada en medicina",
+          "veredicto": "uso_medico",
+          "nota": "Para deficiencia severa o antídoto de cianuro"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas/comprimidos",
+          "ventaja": "Conveniente",
+          "desventaja": "Absorción limitada por factor intrínseco"
+        },
+        {
+          "presentacion": "Sublingual",
+          "ventaja": "Evita factor intrínseco, absorción directa",
+          "desventaja": "No superior a oral en estudios controlados"
+        },
+        {
+          "presentacion": "Inyectable",
+          "ventaja": "Absorción 100%, para deficiencia severa",
+          "desventaja": "Requiere prescripción y administración médica"
+        },
+        {
+          "presentacion": "Líquida (gotas)",
+          "ventaja": "Dosis flexible",
+          "desventaja": "Sabor"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Folato (5-MTHF)",
+          "mecanismo": "Ciclo de metilación compartido",
+          "ratio": "500-1000 mcg B12 + 400-800 mcg folato",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Vitamina B6",
+          "mecanismo": "Metabolismo de homocisteína",
+          "ratio": "500-1000 mcg B12 + 10-25 mg B6",
+          "evidencia": "sólida"
+        }
+      ],
+      "dosis": [
+        {
+          "rango": "2.4 mcg",
+          "uso": "RDA",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "500-1000 mcg",
+          "uso": "Suplementación estándar",
+          "veredicto": "segura",
+          "nota": "Absorción es limitada (~1-2% por dosis)"
+        },
+        {
+          "rango": "1000-5000 mcg",
+          "uso": "Alta, para deficiencia",
+          "veredicto": "segura",
+          "nota": "B12 no tiene UL establecido"
+        }
+      ],
+      "nota_importante": "La absorción de B12 está limitada por el factor intrínseco gástrico. Dosis altas (1000+ mcg) se absorben por difusión pasiva (~1%). Sublingual NO es superior a oral en estudios controlados, pero puede ser útil en personas con problemas de absorción gástrica."
+    },
+    "folato": {
+      "sellos_calidad": [
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia, pureza",
+          "por_que_importa": "Verifica mcg de folato"
+        },
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza",
+          "por_que_importa": "Verifica contenido"
+        },
+        {
+          "sello": "ConsumerLab",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud",
+          "por_que_importa": "Verifica contenido real"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Ácido fólico",
+          "caracteristicas": "Sintético, barato, estable",
+          "veredicto": "aceptable",
+          "nota": "Debe convertirse a 5-MTHF. Personas con polimorfismo MTHFR (C677T) pueden tener conversión reducida"
+        },
+        {
+          "forma": "5-MTHF (Quatrefolic®, Metafolin®)",
+          "caracteristicas": "Forma activa, no requiere conversión",
+          "veredicto": "recomendada",
+          "nota": "Preferible para personas con polimorfismo MTHFR"
+        },
+        {
+          "forma": "Folínico (calcio folinato)",
+          "caracteristicas": "Forma intermedia",
+          "veredicto": "aceptable",
+          "nota": "Usado en medicina (rescate de metotrexato)"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas/comprimidos",
+          "ventaja": "Conveniente",
+          "desventaja": "Más aditivos"
+        },
+        {
+          "presentacion": "Líquida (gotas)",
+          "ventaja": "Dosis flexible",
+          "desventaja": "Sabor"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Vitamina B12",
+          "mecanismo": "Ciclo de metilación compartido",
+          "ratio": "400-800 mcg folato + 500-1000 mcg B12",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Vitamina B6",
+          "mecanismo": "Metabolismo de homocisteína",
+          "ratio": "400-800 mcg folato + 10-25 mg B6",
+          "evidencia": "sólida"
+        }
+      ],
+      "dosis": [
+        {
+          "rango": "400 mcg",
+          "uso": "RDA",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "400-800 mcg",
+          "uso": "Suplementación estándar",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "800-1000 mcg",
+          "uso": "Alta, embarazo",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "1-5 mg",
+          "uso": "Prescripción médica",
+          "veredicto": "solo_prescripcion"
+        }
+      ],
+      "nota_mthfr": "Personas con polimorfismo MTHFR C677T (homocigoto o heterocigoto) deben preferir 5-MTHF sobre ácido fólico. El polimorfismo reduce la conversión de ácido fólico a su forma activa en un 30-70%."
+    },
+    "hierro": {
+      "sellos_calidad": [
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia, pureza",
+          "por_que_importa": "Verifica mg de hierro elemental"
+        },
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza, ausencia de contaminantes",
+          "por_que_importa": "Verifica contenido"
+        },
+        {
+          "sello": "ConsumerLab",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud",
+          "por_que_importa": "Verifica contenido real"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Sulfato ferroso",
+          "biodisponibilidad": "Alta",
+          "efectos_gi": "Altos (náuseas, estreñimiento)",
+          "veredicto": "aceptable",
+          "nota": "Estándar médico, barato"
+        },
+        {
+          "forma": "Bisglicinato ferroso (ferrochel®)",
+          "biodisponibilidad": "Alta",
+          "efectos_gi": "Bajos",
+          "veredicto": "recomendada",
+          "nota": "Gentle, quelato con glicina"
+        },
+        {
+          "forma": "Gluconato ferroso",
+          "biodisponibilidad": "Moderada-alta",
+          "efectos_gi": "Moderados",
+          "veredicto": "aceptable"
+        },
+        {
+          "forma": "Fumarato ferroso",
+          "biodisponibilidad": "Alta",
+          "efectos_gi": "Altos",
+          "veredicto": "aceptable"
+        },
+        {
+          "forma": "Polisacárido de hierro",
+          "biodisponibilidad": "Moderada",
+          "efectos_gi": "Bajos",
+          "veredicto": "aceptable"
+        },
+        {
+          "forma": "Liposomal",
+          "biodisponibilidad": "Muy alta",
+          "efectos_gi": "Muy bajos",
+          "veredicto": "recomendada",
+          "nota": "Cara pero efectiva"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas/comprimidos",
+          "ventaja": "Conveniente",
+          "desventaja": "Efectos GI"
+        },
+        {
+          "presentacion": "Líquida",
+          "ventaja": "Dosis flexible, absorción rápida",
+          "desventaja": "Sabor metálico, mancha dientes"
+        },
+        {
+          "presentacion": "Inyectable",
+          "ventaja": "Para deficiencia severa o malabsorción",
+          "desventaja": "Requiere administración médica"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Vitamina C",
+          "mecanismo": "Aumenta absorción de hierro no-hemo",
+          "ratio": "18-65 mg hierro + 500-1000 mg C",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Tomar en ayunas",
+          "mecanismo": "Mejor absorción",
+          "ratio": "30 min antes de comida",
+          "evidencia": "sólida",
+          "nota": "Puede causar náuseas"
+        }
+      ],
+      "antagonistas": [
+        {
+          "sustancia": "Calcio",
+          "efecto": "Inhibe absorción de hierro",
+          "solucion": "Separar 2 horas"
+        },
+        {
+          "sustancia": "Café / té (taninos)",
+          "efecto": "Inhibe absorción de hierro",
+          "solucion": "Separar 1-2 horas"
+        },
+        {
+          "sustancia": "Antiácidos / IBP",
+          "efecto": "Reduce acidez gástrica, necesaria para absorción",
+          "solucion": "Consultar con médico"
+        },
+        {
+          "sustancia": "Fibra / fitatos",
+          "efecto": "Quelan hierro",
+          "solucion": "Separar 2 horas"
+        }
+      ],
+      "precaucion_critica": "SOLO suplementar hierro si hay deficiencia confirmada por análisis de sangre (ferritina baja, hemoglobina baja). El exceso de hierro es tóxico y se acumula en órganos (hígado, corazón). No tomar hierro 'por si acaso'."
+    },
+    "probioticos": {
+      "sellos_calidad": [
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza, potencia, ausencia de contaminantes",
+          "por_que_importa": "Verifica CFU reales"
+        },
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia",
+          "por_que_importa": "Verifica CFU"
+        },
+        {
+          "sello": "ConsumerLab",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud, viabilidad",
+          "por_que_importa": "Ha detectado productos con CFU muy por debajo de lo indicado"
+        }
+      ],
+      "cepas_especificas": [
+        {
+          "cepa": "Lactobacillus rhamnosus GG (LGG)",
+          "uso": "Salud intestinal general, diarrea",
+          "evidencia": "Sólida (>200 estudios)",
+          "veredicto": "recomendada"
+        },
+        {
+          "cepa": "Bifidobacterium longum BB536",
+          "uso": "Salud intestinal, inmunidad",
+          "evidencia": "Sólida",
+          "veredicto": "recomendada"
+        },
+        {
+          "cepa": "Saccharomyces boulardii CNCM I-745",
+          "uso": "Prevención de diarrea por antibióticos",
+          "evidencia": "Sólida",
+          "veredicto": "recomendada"
+        },
+        {
+          "cepa": "Lactobacillus plantarum 299v",
+          "uso": "Síndrome de intestino irritable",
+          "evidencia": "Moderada",
+          "veredicto": "recomendada"
+        },
+        {
+          "cepa": "Bifidobacterium infantis 35624",
+          "uso": "Síndrome de intestino irritable",
+          "evidencia": "Moderada",
+          "veredicto": "recomendada"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas entéricas",
+          "ventaja": "Protegen contra ácido gástrico",
+          "desventaja": "Más caras"
+        },
+        {
+          "presentacion": "Polvo",
+          "ventaja": "Dosis flexible",
+          "desventaja": "Estabilidad limitada"
+        },
+        {
+          "presentacion": "Líquida",
+          "ventaja": "Absorción rápida",
+          "desventaja": "Requiere refrigeración"
+        },
+        {
+          "presentacion": "Refrigerada vs estable",
+          "ventaja": "Refrigerada mantiene viabilidad",
+          "desventaja": "Estable es más conveniente pero puede perder CFU"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Prebióticos (FOS, GOS, inulina)",
+          "mecanismo": "Alimentan las bacterias probióticas",
+          "ratio": "Probiótico + 5-10 g prebiótico",
+          "evidencia": "sólida",
+          "nota": "Combinación = simbiótico"
+        },
+        {
+          "con": "Tomar con comida",
+          "mecanismo": "Protege contra ácido gástrico",
+          "ratio": "Con comida o 30 min antes",
+          "evidencia": "moderada"
+        }
+      ],
+      "nota_cfu": "Verificar CFU garantizados a fecha de caducidad, NO a fecha de fabricación. Muchas marcas indican CFU iniciales que pueden reducirse drásticamente durante el almacenamiento. Cepas específicas > mezclas genéricas."
+    },
+    "coenzima_q10": {
+      "sellos_calidad": [
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Potencia, pureza",
+          "por_que_importa": "Verifica mg de CoQ10"
+        },
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza",
+          "por_que_importa": "Verifica contenido"
+        },
+        {
+          "sello": "ConsumerLab",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud",
+          "por_que_importa": "Verifica contenido real"
+        },
+        {
+          "sello": "Kaneka QH®",
+          "fabricante": "Kaneka Corporation",
+          "que_verifica": "Ubiquinol patentado, pureza >99%",
+          "por_que_importa": "La forma más estudiada de ubiquinol"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Ubiquinona",
+          "caracteristicas": "Forma oxidada, estándar",
+          "biodisponibilidad": "Moderada",
+          "veredicto": "aceptable",
+          "nota": "Debe convertirse a ubiquinol en el cuerpo"
+        },
+        {
+          "forma": "Ubiquinol (Kaneka QH®)",
+          "caracteristicas": "Forma reducida, activa",
+          "biodisponibilidad": "Alta (2-3x mayor que ubiquinona)",
+          "veredicto": "recomendada",
+          "nota": "Preferible para personas >40 años o con problemas de conversión"
+        },
+        {
+          "forma": "Liposomal",
+          "caracteristicas": "Encapsulado en liposomas",
+          "biodisponibilidad": "Muy alta",
+          "veredicto": "recomendada",
+          "nota": "Cara pero efectiva"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas blandas con aceite",
+          "ventaja": "CoQ10 es liposoluble, ya viene con grasa",
+          "desventaja": "Tamaño"
+        },
+        {
+          "presentacion": "Polvo",
+          "ventaja": "Dosis flexible",
+          "desventaja": "Baja absorción sin grasa"
+        },
+        {
+          "presentacion": "Liposomal",
+          "ventaja": "Alta absorción",
+          "desventaja": "Cara"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Vitamina E",
+          "mecanismo": "Antioxidantes complementarios",
+          "ratio": "100-300 mg CoQ10 + 100-200 UI E",
+          "evidencia": "moderada"
+        },
+        {
+          "con": "PQQ",
+          "mecanismo": "PQQ estimula biogénesis mitocondrial, CoQ10 optimiza función",
+          "ratio": "100-300 mg CoQ10 + 10-20 mg PQQ",
+          "evidencia": "preliminar"
+        },
+        {
+          "con": "Omega-3",
+          "mecanismo": "Ambos liposolubles, efectos cardiovasculares complementarios",
+          "ratio": "100-300 mg CoQ10 + 1-2 g omega-3",
+          "evidencia": "moderada"
+        },
+        {
+          "con": "Comida grasosa",
+          "mecanismo": "CoQ10 es liposoluble",
+          "ratio": "Tomar con comida que contenga grasa",
+          "evidencia": "sólida"
+        }
+      ],
+      "dosis": [
+        {
+          "rango": "30-60 mg",
+          "uso": "Baja, mantenimiento",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "100-200 mg",
+          "uso": "Moderada, estándar",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "200-300 mg",
+          "uso": "Alta, para estatinas o migraña",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "300-600 mg",
+          "uso": "Muy alta, bajo supervisión",
+          "veredicto": "segura_con_supervision"
+        }
+      ],
+      "nota_estatinas": "Las estatinas (atorvastatina, simvastatina, etc.) inhiben la síntesis de CoQ10. Personas que toman estatinas deben considerar suplementar con 100-200 mg CoQ10/día para prevenir efectos secundarios musculares."
+    },
+    "nmn_nr": {
+      "sellos_calidad": [
+        {
+          "sello": "NSF International",
+          "fabricante": "NSF International",
+          "que_verifica": "Pureza, potencia",
+          "por_que_importa": "NMN es una molécula nueva, pureza crítica"
+        },
+        {
+          "sello": "ConsumerLab",
+          "fabricante": "ConsumerLab.com",
+          "que_verifica": "Exactitud, pureza",
+          "por_que_importa": "Ha detectado NMN degradado a nicotinamida"
+        },
+        {
+          "sello": "Labdoor",
+          "fabricante": "Labdoor Inc.",
+          "que_verifica": "Exactitud",
+          "por_que_importa": "Rankings"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "NMN (nicotinamida mononucleótido)",
+          "caracteristicas": "Precursor directo de NAD+",
+          "biodisponibilidad": "Moderada-alta",
+          "veredicto": "recomendada",
+          "nota": "Estabilidad limitada en polvo (degrada a nicotinamida)"
+        },
+        {
+          "forma": "NR (nicotinamida ribósido)",
+          "caracteristicas": "Precursor de NAD+, más estable que NMN",
+          "biodisponibilidad": "Alta",
+          "veredicto": "recomendada",
+          "nota": "Niagen® es la forma patentada más estudiada"
+        },
+        {
+          "forma": "Niagen® (NR patentado)",
+          "caracteristicas": "Nicotinamida ribósido patentado por ChromaDex",
+          "biodisponibilidad": "Alta",
+          "veredicto": "recomendada",
+          "nota": "La forma de NR con más estudios clínicos"
+        },
+        {
+          "forma": "Liposomal (NMN o NR)",
+          "caracteristicas": "Encapsulado en liposomas",
+          "biodisponibilidad": "Muy alta",
+          "veredicto": "recomendada",
+          "nota": "Cara pero efectiva"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas",
+          "ventaja": "Conveniente, protege de degradación",
+          "desventaja": "Más aditivos"
+        },
+        {
+          "presentacion": "Polvo",
+          "ventaja": "Dosis flexible, barato",
+          "desventaja": "Inestable, degrada con humedad/calor"
+        },
+        {
+          "presentacion": "Sublingual",
+          "ventaja": "Absorción rápida",
+          "desventaja": "Menos común"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Resveratrol",
+          "mecanismo": "Resveratrol activa sirtuinas, NAD+ es su cofactor",
+          "ratio": "250-500 mg NMN/NR + 100-500 mg resveratrol",
+          "evidencia": "preliminar"
+        },
+        {
+          "con": "TMG (trimetilglicina)",
+          "mecanismo": "NMN/NR aumentan demanda de metilos, TMG dona metilos",
+          "ratio": "250-500 mg NMN/NR + 500-1000 mg TMG",
+          "evidencia": "preliminar"
+        },
+        {
+          "con": "Almacenamiento correcto",
+          "mecanismo": "NMN degrada con calor y humedad",
+          "ratio": "Refrigerar si es polvo",
+          "evidencia": "sólida"
+        }
+      ],
+      "dosis": [
+        {
+          "rango": "NMN: 250-500 mg",
+          "uso": "Moderada",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "NMN: 500-1000 mg",
+          "uso": "Alta",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "NR: 300-600 mg",
+          "uso": "Moderada",
+          "veredicto": "segura"
+        },
+        {
+          "rango": "NR: 600-1000 mg",
+          "uso": "Alta",
+          "veredicto": "segura"
+        }
+      ],
+      "nota_estabilidad": "NMN en polvo es inestable y degrada a nicotinamida con el tiempo, especialmente con calor y humedad. Verificar fecha de fabricación y almacenamiento. NR es más estable. Para uso a largo plazo, cápsulas > polvo."
+    }
+  }
+}

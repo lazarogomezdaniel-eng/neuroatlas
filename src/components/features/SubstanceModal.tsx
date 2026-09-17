@@ -2,6 +2,8 @@ import React from 'react';
 import { Substance } from '@/types/substance';
 import { EvidenceBadge } from '../ui/EvidenceBadge';
 import { SubstanceSchema } from '../seo/SubstanceSchema';
+import { SupplementQualityModalBlock } from './SupplementQualityModalBlock';
+import { getSupplementQualityData } from '@/data/supplement-quality';
 import { X, ExternalLink, ShieldCheck, AlertCircle, BookOpen, Layers, Activity, Trash2 } from 'lucide-react';
 
 interface Props {
@@ -20,6 +22,8 @@ export const SubstanceModal: React.FC<Props> = ({
   isInStack,
 }) => {
   if (!substance) return null;
+
+  const qualityData = getSupplementQualityData(substance.id) || getSupplementQualityData(substance.name);
 
   const handleStackAction = () => {
     if (isInStack) {
@@ -133,6 +137,14 @@ export const SubstanceModal: React.FC<Props> = ({
               )}
             </div>
           </div>
+
+          {/* Bloque de Calidad Farmacéutica, Formas Químicas y Sinergias */}
+          {qualityData && (
+            <SupplementQualityModalBlock
+              qualityData={qualityData}
+              productName={substance.name}
+            />
+          )}
 
           {/* Ensayos clínicos */}
           <div>

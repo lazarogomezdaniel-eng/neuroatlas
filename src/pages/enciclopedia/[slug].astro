@@ -2,6 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { sustancias, getSustanciaBySlug, getCategoriaBySlug } from '../../data/index-models';
 import AdBanner from '../../components/monetization/AdBanner.astro';
+import SupplementQualitySection from '../../components/features/SupplementQualitySection.astro';
+import { getSupplementQualityData } from '../../data/supplement-quality';
 import { ArrowLeft, Activity, ShieldCheck, CheckCircle2, ShieldAlert, BookOpen, Scale } from 'lucide-react';
 
 export function getStaticPaths() {
@@ -13,6 +15,7 @@ export function getStaticPaths() {
 
 const { sustancia: s } = Astro.props;
 const categoria = getCategoriaBySlug(s.categoria);
+const qualityData = getSupplementQualityData(s.slug) || getSupplementQualityData(s.nombre);
 
 // Schema.org MedicalSubstance para Google Rich Snippets
 const schemaData = {
@@ -247,5 +250,9 @@ const schemaData = {
         ))}
       </div>
     </section>
+
+    {qualityData && (
+      <SupplementQualitySection qualityData={qualityData} productName={s.nombre} />
+    )}
   </main>
 </BaseLayout>

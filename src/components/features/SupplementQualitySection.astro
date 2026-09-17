@@ -1,0 +1,418 @@
+---
+import type { ProductQualityInfo } from '../../data/supplement-quality';
+import { 
+  Award, 
+  CheckCircle2, 
+  XCircle, 
+  AlertTriangle, 
+  Sparkles, 
+  Layers, 
+  Clock, 
+  ShieldCheck, 
+  ShieldAlert, 
+  Beaker, 
+  Atom, 
+  Info,
+  Pill,
+  Scale,
+  Ban,
+  Activity
+} from 'lucide-react';
+
+interface Props {
+  qualityData: ProductQualityInfo | null;
+  productName?: string;
+}
+
+const { qualityData, productName = 'este suplemento' } = Astro.props;
+
+if (!qualityData) {
+  return null;
+}
+
+const presentaciones = qualityData.presentaciones || qualityData.formas_presentacion || [];
+const dosisRangos = qualityData.dosis || qualityData.dosis_seguras || qualityData.dosis_fisiologicas || [];
+
+const getVerdictBadge = (veredicto: string) => {
+  const v = veredicto.toLowerCase();
+  if (v.includes('recomendad') || v.includes('segura') || v.includes('ideal')) {
+    return 'bg-emerald-500/15 text-emerald-400 border-emerald-500/30';
+  }
+  if (v.includes('evitar') || v.includes('peligros') || v.includes('contraindicad')) {
+    return 'bg-rose-500/15 text-rose-400 border-rose-500/30';
+  }
+  if (v.includes('aceptable')) {
+    return 'bg-cyan-500/15 text-cyan-400 border-cyan-500/30';
+  }
+  if (v.includes('prescripcion') || v.includes('medico')) {
+    return 'bg-indigo-500/15 text-indigo-400 border-indigo-500/30';
+  }
+  return 'bg-amber-500/15 text-amber-400 border-amber-500/30';
+};
+
+const formatVerdictText = (veredicto: string) => {
+  return veredicto.replace(/_/g, ' ').toUpperCase();
+};
+---
+
+<div class="space-y-8 pt-4 border-t border-white/[0.08]">
+  
+  <!-- CABECERA DE LA SECCIÓN DE AUDITORÍA Y CALIDAD -->
+  <div class="p-6 rounded-2xl border border-amber-500/30 bg-gradient-to-br from-amber-500/10 via-surface/90 to-surface space-y-3 specular-amber shadow-xl">
+    <div class="flex items-center gap-2 text-amber-400 font-mono text-xs font-bold uppercase tracking-wider">
+      <Award className="w-4 h-4 text-amber-400" />
+      <span>Auditoría de Pureza, Formas Moleculares & Patentes</span>
+    </div>
+    <h3 class="text-xl sm:text-2xl font-extrabold text-white tracking-tight">
+      Criterios de Calidad Farmacopea: {productName}
+    </h3>
+    <p class="text-xs sm:text-sm text-text-secondary leading-relaxed">
+      Datos integrados de control analítico: qué sellos de pureza exigir, qué formas químicas tienen biodisponibilidad probada en humanos y qué variantes representan desperdicio económico o riesgo de contaminantes.
+    </p>
+  </div>
+
+  <!-- AVISO CRÍTICO / PRECAUCIONES SI EXISTEN -->
+  {qualityData.precaucion_critica && (
+    <div class="p-4 sm:p-5 rounded-xl border border-rose-500/40 bg-rose-500/10 backdrop-blur-md flex items-start gap-3.5 text-xs text-rose-200 leading-relaxed shadow-lg">
+      <ShieldAlert className="w-5 h-5 text-rose-400 shrink-0 mt-0.5" />
+      <div>
+        <strong class="text-rose-400 font-bold block mb-1">Precaución Clínica Crítica:</strong>
+        {qualityData.precaucion_critica}
+      </div>
+    </div>
+  )}
+
+  <!-- 1. SELLOS DE CALIDAD Y PATENTES -->
+  {qualityData.sellos_calidad && qualityData.sellos_calidad.length > 0 && (
+    <section class="space-y-4">
+      <div class="flex items-center justify-between border-b border-white/[0.06] pb-2">
+        <h4 class="text-base sm:text-lg font-bold text-white flex items-center gap-2">
+          <ShieldCheck className="w-5 h-5 text-emerald-400" />
+          <span>Sellos de Calidad Independientes & Patentes de Referencia</span>
+        </h4>
+        <span class="text-[11px] font-mono text-text-muted">{qualityData.sellos_calidad.length} verificaciones</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+        {qualityData.sellos_calidad.map((sello) => (
+          <div class="p-4 rounded-xl border border-white/[0.08] bg-surface/80 hover:border-emerald-400/40 transition-all space-y-2.5 flex flex-col justify-between specular-top">
+            <div>
+              <div class="flex items-start justify-between gap-2">
+                <span class="font-bold text-white text-sm flex items-center gap-1.5">
+                  <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+                  {sello.sello}
+                </span>
+                <span class="text-[10px] font-mono text-text-muted px-2 py-0.5 rounded bg-surface-lowest border border-white/[0.06]">
+                  {sello.fabricante}
+                </span>
+              </div>
+              <div class="mt-2 text-text-secondary leading-relaxed">
+                <strong class="text-white font-medium">Qué verifica:</strong> {sello.que_verifica}
+              </div>
+            </div>
+            <div class="pt-2 border-t border-white/[0.04] text-[11px] text-emerald-300/90 font-medium">
+              💡 <em>Por qué importa:</em> {sello.por_que_importa}
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- 2. FORMAS QUÍMICAS & BIODISPONIBILIDAD -->
+  {qualityData.formas_quimicas && qualityData.formas_quimicas.length > 0 && (
+    <section class="space-y-4">
+      <div class="flex items-center justify-between border-b border-white/[0.06] pb-2">
+        <h4 class="text-base sm:text-lg font-bold text-white flex items-center gap-2">
+          <Atom className="w-5 h-5 text-primary" />
+          <span>Formas Químicas & Biodisponibilidad Molecular</span>
+        </h4>
+        <span class="text-[11px] font-mono text-text-muted">{qualityData.formas_quimicas.length} formas comparadas</span>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 text-xs">
+        {qualityData.formas_quimicas.map((fq) => (
+          <div class="p-4 rounded-xl border border-white/[0.08] bg-surface/80 space-y-3 flex flex-col justify-between specular-top">
+            <div class="space-y-2">
+              <div class="flex items-start justify-between gap-2">
+                <div>
+                  <span class="font-bold text-white text-sm block">{fq.forma}</span>
+                  {fq.formula && (
+                    <span class="font-mono text-[10px] text-primary block mt-0.5">{fq.formula}</span>
+                  )}
+                </div>
+                <span class={`text-[10px] font-mono font-bold px-2.5 py-0.5 rounded-full border ${getVerdictBadge(fq.veredicto)}`}>
+                  {formatVerdictText(fq.veredicto)}
+                </span>
+              </div>
+
+              <div class="space-y-1.5 text-text-secondary text-[11px]">
+                {(fq.biodisponibilidad || fq.biodisponibilidad_relativa || fq.absorcion) && (
+                  <div>
+                    <strong class="text-white">Biodisponibilidad / Absorción:</strong>{' '}
+                    <span class="text-cyan-300 font-mono">
+                      {fq.biodisponibilidad || fq.biodisponibilidad_relativa || fq.absorcion}
+                    </span>
+                  </div>
+                )}
+                {(fq.estandarizacion || fq.withanolidos || fq.bacósidos || fq.porcentaje_colina) && (
+                  <div>
+                    <strong class="text-white">Concentración Activa:</strong>{' '}
+                    <span class="text-emerald-300 font-mono">
+                      {fq.estandarizacion || fq.withanolidos || fq.bacósidos || fq.porcentaje_colina}
+                    </span>
+                  </div>
+                )}
+                {fq.cruza_bhe && (
+                  <div>
+                    <strong class="text-white">Barrera Hematoencefálica (BHE):</strong> {fq.cruza_bhe}
+                  </div>
+                )}
+                {fq.tecnologia && (
+                  <div>
+                    <strong class="text-white">Tecnología:</strong> {fq.tecnologia}
+                  </div>
+                )}
+                {fq.evidencia && (
+                  <div>
+                    <strong class="text-white">Evidencia Clínica:</strong> {fq.evidencia}
+                  </div>
+                )}
+                {fq.efectos_gi && (
+                  <div>
+                    <strong class="text-white">Efectos Gastrointestinales:</strong> {fq.efectos_gi}
+                  </div>
+                )}
+              </div>
+            </div>
+
+            {fq.nota && (
+              <div class="pt-2 border-t border-white/[0.04] text-[11px] text-text-muted italic">
+                {fq.nota}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- 3. PRESENTACIONES COMERCIALES -->
+  {presentaciones.length > 0 && (
+    <section class="space-y-4">
+      <div class="flex items-center justify-between border-b border-white/[0.06] pb-2">
+        <h4 class="text-base sm:text-lg font-bold text-white flex items-center gap-2">
+          <Pill className="w-5 h-5 text-secondary" />
+          <span>Presentaciones Comerciales: Pros & Contras</span>
+        </h4>
+        <span class="text-[11px] font-mono text-text-muted">{presentaciones.length} formatos</span>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3.5 text-xs">
+        {presentaciones.map((p) => (
+          <div class="p-3.5 rounded-xl border border-white/[0.06] bg-surface-lowest/70 space-y-2 flex flex-col justify-between">
+            <div>
+              <div class="font-bold text-white text-xs flex items-center justify-between">
+                <span>{p.presentacion}</span>
+                {p.veredicto && (
+                  <span class={`text-[9px] font-mono px-1.5 py-0.5 rounded border ${getVerdictBadge(p.veredicto)}`}>
+                    {formatVerdictText(p.veredicto)}
+                  </span>
+                )}
+              </div>
+              <div class="space-y-1 mt-2 text-[11px]">
+                <div class="text-emerald-300">
+                  <span class="text-emerald-400 font-bold">✓ Ventaja:</span> {p.ventaja}
+                </div>
+                <div class="text-rose-300">
+                  <span class="text-rose-400 font-bold">✗ Desventaja:</span> {p.desventaja}
+                </div>
+                {p.farmacocinetica && (
+                  <div class="text-text-secondary text-[10px] font-mono">
+                    ⏱️ {p.farmacocinetica}
+                  </div>
+                )}
+              </div>
+            </div>
+            {p.para_quien && (
+              <div class="pt-1.5 border-t border-white/[0.04] text-[10px] text-text-muted font-mono">
+                👤 Para: {p.para_quien}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- 4. SINERGIAS FARMACOLÓGICAS & RATIOS -->
+  {qualityData.sinergias && qualityData.sinergias.length > 0 && (
+    <section class="space-y-4">
+      <div class="flex items-center justify-between border-b border-white/[0.06] pb-2">
+        <h4 class="text-base sm:text-lg font-bold text-white flex items-center gap-2">
+          <Sparkles className="w-5 h-5 text-amber-400" />
+          <span>Sinergias Farmacológicas & Ratios Clínicos</span>
+        </h4>
+        <span class="text-[11px] font-mono text-text-muted">{qualityData.sinergias.length} combinaciones</span>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+        {qualityData.sinergias.map((s) => (
+          <div class="p-4 rounded-xl border border-white/[0.08] bg-surface/80 space-y-2 flex flex-col justify-between specular-top">
+            <div class="space-y-1.5">
+              <div class="flex items-center justify-between">
+                <span class="font-bold text-white text-xs">Sinergia con: {s.con}</span>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-surface-lowest text-cyan-300 border border-cyan-500/30">
+                  Evidencia: {s.evidencia.replace(/_/g, ' ')}
+                </span>
+              </div>
+              <p class="text-text-secondary text-[11px] leading-relaxed">
+                <strong class="text-white font-medium">Mecanismo:</strong> {s.mecanismo}
+              </p>
+            </div>
+            <div class="pt-2 border-t border-white/[0.04] flex items-center justify-between font-mono text-[10px]">
+              <span class="text-text-muted">Ratio óptimo:</span>
+              <span class="text-primary font-bold">{s.ratio}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- 5. VARIANTES A EVITAR / ALERTAS ROJAS -->
+  {qualityData.variantes_a_evitar && qualityData.variantes_a_evitar.length > 0 && (
+    <section class="p-5 rounded-2xl border border-rose-500/30 bg-rose-500/5 space-y-3 specular-top">
+      <div class="flex items-center gap-2 text-rose-400 font-mono text-xs font-bold uppercase tracking-wider">
+        <Ban className="w-4 h-4" />
+        <span>Variantes Comerciales a Evitar</span>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs">
+        {qualityData.variantes_a_evitar.map((vae) => (
+          <div class="p-3 rounded-xl bg-surface/90 border border-rose-500/20 space-y-1">
+            <div class="font-bold text-rose-300">✗ {vae.forma}</div>
+            <p class="text-text-secondary text-[11px] leading-relaxed">{vae.motivo}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- 6. PRECAUCIONES / ANTAGONISTAS / MÉTRICAS ADICIONALES -->
+  {(qualityData.precauciones || qualityData.antagonistas || qualityData.metricas_calidad || qualityData.cepas_especificas || dosisRangos.length > 0) && (
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
+      
+      {/* Precauciones */}
+      {qualityData.precauciones && qualityData.precauciones.length > 0 && (
+        <div class="p-4 rounded-xl border border-amber-500/30 bg-surface/80 space-y-2">
+          <div class="flex items-center gap-1.5 font-bold text-amber-400 font-mono text-xs uppercase">
+            <AlertTriangle className="w-4 h-4" />
+            <span>Precauciones Médicas</span>
+          </div>
+          <div class="space-y-1.5 text-[11px]">
+            {qualityData.precauciones.map((p) => (
+              <div class="border-b border-white/[0.04] pb-1">
+                <strong class="text-white">{p.condicion}:</strong>{' '}
+                <span class="text-text-secondary">{p.precaucion}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Antagonistas */}
+      {qualityData.antagonistas && qualityData.antagonistas.length > 0 && (
+        <div class="p-4 rounded-xl border border-white/[0.08] bg-surface/80 space-y-2">
+          <div class="flex items-center gap-1.5 font-bold text-cyan-400 font-mono text-xs uppercase">
+            <Activity className="w-4 h-4" />
+            <span>Antagonistas & Reglas de Separación</span>
+          </div>
+          <div class="space-y-1.5 text-[11px]">
+            {qualityData.antagonistas.map((a) => (
+              <div class="border-b border-white/[0.04] pb-1">
+                <strong class="text-white">{a.sustancia}:</strong> {a.efecto}.{' '}
+                <span class="text-emerald-300 font-mono">Solución: {a.solucion}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Métricas de Calidad (Omega-3 u otros) */}
+      {qualityData.metricas_calidad && qualityData.metricas_calidad.length > 0 && (
+        <div class="p-4 rounded-xl border border-white/[0.08] bg-surface/80 space-y-2">
+          <div class="flex items-center gap-1.5 font-bold text-emerald-400 font-mono text-xs uppercase">
+            <Scale className="w-4 h-4" />
+            <span>Métricas Analíticas de Laboratorio</span>
+          </div>
+          <div class="space-y-1.5 text-[11px]">
+            {qualityData.metricas_calidad.map((m) => (
+              <div class="flex justify-between items-center border-b border-white/[0.04] pb-1">
+                <span class="text-white">{m.parametro}</span>
+                <span class="text-emerald-300 font-mono font-bold">{m.limite_aceptable}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Cepas Probióticas */}
+      {qualityData.cepas_especificas && qualityData.cepas_especificas.length > 0 && (
+        <div class="p-4 rounded-xl border border-white/[0.08] bg-surface/80 space-y-2">
+          <div class="flex items-center gap-1.5 font-bold text-teal-400 font-mono text-xs uppercase">
+            <Atom className="w-4 h-4" />
+            <span>Cepas Probióticas Específicas</span>
+          </div>
+          <div class="space-y-1.5 text-[11px]">
+            {qualityData.cepas_especificas.map((c) => (
+              <div class="border-b border-white/[0.04] pb-1">
+                <span class="text-white font-mono font-bold block">{c.cepa}</span>
+                <span class="text-text-secondary">{c.uso} ({c.evidencia})</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Dosis / Rangos */}
+      {dosisRangos.length > 0 && (
+        <div class="p-4 rounded-xl border border-white/[0.08] bg-surface/80 space-y-2">
+          <div class="flex items-center gap-1.5 font-bold text-primary font-mono text-xs uppercase">
+            <Clock className="w-4 h-4" />
+            <span>Rangos de Dosificación & Fisiología</span>
+          </div>
+          <div class="space-y-1.5 text-[11px]">
+            {dosisRangos.map((d) => (
+              <div class="flex items-center justify-between border-b border-white/[0.04] pb-1">
+                <div>
+                  <span class="font-mono text-white font-bold">{d.rango}:</span>{' '}
+                  <span class="text-text-secondary">{d.uso}</span>
+                </div>
+                <span class={`text-[9px] font-mono px-1.5 py-0.5 rounded border ${getVerdictBadge(d.veredicto)}`}>
+                  {formatVerdictText(d.veredicto)}
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+    </div>
+  )}
+
+  <!-- NOTAS TÉCNICAS ADICIONALES -->
+  {(qualityData.nota_importante || qualityData.nota_mthfr || qualityData.nota_cfu || qualityData.nota_estatinas || qualityData.nota_estabilidad) && (
+    <div class="p-4 rounded-xl bg-surface-lowest/90 border border-white/[0.06] text-xs text-text-secondary space-y-2">
+      <div class="flex items-center gap-1.5 font-bold text-white font-mono text-[11px]">
+        <Info className="w-3.5 h-3.5 text-primary" />
+        <span>Notas Clínicas & Farmacológicas:</span>
+      </div>
+      {qualityData.nota_importante && <p>{qualityData.nota_importante}</p>}
+      {qualityData.nota_mthfr && <p class="text-amber-200/90">{qualityData.nota_mthfr}</p>}
+      {qualityData.nota_cfu && <p>{qualityData.nota_cfu}</p>}
+      {qualityData.nota_estatinas && <p class="text-amber-200/90">{qualityData.nota_estatinas}</p>}
+      {qualityData.nota_estabilidad && <p>{qualityData.nota_estabilidad}</p>}
+    </div>
+  )}
+
+</div>
