@@ -237,6 +237,36 @@ const SLUG_TO_PRODUCT_MAP: Record<string, string> = {
   'nmn-nr': 'nmn_nr',
   'nmn': 'nmn_nr',
   'nr': 'nmn_nr',
+
+  // Ginkgo Biloba
+  'ginkgo': 'ginkgo_biloba',
+  'ginkgo_biloba': 'ginkgo_biloba',
+  'ginkgo-biloba': 'ginkgo_biloba',
+  'egb761': 'ginkgo_biloba',
+  'egb-761': 'ginkgo_biloba',
+
+  // NAC (N-Acetil Cisteína)
+  'nac': 'nac',
+  'n-acetil-cisteina': 'nac',
+  'nac-n-acetil-cisteina': 'nac',
+  'n-acetylcysteine': 'nac',
+
+  // ALCAR (Acetil-L-Carnitina)
+  'alcar': 'alcar',
+  'acetil-l-carnitina': 'alcar',
+  'acetyl-l-carnitine': 'alcar',
+  'carnitina': 'alcar',
+
+  // L-Tirosina
+  'tirosina': 'tirosina',
+  'l-tirosina': 'tirosina',
+  'l_tirosina': 'tirosina',
+  'tyrosine': 'tirosina',
+
+  // Fosfatidilserina / Fosfolípidos
+  'fosfatidilserina': 'fosfatidilserina',
+  'fosfolipidos': 'fosfatidilserina',
+  'phosphatidylserine': 'fosfatidilserina',
 };
 
 /**

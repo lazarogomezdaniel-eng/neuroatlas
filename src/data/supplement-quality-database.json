@@ -2709,6 +2709,450 @@
         }
       ],
       "nota_estabilidad": "NMN en polvo es inestable y degrada a nicotinamida con el tiempo, especialmente con calor y humedad. Verificar fecha de fabricación y almacenamiento. NR es más estable. Para uso a largo plazo, cápsulas > polvo."
+    },
+    "ginkgo_biloba": {
+      "sellos_calidad": [
+        {
+          "sello": "EGb 761®",
+          "fabricante": "Dr. Willmar Schwabe Pharmaceuticals (Alemania)",
+          "que_verifica": "Estandarización 24% flavonoides, 6% terpenolactonas, <5 ppm ácidos ginkgólicos",
+          "por_que_importa": "El estándar farmacéutico mundial con más de 40 años de ensayos clínicos en demencia y microcirculación"
+        },
+        {
+          "sello": "USP Verified",
+          "fabricante": "United States Pharmacopeia",
+          "que_verifica": "Ausencia de adulteración con rutina/quercetina libre y ausencia de metales pesados",
+          "por_que_importa": "El Ginkgo es una de las hierbas más adulteradas en el mercado comercial"
+        },
+        {
+          "sello": "Virtiva® Plus",
+          "fabricante": "Indena S.p.A. (Italia)",
+          "que_verifica": "Ginkgo fitosoma complejado con fosfatidilserina y lecitina",
+          "por_que_importa": "Mejora la biodisponibilidad cerebral y velocidad de absorción de los ginkgólidos"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Extracto Estandarizado EGb 761 (50:1)",
+          "formula": "24% Ginkgoflavonoides / 6% Terpenolactonas",
+          "biodisponibilidad": "Alta (oral ~80% ginkgólidos A y B)",
+          "evidencia": "Nivel A (>2500 pacientes en metaanálisis)",
+          "veredicto": "recomendada",
+          "nota": "Desprovisto de ácidos ginkgólicos alergénicos y ginkgotoxina"
+        },
+        {
+          "forma": "Ginkgo Fitosoma (Phytosome®)",
+          "formula": "Complejo fosfolipídico con lecitina",
+          "biodisponibilidad": "Superior a extracto convencional",
+          "evidencia": "Clínica positiva en jóvenes sanos",
+          "veredicto": "recomendada",
+          "nota": "Excelente para picos de absorción rápida en sesiones de estudio"
+        },
+        {
+          "forma": "Polvo de hoja seca entera no estandarizado",
+          "formula": "Hoja cruda pulverizada",
+          "biodisponibilidad": "Muy baja y errática",
+          "evidencia": "Sin evidencia clínica en deterioro o memoria",
+          "veredicto": "evitar",
+          "nota": "Contiene concentraciones peligrosas de ácidos ginkgólicos y ginkgotoxina"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas de extracto seco estandarizado",
+          "ventaja": "Dosis homogénea y garantizada de EGb 761",
+          "desventaja": "Requiere varias semanas para efectos acumulativos máximos",
+          "para_quien": "Uso general en concentración, memoria y salud vascular",
+          "veredicto": "recomendada"
+        },
+        {
+          "presentacion": "Extracto líquido / Gotas",
+          "ventaja": "Ajuste fino de dosis",
+          "desventaja": "Sabor amargo intenso; riesgo de degradación por exposición a la luz",
+          "para_quien": "Dificultad de deglución",
+          "veredicto": "aceptable"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Bacopa Monnieri",
+          "mecanismo": "Ginkgo incrementa la microperfusión cerebral mientras Bacopa estimula la colina acetiltransferasa y plasticidad",
+          "ratio": "120 mg Ginkgo + 300 mg Bacopa",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Fosfatidilserina (PS)",
+          "mecanismo": "Protección fluida de membrana y facilitación del flujo hemático neuronal",
+          "ratio": "120 mg Ginkgo + 100-200 mg PS",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Vinpocetina",
+          "mecanismo": "Doble acción vasodilatadora y oxigenadora cerebral vía fosfodiesterasa",
+          "ratio": "120 mg Ginkgo + 10 mg Vinpocetina",
+          "evidencia": "moderada"
+        }
+      ],
+      "variantes_a_evitar": [
+        {
+          "forma": "Hojas crudas o tés caseros de Ginkgo",
+          "motivo": "Riesgo de neurotoxicidad y convulsiones por ginkgotoxina (antagonista B6) y dermatitis alérgica por ácidos ginkgólicos"
+        },
+        {
+          "forma": "Ginkgo no certificado sin ratio 24/6",
+          "motivo": "Frecuentemente inflado artificialmente con rutina o quercetina barata (fraude analítico)"
+        }
+      ],
+      "precauciones": [
+        {
+          "condicion": "Tratamiento con anticoagulantes / antiagregantes plaquetarios",
+          "precaucion": "Contraindicado con Sintrom, warfarina, clopidogrel, aspirina o AINEs por inhibición del PAF y riesgo de sangrado"
+        },
+        {
+          "condicion": "Cirugía programada",
+          "precaucion": "Suspender al menos 14 días antes de cualquier intervención quirúrgica o extracción dental"
+        }
+      ]
+    },
+    "nac": {
+      "sellos_calidad": [
+        {
+          "sello": "Pharma-Grade USP / EP",
+          "fabricante": "Farmacopea Oficial (EE.UU. / Europa)",
+          "que_verifica": "Pureza ≥99.5%, ausencia de metales pesados y degradación a disulfuros",
+          "por_que_importa": "La NAC se oxida fácilmente en presencia de aire, perdiendo su grupo tiol activo"
+        },
+        {
+          "sello": "Adisave® / Fluimucil® (Grado Farmacéutico)",
+          "fabricante": "Zambon",
+          "que_verifica": "Estabilidad galénica protegida contra el olor sulfuroso y oxidación",
+          "por_que_importa": "Referencia clínica utilizada en ensayos médicos pulmonares y psiquiátricos"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "N-Acetil-L-Cisteína (NAC)",
+          "formula": "C₅H₉NO₃S",
+          "biodisponibilidad": "Oral ~10% (metabolismo de primer paso a L-cisteína y glutatión)",
+          "evidencia": "Extensa en toxicología, psiquiatría y neumología",
+          "veredicto": "recomendada",
+          "nota": "Cruza membranas y estimula la lanzadera xc⁻ astrocítica"
+        },
+        {
+          "forma": "NAC Etil Éster (NACET)",
+          "formula": "Éster etílico lipofílico de NAC",
+          "biodisponibilidad": ">60% cruza BHE directamente a neuronas",
+          "evidencia": "Preclínica prometedora, ensayos clínicos en desarrollo",
+          "veredicto": "aceptable",
+          "nota": "Mayor penetración intracelular pero menor historial de seguridad a largo plazo"
+        },
+        {
+          "forma": "L-Cisteína libre",
+          "formula": "C₃H₇NO₂S",
+          "biodisponibilidad": "Inestable en tracto gastrointestinal; pro-oxidante en altas dosis",
+          "evidencia": "Inferior a NAC para sintetizar glutatión",
+          "veredicto": "evitar",
+          "nota": "Rápidamente oxidada a cistina sin el efecto regulador de la NAC"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas vegetales gastro-resistentes",
+          "ventaja": "Evita el olor y sabor a azufre; protege la mucosa estomacal",
+          "desventaja": "Absorción ligeramente más lenta",
+          "para_quien": "Sensibilidad gástrica o aversión al olor sulfuroso",
+          "veredicto": "recomendada"
+        },
+        {
+          "presentacion": "Polvo puro / Sobres efervescentes",
+          "ventaja": "Dosis altas (1200-2400 mg) económicas y rápida asimilación",
+          "desventaja": "Sabor ácido y aroma a azufre penetrante",
+          "para_quien": "Protocolos clínicos de desintoxicación o psiquiatría",
+          "veredicto": "aceptable"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Glicina",
+          "mecanismo": "Combinación GlyNAC: aporta los dos precursores limitantes de glutatión celular",
+          "ratio": "1:1 en gramos (ej. 1.2 g NAC + 1.2 g Glicina)",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Selenio + Molibdeno",
+          "mecanismo": "Cofactores de la glutatión peroxidasa y la sulfito oxidasa para metabolizar el azufre",
+          "ratio": "600 mg NAC + 100 mcg Selenio + 50 mcg Molibdeno",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Vitamina C",
+          "mecanismo": "Previene la formación de cálculos renales de cistina y mantiene la NAC en estado reducido",
+          "ratio": "1:2 (ej. 600 mg NAC + 1000 mg Vit C)",
+          "evidencia": "moderada"
+        }
+      ],
+      "variantes_a_evitar": [
+        {
+          "forma": "Cápsulas descoloridas o con fuerte olor rancio a huevo podrido",
+          "motivo": "Indica oxidación avanzada del grupo tiol libre por ruptura del precinto o humedad"
+        }
+      ],
+      "precauciones": [
+        {
+          "condicion": "Uso continuado sin descansos (meses)",
+          "precaucion": "Riesgo de anhedonia / aplanamiento afectivo por hipoactividad glutamatérgica; ciclar 5 días ON / 2 OFF o por ciclos de 8 semanas"
+        },
+        {
+          "condicion": "Úlcera gastroduodenal activa",
+          "precaucion": "La NAC degrada el moco protector gástrico; tomar con estómago lleno si hay malestar"
+        }
+      ]
+    },
+    "alcar": {
+      "sellos_calidad": [
+        {
+          "sello": "Carnipure®",
+          "fabricante": "Lonza Group Ltd. (Suiza)",
+          "que_verifica": "100% enantiómero L puro, libre de D-carnitina tóxica",
+          "por_que_importa": "La D-carnitina compite con la forma L y causa debilidad muscular; Carnipure garantiza síntesis biotecnológica pura"
+        },
+        {
+          "sello": "Sigma-Tau Patent",
+          "fabricante": "Sigma-Tau Pharmaceuticals (Italia)",
+          "que_verifica": "Grado farmacéutico en clorhidrato de acetil-L-carnitina",
+          "por_que_importa": "Pionero en ensayos clínicos para neuropatía, envejecimiento cognitivo y depresión geriátrica"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Acetil-L-Carnitina HCl (ALCAR)",
+          "formula": "C₉H₁₈ClNO₄",
+          "biodisponibilidad": "Cruza activamente la BHE vía OCTN2",
+          "evidencia": "Extensa en neuroenergía y donación de acetilo",
+          "veredicto": "recomendada",
+          "nota": "Dona grupos acetilo a la colina acetiltransferasa para sintetizar acetilcolina"
+        },
+        {
+          "forma": "L-Carnitina L-Tartrato (LCLT)",
+          "formula": "Sal tartrato de carnitina",
+          "biodisponibilidad": "Excelente periférica / muscular; baja penetración cerebral",
+          "evidencia": "Óptima para recuperación deportiva, no para cognición",
+          "veredicto": "aceptable",
+          "nota": "No cruza eficientemente la BHE en comparación con ALCAR"
+        },
+        {
+          "forma": "D-Carnitina / Mezcla Racémica DL",
+          "formula": "Enantiómero D de carnitina",
+          "biodisponibilidad": "Tóxica por bloqueo competitivo de transportadores endógenos",
+          "evidencia": "Contraindicada",
+          "veredicto": "evitar",
+          "nota": "Puede inducir miastenia grave y depleción muscular"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas de ALCAR HCl",
+          "ventaja": "Protección contra la higroscopicidad (absorción de humedad del aire)",
+          "desventaja": "Mayor costo por gramo",
+          "para_quien": "Uso diario en dosis de 500-1000 mg",
+          "veredicto": "recomendada"
+        },
+        {
+          "presentacion": "Polvo libre de ALCAR",
+          "ventaja": "Económico y fácil de dosificar en altas dosis (1500 mg+)",
+          "desventaja": "Muy higroscópico (se apelmaza rápido) y sabor muy ácido (ácido acético)",
+          "para_quien": "Usuarios experimentados con botes herméticos",
+          "veredicto": "aceptable"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Ácido Alfa-Lipoico (R-ALA)",
+          "mecanismo": "El clásico stack mitocondrial de Bruce Ames: ALCAR estimula el transporte lipídico y ALA barre radicales libres mitocondriales",
+          "ratio": "500-1000 mg ALCAR + 100-300 mg R-ALA",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Alpha-GPC o Citicolina",
+          "mecanismo": "ALCAR aporta el grupo acetilo y Alpha-GPC la molécula de colina para la síntesis masiva de acetilcolina",
+          "ratio": "500 mg ALCAR + 300 mg Alpha-GPC",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "CoQ10 / Ubiquinol",
+          "mecanismo": "Soporte conjunto a la beta-oxidación y fosforilación oxidativa en la cadena respiratoria",
+          "ratio": "500 mg ALCAR + 100 mg Ubiquinol",
+          "evidencia": "moderada"
+        }
+      ],
+      "variantes_a_evitar": [
+        {
+          "forma": "Carnitina genérica sin garantía enantiomérica (mezcla racémica DL)",
+          "motivo": "Contaminación con D-carnitina, inductora de daño muscular y bloqueo de CPT-1"
+        }
+      ],
+      "precauciones": [
+        {
+          "condicion": "Hipotiroidismo",
+          "precaucion": "La carnitina puede antagonizar la entrada celular de hormonas tiroideas T3/T4 en dosis altas"
+        },
+        {
+          "condicion": "Toma vespertina / nocturna",
+          "precaucion": "Puede provocar insomnio por estimulación bioenergética y dopaminérgica"
+        }
+      ]
+    },
+    "tirosina": {
+      "sellos_calidad": [
+        {
+          "sello": "Ajinomoto® / AjiPure®",
+          "fabricante": "Ajinomoto Co., Inc. (Japón)",
+          "que_verifica": "Pureza farmacéutica 99-101%, fermentación bacteriana vegetal sin plumas animales",
+          "por_que_importa": "Líder mundial en aminoácidos puros libres de endotoxinas y metales pesados"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "L-Tirosina libre",
+          "formula": "C₉H₁₁NO₃",
+          "biodisponibilidad": "Excelente oral; transportador LAT1 a través de BHE",
+          "evidencia": "Gold standard en estrés agudo, frío y deprivación de sueño militar",
+          "veredicto": "recomendada",
+          "nota": "Precursor directo de L-DOPA, dopamina, noradrenalina y adrenalina"
+        },
+        {
+          "forma": "N-Acetil L-Tirosina (NALT)",
+          "formula": "Derivado N-acetilado",
+          "biodisponibilidad": "Pobre conversión a tirosina en humanos (~35-40% excretado inalterado en orina)",
+          "evidencia": "Inferior a L-Tirosina libre en ensayos farmacocinéticos",
+          "veredicto": "aceptable",
+          "nota": "Muy soluble en agua, pero no eleva niveles cerebrales de tirosina con la misma eficacia"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Cápsulas de L-Tirosina libre",
+          "ventaja": "Fácil dosificación en ayunas",
+          "desventaja": "Cápsulas de 500 mg requieren 2-3 unidades por toma eficaz",
+          "para_quien": "Enfoque mental, trabajo cognitivo bajo estrés",
+          "veredicto": "recomendada"
+        },
+        {
+          "presentacion": "Polvo puro",
+          "ventaja": "Económico y fácil de consumir en dosis de 1.5 a 3 g",
+          "desventaja": "Poco soluble en agua fría",
+          "para_quien": "Uso pre-entreno o jornadas de alta exigencia",
+          "veredicto": "recomendada"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Cafeína",
+          "mecanismo": "La cafeína acelera la descarga de catecolaminas mientras la tirosina repone el pool vesicular",
+          "ratio": "100-200 mg Cafeína + 1000-1500 mg Tirosina",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Vitamina B6 (P-5-P)",
+          "mecanismo": "Cofactor de la enzima DOPA descarboxilasa para convertir L-DOPA en dopamina",
+          "ratio": "1000 mg Tirosina + 10-25 mg P-5-P",
+          "evidencia": "sólida"
+        }
+      ],
+      "variantes_a_evitar": [
+        {
+          "forma": "Tirosina consumida con comidas ricas en proteínas",
+          "motivo": "Compite por el transportador LAT1 con BCAAs, fenilalanina y triptófano, anulando su entrada al cerebro"
+        }
+      ],
+      "precauciones": [
+        {
+          "condicion": "Tratamiento con IMAO (Inhibidores de la Monoaminooxidasa)",
+          "precaucion": "Contraindicado absoluto por riesgo de crisis hipertensiva tiramínica"
+        },
+        {
+          "condicion": "Hipertiroidismo o medicación tiroidea",
+          "precaucion": "Precursor de tiroxina (T4); puede elevar hormonas tiroideas periféricas"
+        }
+      ]
+    },
+    "fosfatidilserina": {
+      "sellos_calidad": [
+        {
+          "sello": "Sharp-PS®",
+          "fabricante": "Enzymotec / Frutarom (Israel)",
+          "que_verifica": "PS de soja o girasol sin solventes tóxicos, estandarización 20-60%",
+          "por_que_importa": "Validada en múltiples ensayos clínicos para memoria y reducción de cortisol"
+        },
+        {
+          "sello": "SerinAid®",
+          "fabricante": "Chemi Nutra (EE.UU.)",
+          "que_verifica": "Pureza garantizada 50-70% de fosfatidilserina natural",
+          "por_que_importa": "Líder en estudios de atenuación de estrés deportivo y atención en TDAH"
+        }
+      ],
+      "formas_quimicas": [
+        {
+          "forma": "Fosfatidilserina de Girasol (Non-GMO)",
+          "formula": "Fosfolípido libre de alérgenos de soja",
+          "biodisponibilidad": "Alta oral; asimilación en membranas celulares neuronales",
+          "evidencia": "Clínica equivalente a PS de soja",
+          "veredicto": "recomendada",
+          "nota": "Ideal para personas con alergias o intolerancias a la soja"
+        },
+        {
+          "forma": "Fosfatidilserina de Soja",
+          "formula": "Derivado de lecitina de soja",
+          "biodisponibilidad": "Alta",
+          "evidencia": "Mayor cuerpo de ensayos históricos en humanos",
+          "veredicto": "recomendada",
+          "nota": "Económica y eficaz; verificar origen no modificado genéticamente"
+        },
+        {
+          "forma": "Fosfatidilserina Bovina",
+          "formula": "Cerebro bovino procesado",
+          "biodisponibilidad": "Alta",
+          "evidencia": "Histórica",
+          "veredicto": "evitar",
+          "nota": "Retirada mundialmente por riesgo de priones (encefalopatía espongiforme)"
+        }
+      ],
+      "presentaciones": [
+        {
+          "presentacion": "Perlas de gel suave (Softgels)",
+          "ventaja": "Protege el lípido contra la oxidación por aire",
+          "desventaja": "Suele requerir varias cápsulas para 300-400 mg",
+          "para_quien": "Uso diario en memoria y longevidad",
+          "veredicto": "recomendada"
+        },
+        {
+          "presentacion": "Polvo estandarizado al 50%",
+          "ventaja": "Versátil para añadir a batidos o stacks líquidos",
+          "desventaja": "Sabor ligeramente graso / lecitinado",
+          "para_quien": "Deportistas y biohackers",
+          "veredicto": "aceptable"
+        }
+      ],
+      "sinergias": [
+        {
+          "con": "Omega-3 (DHA)",
+          "mecanismo": "El DHA se incorpora en la posición sn-2 de la fosfatidilserina, formando la estructura neuronal nativa del cerebro",
+          "ratio": "300 mg PS + 500-1000 mg DHA",
+          "evidencia": "sólida"
+        },
+        {
+          "con": "Ginkgo Biloba",
+          "mecanismo": "Sinergia demostrada en ensayos de memoria de trabajo y procesamiento visual",
+          "ratio": "100-200 mg PS + 120 mg Ginkgo",
+          "evidencia": "sólida"
+        }
+      ],
+      "variantes_a_evitar": [
+        {
+          "forma": "PS de origen bovino / cerebro animal",
+          "motivo": "Riesgo biológico de priones; sustituida 100% por fuentes vegetales de girasol/soja"
+        }
+      ]
     }
   }
 }
