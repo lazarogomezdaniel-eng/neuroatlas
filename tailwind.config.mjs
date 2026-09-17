@@ -8,31 +8,31 @@ export default {
     extend: {
       colors: {
         surface: {
-          lowest: '#090e1c',   // Fondo base ultra oscuro
-          DEFAULT: '#0e1322',  // Superficie canónica
-          low: '#161b2b',      // Fondos de tarjetas
-          container: '#1c2236',// Paneles / sidebars
-          high: '#252b42',     // Hover / cards destacadas
-          bright: '#343949',   // Bordes sutiles y divisores
+          lowest: '#040814',   // Fondo base inmersivo ultra-profundo
+          DEFAULT: '#0a0f1d',  // Superficie base
+          low: '#101628',      // Fondos de tarjetas
+          container: '#161e36',// Paneles / sidebars
+          high: '#1f2949',     // Hover / cards destacadas
+          bright: '#2e3a5f',   // Bordes sutiles y divisores
         },
         primary: {
-          DEFAULT: '#22d3ee',  // Electric Cyan biológico
+          DEFAULT: '#00f2fe',  // Electric Cyan bioluminiscente
           hover: '#06b6d4',
-          glow: 'rgba(34, 211, 238, 0.15)',
+          glow: 'rgba(0, 242, 254, 0.2)',
         },
         secondary: {
-          DEFAULT: '#8b5cf6',  // Vibrant Violet sináptico
-          hover: '#7c3aed',
-          glow: 'rgba(139, 92, 246, 0.15)',
+          DEFAULT: '#9d4edd',  // Deep Synaptic Violet
+          hover: '#7b2cbf',
+          glow: 'rgba(157, 78, 221, 0.2)',
         },
         evidence: {
           gradeA: '#10b981',   // Emerald Green (Meta-análisis)
-          gradeB: '#22d3ee',   // Electric Cyan (RCT)
+          gradeB: '#00f2fe',   // Electric Cyan (RCT)
           gradeC: '#f59e0b',   // Amber Gold (Observacional)
-          risk: '#ef4444',     // Crimson Red (Contraindicado/Riesgo)
+          risk: '#f43f5e',     // Rose / Crimson Red (Contraindicado/Riesgo)
         },
         text: {
-          primary: '#f8fafc',
+          primary: '#ffffff',
           secondary: '#94a3b8',
           muted: '#64748b',
           code: '#38bdf8',
@@ -44,12 +44,13 @@ export default {
         mono: ['JetBrains Mono', 'Fira Code', 'monospace'],
       },
       boxShadow: {
-        'cyan-glow': '0 0 20px -5px rgba(34, 211, 238, 0.25)',
-        'violet-glow': '0 0 20px -5px rgba(139, 92, 246, 0.25)',
-        'emerald-glow': '0 0 20px -5px rgba(16, 185, 129, 0.25)',
+        'cyan-glow': '0 0 25px -5px rgba(0, 242, 254, 0.35)',
+        'violet-glow': '0 0 25px -5px rgba(157, 78, 221, 0.35)',
+        'emerald-glow': '0 0 25px -5px rgba(16, 185, 129, 0.35)',
+        'ambient': '0 20px 50px -15px rgba(0, 0, 0, 0.7)',
       },
       borderRadius: {
-        'biotech': '8px',
+        'biotech': '12px',
         'capsule': '9999px',
       }
     },

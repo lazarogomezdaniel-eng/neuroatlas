@@ -169,33 +169,33 @@ export const NeuroAtlasDashboard: React.FC = () => {
   ];
 
   return (
-    <div className="h-screen w-screen flex flex-col bg-surface-lowest bg-grid-biotech overflow-hidden text-text-primary">
+    <div className="h-screen w-screen flex flex-col bg-biotech-ambient overflow-hidden text-text-primary">
       {/* Header Canónico de Alta Definición */}
-      <header className="sticky top-0 z-50 w-full border-b border-white/[0.08] bg-surface/85 backdrop-blur-xl px-5 sm:px-8 py-2.5 flex items-center justify-between shrink-0 shadow-lg">
+      <header className="sticky top-0 z-50 w-full border-b border-white/[0.08] glass-surface px-5 sm:px-8 py-2.5 flex items-center justify-between shrink-0 shadow-lg">
         <div className="flex items-center gap-6">
           <div
             className="flex items-center gap-3 cursor-pointer group"
             onClick={() => setActiveTab('catalogo')}
           >
-            <div className="relative w-9 h-9 rounded-xl bg-gradient-to-br from-primary/20 via-primary/5 to-transparent border border-primary/40 flex items-center justify-center text-primary font-mono font-bold text-xl group-hover:shadow-cyan-glow group-hover:border-primary transition-all duration-200">
-              <span className="relative z-10">Ψ</span>
-              <div className="absolute inset-0 rounded-xl bg-primary/10 blur-sm group-hover:bg-primary/25 transition-all"></div>
+            <div className="relative w-9 h-9 rounded-xl bg-gradient-to-br from-primary/25 via-primary/10 to-transparent border border-primary/40 flex items-center justify-center text-primary font-mono font-bold text-xl group-hover:shadow-cyan-glow group-hover:border-primary transition-all duration-200">
+              <span className="relative z-10 text-cyan-300">Ψ</span>
+              <div className="absolute inset-0 rounded-xl bg-primary/15 blur-sm group-hover:bg-primary/30 transition-all"></div>
             </div>
             <div className="flex flex-col">
               <div className="flex items-center gap-2">
                 <span className="text-sm font-extrabold tracking-tight text-white group-hover:text-primary transition-colors">
-                  NEURO<span className="text-primary">ATLAS</span>
+                  NEURO<span className="text-primary font-black">ATLAS</span>
                 </span>
-                <span className="hidden md:inline-flex items-center gap-1 px-1.5 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-[9px] font-mono text-emerald-400 font-bold">
+                <span className="hidden md:inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full bg-emerald-500/15 border border-emerald-500/30 text-[9px] font-mono text-emerald-300 font-bold shadow-sm">
                   <span className="relative flex h-1.5 w-1.5">
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-emerald-400"></span>
                   </span>
-                  v2.4
+                  CLINICAL GRADE
                 </span>
               </div>
               <span className="text-[9px] font-mono tracking-wider text-text-muted uppercase">
-                Scientific Bio-Index & Clinical Stacks
+                Scientific Bio-Index & Synaptic Stacks
               </span>
             </div>
           </div>
@@ -301,73 +301,75 @@ export const NeuroAtlasDashboard: React.FC = () => {
             <div className="space-y-6 max-w-7xl mx-auto">
               
               {/* TELEMETRÍA BIOTÉCNICA / STATUS CHIPS */}
-              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-                <div className="p-3 rounded-xl bg-surface/70 border border-white/[0.06] flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-lg bg-cyan-500/10 border border-cyan-500/30 flex items-center justify-center text-cyan-400 shrink-0">
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-3.5">
+                <div className="p-3.5 rounded-2xl glass-card border border-white/[0.08] flex items-center gap-3 specular-top">
+                  <div className="w-9 h-9 rounded-xl bg-cyan-500/15 border border-cyan-500/30 flex items-center justify-center text-cyan-300 shadow-sm shrink-0">
                     <Activity className="w-4 h-4" />
                   </div>
                   <div className="min-w-0">
-                    <div className="text-[10px] font-mono text-text-muted uppercase tracking-wider">Compuestos</div>
-                    <div className="text-xs font-bold text-text-primary truncate">250+ Fichas Activas</div>
+                    <div className="text-[10px] font-mono text-text-muted uppercase tracking-wider">Monografías</div>
+                    <div className="text-xs font-bold text-white truncate">250+ Fichas Activas</div>
                   </div>
                 </div>
 
-                <div className="p-3 rounded-xl bg-surface/70 border border-white/[0.06] flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-lg bg-purple-500/10 border border-purple-500/30 flex items-center justify-center text-purple-400 shrink-0">
+                <div className="p-3.5 rounded-2xl glass-card border border-white/[0.08] flex items-center gap-3 specular-top">
+                  <div className="w-9 h-9 rounded-xl bg-purple-500/15 border border-purple-500/30 flex items-center justify-center text-purple-300 shadow-sm shrink-0">
                     <Layers className="w-4 h-4" />
                   </div>
                   <div className="min-w-0">
                     <div className="text-[10px] font-mono text-text-muted uppercase tracking-wider">Currículum</div>
-                    <div className="text-xs font-bold text-text-primary truncate">12 Módulos (I a XII)</div>
+                    <div className="text-xs font-bold text-white truncate">12 Módulos Académicos</div>
                   </div>
                 </div>
 
-                <div className="p-3 rounded-xl bg-surface/70 border border-white/[0.06] flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center text-emerald-400 shrink-0">
+                <div className="p-3.5 rounded-2xl glass-card border border-white/[0.08] flex items-center gap-3 specular-top">
+                  <div className="w-9 h-9 rounded-xl bg-emerald-500/15 border border-emerald-500/30 flex items-center justify-center text-emerald-300 shadow-sm shrink-0">
                     <CheckCircle2 className="w-4 h-4" />
                   </div>
                   <div className="min-w-0">
                     <div className="text-[10px] font-mono text-text-muted uppercase tracking-wider">Evidencia</div>
-                    <div className="text-xs font-bold text-text-primary truncate">Grados A, B, C y D</div>
+                    <div className="text-xs font-bold text-white truncate">Grados A, B, C y D</div>
                   </div>
                 </div>
 
-                <div className="p-3 rounded-xl bg-surface/70 border border-white/[0.06] flex items-center gap-3">
-                  <div className="w-8 h-8 rounded-lg bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400 shrink-0">
+                <div className="p-3.5 rounded-2xl glass-card border border-white/[0.08] flex items-center gap-3 specular-top">
+                  <div className="w-9 h-9 rounded-xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center text-amber-300 shadow-sm shrink-0">
                     <Scale className="w-4 h-4" />
                   </div>
                   <div className="min-w-0">
-                    <div className="text-[10px] font-mono text-text-muted uppercase tracking-wider">Compromiso</div>
-                    <div className="text-xs font-bold text-text-primary truncate">0% Sesgo Comercial</div>
+                    <div className="text-[10px] font-mono text-text-muted uppercase tracking-wider">Independencia</div>
+                    <div className="text-xs font-bold text-white truncate">0% Sesgo Comercial</div>
                   </div>
                 </div>
               </div>
 
               {/* HERO AMIGABLE: ¿QUÉ QUIERES OPTIMIZAR HOY? */}
-              <div className="rounded-2xl border border-white/[0.08] bg-surface/85 backdrop-blur-xl p-5 sm:p-7 space-y-5 specular-top shadow-xl relative overflow-hidden">
-                <div className="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+              <div className="rounded-3xl border border-white/[0.1] glass-surface p-6 sm:p-8 space-y-6 specular-cyan shadow-2xl relative overflow-hidden">
+                {/* Glow decorativo de fondo */}
+                <div className="absolute top-0 right-0 -mr-24 -mt-24 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+                <div className="absolute bottom-0 left-1/3 -mb-20 w-80 h-80 bg-secondary/10 rounded-full blur-3xl pointer-events-none"></div>
 
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-white/[0.06] pb-4">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-white/[0.08] pb-5 relative z-10">
                   <div>
-                    <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-primary/10 border border-primary/30 text-[10px] font-mono text-primary font-bold uppercase tracking-wider mb-2">
-                      <Sparkles className="w-3 h-3" />
-                      Exploración Rápida por Objetivo
+                    <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 border border-primary/30 text-[10px] font-mono text-primary font-bold uppercase tracking-wider mb-3 shadow-cyan-glow">
+                      <Sparkles className="w-3.5 h-3.5 text-primary" />
+                      Exploración Cognitiva Asistida
                     </div>
-                    <h2 className="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">
+                    <h2 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight text-gradient-biotech">
                       ¿Qué quieres optimizar hoy?
                     </h2>
-                    <p className="text-xs sm:text-sm text-text-secondary mt-1 max-w-2xl">
-                      Filtra de inmediato los compuestos con respaldo científico sólido y explora sus combinaciones sinérgicas:
+                    <p className="text-xs sm:text-sm text-text-secondary mt-1.5 max-w-2xl leading-relaxed">
+                      Selecciona un objetivo neuronal para filtrar de inmediato los nootrópicos con evidencia clínica grado A/B y explorar sus sinergias moleculares:
                     </p>
                   </div>
 
                   {selectedGoals.length > 0 && (
                     <button
                       onClick={handleResetFilters}
-                      className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-xl border border-white/10 bg-surface-lowest text-text-muted hover:text-text-primary hover:border-primary/40 transition-all duration-150 active:scale-[0.96] self-start sm:self-auto"
+                      className="inline-flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold rounded-xl border border-white/10 bg-surface-lowest/80 text-text-muted hover:text-white hover:border-primary/50 transition-all duration-150 active:scale-[0.96] self-start sm:self-auto shadow-sm"
                     >
                       <RotateCcw className="w-3.5 h-3.5" />
-                      <span>Limpiar filtros</span>
+                      <span>Restablecer</span>
                     </button>
                   )}
                 </div>

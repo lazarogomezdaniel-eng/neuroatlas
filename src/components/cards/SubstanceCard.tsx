@@ -30,21 +30,21 @@ export const SubstanceCard: React.FC<Props> = ({
   return (
     <article 
       onClick={() => onSelect?.(substance)}
-      className="group relative rounded-2xl border border-white/[0.08] bg-surface/85 backdrop-blur-md p-5 hover:border-primary/50 hover:shadow-[0_16px_36px_-12px_rgba(0,0,0,0.6),0_0_24px_-4px_rgba(34,211,238,0.2)] transition-all duration-200 ease-out hover:-translate-y-1 flex flex-col justify-between cursor-pointer specular-top"
+      className="group relative rounded-2xl glass-card p-5 hover:-translate-y-1.5 flex flex-col justify-between cursor-pointer specular-top border border-white/[0.08] hover:border-primary/50"
     >
       <div>
         {/* Encabezado de la tarjeta */}
         <div className="flex items-start justify-between gap-3 mb-3">
           <div className="min-w-0 flex-1">
-            <span className="text-[10px] font-mono text-primary font-bold uppercase tracking-widest block mb-1">
+            <span className="text-[10px] font-mono text-primary/90 font-bold uppercase tracking-widest block mb-1">
               {substance.category}
             </span>
-            <h3 className="text-base font-bold text-text-primary group-hover:text-primary transition-colors leading-snug tracking-tight truncate">
+            <h3 className="text-base font-bold text-white group-hover:text-primary transition-colors leading-snug tracking-tight truncate">
               {substance.name}
             </h3>
             {substance.chemicalFormula && (
-              <span className="text-[10px] font-mono text-text-muted flex items-center gap-1 mt-0.5">
-                <Atom className="w-3 h-3 text-primary/60 shrink-0" />
+              <span className="text-[10px] font-mono text-text-muted flex items-center gap-1.5 mt-0.5">
+                <Atom className="w-3 h-3 text-primary/70 shrink-0" />
                 <span className="truncate">{substance.chemicalFormula}</span>
               </span>
             )}

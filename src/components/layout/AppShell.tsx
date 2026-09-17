@@ -50,14 +50,14 @@ export const AppShell: React.FC<AppShellProps> = ({
       />
 
       {/* Área Principal de Contenido */}
-      <div className="flex-1 flex flex-col min-w-0 h-full overflow-hidden">
+      <div className="flex-1 flex flex-col min-w-0 h-full overflow-hidden bg-biotech-ambient">
         {/* Top Navbar Header */}
-        <header className="h-14 border-b border-surface-bright bg-surface/80 backdrop-blur-md px-4 sm:px-6 flex items-center justify-between shrink-0 z-30">
+        <header className="h-14 border-b border-white/[0.08] glass-surface px-4 sm:px-6 flex items-center justify-between shrink-0 z-30 shadow-sm">
           <div className="flex items-center gap-3 min-w-0">
             {/* Botón hamburguesa móvil */}
             <button
               onClick={() => setMobileDrawerOpen(true)}
-              className="lg:hidden p-2 rounded-biotech border border-surface-bright text-text-secondary hover:text-text-primary hover:bg-surface-low"
+              className="lg:hidden p-2 rounded-xl border border-white/10 text-text-secondary hover:text-white hover:bg-white/[0.06] active:scale-[0.96] transition-all"
               aria-label="Abrir menú de navegación"
             >
               <Menu className="w-4 h-4 text-primary" />
@@ -65,8 +65,8 @@ export const AppShell: React.FC<AppShellProps> = ({
 
             {/* Breadcrumb o Título de página */}
             <div className="hidden sm:flex items-center gap-2 text-xs font-mono text-text-muted truncate">
-              <span className="text-primary font-bold">NEUROATLAS</span>
-              <span>/</span>
+              <span className="text-primary font-bold tracking-wider">NEUROATLAS</span>
+              <span className="text-white/20">/</span>
               <span className="text-text-secondary font-medium truncate">
                 Bio-Medical Knowledge Base
               </span>
@@ -78,13 +78,13 @@ export const AppShell: React.FC<AppShellProps> = ({
             {/* Barra de búsqueda rápida / Gatillo Ctrl+K */}
             <button
               onClick={() => setSearchModalOpen(true)}
-              className="flex items-center gap-2 px-3 py-1.5 rounded-biotech border border-surface-bright bg-surface-low text-xs text-text-muted hover:border-primary/50 hover:text-text-primary transition-all shadow-sm"
+              className="flex items-center gap-2 px-3 py-1.5 rounded-xl border border-white/[0.08] bg-surface-lowest/80 text-xs text-text-muted hover:border-primary/50 hover:text-white transition-all shadow-sm active:scale-[0.97]"
               title="Buscar conceptos, sustancias o dianas (Ctrl+K)"
             >
               <Search className="w-3.5 h-3.5 text-primary" />
               <span className="hidden md:inline">Buscar sustancias, receptores...</span>
               <span className="md:hidden">Buscar...</span>
-              <kbd className="hidden sm:inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded bg-surface-bright text-[10px] font-mono text-text-muted border border-surface-bright/80">
+              <kbd className="hidden sm:inline-flex items-center gap-0.5 px-1.5 py-0.5 rounded bg-white/[0.06] text-[10px] font-mono text-text-muted border border-white/10">
                 <Command className="w-2.5 h-2.5" /> K
               </kbd>
             </button>
@@ -92,16 +92,16 @@ export const AppShell: React.FC<AppShellProps> = ({
             {/* Botón Stack Directo */}
             <a
               href="/stacks"
-              className="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-biotech border border-secondary/40 bg-secondary/10 text-secondary text-xs font-semibold hover:bg-secondary/20 transition-colors"
+              className="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl border border-secondary/40 bg-secondary/15 text-secondary text-xs font-semibold hover:bg-secondary/25 transition-all active:scale-[0.96]"
             >
-              <Sparkles className="w-3.5 h-3.5" />
+              <Sparkles className="w-3.5 h-3.5 text-secondary" />
               <span>Stacks</span>
             </a>
 
             {/* Avatar / Perfil rápido */}
             <a
               href="/perfil"
-              className="w-8 h-8 rounded-biotech bg-surface-container border border-surface-bright flex items-center justify-center text-text-secondary hover:text-primary hover:border-primary/50 transition-all"
+              className="w-8 h-8 rounded-xl bg-surface-lowest/80 border border-white/10 flex items-center justify-center text-text-secondary hover:text-primary hover:border-primary/50 transition-all active:scale-[0.96]"
               title="Mi Perfil y Progreso"
             >
               <User className="w-4 h-4" />
